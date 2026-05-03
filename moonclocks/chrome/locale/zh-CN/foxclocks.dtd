@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "选项...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "O">
+<!ENTITY foxclocksoverlay.context.help.label "帮助...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "关于 MoonClocks...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "A">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "A">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "添加 &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "A">
+<!ENTITY foxclocks.button.add.tooltip "添加一个在时区表里的地域到监视列表">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; 移除">
+<!ENTITY foxclocks.button.remove.accesskey "R">
+<!ENTITY foxclocks.button.remove.tooltip "从监视列表中移除所选地域">
+<!ENTITY foxclocks.button.addas.label "添加为...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "S">
+<!ENTITY foxclocks.button.addas.tooltip "通过“地域细节”窗口添加选中地域">
+<!ENTITY foxclocks.button.moveup.label "上移">
+<!ENTITY foxclocks.button.moveup.accesskey "U">
+<!ENTITY foxclocks.button.moveup.tooltip "在监视列表中上移选中地域">
+<!ENTITY foxclocks.button.movedown.label "下移">
+<!ENTITY foxclocks.button.movedown.accesskey "D">
+<!ENTITY foxclocks.button.movedown.tooltip "在监视列表中下移选中地域">
+<!ENTITY foxclocks.menubar.menu.file.label "文件">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "F">
+<!ENTITY foxclocks.menubar.menu.file.close.label "关闭">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "C">
+<!ENTITY foxclocks.menubar.menu.file.import.label "导入设置...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "导出设置...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "编辑">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "添加时区到监视列表">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "A">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "在监视列表中添加为...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "在监视列表中上移">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "U">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "在监视列表中下移">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "D">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "从监视列表移除该地域">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "R">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "地域细节...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.view.label "查看">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "V">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "时区细节...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "在 OpenStreetMap 中打开时区...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "在 OpenStreetMap 中打开地域...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "工具">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "选项...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.help.label "帮助">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "帮助...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "关于 MoonClocks...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "A">
+<!ENTITY foxclocks.dialog.import.title "载入 MoonClocks 设置">
+<!ENTITY foxclocks.dialog.import.success "设置文件已载入">
+<!ENTITY foxclocks.dialog.import.failure "设置文件载入失败">
+<!ENTITY foxclocks.dialog.export.title "保存 MoonClocks 设置">
+<!ENTITY foxclocks.dialog.export.success "设置文件已保存">
+<!ENTITY foxclocks.dialog.export.failure "设置文件保存失败">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks 设置文件">
+<!ENTITY foxclocks.zonepicker.description.label "时区列表">
+<!ENTITY foxclocks.zonepicker.description.tooltip "显示所有可以加入监视列表的地域及其时区">
+<!ENTITY foxclocks.zonepicker.search.initvalue "查找">
+<!ENTITY foxclocks.zonepicker.search.accesskey "Q">
+<!ENTITY foxclocks.zonepicker.search.tooltip "按国家或者城市查找时区列表">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "时区">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "时区">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC 时差">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "显示与 格林威治标准时间/世界标准时间 的时差">
+<!ENTITY foxclocks.zonepicker.footer "* 表示该时区正处于夏令时期间">
+<!ENTITY foxclocks.zonepicker.context.details.label "时区细节...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "添加到地域显示列表">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "A">
+<!ENTITY foxclocks.zonepicker.context.addas.label "在监视列表中添加为...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "S">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "监视列表">
+<!ENTITY foxclocks.locationlist.description.tooltip "监视列表中的地域会被显示在 状态栏/工具栏或者提示框中">
+<!ENTITY foxclocks.locationlist.header.location.label "地域">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "双击时区中的地域以查看该地域的细节">
+<!ENTITY foxclocks.locationlist.header.time.label "时间">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "显示该地目前时间">
+<!ENTITY foxclocks.locationlist.nolocs.label "(未选取)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "上移">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "U">
+<!ENTITY foxclocks.locationlist.context.movedown.label "下移">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "D">
+<!ENTITY foxclocks.locationlist.context.details.label "地域细节...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "L">
+<!ENTITY foxclocks.locationlist.context.remove.label "移除">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "R">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "移除选择的地域？">
+<!ENTITY foxclocks.import.confirm.label "覆盖当前的 MoonClocks 设置？">
+<!ENTITY options.title "MoonClocks 选项">
+<!ENTITY options.format.caption "时钟格式">
+<!ENTITY options.format.description "时钟显示方式">
+<!ENTITY options.format.clockchoice.clock.label "显示在 状态栏/工具栏">
+<!ENTITY options.format.clockchoice.tooltip.label "显示在 状态栏/工具栏 提示框">
+<!ENTITY options.format.clockchoice.foxclocks.label "显示在 MoonClocks 窗口">
+<!ENTITY options.format.clockchoice.all.label "全部时钟">
+<!ENTITY options.format.radio.standard.label "标准格式">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "自定义格式">
+<!ENTITY options.format.radio.custom.accesskey "C">
+<!ENTITY options.format.standard.menu.select "- - - - - - - - - - 选 择 - - - - - - - - - -">
+<!ENTITY options.format.custom.textbox.input.label "格式:">
+<!ENTITY options.format.custom.textbox.preview.label "预览:">
+<!ENTITY options.format.custom.secs.label "秒">
+<!ENTITY options.format.custom.mins.label "分钟">
+<!ENTITY options.format.custom.hours.label "小时:">
+<!ENTITY options.format.custom.hours.12.1.label "12小时制">
+<!ENTITY options.format.custom.hours.12.2.label "12小时制(2位数)">
+<!ENTITY options.format.custom.hours.24.1.label "24小时制">
+<!ENTITY options.format.custom.hours.24.2.label "24小时制(2位数)">
+<!ENTITY options.format.custom.am.label "上午/下午:">
+<!ENTITY options.format.custom.am.lower.label "am/pm">
+<!ENTITY options.format.custom.am.upper.label "上午/下午">
+<!ENTITY options.format.custom.year.label "年:">
+<!ENTITY options.format.custom.year.4.label "以4位数显示年份">
+<!ENTITY options.format.custom.year.2.label "以2位数显示年份">
+<!ENTITY options.format.custom.month.label "月:">
+<!ENTITY options.format.custom.month.num.1.label "数字">
+<!ENTITY options.format.custom.month.num.2.label "2位数字">
+<!ENTITY options.format.custom.month.name.long.label "中文格式">
+<!ENTITY options.format.custom.month.name.short.label "英文(缩写)">
+<!ENTITY options.format.custom.day.label "日:">
+<!ENTITY options.format.custom.day.num.1.label "数字">
+<!ENTITY options.format.custom.day.num.2.label "以2位数显示天数">
+<!ENTITY options.format.custom.day.name.long.label "星期(中文)">
+<!ENTITY options.format.custom.day.name.short.label "星期(英文缩写)">
+<!ENTITY options.format.custom.day.ordinal.label "中文格式">
+<!ENTITY options.format.custom.day.ofyear.label "自年初算起的天数">
+<!ENTITY options.format.custom.other.label "其它:">
+<!ENTITY options.format.custom.other.location.label "地域名">
+<!ENTITY options.format.custom.other.offset.label "GMT(格林威治标准时) 时差">
+<!ENTITY options.format.custom.other.zone.label "时区名">
+<!ENTITY options.format.custom.other.1.label "逗号">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "冒号">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "空格">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "时钟位置和风格">
+<!ENTITY options.clock.position.description.label "显示位置:">
+<!ENTITY options.clock.position.radio.statusbar.label "状态栏">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "a">
+<!ENTITY options.clock.position.radio.toolbar.label "定制工具栏 (需从 &apos;定制工具栏&apos; 拖出调制面板)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "t">
+<!ENTITY options.clock.position.statusbar.radio.left.label "靠左侧">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "L">
+<!ENTITY options.clock.position.statusbar.radio.right.label "靠右侧">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "R">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "特定位置:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "P">
+<!ENTITY options.clock.style.label "显示为:">
+<!ENTITY options.clock.style.radio.clocks.label "多时钟模式">
+<!ENTITY options.clock.style.radio.clocks.accesskey "M">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks 图标 (鼠标移动到 MoonClocks 图标时显示时钟)">
+<!ENTITY options.clock.style.radio.icon.accesskey "I">
+<!ENTITY options.data.caption "时区参数">
+<!ENTITY options.data.info.caption.label "当前时区数据库">
+<!ENTITY options.data.info.source.label "来源:">
+<!ENTITY options.data.info.version.label "版本:">
+<!ENTITY options.data.info.date.label "日期:">
+<!ENTITY options.data.update.caption.label "数据库更新">
+<!ENTITY options.data.update.last.date.label "最后更新:">
+<!ENTITY options.data.update.last.status.label "状态:">
+<!ENTITY options.data.update.next.date.label "下次更新日期:">
+<!ENTITY options.data.update.auto.enable.label "启用自动更新">
+<!ENTITY options.data.update.auto.enable.accesskey "E">
+<!ENTITY options.data.update.checknow.button.label "立刻检查">
+<!ENTITY options.data.update.checknow.button.accesskey "n">
+<!ENTITY options.advanced.caption "高级">
+<!ENTITY options.advanced.newloc.caption.label "添加一个地区到监视列表">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "在状态栏/工具栏显示时钟">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "在状态栏/工具栏显示国旗">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "在状态栏/工具栏提示显示时钟">
+<!ENTITY options.advanced.misc.caption.label "杂项">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "在状态栏/工具栏提示显示国旗">
+<!ENTITY options.advanced.alert.autoupdate.label "时区数据升级后提示我">
+<!ENTITY options.advanced.menuitem.hidden.label "添加 MoonClocks 工具项目到菜单">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "从监视列表中移除地域时提示确认">
+<!ENTITY zoneinfo.title.zone "时区细节">
+<!ENTITY zoneinfo.title.location "地域细节">
+<!ENTITY zoneinfo.tab.zone.label "时区">
+<!ENTITY zoneinfo.tab.location.label "地域">
+<!ENTITY zoneinfo.tab.display.label "显示">
+<!ENTITY zoneinfo.standardzone.label "标准时区">
+<!ENTITY zoneinfo.daylightzone.label "夏令时区">
+<!ENTITY zoneinfo.daylightsaving.begins "夏令时开始">
+<!ENTITY zoneinfo.daylightsaving.began "夏令时已开始">
+<!ENTITY zoneinfo.daylightsaving.ends "夏令时结束">
+<!ENTITY zoneinfo.daylightsaving.ended "夏令时已结束">
+<!ENTITY zoneinfo.defaultlocation.label "默认地域">
+<!ENTITY zoneinfo.addas.name.label "地域名">
+<!ENTITY zoneinfo.addas.latitude.label "纬度">
+<!ENTITY zoneinfo.addas.longitude.label "经度">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "当 MoonClocks显示为图标模式时 状态栏/工具栏 时钟设置将不会被应用(查看 选项-&gt;时钟位置和风格)">
+<!ENTITY zoneinfo.display.showclock.caption "显示/隐藏 时钟">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "在 状态栏/工具栏 显示时钟">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "S">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "在 状态栏/工具栏 提示框显示时钟">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "T">
+<!ENTITY zoneinfo.display.style.caption "状态栏/工具栏 时钟风格">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "粗体">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "B">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "斜体">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "I">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "下划线">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "U">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "旗">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.caption "状态栏/工具栏 时钟颜色">
+<!ENTITY zoneinfo.display.style.colour.standard.label "标准色">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "C">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "允许变换时钟颜色">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "A">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "开始时间">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "截至时间">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "n">
+<!ENTITY zoneinfo.display.flag.caption "旗">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "禁用">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "D">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "标准">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "R">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "定制">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "O">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "预设...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "P">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "点击以选取预设国旗图像">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "浏览...">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "W">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "点击以定制国旗">
+<!ENTITY zoneinfo.display.customformat.caption.label "定制格式 (高级)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "例如 &apos;&lt;l&gt;-&lt;24h&gt;&lt;m&gt;&apos; 效果为 &apos;地域-1523&apos;。可以到选项里的时间格式标签查看可用占位符。">
+<!ENTITY zoneinfo.display.customformat.clock.label "状态栏/工具栏 时钟">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "L">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "状态栏/工具栏 时钟提示">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "K">
+<!ENTITY welcome.title "欢迎">
+<!ENTITY welcome.header "欢迎使用 MoonClocks">
+<!ENTITY welcome.message "MoonClocks 通过使用时区数据库和夏令时信息可以在应用程序（firefox，thunderbird）的工具栏或状态栏显示世界多个位置的时间。MoonClocks 还可以通过调用 OpenStreetMap（如果您已经安装）带您到 MoonClocks 数据库中包含的任何位置 。|由于这是您第一次使用 MoonClocks，您需要花一些时间来配置 MoonClocks ，为此我们提供了一个时区选择列表。|安装后，该信息将不再被显示。MoonClocks 可以通过双击状态栏时钟或单击工具栏按钮（如果它可见的话）来访问。">
+<!ENTITY welcome.checkbox.launch.label "启用 MoonClocks">
+<!ENTITY welcome.checkbox.launch.accesskey "L">
+<!ENTITY welcome.checkbox.openhomepage.label "打开 MoonClocks 主页">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "O">
+<!ENTITY update.title "MoonClocks 更新">
+<!ENTITY update.thisversion "版本:">
+<!ENTITY update.message "感谢更新 MoonClocks. 您可以通过查看 MoonClocks 的更新日志来了解新版本中包含哪些新特性.">
+<!ENTITY update.checkbox.launch.label "查看更新日志">
+<!ENTITY update.checkbox.launch.accesskey "V">
+<!ENTITY about.title "关于 MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "从不">
+<!ENTITY misc.na "N/A">
+<!ENTITY misc.done "完成">
+<!ENTITY misc.apply "应用">

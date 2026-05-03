@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright (c) 2015 Andy McDonald. All rights reserved.
+Please refer to licence.txt for licensing terms.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://moonclocks/skin/foxclocks.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://moonclocks/locale/foxclocks.dtd">
+
+<dialog id="foxclocks-options"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		onload="foxclocks.optionsManager.onLoad()"
+		onunload="foxclocks.optionsManager.onUnload()"
+		ondialogaccept="return foxclocks.optionsManager.onAccept()"
+		ondialogextra1="foxclocks.optionsManager.onAccept()"
+		buttons="accept,cancel,extra1"
+		buttonlabelextra1="&misc.apply;"
+		title="&options.title;"
+		persist="screenX screenY width height">
+	
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="foxclocks-bundle" src="chrome://moonclocks/locale/foxclocks.properties"/>
+	</stringbundleset>
+	
+	<script type="application/x-javascript" src="chrome://moonclocks/content/common.js"/>
+	<script type="application/x-javascript" src="chrome://moonclocks/content/options.js"/>
+	
+	<commandset>
+		<command id="cmd_fcop_close" oncommand="window.close()"/>
+		<command id="cmd_fcop_clocksel" oncommand="foxclocks.optionsManager.onClockChoiceSelect()"/>
+		<command id="cmd_fcop_stdformsel" oncommand="foxclocks.optionsManager.setStates()"/>
+		<command id="cmd_fcop_custformadd" oncommand="foxclocks.optionsManager.onCustomFormatAddButton(event)"/>
+		<command id="cmd_fcop_dataupdate_auto_checkbox" oncommand="foxclocks.optionsManager.onDataUpdateAutoCheckbox()"/>
+		<command id="cmd_fcop_dataupdate_checknow" oncommand="foxclocks.optionsManager.onDataUpdateCheckNow()"/>
+		<command id="cmd_fcop_zonepicker_delete" oncommand="foxclocks.optionsManager.onZonePickerDelete()"/>
+		<command id="cmd_fcop_zonepicker_import" oncommand="foxclocks.optionsManager.onZonePickerImport()"/>
+		<!-- <command id="cmd_fcop_upload" oncommand="foxclocks.optionsManager.onUpdownload('upload')"/>
+		<command id="cmd_fcop_download" oncommand="foxclocks.optionsManager.onUpdownload('download')"/> -->
+	</commandset>  
+  		
+	<keyset>
+		<key modifiers="accel" key="W" command="cmd_fcop_close"/>
+	</keyset>
+	
+	<broadcasterset>
+		<broadcaster id="fc-format-custom-disabled"/>
+		<broadcaster id="fc-format-tooltip-config"/>
+	</broadcasterset>
+	
+	<!-- AFM - id, persist only needed to work around not being able to persist selected tab -->
+	<tabbox id="fc-options-tabbox" persist="selectedtabworkaround">
+		<tabs>
+			<tab label="&options.format.caption;" id="fc-format-tab"/>
+			<tab label="&options.clock.caption;" id="fc-clock-tab"/>
+			<tab label="&options.data.caption;" id="fc-data-tab"/>
+			<tab label="&options.advanced.caption;" id="fc-advanced-tab"/>	
+		</tabs>
+		<tabpanels>
+			<tabpanel orient="vertical">
+
+				<label	id="fc-format-description"
+						value="&options.format.description;"
+						control="fc-format-clockchoice-list"/>
+			
+				<menulist id="fc-format-clockchoice-list">
+					<menupopup>
+						<menuitem id="fc-format-clockchoice-clock" label="&options.format.clockchoice.clock.label;"
+								value="clock" persist="selected"
+								oncommand="document.getElementById('cmd_fcop_clocksel').doCommand()"/>
+						<menuitem id="fc-format-clockchoice-tooltip" label="&options.format.clockchoice.tooltip.label;"
+								value="tooltip" persist="selected"
+								oncommand="document.getElementById('cmd_fcop_clocksel').doCommand()"/>
+						<menuitem id="fc-format-clockchoice-foxclocks" label="&options.format.clockchoice.foxclocks.label;"
+								value="moonclocks" persist="selected"
+								oncommand="document.getElementById('cmd_fcop_clocksel').doCommand()"/>
+
+						<!-- AFM - this does not work. Absolutely no idea why
+						
+						<menuitem id="fc-format-clockchoice-clock" label="&options.format.clockchoice.clock.label;"
+								value="clock" command="cmd_fcop_clocksel" persist="selected"/>
+						<menuitem id="fc-format-clockchoice-tooltip" label="&options.format.clockchoice.tooltip.label;"
+								value="tooltip" command="cmd_fcop_clocksel" persist="selected"/>
+						<menuitem id="fc-format-clockchoice-foxclocks" label="&options.format.clockchoice.foxclocks.label;"
+								value="moonclocks" command="cmd_fcop_clocksel" persist="selected"/>
+						-->		
+
+					</menupopup>
+				</menulist>
+
+				<spacer style="height:2ex"/>
+				
+				<radiogroup id="fc-format-radiogroup" onselect="foxclocks.optionsManager.onFormatRadioSelect()" persist="selected">		
+					<radio	id="fc-format-radio-standard"
+							label="&options.format.radio.standard.label;"
+							accesskey="&options.format.radio.standard.accesskey;"/>
+							
+					<menulist id="fc-format-standard-list" label="&options.format.standard.menu.select;">
+						<menupopup id="fc-format-standard-popup">
+							<!-- AFM - as above, 'command' attribute does not work. Absolutely no idea why -->
+							<menuitem	label="&options.format.standard.menu.select;"
+										oncommand="document.getElementById('cmd_fcop_stdformsel').doCommand()"/>
+						</menupopup>
+					</menulist>
+					
+					<radio	id="fc-format-radio-custom" label="&options.format.radio.custom.label;"
+							accesskey="&options.format.radio.custom.accesskey;"/>
+				</radiogroup>
+				
+				<groupbox id="fc-format-custom-groupbox">
+					<vbox align="center">
+						<grid>
+							<columns>
+								<column/>
+								<column/>
+						 	</columns>
+							<rows>
+
+					<!-- AFM - start, not indenting 3 -->
+					<row align="center">
+
+						<button	id="fc-format-custom-hours-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.hours.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-hours-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-hours-popup">
+								<menuitem	label="&options.format.custom.hours.12.1.label;"
+											value="options.format.custom.hours.12.1.value"/>
+								<menuitem	label="&options.format.custom.hours.12.2.label;"
+											value="options.format.custom.hours.12.2.value"/>
+								<menuitem	label="&options.format.custom.hours.24.1.label;"
+											value="options.format.custom.hours.24.1.value"/>
+								<menuitem	label="&options.format.custom.hours.24.2.label;"
+											value="options.format.custom.hours.24.2.value"/>
+							</menupopup>
+						</menulist>
+						
+					</row>
+			
+					<row align="center">
+						
+						<data id="fc-format-custom-mins" value="options.format.custom.mins.value"/>
+						<button	id="fc-format-custom-mins-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.mins.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>				
+
+					</row>
+					
+					<row align="center">
+
+						<data id="fc-format-custom-secs" value="options.format.custom.secs.value"/>
+						<button	id="fc-format-custom-secs-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.secs.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+									
+					</row>
+					
+					<row align="center">
+						
+						<button	id="fc-format-custom-am-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.am.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-am-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-am-popup">
+								<menuitem	label="&options.format.custom.am.lower.label;"
+											value="options.format.custom.am.lower.value"/>
+								<menuitem	label="&options.format.custom.am.upper.label;"
+											value="options.format.custom.am.upper.value"/>
+							</menupopup>
+						</menulist>
+
+					</row>
+					
+					<row align="center">
+						
+						<button	id="fc-format-custom-day-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.day.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-day-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-day-popup">
+								<menuitem	label="&options.format.custom.day.num.1.label;"
+											value="options.format.custom.day.num.1.value"/>
+								<menuitem 	label="&options.format.custom.day.num.2.label;"
+											value="options.format.custom.day.num.2.value"/>
+								<menuitem	label="&options.format.custom.day.name.long.label;"
+											value="options.format.custom.day.name.long.value"/>
+								<menuitem	label="&options.format.custom.day.name.short.label;"
+											value="options.format.custom.day.name.short.value"/>
+								<menuitem	label="&options.format.custom.day.ordinal.label;"
+											value="options.format.custom.day.ordinal.value"/>
+								<menuitem	label="&options.format.custom.day.ofyear.label;"
+											value="options.format.custom.day.ofyear.value"/>
+											
+								<!-- AFM - translation may not exist -->
+								<menuitem	id="fc-format-custom-day-ofyear-3-menuitem" hidden="true"
+											value="options.format.custom.day.ofyear.3.value"/>											
+
+								<!-- AFM - translation may not exist -->
+								<menuitem	id="fc-format-custom-day-relative-menuitem" hidden="true"
+											value="options.format.custom.day.relative.value"/>
+											
+								<!-- AFM - translation may not exist -->
+								<menuitem	id="fc-format-custom-day-relative-numeric-menuitem" hidden="true"
+											value="options.format.custom.day.relative.numeric.value"/>
+											
+							</menupopup>
+						</menulist>
+
+					</row>
+
+					<!-- AFM - translation may not exist -->
+					<row align="center" id="fc-format-custom-week-row" hidden="true">
+						
+						<button	id="fc-format-custom-week-button" class="foxclocks-custom-add-button"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-week-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-week-popup">
+											
+								<menuitem	id="fc-format-custom-week-iso-1-menuitem"
+											value="options.format.custom.week.iso.1.value"/>											
+
+								<menuitem	id="fc-format-custom-week-iso-2-menuitem"
+											value="options.format.custom.week.iso.2.value"/>
+											
+								<menuitem	id="fc-format-custom-week-na-1-menuitem"
+											value="options.format.custom.week.na.1.value"/>
+											
+								<menuitem	id="fc-format-custom-week-na-2-menuitem"
+											value="options.format.custom.week.na.2.value"/>
+											
+							</menupopup>
+						</menulist>
+
+					</row>
+										
+					<row align="center">
+						
+						<button	id="fc-format-custom-month-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.month.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-month-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-month-popup">
+								<menuitem	label="&options.format.custom.month.num.1.label;"
+											value="options.format.custom.month.num.1.value"/>
+								<menuitem	label="&options.format.custom.month.num.2.label;"
+											value="options.format.custom.month.num.2.value"/>
+								<menuitem	label="&options.format.custom.month.name.long.label;"
+											value="options.format.custom.month.name.long.value"/>
+								<menuitem	label="&options.format.custom.month.name.short.label;"
+											value="options.format.custom.month.name.short.value"/>
+							</menupopup>
+						</menulist>
+
+					</row>
+		
+					<row align="center">
+
+						<button	id="fc-format-custom-year-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.year.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-year-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-year-popup">
+								<menuitem	label="&options.format.custom.year.4.label;"
+											value="options.format.custom.year.4.value"/>
+								<menuitem	label="&options.format.custom.year.2.label;"
+											value="options.format.custom.year.2.value"/>
+							</menupopup>
+						</menulist>				
+
+					</row>
+					
+					<row align="center">
+						
+						<button	id="fc-format-custom-other-button" class="foxclocks-custom-add-button"
+								label="&options.format.custom.other.label;"
+								observes="fc-format-custom-disabled" pack="end"
+								command="cmd_fcop_custformadd"/>
+						
+						<menulist id="fc-format-custom-other-list" observes="fc-format-custom-disabled">
+							<menupopup id="fc-format-custom-other-popup">
+								<menuitem	label="&options.format.custom.other.location.label;"
+											value="options.format.custom.other.location.value"/>
+								<menuitem	label="&options.format.custom.other.offset.label;"
+											value="options.format.custom.other.offset.value"/>
+								<menuitem	label="&options.format.custom.other.zone.label;"
+											value="options.format.custom.other.zone.value"/>
+
+								<!-- AFM - translation may not exist -->
+								<menuitem	id="fc-format-custom-other-dstindic-menuitem" hidden="true"
+											value="options.format.custom.other.dstindic.value"/>
+
+								<!-- AFM - translation may not exist. Hide this item when not configuring the tooltip -->
+								<menuitem	id="fc-format-custom-other-alignpos-menuitem" hidden="true" observes="fc-format-tooltip-config"
+											value="options.format.custom.other.alignpos.value"/>
+
+								<menuitem	label="&options.format.custom.other.1.label;" literal="true"
+											value="&options.format.custom.other.1.value;"/>
+								<menuitem	label="&options.format.custom.other.2.label;" literal="true"
+											value="&options.format.custom.other.2.value;"/>
+								<menuitem	label="&options.format.custom.other.3.label;" literal="true"
+											value="&options.format.custom.other.3.value;"/>
+							</menupopup>
+						</menulist>
+
+					</row>
+					<!-- AFM - end, not indenting 3 -->
+
+							</rows>
+						</grid>
+					</vbox>
+
+					<spacer style="height:2ex"/>
+
+					<grid>
+						<columns>
+							<column/>
+							<column flex="1"/>
+					 	</columns>
+						<rows>
+							<row align="center">
+								<label	id="fc-format-custom-textbox-input-label"
+										value="&options.format.custom.textbox.input.label;"
+										observes="fc-format-custom-disabled"
+										control="fc-format-custom-textbox-input"/>
+										
+								<!-- AFM - does not observe fc-format-custom-disabled -
+									need to set 'disabled' property -->
+								<textbox	id="fc-format-custom-textbox-input"
+											oninput="foxclocks.optionsManager.onCustomInput()"/>
+							</row>
+							
+							<row align="center">
+								<label	id="fc-format-custom-textbox-preview-label"
+										value="&options.format.custom.textbox.preview.label;"
+										observes="fc-format-custom-disabled"/>
+										
+								<textbox	id="fc-format-custom-textbox-preview"
+											observes="fc-format-custom-disabled" readonly="true"/>
+							</row>
+						</rows>
+					</grid>
+				</groupbox>
+				
+			</tabpanel>
+			<tabpanel orient="vertical">
+				<groupbox>
+					<caption label="&options.clock.position.description.label;"/>
+						
+					<radiogroup id="fc-clock-position-radiogroup"
+								align="start"
+								onselect="foxclocks.optionsManager.onPositionRadioSelect()">
+									
+						<radio	label="&options.clock.position.radio.statusbar.label;"
+								accesskey="&options.clock.position.radio.statusbar.accesskey;"/>
+								
+						<radiogroup id="fc-clock-position-statusbar-radiogroup" align="start" onselect="foxclocks.optionsManager.onStatusbarRadioSelect()">
+							<hbox>
+								<spacer style="width:2em"/>
+								<radio	label="&options.clock.position.statusbar.radio.left.label;"
+										accesskey="&options.clock.position.statusbar.radio.left.accesskey;"/>
+							</hbox>
+							<hbox>
+								<spacer style="width:2em"/>
+								<radio	label="&options.clock.position.statusbar.radio.right.label;"
+										accesskey="&options.clock.position.statusbar.radio.right.accesskey;"/>
+							</hbox>
+							<hbox id="fc-clock-position-statusbar-radio-specific-hbox">
+								<spacer style="width:2em"/>									
+								<radio	id="fc-clock-position-statusbar-radio-specific-radio"
+										label="&options.clock.position.statusbar.radio.specific.label;"
+										accesskey="&options.clock.position.statusbar.radio.specific.accesskey;"
+										control="fc-clock-position-statusbar-specific-textbox"/>
+										<!-- AFM - this control doesn't do anything -->
+										
+								<textbox	id="fc-clock-position-statusbar-specific-textbox"
+											style="width:2em" persist="storedvalue"
+											oninput="foxclocks.optionsManager.onStatusbarTextboxInput()"/>
+							</hbox>
+						</radiogroup>
+			
+						<radio	label="&options.clock.position.radio.toolbar.label;"
+								accesskey="&options.clock.position.radio.toolbar.accesskey;"/>
+					</radiogroup>
+				</groupbox>
+				
+				<groupbox>
+					<caption label="&options.clock.style.label;"/>
+					
+					<radiogroup id="fc-clock-style-radiogroup" align="start">
+						<vbox>
+							<radio	label="&options.clock.style.radio.clocks.label;"
+									accesskey="&options.clock.style.radio.clocks.accesskey;"/>
+									
+							<radio	label="&options.clock.style.radio.icon.label;"
+									accesskey="&options.clock.style.radio.icon.accesskey;"/>
+						</vbox>
+					</radiogroup>
+				</groupbox>
+	
+			</tabpanel>
+
+			<tabpanel orient="vertical">
+
+				<groupbox>
+					<caption label="&options.data.info.caption.label;"/>
+	
+					<grid>
+						<columns>
+							<column/>
+							<column/>
+					 	</columns>
+		
+						<rows>
+							<row align="center">
+								<label value="&options.data.info.source.label;"/>
+								<label id="fc-data-info-source-value"/>
+							</row>
+							<row align="center">
+								<label value="&options.data.info.version.label;"/>
+								<label id="fc-data-info-version-value"/>
+							</row>
+							<row align="center">
+								<label value="&options.data.info.date.label;"/>
+								<label id="fc-data-info-date-value"/>
+							</row>
+						</rows>
+					</grid>
+
+				</groupbox>
+
+				<groupbox>
+					<caption label="&options.data.update.caption.label;"/>
+						
+					<grid>
+						<columns>
+							<column/>
+							<column/>
+					 	</columns>
+
+						<rows>
+							<row align="center">
+								<label value="&options.data.update.last.date.label;"/>
+								<label id="fc-data-update-last-date-value" novalue="&misc.never;"/>
+							</row>
+							<row align="center">
+								<label value="&options.data.update.last.status.label;"/>
+								<label id="fc-data-update-last-status-value" novalue="&misc.na;"
+										value="&misc.na;" persist="value"/>
+							</row>
+						</rows>
+					</grid>
+
+					<spacer style="height:1ex"/>
+					<vbox align="start">
+						<button	id="fc-data-update-checknow-button" class="button-small"
+								label="&options.data.update.checknow.button.label;"
+								accesskey="&options.data.update.checknow.button.accesskey;"
+								command="cmd_fcop_dataupdate_checknow"/>
+					</vbox>
+
+					<spacer style="height:1.5ex"/>
+					<checkbox	id="fc-data-update-auto-enable-checkbox"
+								label="&options.data.update.auto.enable.label;"
+								accesskey="&options.data.update.auto.enable.accesskey;"
+								command="cmd_fcop_dataupdate_auto_checkbox"
+								checked="false"/>
+
+					<grid id="fc-data-update-next-grid">
+						<rows>
+							<row align="center">
+								<label value="&options.data.update.next.date.label;"/>
+								<label id="fc-data-update-next-value"/>
+							</row>
+						</rows>
+					</grid>
+
+				</groupbox>
+
+				<groupbox>
+					<caption label="GMT/UTC"/>
+					<label id="fc-data-gmt-label"/>
+				</groupbox>
+
+			</tabpanel>
+
+			<tabpanel orient="vertical" id="fc-advanced-tabpanel">
+					
+				<groupbox>
+					<caption 	id="fc-advanced-newloc-caption"
+								label="&options.advanced.newloc.caption.label;"/>
+					
+					<checkbox	label="&options.advanced.newloc.statusbar.clockvisible.label;"
+								pref="extensions.moonclocks.clock.bar.clock.new.visible"/>
+	
+					<checkbox	label="&options.advanced.newloc.statusbar.flagvisible.label;"
+								pref="extensions.moonclocks.clock.bar.clock.new.showflag"/>
+								
+					<checkbox	label="&options.advanced.newloc.tooltip.clockvisible.label;"							
+								pref="extensions.moonclocks.clock.tooltip.clock.new.visible"/>
+				</groupbox>
+
+				<groupbox>
+					<caption label="&options.advanced.misc.caption.label;"/>
+					
+					<checkbox	id="fc-advanced-toolbar-menuitem-hidden-checkbox"
+								label="&options.advanced.menuitem.hidden.label;"
+								pref="extensions.moonclocks.toolbar.menuitem.hidden"/>
+
+					<checkbox	label="&options.advanced.watchlist.remove.confirm.label;"
+								pref="extensions.moonclocks.watchlist.remove.confirm.enabled"/>
+								
+					<checkbox	id="fc-advanced-tooltip-flagvisible-checkbox"
+								label="&options.advanced.allloc.tooltip.flagvisible.label;"
+								pref="extensions.moonclocks.clock.tooltip.clock.global.showflag"/>
+								
+					<checkbox	label="&options.advanced.alert.autoupdate.label;"
+								pref="extensions.moonclocks.data.update.auto.alert.enabled"/>	
+				</groupbox>
+
+			</tabpanel>
+							
+		</tabpanels>
+	</tabbox>
+	
+</dialog>

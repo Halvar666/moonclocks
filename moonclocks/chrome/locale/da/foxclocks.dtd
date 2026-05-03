@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Indstillinger">
+<!ENTITY foxclocksoverlay.context.options.accesskey "I">
+<!ENTITY foxclocksoverlay.context.help.label "Hjælp...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "Om MoonClocks...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "O">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "A">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "Tilføj &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "T">
+<!ENTITY foxclocks.button.add.tooltip "Tilføjer sted(er) til Overvågningslisten baseret på tidszone(r) valgt i Zone Vælgeren">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Fjern">
+<!ENTITY foxclocks.button.remove.accesskey "F">
+<!ENTITY foxclocks.button.remove.tooltip "Fjerner valgt(e) sted(er) fra Overvågningslisten">
+<!ENTITY foxclocks.button.addas.label "Tilføj som...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "S">
+<!ENTITY foxclocks.button.addas.tooltip "Tilføjer sted baseret på zone valgt i Zonevælgeren, via &apos;Tilføj som...&apos; dialogen">
+<!ENTITY foxclocks.button.moveup.label "Flyt Op">
+<!ENTITY foxclocks.button.moveup.accesskey "O">
+<!ENTITY foxclocks.button.moveup.tooltip "Flytter valgte sted op i Overvågningslisten">
+<!ENTITY foxclocks.button.movedown.label "Flyt Ned">
+<!ENTITY foxclocks.button.movedown.accesskey "N">
+<!ENTITY foxclocks.button.movedown.tooltip "Flytter valgte sted ned i Overvågningslisten">
+<!ENTITY foxclocks.menubar.menu.file.label "Fil">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "F">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Luk">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Importer indstillinger...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Eksporter indstillinger...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Rediger">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "e">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Tilføj zone(r) i Overvågningslisten">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Tilføj zone i Overvågningslisten som...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "s">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Flyt sted op Overvågningsliste">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "o">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Flyt sted ned Overvågningsliste">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "n">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Fjern sted(er) fra Overvågningsliste">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "r">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Sted-egenskaber...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "l">
+<!ENTITY foxclocks.menubar.menu.view.label "Vis">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "V">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Zonedetaljer...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Åbn zone i OpenStreetMap...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Åbn sted i OpenStreetMap...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Funktioner">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "u">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Indstillinger...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.help.label "Hjælp">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Hjælp...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "Om MoonClocks...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "O">
+<!ENTITY foxclocks.dialog.import.title "Indlæs MoonClocks indstillinger">
+<!ENTITY foxclocks.dialog.import.success "Indstillinger korrekt importeret">
+<!ENTITY foxclocks.dialog.import.failure "Import af indstillinger slog fejl">
+<!ENTITY foxclocks.dialog.export.title "Gem MoonClocks indstillinger">
+<!ENTITY foxclocks.dialog.export.success "Indstillinger gemt">
+<!ENTITY foxclocks.dialog.export.failure "Kunne ikke gemme indstillinger">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks indstillingsfiler">
+<!ENTITY foxclocks.zonepicker.description.label "Zonevælger">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Viser alle tilgængelige tidszoner. Zonerne bliver til steder når de tilføjes til Overvågningslisten">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Søg">
+<!ENTITY foxclocks.zonepicker.search.accesskey "Q">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Søg i Zonevælgeren på land eller by">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Tidszone">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Tidszone">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC Offset">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT/UTC-forskydning">
+<!ENTITY foxclocks.zonepicker.footer "* indikerer at sommertid bruges">
+<!ENTITY foxclocks.zonepicker.context.details.label "Zonedetaljer...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "Tilføj">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "T">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Tilføj til Overvågningslisten som...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "S">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Overvågningsliste">
+<!ENTITY foxclocks.locationlist.description.tooltip "Steder i Overvågningslisten kan vises på statuslinje/værktøjslinje og/eller værktøjstip">
+<!ENTITY foxclocks.locationlist.header.location.label "Sted">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Sted i tidszonen. Dobbeltklik et sted for at konfigurere dets egenskaber">
+<!ENTITY foxclocks.locationlist.header.time.label "Tid">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Lokal tid. Tidsformater er fuldt konfigurerbare">
+<!ENTITY foxclocks.locationlist.nolocs.label "(ingen steder valgt)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Flyt Op">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "O">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Flyt Ned">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "N">
+<!ENTITY foxclocks.locationlist.context.details.label "Sted-detaljer...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "l">
+<!ENTITY foxclocks.locationlist.context.remove.label "Fjern">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "F">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Fjern valgt(e) sted(er)?">
+<!ENTITY foxclocks.import.confirm.label "Overskriv eksisterende MoonClocks indstillinger?">
+<!ENTITY options.title "MoonClocks indstillinger">
+<!ENTITY options.format.caption "Tidsformat">
+<!ENTITY options.format.description "Fastsætter hvordan tiden vises i">
+<!ENTITY options.format.clockchoice.clock.label "statuslinje/værktøjslinje-urene">
+<!ENTITY options.format.clockchoice.tooltip.label "statuslinje/værktøjslinje-urenes værktøjstip">
+<!ENTITY options.format.clockchoice.foxclocks.label "MoonClocks-vinduet">
+<!ENTITY options.format.clockchoice.all.label "alle ure">
+<!ENTITY options.format.radio.standard.label "Standardformater">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "Brugerdefineret format">
+<!ENTITY options.format.radio.custom.accesskey "U">
+<!ENTITY options.format.standard.menu.select "---vælg---">
+<!ENTITY options.format.custom.textbox.input.label "Format:">
+<!ENTITY options.format.custom.textbox.preview.label "Vis resultat:">
+<!ENTITY options.format.custom.secs.label "Sekunder">
+<!ENTITY options.format.custom.mins.label "Minutter">
+<!ENTITY options.format.custom.hours.label "Timer:">
+<!ENTITY options.format.custom.hours.12.1.label "12-timers">
+<!ENTITY options.format.custom.hours.12.2.label "12-timers, 2-cifret">
+<!ENTITY options.format.custom.hours.24.1.label "24-timers">
+<!ENTITY options.format.custom.hours.24.2.label "24-timers, 2-cifret">
+<!ENTITY options.format.custom.am.label "am/pm:">
+<!ENTITY options.format.custom.am.lower.label "am/pm">
+<!ENTITY options.format.custom.am.upper.label "AM/PM">
+<!ENTITY options.format.custom.year.label "År:">
+<!ENTITY options.format.custom.year.4.label "4-cifret">
+<!ENTITY options.format.custom.year.2.label "2-cifret">
+<!ENTITY options.format.custom.month.label "Måned:">
+<!ENTITY options.format.custom.month.num.1.label "numerisk">
+<!ENTITY options.format.custom.month.num.2.label "numerisk, 2-cifret">
+<!ENTITY options.format.custom.month.name.long.label "navn">
+<!ENTITY options.format.custom.month.name.short.label "navn, kort form">
+<!ENTITY options.format.custom.day.label "Dag:">
+<!ENTITY options.format.custom.day.num.1.label "numerisk">
+<!ENTITY options.format.custom.day.num.2.label "numerisk, 2-cifret">
+<!ENTITY options.format.custom.day.name.long.label "navn">
+<!ENTITY options.format.custom.day.name.short.label "navn, kort form">
+<!ENTITY options.format.custom.day.ordinal.label "ordinal">
+<!ENTITY options.format.custom.day.ofyear.label "dag i året">
+<!ENTITY options.format.custom.other.label "Andre:">
+<!ENTITY options.format.custom.other.location.label "Sted">
+<!ENTITY options.format.custom.other.offset.label "GMT-offset">
+<!ENTITY options.format.custom.other.zone.label "Zonenavn">
+<!ENTITY options.format.custom.other.1.label "komma">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "kolon">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "mellemrum">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Position og Stil">
+<!ENTITY options.clock.position.description.label "Vis i:">
+<!ENTITY options.clock.position.radio.statusbar.label "Statuslinje">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "S">
+<!ENTITY options.clock.position.radio.toolbar.label "En værktøjslinje (træk ind fra &apos;Tilpas værktøjslinje&apos;-siden)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "t">
+<!ENTITY options.clock.position.statusbar.radio.left.label "på venstre side">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "v">
+<!ENTITY options.clock.position.statusbar.radio.right.label "på højre side">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "h">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "på en bestemt placering:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "p">
+<!ENTITY options.clock.style.label "Vis som:">
+<!ENTITY options.clock.style.radio.clocks.label "Flere ure">
+<!ENTITY options.clock.style.radio.clocks.accesskey "F">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks-ikon (hold musen over for at vise ure)">
+<!ENTITY options.clock.style.radio.icon.accesskey "I">
+<!ENTITY options.data.caption "Tidszone-data">
+<!ENTITY options.data.info.caption.label "Nuværende tidszone-database">
+<!ENTITY options.data.info.source.label "Kilde:">
+<!ENTITY options.data.info.version.label "Version:">
+<!ENTITY options.data.info.date.label "Dato:">
+<!ENTITY options.data.update.caption.label "Databaseopdateringer">
+<!ENTITY options.data.update.last.date.label "Seneste opdatering:">
+<!ENTITY options.data.update.last.status.label "Resultat:">
+<!ENTITY options.data.update.next.date.label "Næste opdatering:">
+<!ENTITY options.data.update.auto.enable.label "Slå automatiske opdateringer til">
+<!ENTITY options.data.update.auto.enable.accesskey "e">
+<!ENTITY options.data.update.checknow.button.label "Check nu">
+<!ENTITY options.data.update.checknow.button.accesskey "C">
+<!ENTITY options.advanced.caption "Avanceret">
+<!ENTITY options.advanced.newloc.caption.label "Tilføje et sted til Overvågningslisten">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Vis ur i statuslinje/værktøjslinje">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Vis flag i statuslinje/værktøjslinje">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Vis ur i statuslinje/værktøjslinje værktøjstip">
+<!ENTITY options.advanced.misc.caption.label "Diverse">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Vis flag i statuslinje/værktøjslinje værktøjstip">
+<!ENTITY options.advanced.alert.autoupdate.label "Vis tidszone-database opdateringsalarmer">
+<!ENTITY options.advanced.menuitem.hidden.label "Vis MoonClocks &apos;Funktioner&apos; menuelement">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "Bekræft fjernelse af steder fra Overvågningsliste">
+<!ENTITY zoneinfo.title.zone "Tidszone-egenskaber">
+<!ENTITY zoneinfo.title.location "Egenskaber for sted">
+<!ENTITY zoneinfo.tab.zone.label "Tidszone">
+<!ENTITY zoneinfo.tab.location.label "Sted">
+<!ENTITY zoneinfo.tab.display.label "Vis">
+<!ENTITY zoneinfo.standardzone.label "Standard tidszone">
+<!ENTITY zoneinfo.daylightzone.label "Sommertids-tidszone">
+<!ENTITY zoneinfo.daylightsaving.begins "Sommertid begynder">
+<!ENTITY zoneinfo.daylightsaving.began "Sommertid begyndte">
+<!ENTITY zoneinfo.daylightsaving.ends "Sommertid slutter">
+<!ENTITY zoneinfo.daylightsaving.ended "Sommertid sluttede">
+<!ENTITY zoneinfo.defaultlocation.label "Standard sted">
+<!ENTITY zoneinfo.addas.name.label "Stednavn">
+<!ENTITY zoneinfo.addas.latitude.label "Breddegrad">
+<!ENTITY zoneinfo.addas.longitude.label "Længdegrad">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "Statuslinje/værktøjslinje ur-indstillinger har ingen virkning når MoonClocks er i &apos;ikon&apos; tilstand (se Indstillinger-&gt;Position og udseende faneblad)">
+<!ENTITY zoneinfo.display.showclock.caption "Vis/skjul ur">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Vis ur i statuslinje/værktøjslinje">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "s">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Vis ur i statuslinje/værktøjslinje værktøjstip">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "t">
+<!ENTITY zoneinfo.display.style.caption "Statuslinje/værktøjslinje ur-stil">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Fed">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "F">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Kursiv">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "K">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Understreget">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "U">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Vis flag">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.caption "Statuslinje/værktøjslinje urfarve">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Standard farve">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Aktiver alternativ farve">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "A">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "fra">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "indtil">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "n">
+<!ENTITY zoneinfo.display.flag.caption "Statuslinje/værktøjslinje flag">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Deaktiveret">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "D">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Standard">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "R">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Brugerdefineret">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "B">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Forudindstillede...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "F">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Klik for at vælge forudindstillede flag billeder">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Gennemse...">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "G">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Klik for at finde et brugerdefineret flag">
+<!ENTITY zoneinfo.display.customformat.caption.label "Brugerdefinerede formater (avanceret)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "f.eks. '&lt;l&gt;-&lt;24h&gt;&lt;m&gt;' giver &apos;[Sted]-1523&apos;. Se Indstillinger-&gt;Tidsformat-faneblad for mulige forkortelser">
+<!ENTITY zoneinfo.display.customformat.clock.label "Statuslinje/værktøjslinje ur">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "L">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Statuslinje/værktøjslinje ur værktøjstip">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "K">
+<!ENTITY welcome.title "Velkommen">
+<!ENTITY welcome.header "Velkommen til MoonClocks">
+<!ENTITY welcome.message "MoonClocks viser op til mange ure i programmets statuslinje eller værktøjslinje for hvilken som helst af hundredevis af byer verden over, ved hjælp af en database med tidszoner og sommertidsoplysninger. MoonClocks integrerer sig også med OpenStreetMap (hvis du har det installeret), så du kan hoppe direkte til ethvert sted i MoonClocks database.|Da dette er første gang du bruger MoonClocks, vil du måske konfigurere hvilke ure MoonClocks skal vise. Vi har sørget for en standardliste med steder.|Denne meddelelse vil ikke blive vist fremover; MoonClocks kan tilgås fra Funktioner-menuen, ved at dobbeltklikke på ethver ur, eller ved at klikke på MoonClocks knappen, hvis den er synlig.">
+<!ENTITY welcome.checkbox.launch.label "Start MoonClocks">
+<!ENTITY welcome.checkbox.launch.accesskey "L">
+<!ENTITY welcome.checkbox.openhomepage.label "Åben MoonClocks hjemmeside">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "O">
+<!ENTITY update.title "MoonClocks opdateret">
+<!ENTITY update.thisversion "Denne version:">
+<!ENTITY update.message "Tak for opdateringen af MoonClocks. Du kan læse MoonClocks ændringslog for at se hvad der er af nyheder i denne version.">
+<!ENTITY update.checkbox.launch.label "Se ændringslog">
+<!ENTITY update.checkbox.launch.accesskey "V">
+<!ENTITY about.title "Om MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "aldrig">
+<!ENTITY misc.na "Ikke til rådighed">
+<!ENTITY misc.done "Udført">
+<!ENTITY misc.apply "Anvend">

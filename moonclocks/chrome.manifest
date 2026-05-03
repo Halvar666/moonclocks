@@ -1,0 +1,61 @@
+# Copyright (c) 2015 Andy McDonald. All rights reserved.
+# Please refer to licence.txt for licensing terms.
+
+content	moonclocks					chrome/content/
+skin	moonclocks	classic/1.0		chrome/skin/classic/
+
+override    chrome://moonclocks/skin/icon_small_nr.png	chrome://moonclocks/skin/icon16.png
+override    chrome://moonclocks/skin/icon_normal_nr.png	chrome://moonclocks/skin/icon16.png
+override    chrome://moonclocks/skin/icon_palette_nr.png	chrome://moonclocks/skin/icon32.png
+override    chrome://moonclocks/skin/icon_small_hr.png	chrome://moonclocks/skin/icon32.png
+override    chrome://moonclocks/skin/icon_normal_hr.png	chrome://moonclocks/skin/icon32.png
+override    chrome://moonclocks/skin/icon_palette_hr.png	chrome://moonclocks/skin/icon64.png
+
+
+# https://bugzilla.mozilla.org/show_bug.cgi?id=675372
+#
+# resource	moonclocks				modules/
+# resource	moonclocks-data			data/
+# resource	moonclocks-defaults		defaults/
+
+content	moonclocks-modules			modules/
+content	moonclocks-data				data/
+content	moonclocks-defaults			defaults/
+
+locale	moonclocks	en-US			chrome/locale/en-US/
+locale	moonclocks	en-GB			chrome/locale/en-GB/
+locale	moonclocks	be				chrome/locale/be/
+locale	moonclocks	bg				chrome/locale/bg/
+locale	moonclocks	cs				chrome/locale/cs/
+locale	moonclocks	da				chrome/locale/da/
+locale	moonclocks	de				chrome/locale/de/
+locale	moonclocks	es-ES			chrome/locale/es-ES/
+locale	moonclocks	fr				chrome/locale/fr/
+locale	moonclocks	hu				chrome/locale/hu/
+locale	moonclocks	it				chrome/locale/it/
+locale	moonclocks	ja				chrome/locale/ja/
+locale	moonclocks	ko				chrome/locale/ko/
+locale	moonclocks	mn				chrome/locale/mn/
+locale	moonclocks	nb-NO			chrome/locale/nb-NO/
+locale	moonclocks	nl				chrome/locale/nl/
+locale	moonclocks	pl				chrome/locale/pl/
+locale	moonclocks	pt-BR			chrome/locale/pt-BR/
+locale	moonclocks	ru				chrome/locale/ru/
+locale	moonclocks	sk				chrome/locale/sk/
+locale	moonclocks	sv-SE			chrome/locale/sv-SE/
+locale	moonclocks	tr				chrome/locale/tr/
+locale	moonclocks	uk				chrome/locale/uk/
+locale	moonclocks	zh-CN			chrome/locale/zh-CN/
+locale	moonclocks	zh-TW			chrome/locale/zh-TW/
+
+# Incomplete. BZ: uncomment and set ${locale.incomplete} '' in build.xml
+#
+#locale	moonclocks	bn-IN			chrome/locale/bn-IN/
+#locale	moonclocks	el				chrome/locale/el/
+#locale	moonclocks	es-AR			chrome/locale/es-AR/
+#locale	moonclocks	es-CL			chrome/locale/es-CL/
+#locale	moonclocks	id				chrome/locale/id/
+#locale	moonclocks	is				chrome/locale/is/
+#locale	moonclocks	mk				chrome/locale/mk/
+#locale	moonclocks	te				chrome/locale/te/
+#locale	moonclocks	vi				chrome/locale/vi/

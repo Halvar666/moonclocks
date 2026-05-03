@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zonepicker version="2.0" locale="sk-SK">
+	<Branch name="Afrika">
+		<Branch name="Krajiny">
+			<Leaf zone_id="Africa/Algiers" name="Alžírsko" />
+			<Leaf zone_id="Africa/Luanda" name="Angola" />
+			<Leaf zone_id="Africa/Porto-Novo" name="Benin" />
+			<Leaf zone_id="Africa/Gaborone" name="Botswana" />
+			<Leaf zone_id="Africa/Ouagadougou" name="Burkina Faso" />
+			<Leaf zone_id="Africa/Bujumbura" name="Burundi" />
+			<Leaf zone_id="Africa/Ceuta" name="Ceuta a Melilla" />
+			<Leaf zone_id="Africa/Ndjamena" name="Čad" />
+			<Branch name="Demokratická republika Kongo">
+				<Leaf zone_id="Africa/Lubumbashi" name="Východné Kongo" />
+				<Leaf zone_id="Africa/Kinshasa" name="Západné Kongo" />
+			</Branch>
+			<Leaf zone_id="Africa/Djibouti" name="Džibutsko" />
+			<Leaf zone_id="Africa/Cairo" name="Egypt" />
+			<Leaf zone_id="Africa/Asmera" name="Eritrea" />
+			<Leaf zone_id="Africa/Addis_Ababa" name="Etiópia" />
+			<Leaf zone_id="Africa/Libreville" name="Gabun" />
+			<Leaf zone_id="Africa/Banjul" name="Gambia" />
+			<Leaf zone_id="Africa/Accra" name="Ghana" />
+			<Leaf zone_id="Africa/Conakry" name="Guinea" />
+			<Leaf zone_id="Africa/Bissau" name="Guinea-Bissau" />
+			<Leaf zone_id="Africa/Johannesburg" name="Juhoafrická republika" />
+			<Leaf zone_id="Africa/Douala" name="Kamerun" />
+			<Leaf zone_id="Africa/Nairobi" name="Keňa" />
+			<Leaf zone_id="Africa/Maseru" name="Lesotho" />
+			<Leaf zone_id="Africa/Monrovia" name="Libéria" />
+			<Leaf zone_id="Africa/Tripoli" name="Líbya" />
+			<Leaf zone_id="Indian/Antananarivo" name="Madagaskar" />
+			<Leaf zone_id="Africa/Blantyre" name="Malawi" />
+			<Leaf zone_id="Africa/Bamako" name="Mali" />
+			<Leaf zone_id="Africa/Casablanca" name="Maroko" />
+			<Leaf zone_id="Africa/Nouakchott" name="Mauretánia" />
+			<Leaf zone_id="Africa/Maputo" name="Mozambik" />
+			<Leaf zone_id="Africa/Windhoek" name="Namíbia" />
+			<Leaf zone_id="Africa/Niamey" name="Niger" />
+			<Leaf zone_id="Africa/Lagos" name="Nigéria" />
+			<Leaf zone_id="Africa/Abidjan" name="Pobrežie Slonoviny" />
+			<Leaf zone_id="Africa/Brazzaville" name="Republika Kongo" />
+			<Leaf zone_id="Africa/Malabo" name="Rovníková Guinea" />
+			<Leaf zone_id="Africa/Kigali" name="Rwanda" />
+			<Leaf zone_id="Africa/Dakar" name="Senegal" />
+			<Leaf zone_id="Africa/Freetown" name="Sierra Leone" />
+			<Leaf zone_id="Africa/Mogadishu" name="Somálsko" />
+			<Leaf zone_id="Africa/Bangui" name="Stredoafrická republika" />
+			<Leaf zone_id="Africa/Khartoum" name="Sudán" />
+			<Leaf zone_id="Africa/Sao_Tome" name="Sv. Tomáš a Principe" />
+			<Leaf zone_id="Africa/Mbabane" name="Svazijsko" />
+			<Leaf zone_id="Africa/Dar_es_Salaam" name="Tanzánia" />
+			<Leaf zone_id="Africa/Lome" name="Togo" />
+			<Leaf zone_id="Africa/Tunis" name="Tunisko" />
+			<Leaf zone_id="Africa/Kampala" name="Uganda" />
+			<Leaf zone_id="Africa/Lusaka" name="Zambia" />
+			<Leaf zone_id="Africa/El_Aaiun" name="Západná Sahara" />
+			<Leaf zone_id="Africa/Harare" name="Zimbabwe" />
+		</Branch>
+		<Branch name="Mestá">
+			<Leaf zone_id="Africa/Abidjan" name="Abidjan" />
+			<Leaf zone_id="Africa/Accra" name="Accra" />
+			<Leaf zone_id="Africa/Addis_Ababa" name="Addis Abeba" />
+			<Leaf zone_id="Africa/Algiers" name="Alžír" />
+			<Leaf zone_id="Indian/Antananarivo" name="Antananarivo" />
+			<Leaf zone_id="Africa/Asmera" name="Asmara" />
+			<Leaf zone_id="Africa/Bamako" name="Bamako" />
+			<Leaf zone_id="Africa/Bangui" name="Bangui" />
+			<Leaf zone_id="Africa/Banjul" name="Banjul" />
+			<Leaf zone_id="Africa/Bissau" name="Bissau" />
+			<Leaf zone_id="Africa/Blantyre" name="Blantyre" />
+			<Leaf zone_id="Africa/Brazzaville" name="Brazzaville" />
+			<Leaf zone_id="Africa/Bujumbura" name="Bujumbura" />
+			<Leaf zone_id="Africa/Cairo" name="Cairo" />
+			<Leaf zone_id="Africa/Casablanca" name="Casablanca" />
+			<Leaf zone_id="Africa/Ceuta" name="Ceuta" />
+			<Leaf zone_id="Africa/Conakry" name="Conakry" />
+			<Leaf zone_id="Africa/Dakar" name="Dakar" />
+			<Leaf zone_id="Africa/Dar_es_Salaam" name="Dar es Salaam" />
+			<Leaf zone_id="Africa/Djibouti" name="Džibuti" />
+			<Leaf zone_id="Africa/Douala" name="Douala" />
+			<Leaf zone_id="Africa/El_Aaiun" name="El Aaiún" />
+			<Leaf zone_id="Africa/Freetown" name="Freetown" />
+			<Leaf zone_id="Africa/Gaborone" name="Gaborone" />
+			<Leaf zone_id="Africa/Harare" name="Harare" />
+			<Leaf zone_id="Africa/Khartoum" name="Chartúm" />
+			<Leaf zone_id="Africa/Johannesburg" name="Johannesburg" />
+			<Leaf zone_id="Africa/Kampala" name="Kampala" />
+			<Leaf zone_id="Africa/Johannesburg" name="Kapské Mesto">
+				<Coordinates latitude="-33.925" longitude="18.43" />
+			</Leaf>
+			<Leaf zone_id="Africa/Kigali" name="Kigali" />
+			<Leaf zone_id="Africa/Kinshasa" name="Kinshasa" />
+			<Leaf zone_id="Africa/Lagos" name="Lagos" />
+			<Leaf zone_id="Africa/Libreville" name="Libreville" />
+			<Leaf zone_id="Africa/Lome" name="Lomé" />
+			<Leaf zone_id="Africa/Luanda" name="Luanda" />
+			<Leaf zone_id="Africa/Lubumbashi" name="Lubumbashi" />
+			<Leaf zone_id="Africa/Lusaka" name="Lusaka" />
+			<Leaf zone_id="Africa/Malabo" name="Malabo" />
+			<Leaf zone_id="Africa/Maputo" name="Maputo" />
+			<Leaf zone_id="Africa/Maseru" name="Maseru" />
+			<Leaf zone_id="Africa/Mbabane" name="Mbabane" />
+			<Leaf zone_id="Africa/Mogadishu" name="Mogadišo" />
+			<Leaf zone_id="Africa/Monrovia" name="Monrovia" />
+			<Leaf zone_id="Africa/Nairobi" name="Nairobi" />
+			<Leaf zone_id="Africa/Ndjamena" name="N'Djamena" />
+			<Leaf zone_id="Africa/Niamey" name="Niamey" />
+			<Leaf zone_id="Africa/Nouakchott" name="Nouakchott" />
+			<Leaf zone_id="Africa/Ouagadougou" name="Ouagadougou" />
+			<Leaf zone_id="Africa/Porto-Novo" name="Porto-Novo" />
+			<Leaf zone_id="Africa/Sao_Tome" name="Sao Tomé" />
+			<Leaf zone_id="Africa/Timbuktu" name="Timbuktu" />
+			<Leaf zone_id="Africa/Tripoli" name="Tripolis" />
+			<Leaf zone_id="Africa/Tunis" name="Tunis" />
+			<Leaf zone_id="Africa/Windhoek" name="Windhoek" />
+		</Branch>
+	</Branch>
+	<Branch name="Amerika">
+		<Branch name="Krajiny">
+			<Leaf zone_id="America/Anguilla" name="Anguilla" />
+			<Leaf zone_id="America/Antigua" name="Antigua a Barbuda" />
+			<Branch name="Argentína">
+				<Leaf zone_id="America/Argentina/Cordoba" name="Argentína (väčšia časť)" />
+				<Leaf zone_id="America/Argentina/Buenos_Aires" name="Buenos Aires (BA, CF)" />
+				<Leaf zone_id="America/Argentina/Catamarca" name="Catamarca (CT), Chubut (CH)" />
+				<Leaf zone_id="America/Argentina/Jujuy" name="Jujuy (JY)" />
+				<Leaf zone_id="America/Argentina/La_Rioja" name="La Rioja (LR)" />
+				<Leaf zone_id="America/Argentina/Mendoza" name="Mendoza (MZ)" />
+				<Leaf zone_id="America/Argentina/San_Juan" name="San Juan (SJ)" />
+				<Leaf zone_id="America/Argentina/Rio_Gallegos" name="Santa Cruz (SC)" />
+				<Leaf zone_id="America/Argentina/Ushuaia" name="Tierra del Fuego (TF)" />
+				<Leaf zone_id="America/Argentina/Tucuman" name="Tucumán (TM)" />
+			</Branch>
+			<Leaf zone_id="America/Aruba" name="Aruba" />
+			<Leaf zone_id="America/Nassau" name="Bahamy" />
+			<Leaf zone_id="America/Barbados" name="Barbados" />
+			<Leaf zone_id="America/Belize" name="Belize" />
+			<Leaf zone_id="America/La_Paz" name="Bolívia" />
+			<Branch name="Brazília">
+				<Leaf zone_id="America/Rio_Branco" name="Acre" />
+				<Leaf zone_id="America/Maceio" name="Alagoas, Sergipe" />
+				<Leaf zone_id="America/Belem" name="Amapa, E Para" />
+				<Leaf zone_id="America/Noronha" name="Atlantické ostrovy" />
+				<Leaf zone_id="America/Bahia" name="Bahia" />
+				<Leaf zone_id="America/Manaus" name="E Amazonas" />
+				<Leaf zone_id="America/Sao_Paulo" name="Juž. a JV Brazília" />
+				<Leaf zone_id="America/Cuiaba" name="Mato Grosso" />
+				<Leaf zone_id="America/Campo_Grande" name="Mato Grosso do Sul" />
+				<Leaf zone_id="America/Recife" name="Pernambuco" />
+				<Leaf zone_id="America/Boa_Vista" name="Roraima" />
+				<Leaf zone_id="America/Fortaleza" name="SV Brazília" />
+				<Leaf zone_id="America/Araguaina" name="Tocantins" />
+				<Leaf zone_id="America/Eirunepe" name="Záp. Amazon" />
+				<Leaf zone_id="America/Porto_Velho" name="Záp. Para, Rondonia" />
+			</Branch>
+			<Leaf zone_id="America/Santiago" name="Čile" />
+			<Leaf zone_id="America/Coyhaique" name="Coyhaique" />
+			<Leaf zone_id="America/Punta_Arenas" name="Punta Arenas" />
+			<Leaf zone_id="America/Dominica" name="Dominica" />
+			<Leaf zone_id="America/Santo_Domingo" name="Dominikánska republika" />
+			<Leaf zone_id="America/Guayaquil" name="Ekvádor">
+				<Coordinates latitude="-0.223" longitude="-78.513" />
+			</Leaf>
+			<Leaf zone_id="America/Cayenne" name="Francúzska Guyana" />
+			<Branch name="Grónsko">
+				<Leaf zone_id="America/Godthab" name="Grónsko (väčšia časť)" />
+				<Leaf zone_id="America/Nuuk" name="Nuuk" />
+				<Leaf zone_id="America/Scoresbysund" name="Scoresbysund/Ittoqqortoormiit" />
+				<Leaf zone_id="America/Thule" name="Thule/Pituffik" />
+				<Leaf zone_id="America/Danmarkshavn" name="Vých. pobrežie, sever Scoresbysundu" />
+			</Branch>
+			<Leaf zone_id="America/Grenada" name="Grenada" />
+			<Leaf zone_id="America/Guadeloupe" name="Guadeloupe" />
+			<Leaf zone_id="America/Guatemala" name="Guatemala" />
+			<Leaf zone_id="America/Guyana" name="Guyana" />
+			<Leaf zone_id="America/Port-au-Prince" name="Haiti" />
+			<Leaf zone_id="America/Curacao" name="Holandské Antily" />
+			<Leaf zone_id="America/Tegucigalpa" name="Honduras" />
+			<Leaf zone_id="America/Jamaica" name="Jamajka" />
+			<Leaf zone_id="America/Cayman" name="Kajmanské ostrovy" />
+			<Branch name="Kanada">
+				<Branch name="Atlantický čas">
+					<Leaf zone_id="America/Goose_Bay" name="Labrador" />
+					<Leaf zone_id="America/Moncton" name="New Brunswick" />
+					<Leaf zone_id="America/Halifax" name="NS a PEI" />
+				</Branch>
+				<Branch name="Centrálny štandardný čas">
+					<Leaf zone_id="America/Regina" name="Saskatchewan" />
+				</Branch>
+				<Branch name="Centrálny čas">
+					<Leaf zone_id="America/Winnipeg" name="Manitoba a Záp. ON" />
+					<Leaf zone_id="America/Rankin_Inlet" name="Centrálny Nunavut" />
+				</Branch>
+				<Branch name="Východný čas">
+					<Leaf zone_id="America/Toronto" name="Ontario" />
+					<Leaf zone_id="America/Montreal" name="Quebec" />
+					<Leaf zone_id="America/Iqaluit" name="Vých. Nunavut" />
+				</Branch>
+				<Branch name="Horský čas">
+					<Leaf zone_id="America/Edmonton" name="Alberta, Vých. BC a Záp. SK" />
+					<Leaf zone_id="America/Yellowknife" name="Centrálny NWT" />
+					<Leaf zone_id="America/Cambridge_Bay" name="Záp. Nunavut" />
+					<Leaf zone_id="America/Inuvik" name="Záp. NWT" />
+				</Branch>
+				<Branch name="Newfoundlandský čas">
+					<Leaf zone_id="America/St_Johns" name="NF a JV Labrador" />
+				</Branch>
+				<Branch name="Pacifický čas">
+					<Leaf zone_id="America/Whitehorse" name="Južný Yukon" />
+					<Leaf zone_id="America/Dawson" name="Sev. Yukon" />
+					<Leaf zone_id="America/Vancouver" name="Záp. Britská Kolumbia" />
+				</Branch>
+				<Branch name="Výnimky">
+					<Branch name="Atlantický štandardný čas">
+						<Leaf zone_id="America/Blanc-Sablon" name="QC – Lower N Shore" />
+					</Branch>
+					<Branch name="Atlantický čas">
+						<Leaf zone_id="America/Glace_Bay" name="NS – no DST 1966-1971" />
+					</Branch>
+					<Branch name="Centrálny štandardný čas">
+						<Leaf zone_id="America/Swift_Current" name="Saskatchewan – stredozápad" />
+					</Branch>
+					<Branch name="Centrálny čas">
+						<Leaf zone_id="America/Rainy_River" name="Rainy River a Fort Frances, ON" />
+					</Branch>
+					<Branch name="Východný štandardný čas">
+						<Leaf zone_id="America/Atikokan" name="Atikokan, ON a ostrov Southampton, NU" />
+					</Branch>
+					<Branch name="Východný čas">
+						<Leaf zone_id="America/Nipigon" name="ON a QC – no DST 1967-1973" />
+						<Leaf zone_id="America/Pangnirtung" name="Pangnirtung, NU" />
+						<Leaf zone_id="America/Thunder_Bay" name="Thunder Bay, ON" />
+					</Branch>
+					<Branch name="Horský štandardný čas">
+						<Leaf zone_id="America/Dawson_Creek" name="Dawson Creek a Fort St. John, BC" />
+					</Branch>
+				</Branch>
+			</Branch>
+			<Leaf zone_id="America/Bogota" name="Kolumbia" />
+			<Leaf zone_id="America/Costa_Rica" name="Kostarika" />
+			<Leaf zone_id="America/Havana" name="Kuba" />
+			<Leaf zone_id="America/Martinique" name="Martinik" />
+			<Branch name="Mexiko">
+				<Branch name="Centrálny čas">
+					<Leaf zone_id="America/Merida" name="Campeche, Yucatán" />
+					<Leaf zone_id="America/Monterrey" name="Coahuila, Durango, Nuevo Leon, Tamaulipas" />
+					<Leaf zone_id="America/Cancun" name="Quintana Roo" />
+					<Leaf zone_id="America/Mexico_City" name="Stredné Mexiko (väčšia časť)" />
+				</Branch>
+				<Branch name="Horský štandardný čas">
+					<Leaf zone_id="America/Hermosillo" name="Sonora" />
+				</Branch>
+				<Branch name="Horský čas">
+					<Leaf zone_id="America/Chihuahua" name="Chihuahua" />
+					<Leaf zone_id="America/Ciudad_Juarez" name="Ciudad Juárez" />
+					<Leaf zone_id="America/Mazatlan" name="Juž. Baja, Nayarit, Sinaloa" />
+				</Branch>
+				<Leaf zone_id="America/Tijuana" name="Mexický Pacifik" />
+			</Branch>
+			<Leaf zone_id="America/Montserrat" name="Montserrat" />
+			<Leaf zone_id="America/Managua" name="Nikaragua" />
+			<Leaf zone_id="America/Panama" name="Panama" />
+			<Leaf zone_id="America/Tortola" name="Panenské ostrovy, Britské" />
+			<Leaf zone_id="America/St_Thomas" name="Panenské ostrovy, USA" />
+			<Leaf zone_id="America/Asuncion" name="Paraguaj" />
+			<Leaf zone_id="America/Lima" name="Peru" />
+			<Leaf zone_id="America/Puerto_Rico" name="Portoriko" />
+			<Leaf zone_id="America/El_Salvador" name="Salvádor" />
+			<Leaf zone_id="America/St_Kitts" name="St. Kitts a Nevis" />
+			<Leaf zone_id="America/Miquelon" name="St. Pierre a Miquelon" />
+			<Leaf zone_id="America/St_Lucia" name="Sv. Lucia" />
+			<Leaf zone_id="America/St_Vincent" name="Sv. Vincent" />
+			<Leaf zone_id="America/Paramaribo" name="Surinam" />
+			<Leaf zone_id="America/Port_of_Spain" name="Trinidad a Tobago" />
+			<Leaf zone_id="America/Grand_Turk" name="Turks a Caicos (ostrovy)" />
+			<Branch name="USA">
+				<Branch name="Aljaška">
+					<Leaf zone_id="America/Adak" name="Aleutské ostrovy" />
+					<Leaf zone_id="America/Anchorage" name="Aljaška (väčšia časť)" />
+					<Leaf zone_id="America/Juneau" name="Aljašský pás" />
+					<Leaf zone_id="America/Yakutat" name="Aljašský prieliv" />
+					<Leaf zone_id="America/Nome" name="Záp. Aljaška" />
+				</Branch>
+				<Leaf zone_id="America/Chicago" name="Centrálny čas USA" />
+				<Leaf zone_id="Pacific/Honolulu" name="Havajské ostrovy" />
+				<Leaf zone_id="America/Denver" name="Horský čas USA" />
+				<Leaf zone_id="America/Los_Angeles" name="Pacifický čas USA" />
+				<Leaf zone_id="America/New_York" name="Východný čas USA" />
+				<Branch name="Výnimky">
+					<Branch name="Centrálny čas">
+						<Branch name="Indiana">
+							<Leaf zone_id="America/Indiana/Vincennes" name="Daviess, Dubois, Knox, Martin, Perry a Pulaski Cos" />
+							<Leaf zone_id="America/Indiana/Petersburg" name="Pike Co" />
+						</Branch>
+						<Branch name="Michigan">
+							<Leaf zone_id="America/Menominee" name="Dickinson, Gogebic, Iron a Menominee Cos" />
+						</Branch>
+						<Branch name="Severná Dakota">
+							<Leaf zone_id="America/North_Dakota/New_Salem" name="Morton Co (okrem oblasti Mandan)" />
+							<Leaf zone_id="America/North_Dakota/Center" name="Oliver Co" />
+						</Branch>
+					</Branch>
+					<Branch name="Východný čas">
+						<Branch name="Indiana">
+							<Leaf zone_id="America/Indiana/Marengo" name="Crawford Co" />
+							<Leaf zone_id="America/Indiana/Indianapolis" name="Indiana (väčšia časť)" />
+							<Leaf zone_id="America/Indiana/Knox" name="Starke Co" />
+							<Leaf zone_id="America/Indiana/Vevay" name="Switzerland Co" />
+						</Branch>
+						<Branch name="Kentucky">
+							<Leaf zone_id="America/Kentucky/Louisville" name="Oblasť Louisville" />
+							<Leaf zone_id="America/Kentucky/Monticello" name="Wayne Co" />
+						</Branch>
+						<Leaf zone_id="America/Detroit" name="Michigan (väčšia časť)" />
+					</Branch>
+					<Branch name="Horský čas">
+						<Leaf zone_id="America/Phoenix" name="Arizona" />
+						<Leaf zone_id="America/Shiprock" name="Navajo" />
+						<Leaf zone_id="America/Boise" name="Juž. Idaho a Vých. Oregon" />
+					</Branch>
+				</Branch>
+			</Branch>
+			<Leaf zone_id="America/Montevideo" name="Uruguaj" />
+			<Leaf zone_id="America/Caracas" name="Venezuela" />
+		</Branch>
+		<Branch name="Mestá">
+			<Leaf zone_id="America/Adak" name="Adak" />
+			<Leaf zone_id="America/Anchorage" name="Anchorage" />
+			<Leaf zone_id="America/Araguaina" name="Araguaina" />
+			<Leaf zone_id="America/Asuncion" name="Asunción" />
+			<Leaf zone_id="America/Atikokan" name="Atikokan" />
+			<Leaf zone_id="America/Bahia" name="Bahia" />
+			<Leaf zone_id="America/Guadeloupe" name="Basse-Terre, Guadeloupe" />
+			<Leaf zone_id="America/St_Kitts" name="Basseterre, St. Kitts" />
+			<Leaf zone_id="America/Belem" name="Belem" />
+			<Leaf zone_id="America/Belize" name="Belize City" />
+			<Leaf zone_id="America/Blanc-Sablon" name="Blanc-Sablon" />
+			<Leaf zone_id="America/Boa_Vista" name="Boa Vista" />
+			<Leaf zone_id="America/Bogota" name="Bogota" />
+			<Leaf zone_id="America/Boise" name="Boise" />
+			<Leaf zone_id="America/Barbados" name="Bridgetown" />
+			<Leaf zone_id="America/Argentina/Buenos_Aires" name="Buenos Aires" />
+			<Leaf zone_id="America/Cambridge_Bay" name="Cambridge Bay" />
+			<Leaf zone_id="America/Campo_Grande" name="Campo Grande" />
+			<Leaf zone_id="America/Cancun" name="Cancún" />
+			<Leaf zone_id="America/Caracas" name="Caracas" />
+			<Leaf zone_id="America/Argentina/Catamarca" name="Catamarca" />
+			<Leaf zone_id="America/Cayenne" name="Cayenne" />
+			<Leaf zone_id="America/Grand_Turk" name="Cockburn Town" />
+			<Leaf zone_id="America/Argentina/ComodRivadavia" name="Comodoro Rivadavia" />
+			<Leaf zone_id="America/Argentina/Cordoba" name="Córdoba" />
+			<Leaf zone_id="America/Cuiaba" name="Cuiaba" />
+			<Leaf zone_id="America/Danmarkshavn" name="Danmarkshavn" />
+			<Leaf zone_id="America/Dawson" name="Dawson City" />
+			<Leaf zone_id="America/Dawson_Creek" name="Dawson Creek" />
+			<Leaf zone_id="America/Denver" name="Denver" />
+			<Leaf zone_id="America/Detroit" name="Detroit" />
+			<Leaf zone_id="America/Edmonton" name="Edmonton" />
+			<Leaf zone_id="America/Eirunepe" name="Eirunepe" />
+			<Leaf zone_id="America/Martinique" name="Fort-de-France" />
+			<Leaf zone_id="America/Fortaleza" name="Fortaleza" />
+			<Leaf zone_id="America/Cayman" name="George Town, ostrov Cayman" />
+			<Leaf zone_id="America/Guyana" name="Georgetown, Guyana" />
+			<Leaf zone_id="America/Glace_Bay" name="Glace Bay" />
+			<Leaf zone_id="America/Godthab" name="Godthab" />
+			<Leaf zone_id="America/Nuuk" name="Nuuk" />
+			<Leaf zone_id="America/Goose_Bay" name="Goose Bay" />
+			<Leaf zone_id="America/Guatemala" name="Guatemala City" />
+			<Leaf zone_id="America/Guayaquil" name="Guayaquil" />
+			<Leaf zone_id="America/Halifax" name="Halifax" />
+			<Leaf zone_id="America/Havana" name="Havana" />
+			<Leaf zone_id="America/Hermosillo" name="Hermosillo" />
+			<Leaf zone_id="Pacific/Honolulu" name="Honolulu" />
+			<Leaf zone_id="America/Chicago" name="Chicago" />
+			<Leaf zone_id="America/Chihuahua" name="Chihuahua" />
+			<Leaf zone_id="America/Ciudad_Juarez" name="Ciudad Juárez" />
+			<Branch name="Indiana">
+				<Leaf zone_id="America/Indiana/Indianapolis" name="Indianapolis" />
+				<Leaf zone_id="America/Indiana/Knox" name="Knox" />
+				<Leaf zone_id="America/Indiana/Marengo" name="Marengo" />
+				<Leaf zone_id="America/Indiana/Petersburg" name="Petersburg" />
+				<Leaf zone_id="America/Indiana/Vevay" name="Vevay" />
+				<Leaf zone_id="America/Indiana/Vincennes" name="Vincennes" />
+			</Branch>
+			<Leaf zone_id="America/Indianapolis" name="Indianapolis" />
+			<Leaf zone_id="America/Inuvik" name="Inuvik" />
+			<Leaf zone_id="America/Iqaluit" name="Iqaluit" />
+			<Leaf zone_id="America/Argentina/Jujuy" name="Jujuy" />
+			<Leaf zone_id="America/Juneau" name="Juneau" />
+			<Branch name="Kentucky">
+				<Leaf zone_id="America/Kentucky/Louisville" name="Louisville" />
+				<Leaf zone_id="America/Kentucky/Monticello" name="Monticello" />
+			</Branch>
+			<Leaf zone_id="America/Jamaica" name="Kingston" />
+			<Leaf zone_id="America/La_Paz" name="La Paz" />
+			<Leaf zone_id="America/Argentina/La_Rioja" name="La Rioja" />
+			<Leaf zone_id="America/Lima" name="Lima" />
+			<Leaf zone_id="America/Los_Angeles" name="Los Angeles" />
+			<Leaf zone_id="America/Louisville" name="Louisville" />
+			<Leaf zone_id="America/Maceio" name="Maceio" />
+			<Leaf zone_id="America/Managua" name="Managua" />
+			<Leaf zone_id="America/Manaus" name="Manaus" />
+			<Leaf zone_id="America/Mazatlan" name="Mazatlán" />
+			<Leaf zone_id="America/Argentina/Mendoza" name="Mendoza" />
+			<Leaf zone_id="America/Menominee" name="Menominee" />
+			<Leaf zone_id="America/Merida" name="Mérida" />
+			<Leaf zone_id="America/Mexico_City" name="Mexico City" />
+			<Leaf zone_id="America/Miquelon" name="Miquelon" />
+			<Leaf zone_id="America/Moncton" name="Moncton" />
+			<Leaf zone_id="America/Monterrey" name="Monterrey" />
+			<Leaf zone_id="America/Montevideo" name="Montevideo" />
+			<Leaf zone_id="America/Montreal" name="Montreal" />
+			<Leaf zone_id="America/Nassau" name="Nassau" />
+			<Leaf zone_id="America/New_York" name="New York" />
+			<Leaf zone_id="America/Nipigon" name="Nipigon" />
+			<Leaf zone_id="America/Nome" name="Nome" />
+			<Leaf zone_id="America/Noronha" name="Noronha" />
+			<Branch name="Severná Dakota">
+				<Leaf zone_id="America/North_Dakota/Center" name="Centrálna" />
+				<Leaf zone_id="America/North_Dakota/New_Salem" name="New Salem" />
+			</Branch>
+			<Leaf zone_id="America/Aruba" name="Oranjestad" />
+			<Leaf zone_id="America/Panama" name="Panama City" />
+			<Leaf zone_id="America/Pangnirtung" name="Pangnirtung" />
+			<Leaf zone_id="America/Paramaribo" name="Paramaribo" />
+			<Leaf zone_id="America/Phoenix" name="Phoenix" />
+			<Leaf zone_id="America/Montserrat" name="Plymouth" />
+			<Leaf zone_id="America/Port_of_Spain" name="Port of Spain" />
+			<Leaf zone_id="America/Port-au-Prince" name="Port-au-Prince" />
+			<Leaf zone_id="America/Porto_Velho" name="Porto Velho" />
+			<Leaf zone_id="America/Guayaquil" name="Quito">
+				<Coordinates latitude="-0.223" longitude="-78.513" />
+			</Leaf>
+			<Leaf zone_id="America/Rainy_River" name="Rainy River" />
+			<Leaf zone_id="America/Rankin_Inlet" name="Rankin Inlet" />
+			<Leaf zone_id="America/Recife" name="Recife" />
+			<Leaf zone_id="America/Regina" name="Regina" />
+			<Leaf zone_id="America/Rio_Branco" name="Rio Branco" />
+			<Leaf zone_id="America/Sao_Paulo" name="Rio de Janeiro">
+				<Coordinates latitude="-22.909" longitude="-43.215" />
+			</Leaf>
+			<Leaf zone_id="America/Argentina/Rio_Gallegos" name="Río Gallegos" />
+			<Leaf zone_id="America/Dominica" name="Roseau" />
+			<Leaf zone_id="America/Grenada" name="St. George's" />
+			<Leaf zone_id="America/Antigua" name="St. John's, Antigua" />
+			<Leaf zone_id="America/St_Johns" name="St. John's, Nfld" />
+			<Leaf zone_id="America/St_Lucia" name="Sv. Lucia" />
+			<Leaf zone_id="America/St_Thomas" name="Stv. Tomáš" />
+			<Leaf zone_id="America/St_Vincent" name="Sv. Vincent" />
+			<Leaf zone_id="America/Costa_Rica" name="San José" />
+			<Leaf zone_id="America/Argentina/San_Juan" name="San Juan, Argentína" />
+			<Leaf zone_id="America/Puerto_Rico" name="San Juan, Puerto Rico" />
+			<Leaf zone_id="America/El_Salvador" name="San Salvador" />
+			<Leaf zone_id="America/Santiago" name="Santiago" />
+			<Leaf zone_id="America/Coyhaique" name="Coyhaique" />
+			<Leaf zone_id="America/Punta_Arenas" name="Punta Arenas" />
+			<Leaf zone_id="America/Santo_Domingo" name="Santo Domingo" />
+			<Leaf zone_id="America/Sao_Paulo" name="Sao Paulo" />
+			<Leaf zone_id="America/Scoresbysund" name="Scoresbysund" />
+			<Leaf zone_id="America/Shiprock" name="Shiprock" />
+			<Leaf zone_id="America/Swift_Current" name="Swift Current" />
+			<Leaf zone_id="America/Tegucigalpa" name="Tegucigalpa" />
+			<Leaf zone_id="America/Anguilla" name="The Valley" />
+			<Leaf zone_id="America/Thule" name="Thule" />
+			<Leaf zone_id="America/Thunder_Bay" name="Thunder Bay" />
+			<Leaf zone_id="America/Tijuana" name="Tijuana" />
+			<Leaf zone_id="America/Toronto" name="Toronto" />
+			<Leaf zone_id="America/Tortola" name="Tortola" />
+			<Leaf zone_id="America/Argentina/Tucuman" name="Tucumán" />
+			<Leaf zone_id="America/Argentina/Ushuaia" name="Ushuaia" />
+			<Leaf zone_id="America/Vancouver" name="Vancouver" />
+			<Leaf zone_id="America/New_York" name="Washington, DC">
+				<Coordinates latitude="38.895" longitude="-77.037" />
+			</Leaf>
+			<Leaf zone_id="America/Whitehorse" name="Whitehorse" />
+			<Leaf zone_id="America/Curacao" name="Willemstad" />
+			<Leaf zone_id="America/Winnipeg" name="Winnipeg" />
+			<Leaf zone_id="America/Yakutat" name="Yakutat" />
+			<Leaf zone_id="America/Yellowknife" name="Yellowknife" />
+		</Branch>
+	</Branch>
+	<Branch name="Antarktída">
+		<Leaf zone_id="Antarctica/South_Pole" name="základňa Amundsen-Scott, južný pól" />
+		<Leaf zone_id="Antarctica/Casey" name="základňa Casey, poloostrov Bailey" />
+		<Leaf zone_id="Antarctica/Davis" name="základňa Davis, Vestfold Hills" />
+		<Leaf zone_id="Antarctica/DumontDUrville" name="základňa Dumont d'Urville, Adelina zem" />
+		<Leaf zone_id="Antarctica/Mawson" name="základňa Mawson, záliv Holme" />
+		<Leaf zone_id="Antarctica/McMurdo" name="základňa McMurdo, ostrov Ross" />
+		<Leaf zone_id="Antarctica/Palmer" name="základňa Palmer, ostrov Anvers" />
+		<Leaf zone_id="Antarctica/Rothera" name="základňa Rothera, ostrov Adelaide" />
+		<Leaf zone_id="Antarctica/Syowa" name="základňa Syowa, ostrov Vých. Ongul" />
+		<Leaf zone_id="Antarctica/Vostok" name="základňa Vostok, južný magnetický pól" />
+	</Branch>
+	<Branch name="Arktída">
+		<Branch name="Svalbard a Jan Mayen">
+			<Leaf zone_id="Arctic/Longyearbyen" name="Svalbard" />
+		</Branch>
+	</Branch>
+	<Branch name="Atlantický oceán">
+		<Leaf zone_id="Atlantic/Bermuda" name="Bermudy" />
+		<Leaf zone_id="Atlantic/Faeroe" name="Faerské ostrovy" />
+		<Leaf zone_id="Atlantic/Stanley" name="Falklandské ostrovy" />
+		<Leaf zone_id="Atlantic/Reykjavik" name="Island" />
+		<Leaf zone_id="Atlantic/South_Georgia" name="Juž. Georgia a Južný Sandwichov ostrov" />
+		<Leaf zone_id="Atlantic/Cape_Verde" name="Kapverdské ostrovy" />
+		<Branch name="Portugalsko">
+			<Leaf zone_id="Atlantic/Azores" name="Azorské ostrovy" />
+			<Leaf zone_id="Atlantic/Madeira" name="Madeira" />
+		</Branch>
+		<Leaf zone_id="Atlantic/St_Helena" name="Sv. Helena" />
+		<Branch name="Španielsko">
+			<Leaf zone_id="Atlantic/Canary" name="Kanárske ostrovy" />
+		</Branch>
+		<Branch name="Svalbard a Jan Mayen">
+			<Leaf zone_id="Atlantic/Jan_Mayen" name="Jan Mayen" />
+		</Branch>
+	</Branch>
+	<Branch name="Austrália">
+		<Branch name="Štáty">
+			<Leaf zone_id="Australia/Adelaide" name="Juž. Austrália" />
+			<Leaf zone_id="Australia/Lord_Howe" name="Lord Howe I" />
+			<Leaf zone_id="Australia/Sydney" name="NSW" />
+			<Leaf zone_id="Australia/Broken_Hill" name="NSW – Yancowinna" />
+			<Leaf zone_id="Australia/Brisbane" name="Queensland" />
+			<Leaf zone_id="Australia/Lindeman" name="Queensland – ostrov Holiday" />
+			<Leaf zone_id="Australia/Darwin" name="Severné tetitórium" />
+			<Leaf zone_id="Australia/Hobart" name="Tasmánia" />
+			<Leaf zone_id="Australia/Currie" name="Tasmánia – ostrov King" />
+			<Leaf zone_id="Australia/Melbourne" name="Victoria" />
+			<Leaf zone_id="Australia/Perth" name="Záp. Austrália" />
+		</Branch>
+		<Branch name="Mestá">
+			<Leaf zone_id="Australia/Adelaide" name="Adelaide" />
+			<Leaf zone_id="Australia/Brisbane" name="Brisbane" />
+			<Leaf zone_id="Australia/Broken_Hill" name="Broken Hill" />
+			<Leaf zone_id="Australia/Sydney" name="Canberra">
+				<Coordinates latitude="-35.308" longitude="149.124" />
+			</Leaf>
+			<Leaf zone_id="Australia/Currie" name="Currie" />
+			<Leaf zone_id="Australia/Darwin" name="Darwin" />
+			<Leaf zone_id="Australia/Hobart" name="Hobart" />
+			<Leaf zone_id="Australia/Lindeman" name="Lindeman I" />
+			<Leaf zone_id="Australia/Lord_Howe" name="Lord Howe I" />
+			<Leaf zone_id="Australia/Melbourne" name="Melbourne" />
+			<Leaf zone_id="Australia/Perth" name="Perth" />
+			<Leaf zone_id="Australia/Sydney" name="Sydney" />
+		</Branch>
+	</Branch>
+	<Branch name="Ázia">
+		<Branch name="Krajiny">
+			<Leaf zone_id="Asia/Kabul" name="Afganistan" />
+			<Leaf zone_id="Asia/Yerevan" name="Arménsko" />
+			<Leaf zone_id="Asia/Baku" name="Azerbajdžan" />
+			<Leaf zone_id="Asia/Bahrain" name="Bahrajn" />
+			<Leaf zone_id="Asia/Dhaka" name="Bangladéš" />
+			<Leaf zone_id="Asia/Thimphu" name="Bhután" />
+			<Leaf zone_id="Asia/Brunei" name="Brunej" />
+			<Leaf zone_id="Asia/Nicosia" name="Cyprus" />
+			<Leaf zone_id="Asia/Shanghai" name="Čína">
+				<Coordinates latitude="39.904" longitude="116.391" />
+			</Leaf>
+			<Branch name="Čína (historická)">
+				<Leaf zone_id="Asia/Chongqing" name="Centrálna Čína" />
+				<Leaf zone_id="Asia/Harbin" name="Heilongjiang (okrem Mohe), Jilin" />
+				<Leaf zone_id="Asia/Urumqi" name="Tibet a Xinjiang (väčšia časť)" />
+				<Leaf zone_id="Asia/Kashgar" name="Záp. Tibet a Xinjiang" />
+			</Branch>
+			<Leaf zone_id="Asia/Manila" name="Filipíny" />
+			<Leaf zone_id="Asia/Tbilisi" name="Gruzínsko" />
+			<Leaf zone_id="Asia/Hong_Kong" name="Hong Kong" />
+			<Leaf zone_id="Asia/Kolkata" name="India">
+				<Coordinates latitude="28.633" longitude="77.217" />
+			</Leaf>
+			<Branch name="Indonézia">
+				<Leaf zone_id="Asia/Jayapura" name="Irian Jaya a Molucké ostrovy" />
+				<Leaf zone_id="Asia/Jakarta" name="Jáva a Sumatra" />
+				<Leaf zone_id="Asia/Makassar" name="Vých. a Juž. Borneo, Sulawesi, Bali a Východ" />
+				<Leaf zone_id="Asia/Pontianak" name="Záp. a Centrálne Borneo" />
+			</Branch>
+			<Leaf zone_id="Asia/Baghdad" name="Irak" />
+			<Leaf zone_id="Asia/Tehran" name="Irán" />
+			<Leaf zone_id="Asia/Jerusalem" name="Izrael" />
+			<Leaf zone_id="Asia/Tokyo" name="Japonsko" />
+			<Leaf zone_id="Asia/Aden" name="Jemen">
+				<Coordinates latitude="15.352" longitude="44.207" />
+			</Leaf>
+			<Leaf zone_id="Asia/Amman" name="Jordánsko" />
+			<Leaf zone_id="Asia/Phnom_Penh" name="Kambodža" />
+			<Leaf zone_id="Asia/Qatar" name="Katar" />
+			<Branch name="Kazachstan">
+				<Leaf zone_id="Asia/Almaty" name="Kazachstan (väčšia časť)" />
+				<Leaf zone_id="Asia/Aqtobe" name="Aqtobe" />
+				<Leaf zone_id="Asia/Aqtau" name="Atyrau, Mangghystau" />
+				<Leaf zone_id="Asia/Atyrau" name="Atyrau" />
+				<Leaf zone_id="Asia/Qostanay" name="Qostanay" />
+				<Leaf zone_id="Asia/Qyzylorda" name="Qyzylorda" />
+				<Leaf zone_id="Asia/Oral" name="Záp. Kazachstan" />
+			</Branch>
+			<Leaf zone_id="Asia/Bishkek" name="Kirgizsko" />
+			<Leaf zone_id="Asia/Seoul" name="Kórea, južná" />
+			<Leaf zone_id="Asia/Pyongyang" name="Kórea, severná" />
+			<Leaf zone_id="Asia/Kuwait" name="Kuvajt" />
+			<Leaf zone_id="Asia/Vientiane" name="Laos" />
+			<Leaf zone_id="Asia/Beirut" name="Libanon" />
+			<Leaf zone_id="Asia/Macau" name="Macao" />
+			<Branch name="Malajzia">
+				<Leaf zone_id="Asia/Kuala_Lumpur" name="Malajský poloostrov" />
+				<Leaf zone_id="Asia/Kuching" name="Sabah a Sarawak" />
+			</Branch>
+			<Leaf zone_id="Asia/Rangoon" name="Mjanmarsko (Barma)" />
+			<Leaf zone_id="Asia/Yangon" name="Yangon" />
+			<Branch name="Mongolsko">
+				<Leaf zone_id="Asia/Ulaanbaatar" name="Mongolsko (väčšia časť)" />
+				<Leaf zone_id="Asia/Hovd" name="Bayan-Olgiy, Hovd atď." />
+				<Leaf zone_id="Asia/Choibalsan" name="Dornod, Sukhbaatar" />
+			</Branch>
+			<Leaf zone_id="Asia/Kathmandu" name="Nepál" />
+			<Leaf zone_id="Asia/Muscat" name="Omán" />
+			<Leaf zone_id="Asia/Karachi" name="Pakistan" />
+			<Leaf zone_id="Asia/Gaza" name="Palestína" />
+			<Branch name="Rusko">
+				<Leaf zone_id="Asia/Yekaterinburg" name="Moskva +02 – Ural" />
+				<Leaf zone_id="Asia/Novosibirsk" name="Moskva +03 – Novosibirsk" />
+				<Leaf zone_id="Asia/Tomsk" name="Tomsk" />
+				<Leaf zone_id="Asia/Omsk" name="Moskva +03 – Záp. Sibír" />
+				<Leaf zone_id="Asia/Krasnoyarsk" name="Moskva +04 – Jenisej" />
+				<Leaf zone_id="Asia/Irkutsk" name="Moskva +05 – Bajkalské jazero" />
+				<Leaf zone_id="Asia/Yakutsk" name="Moskva +06 – Lena" />
+				<Leaf zone_id="Asia/Vladivostok" name="Moskva +07 – Amur" />
+				<Leaf zone_id="Asia/Sakhalin" name="Moskva +07 – ostrov Sachalín" />
+				<Leaf zone_id="Asia/Magadan" name="Moskva +08 – Magadan" />
+				<Leaf zone_id="Asia/Kamchatka" name="Moskva +09 – Kamčatka" />
+				<Leaf zone_id="Asia/Anadyr" name="Moskva +10 – Beringove more" />
+			</Branch>
+			<Leaf zone_id="Asia/Riyadh" name="Saudská Arábia" />
+			<Leaf zone_id="Asia/Singapore" name="Singapur" />
+			<Leaf zone_id="Asia/Dubai" name="Spojené arabské emiráty" />
+			<Leaf zone_id="Asia/Colombo" name="Srí Lanka" />
+			<Leaf zone_id="Asia/Damascus" name="Sýria" />
+			<Leaf zone_id="Asia/Dushanbe" name="Tadžikistan" />
+			<Leaf zone_id="Asia/Bangkok" name="Thajsko" />
+			<Leaf zone_id="Asia/Taipei" name="Taiwan" />
+			<Leaf zone_id="Asia/Ashgabat" name="Turkménsko" />
+			<Branch name="Uzbekistan">
+				<Leaf zone_id="Asia/Tashkent" name="Vých. Uzbekistan" />
+				<Leaf zone_id="Asia/Samarkand" name="Záp. Uzbekistan" />
+			</Branch>
+			<Leaf zone_id="Asia/Ho_Chi_Minh" name="Vietnam" />
+			<Leaf zone_id="Asia/Dili" name="Východný Timor" />
+		</Branch>
+		<Branch name="Mestá">
+			<Leaf zone_id="Asia/Aden" name="Aden" />
+			<Leaf zone_id="Asia/Almaty" name="Alma-Ata" />
+			<Leaf zone_id="Asia/Amman" name="Amman" />
+			<Leaf zone_id="Asia/Anadyr" name="Anadyr" />
+			<Leaf zone_id="Asia/Aqtau" name="Aqtau" />
+			<Leaf zone_id="Asia/Atyrau" name="Atyrau" />
+			<Leaf zone_id="Asia/Qostanay" name="Qostanay" />
+			<Leaf zone_id="Asia/Aqtobe" name="Aqtobe" />
+			<Leaf zone_id="Asia/Ashgabat" name="Ašchabad" />
+			<Leaf zone_id="Asia/Baghdad" name="Bagdad" />
+			<Leaf zone_id="Asia/Baku" name="Baku" />
+			<Leaf zone_id="Asia/Brunei" name="Bandar Seri Begawan" />
+			<Leaf zone_id="Asia/Bangkok" name="Bangkok" />
+			<Leaf zone_id="Asia/Shanghai" name="Beijing">
+				<Coordinates latitude="39.904" longitude="116.391" />
+			</Leaf>
+			<Leaf zone_id="Asia/Beirut" name="Bejrút" />
+			<Leaf zone_id="Asia/Bishkek" name="Biškek" />
+			<Leaf zone_id="Asia/Kolkata" name="Bombaj">
+				<Coordinates latitude="19.032" longitude="72.849" />
+			</Leaf>
+			<Leaf zone_id="Asia/Choibalsan" name="Choibalsan" />
+			<Leaf zone_id="Asia/Chongqing" name="Chongqing" />
+			<Leaf zone_id="Asia/Colombo" name="Colombo" />
+			<Leaf zone_id="Asia/Damascus" name="Damašk" />
+			<Leaf zone_id="Asia/Dhaka" name="Dháka" />
+			<Leaf zone_id="Asia/Dili" name="Dilí" />
+			<Leaf zone_id="Asia/Qatar" name="Doha" />
+			<Leaf zone_id="Asia/Dubai" name="Dubaj" />
+			<Leaf zone_id="Asia/Dushanbe" name="Dušanbe" />
+			<Leaf zone_id="Asia/Gaza" name="Gaza" />
+			<Leaf zone_id="Asia/Harbin" name="Harbin" />
+			<Leaf zone_id="Asia/Hong_Kong" name="Hong Kong" />
+			<Leaf zone_id="Asia/Hovd" name="Hovd" />
+			<Leaf zone_id="Asia/Irkutsk" name="Irkutsk" />
+			<Leaf zone_id="Asia/Istanbul" name="Istanbul" />
+			<Leaf zone_id="Asia/Jakarta" name="Jakarta" />
+			<Leaf zone_id="Asia/Yakutsk" name="Jakutsk" />
+			<Leaf zone_id="Asia/Jayapura" name="Jayapura" />
+			<Leaf zone_id="Asia/Yekaterinburg" name="Jekaterinburg" />
+			<Leaf zone_id="Asia/Yerevan" name="Jerevan" />
+			<Leaf zone_id="Asia/Jerusalem" name="Jeruzalem" />
+			<Leaf zone_id="Asia/Sakhalin" name="Južno-Sachalinsk" />
+			<Leaf zone_id="Asia/Kabul" name="Kábul" />
+			<Leaf zone_id="Asia/Karachi" name="Karáčí" />
+			<Leaf zone_id="Asia/Kashgar" name="Kashgar" />
+			<Leaf zone_id="Asia/Kathmandu" name="Káthmandú" />
+			<Leaf zone_id="Asia/Kolkata" name="Kalkata" />
+			<Leaf zone_id="Asia/Krasnoyarsk" name="Krasnojarsk" />
+			<Leaf zone_id="Asia/Kuala_Lumpur" name="Kuala Lumpur" />
+			<Leaf zone_id="Asia/Kuching" name="Kuching" />
+			<Leaf zone_id="Asia/Kuwait" name="Kuwait City" />
+			<Leaf zone_id="Asia/Macau" name="Macao" />
+			<Leaf zone_id="Asia/Magadan" name="Magadan" />
+			<Leaf zone_id="Asia/Makassar" name="Makassar" />
+			<Leaf zone_id="Asia/Bahrain" name="Manama" />
+			<Leaf zone_id="Asia/Manila" name="Manila" />
+			<Leaf zone_id="Asia/Muscat" name="Muscat" />
+			<Leaf zone_id="Asia/Nicosia" name="Nikózia" />
+			<Leaf zone_id="Asia/Kolkata" name="Nové Dilí">
+				<Coordinates latitude="28.633" longitude="77.217" />
+			</Leaf>
+			<Leaf zone_id="Asia/Novosibirsk" name="Novosibirsk" />
+			<Leaf zone_id="Asia/Tomsk" name="Tomsk" />
+			<Leaf zone_id="Asia/Omsk" name="Omsk" />
+			<Leaf zone_id="Asia/Oral" name="Oral" />
+			<Leaf zone_id="Asia/Kamchatka" name="Petropavlovsk-Kamčatskyj" />
+			<Leaf zone_id="Asia/Phnom_Penh" name="Phnom Penh" />
+			<Leaf zone_id="Asia/Pontianak" name="Pontianak" />
+			<Leaf zone_id="Asia/Pyongyang" name="Pyongyang" />
+			<Leaf zone_id="Asia/Qyzylorda" name="Qyzylorda" />
+			<Leaf zone_id="Asia/Rangoon" name="Rangún" />
+			<Leaf zone_id="Asia/Yangon" name="Yangon" />
+			<Leaf zone_id="Asia/Riyadh" name="Riyadh" />
+			<Leaf zone_id="Asia/Ho_Chi_Minh" name="Sajgon" />
+			<Leaf zone_id="Asia/Samarkand" name="Samarkand" />
+			<Leaf zone_id="Asia/Aden" name="Saná">
+				<Coordinates latitude="15.352" longitude="44.207" />
+			</Leaf>
+			<Leaf zone_id="Asia/Seoul" name="Soul" />
+			<Leaf zone_id="Asia/Singapore" name="Singapur" />
+			<Leaf zone_id="Asia/Shanghai" name="Šanghaj" />
+			<Leaf zone_id="Asia/Taipei" name="Taipei" />
+			<Leaf zone_id="Asia/Tashkent" name="Taškent" />
+			<Leaf zone_id="Asia/Tbilisi" name="Tbilisi" />
+			<Leaf zone_id="Asia/Tehran" name="Teherán" />
+			<Leaf zone_id="Asia/Thimphu" name="Thimphu" />
+			<Leaf zone_id="Asia/Tokyo" name="Tokio" />
+			<Leaf zone_id="Asia/Ulaanbaatar" name="Ulanbátar" />
+			<Leaf zone_id="Asia/Urumqi" name="Ürümqi" />
+			<Leaf zone_id="Asia/Vientiane" name="Vientiane" />
+			<Leaf zone_id="Asia/Vladivostok" name="Vladivostok" />
+		</Branch>
+	</Branch>
+	<Branch name="Európa">
+		<Branch name="Krajiny">
+			<Leaf zone_id="Europe/Mariehamn" name="Aland (ostrov)" />
+			<Leaf zone_id="Europe/Tirane" name="Albánsko" />
+			<Leaf zone_id="Europe/Andorra" name="Andorra" />
+			<Leaf zone_id="Europe/Brussels" name="Belgicko" />
+			<Leaf zone_id="Europe/Minsk" name="Bielorusko" />
+			<Leaf zone_id="Europe/Sarajevo" name="Bosna a Hercegovina" />
+			<Leaf zone_id="Europe/Sofia" name="Bulharsko" />
+			<Leaf zone_id="Europe/Prague" name="Česká republika" />
+			<Leaf zone_id="Europe/Podgorica" name="Čierna Hora" />
+			<Leaf zone_id="Europe/Copenhagen" name="Dánsko" />
+			<Leaf zone_id="Europe/Tallinn" name="Estónsko" />
+			<Leaf zone_id="Europe/Helsinki" name="Fínsko" />
+			<Leaf zone_id="Europe/Paris" name="Francúzsko" />
+			<Leaf zone_id="Europe/Gibraltar" name="Gibraltár" />
+			<Leaf zone_id="Europe/Athens" name="Grécko" />
+			<Leaf zone_id="Europe/Guernsey" name="Guernsey" />
+			<Leaf zone_id="Europe/Amsterdam" name="Holandsko" />
+			<Leaf zone_id="Europe/Zagreb" name="Chorvátsko" />
+			<Leaf zone_id="Europe/Dublin" name="Írsko" />
+			<Leaf zone_id="Atlantic/Reykjavik" name="Island" />
+			<Leaf zone_id="Europe/Jersey" name="Jersey" />
+			<Leaf zone_id="Europe/Vaduz" name="Lichtenštajnsko" />
+			<Leaf zone_id="Europe/Vilnius" name="Litva" />
+			<Leaf zone_id="Europe/Riga" name="Lotyšsko" />
+			<Leaf zone_id="Europe/Luxembourg" name="Luxembursko" />
+			<Leaf zone_id="Europe/Berlin" name="Nemecko" />
+			<Leaf zone_id="Europe/Skopje" name="Macedónsko" />
+			<Leaf zone_id="Europe/Budapest" name="Maďarsko" />
+			<Leaf zone_id="Europe/Malta" name="Malta" />
+			<Leaf zone_id="Europe/Isle_of_Man" name="Man (ostrov)" />
+			<Leaf zone_id="Europe/Chisinau" name="Moldavsko" />
+			<Leaf zone_id="Europe/Monaco" name="Monako" />
+			<Leaf zone_id="Europe/Oslo" name="Nórsko" />
+			<Leaf zone_id="Europe/Warsaw" name="Poľsko" />
+			<Leaf zone_id="Europe/Lisbon" name="Portugalsko" />
+			<Leaf zone_id="Europe/Vienna" name="Rakúsko" />
+			<Leaf zone_id="Europe/Bucharest" name="Rumunsko" />
+			<Branch name="Rusko">
+				<Leaf zone_id="Europe/Volgograd" name="Moskva +00 – Kaspické more" />
+				<Leaf zone_id="Europe/Kirov" name="Kirov" />
+				<Leaf zone_id="Europe/Saratov" name="Saratov" />
+				<Leaf zone_id="Europe/Moscow" name="Moskva +00 – Záp. Rusko" />
+				<Leaf zone_id="Europe/Samara" name="Moskva +01 – Samara, Udmurtia" />
+				<Leaf zone_id="Europe/Kaliningrad" name="Moskva -01 – Kaliningrad" />
+			</Branch>
+			<Leaf zone_id="Europe/San_Marino" name="San Maríno" />
+			<Leaf zone_id="Europe/Bratislava" name="Slovensko" />
+			<Leaf zone_id="Europe/Ljubljana" name="Slovinsko" />
+			<Leaf zone_id="Europe/London" name="Spojené kráľovstvo (UK)" />
+			<Leaf zone_id="Europe/Belgrade" name="Srbsko" />
+			<Leaf zone_id="Europe/Madrid" name="Španielsko" />
+			<Leaf zone_id="Europe/Zurich" name="Švajčiarsko" />
+			<Leaf zone_id="Europe/Stockholm" name="Švédsko" />
+			<Leaf zone_id="Europe/Rome" name="Taliansko" />
+			<Leaf zone_id="Europe/Istanbul" name="Turecko" />
+			<Branch name="Ukrajina">
+				<Leaf zone_id="Europe/Simferopol" name="Centrálny Krym" />
+				<Leaf zone_id="Europe/Uzhgorod" name="Rusínsko" />
+				<Leaf zone_id="Europe/Kyiv" name="Ukrajina (väčšia časť)" />
+				<Leaf zone_id="Europe/Zaporozhye" name="Zaporožie, Vých. Luhansk" />
+			</Branch>
+			<Leaf zone_id="Europe/Vatican" name="Vatikán" />
+		</Branch>
+		<Branch name="Mestá">
+			<Leaf zone_id="Europe/Amsterdam" name="Amsterdam" />
+			<Leaf zone_id="Europe/Andorra" name="Andorra la Vella" />
+			<Leaf zone_id="Europe/Athens" name="Atény" />
+			<Leaf zone_id="Europe/Madrid" name="Barcelona">
+				<Coordinates latitude="41.388" longitude="2.17" />
+			</Leaf>
+			<Leaf zone_id="Europe/Belgrade" name="Belehrad" />
+			<Leaf zone_id="Europe/Belfast" name="Belfast" />
+			<Leaf zone_id="Europe/Berlin" name="Berlín" />
+			<Leaf zone_id="Europe/Bratislava" name="Bratislava" />
+			<Leaf zone_id="Europe/Brussels" name="Brusel" />
+			<Leaf zone_id="Europe/Budapest" name="Budapešť" />
+			<Leaf zone_id="Europe/Bucharest" name="Bukurešť" />
+			<Leaf zone_id="Europe/Isle_of_Man" name="Douglas" />
+			<Leaf zone_id="Europe/Dublin" name="Dublin" />
+			<Leaf zone_id="Europe/Gibraltar" name="Gibraltar" />
+			<Leaf zone_id="Europe/Helsinki" name="Helsinki" />
+			<Leaf zone_id="Europe/Istanbul" name="Istanbul" />
+			<Leaf zone_id="Europe/Kaliningrad" name="Kaliningrad" />
+			<Leaf zone_id="Europe/Chisinau" name="Kišiňov" />
+			<Leaf zone_id="Europe/Copenhagen" name="Kodaň" />
+			<Leaf zone_id="Europe/Kyiv" name="Kyiv" />
+			<Leaf zone_id="Europe/Lisbon" name="Lisabon" />
+			<Leaf zone_id="Europe/Ljubljana" name="Ljubljana" />
+			<Leaf zone_id="Europe/London" name="Londýn" />
+			<Leaf zone_id="Europe/Luxembourg" name="Luxembourg City" />
+			<Leaf zone_id="Europe/Madrid" name="Madrid" />
+			<Leaf zone_id="Europe/Malta" name="Malta" />
+			<Leaf zone_id="Europe/Mariehamn" name="Mariehamn" />
+			<Leaf zone_id="Europe/Minsk" name="Minsk" />
+			<Leaf zone_id="Europe/Monaco" name="Monte Carlo" />
+			<Leaf zone_id="Europe/Moscow" name="Moskva" />
+			<Leaf zone_id="Europe/Nicosia" name="Nikózia" />
+			<Leaf zone_id="Asia/Famagusta" name="Famagusta" />
+			<Leaf zone_id="Europe/Oslo" name="Oslo" />
+			<Leaf zone_id="Europe/Paris" name="Paríž" />
+			<Leaf zone_id="Europe/Podgorica" name="Podgorica" />
+			<Leaf zone_id="Europe/Prague" name="Praha" />
+			<Leaf zone_id="Atlantic/Reykjavik" name="Reykjavík" />
+			<Leaf zone_id="Europe/Riga" name="Riga" />
+			<Leaf zone_id="Europe/Rome" name="Rím" />
+			<Leaf zone_id="Europe/Samara" name="Samara" />
+			<Leaf zone_id="Europe/San_Marino" name="San Marino" />
+			<Leaf zone_id="Europe/Sarajevo" name="Sarajevo" />
+			<Leaf zone_id="Europe/Simferopol" name="Simferopol" />
+			<Leaf zone_id="Europe/Skopje" name="Skopje" />
+			<Leaf zone_id="Europe/Sofia" name="Sofia" />
+			<Leaf zone_id="Europe/Jersey" name="St. Helier" />
+			<Leaf zone_id="Europe/Guernsey" name="St. Peter Port" />
+			<Leaf zone_id="Europe/Stockholm" name="Štokholm" />
+			<Leaf zone_id="Europe/Tallinn" name="Tallinn" />
+			<Leaf zone_id="Europe/Tirane" name="Tirana" />
+			<Leaf zone_id="Europe/Uzhgorod" name="Užhorod" />
+			<Leaf zone_id="Europe/Vaduz" name="Vaduz" />
+			<Leaf zone_id="Europe/Warsaw" name="Varšava" />
+			<Leaf zone_id="Europe/Vatican" name="Vatikán" />
+			<Leaf zone_id="Europe/Vienna" name="Viedeň" />
+			<Leaf zone_id="Europe/Vilnius" name="Vilnius" />
+			<Leaf zone_id="Europe/Volgograd" name="Volgograd" />
+			<Leaf zone_id="Europe/Kirov" name="Kirov" />
+			<Leaf zone_id="Europe/Saratov" name="Saratov" />
+			<Leaf zone_id="Europe/Zagreb" name="Záhreb" />
+			<Leaf zone_id="Europe/Zaporozhye" name="Zaporožie" />
+			<Leaf zone_id="Europe/Zurich" name="Zurich" />
+		</Branch>
+	</Branch>
+	<Branch name="Indický oceán">
+		<Leaf zone_id="Indian/Chagos" name="Britské teritórium Indického oceánu" />
+		<Leaf zone_id="Indian/Kerguelen" name="Fr. Southern a Antarktická oblasť" />
+		<Leaf zone_id="Indian/Cocos" name="Kokosové ostrovy" />
+		<Leaf zone_id="Indian/Comoro" name="Komory" />
+		<Leaf zone_id="Indian/Maldives" name="Maldivy" />
+		<Leaf zone_id="Indian/Mauritius" name="Maurícius" />
+		<Leaf zone_id="Indian/Mayotte" name="Mayotte" />
+		<Leaf zone_id="Indian/Reunion" name="Réunion" />
+		<Leaf zone_id="Indian/Mahe" name="Seychely" />
+		<Leaf zone_id="Indian/Christmas" name="Vianočné ostrovy" />
+	</Branch>
+	<Branch name="Tichý oceán">
+		<Branch name="Krajiny">
+			<Leaf zone_id="Pacific/Rarotonga" name="Cookove ostrovy" />
+			<Branch name="Čile">
+				<Leaf zone_id="Pacific/Easter" name="Veľkonočný ostrov a Sala y Gómez" />
+			</Branch>
+			<Branch name="Ekvádor">
+				<Leaf zone_id="Pacific/Galapagos" name="Galapágy" />
+			</Branch>
+			<Leaf zone_id="Pacific/Fiji" name="Fidži" />
+			<Branch name="Francúzska Polynézia">
+				<Leaf zone_id="Pacific/Gambier" name="ostrov Gambier" />
+				<Leaf zone_id="Pacific/Marquesas" name="Markézy" />
+				<Leaf zone_id="Pacific/Tahiti" name="ostrov Society" />
+			</Branch>
+			<Leaf zone_id="Pacific/Guam" name="Guam" />
+			<Branch name="Kiribati">
+				<Leaf zone_id="Pacific/Tarawa" name="ostrov Gilbert" />
+				<Leaf zone_id="Pacific/Kiritimati" name="ostrov Line" />
+				<Leaf zone_id="Pacific/Enderbury" name="ostrov Phoenix" />
+				<Leaf zone_id="Pacific/Kanton" name="Kanton" />
+			</Branch>
+			<Branch name="Marshallove ostrovy">
+				<Leaf zone_id="Pacific/Kwajalein" name="Kwajalein" />
+				<Leaf zone_id="Pacific/Majuro" name="Marshallove ostrovy (väčšia časť)" />
+			</Branch>
+			<Branch name="Menšie odľahlé ostrovy USA">
+				<Leaf zone_id="Pacific/Johnston" name="atol Johnston" />
+				<Leaf zone_id="Pacific/Midway" name="ostrov Midway" />
+				<Leaf zone_id="Pacific/Wake" name="ostrov Wake" />
+			</Branch>
+			<Branch name="Mikronézia">
+				<Leaf zone_id="Pacific/Kosrae" name="Kosrae" />
+				<Leaf zone_id="Pacific/Pohnpei" name="Pohnpei" />
+				<Leaf zone_id="Pacific/Chuuk" name="Chuuk a Yap" />
+			</Branch>
+			<Leaf zone_id="Pacific/Nauru" name="Nauru" />
+			<Leaf zone_id="Pacific/Niue" name="Niue" />
+			<Leaf zone_id="Pacific/Norfolk" name="Norfolk (ostrov)" />
+			<Leaf zone_id="Pacific/Noumea" name="Nová Kaledónia" />
+			<Leaf zone_id="Pacific/Auckland" name="Nový Zéland" />
+			<Leaf zone_id="Pacific/Chatham" name="Nový Zéland – ostrov Chatham" />
+			<Leaf zone_id="Pacific/Palau" name="Palau" />
+			<Leaf zone_id="Pacific/Port_Moresby" name="Papua Nová Guinea" />
+			<Leaf zone_id="Pacific/Pitcairn" name="Pitcairn (ostrov)" />
+			<Leaf zone_id="Pacific/Pago_Pago" name="Samoa, Americká" />
+			<Leaf zone_id="Pacific/Apia" name="Samoa, Západná" />
+			<Leaf zone_id="Pacific/Saipan" name="Sev. Mariana (ostrov)" />
+			<Leaf zone_id="Pacific/Guadalcanal" name="Šalamúnove ostrovy" />
+			<Leaf zone_id="Pacific/Fakaofo" name="Tokelau" />
+			<Leaf zone_id="Pacific/Tongatapu" name="Tonga" />
+			<Leaf zone_id="Pacific/Funafuti" name="Tuvalu" />
+			<Leaf zone_id="Pacific/Efate" name="Vanuatu" />
+			<Leaf zone_id="Pacific/Wallis" name="Wallis a Futuna" />
+		</Branch>
+		<Branch name="Mestá">
+			<Leaf zone_id="Pacific/Niue" name="Alofi" />
+			<Leaf zone_id="Pacific/Apia" name="Apia" />
+			<Leaf zone_id="Pacific/Auckland" name="Auckland" />
+			<Leaf zone_id="Pacific/Rarotonga" name="Avarua" />
+			<Leaf zone_id="Pacific/Funafuti" name="Funafuti" />
+			<Leaf zone_id="Pacific/Guadalcanal" name="Honiara" />
+			<Leaf zone_id="Pacific/Kiritimati" name="Kiritimati" />
+			<Leaf zone_id="Pacific/Majuro" name="Majuro" />
+			<Leaf zone_id="Pacific/Palau" name="Melekeok" />
+			<Leaf zone_id="Pacific/Noumea" name="Nouméa" />
+			<Leaf zone_id="Pacific/Tongatapu" name="Nuku'alofa" />
+			<Leaf zone_id="Pacific/Pago_Pago" name="Pago Pago" />
+			<Leaf zone_id="Pacific/Tahiti" name="Papeete" />
+			<Leaf zone_id="Pacific/Port_Moresby" name="Port Moresby" />
+			<Leaf zone_id="Pacific/Efate" name="Port Vila" />
+			<Leaf zone_id="Pacific/Saipan" name="Saipan" />
+			<Leaf zone_id="Pacific/Tarawa" name="South Tarawa" />
+			<Leaf zone_id="Pacific/Fiji" name="Suva" />
+			<Leaf zone_id="Pacific/Auckland" name="Wellington">
+				<Coordinates latitude="-41.286" longitude="174.776" />
+			</Leaf>
+			<Leaf zone_id="Pacific/Nauru" name="Yaren" />
+		</Branch>
+	</Branch>
+	<Leaf zone_id="Etc/UTC" name="GMT/UTC" />
+</zonepicker>

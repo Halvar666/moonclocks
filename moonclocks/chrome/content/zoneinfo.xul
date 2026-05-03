@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright (c) 2015 Andy McDonald. All rights reserved.
+Please refer to licence.txt for licensing terms.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://moonclocks/skin/foxclocks.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://moonclocks/locale/foxclocks.dtd">
+
+<dialog id="fc-zoneinfo"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		onload="foxclocks.zoneInfo.onLoad()"
+		onunload="foxclocks.zoneInfo.onUnload()"
+		ondialogaccept="foxclocks.zoneInfo.onAccept()"
+		ondialogextra1="foxclocks.zoneInfo.onAccept()"
+		ondialogextra2="foxclocks.zoneInfo.onGoogleCmd()"
+		buttons="accept,cancel,extra1,extra2"
+		buttonlabelextra1="&misc.apply;"
+		buttonlabelextra2="&zoneinfo.button.google.label;"
+		persist="screenX screenY">
+
+	<data id="fc-zoneinfo-title-zone" label="&zoneinfo.title.zone;"/>
+	<data id="fc-zoneinfo-title-location" label="&zoneinfo.title.location;"/>
+	<data id="fc-zoneinfo-display-description-data" label="&zoneinfo.display.description;"/>
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="foxclocks-bundle" src="chrome://moonclocks/locale/foxclocks.properties"/>
+	</stringbundleset>
+
+	<script type="application/x-javascript" src="chrome://moonclocks/content/common.js" />
+	<script type="application/x-javascript" src="chrome://moonclocks/content/zoneinfo.js" />
+
+	<!-- AFM - commands should be more consistently used -->
+	<commandset>
+		<command id="cmd_custflag_browse" oncommand="foxclocks.zoneInfo.onCustomFlagBrowseCmd()"/>
+	</commandset>
+	
+	<keyset>
+		<key modifiers="accel" key="W" oncommand="window.close()"/>
+	</keyset>
+	
+	<broadcasterset>
+		<broadcaster id="fc-zoneinfo-location-disabled"/>
+		<broadcaster id="fc-zoneinfo-display-style-clock-disabled"/>
+		<broadcaster id="fc-zoneinfo-display-style-tooltip-disabled"/>
+		<broadcaster id="fc-zoneinfo-display-style-colour-alternate-disabled"/>
+	</broadcasterset>
+
+	<popupset>
+		<tooltip id="fc-zoneinfo-zone-extendedinfo" style="max-width:none" noautohide="true"/>
+	</popupset>
+
+	<!-- AFM - id, persist only needed to work around not being able to persist selected tab -->
+	<tabbox id="fc-zoneinfo-tabbox" persist="selectedtabworkaround">
+		<tabs id="fc-zoneinfo-tabs" onselect="foxclocks.zoneInfo.onTabsSelect()">
+			<!-- internally called 'location' tab, but labelled 'Time Zone' -->
+			<tab label="&zoneinfo.tab.zone.label;" id="fc-zoneinfo-tab-location" tooltip="fc-zoneinfo-zone-extendedinfo"/>
+			<tab label="&zoneinfo.tab.display.label;" id="fc-zoneinfo-tab-display"/>
+		</tabs>
+
+		<tabpanels>
+
+			<tabpanel	id="fc-zoneinfo-tab-location-tabpanel" orient="vertical"
+						class="foxclocks-paneloverflow-mitigation">
+				
+				<!-- AFM - naming convention is non-existent. S/b something like fc-zoneinfo-location-*
+					for stuff in the location groupbox, inc. -->
+		
+				<!-- AFM - groupbox should have class="foxclocks-paneloverflow-mitigation" to prevent
+					it falling off the rhs of screen when location name becomes too long, but this
+					causes the caption to appear below the groupbox, not in it, which is ugly -->
+
+				<groupbox id="fc-zoneinfo-location-box">
+					<caption	id="fc-zoneinfo-currentlocation-caption" label="&misc.na;" crop="end"
+								class="foxclocks-paneloverflow-mitigation"/>
+		
+					<hbox align="center">
+						<label		id="fc-zoneinfo-addas-textbox-name-label"
+									value="&zoneinfo.addas.name.label;"
+									control="fc-zoneinfo-addas-textbox-name"
+									observes="fc-zoneinfo-location-disabled"/>
+						<textbox	id="fc-zoneinfo-addas-textbox-name"
+									oninput="foxclocks.zoneInfo.onAddAsTextboxNameInput()"
+									observes="fc-zoneinfo-location-disabled"/>
+					</hbox>
+
+					<spacer style="height:1ex"/>
+					
+					<grid observes="fc-zoneinfo-location-disabled">
+						<columns>
+							<column/>
+							<column/>
+							<column/>
+							<column/>
+							<column/>
+							<column/>
+						</columns>
+		  
+						<rows>
+							<row align="center">
+								<label	id="fc-zoneinfo-addas-latitude-label"
+										value="&zoneinfo.addas.latitude.label;"
+										control="fc-zoneinfo-addas-textbox-lat-deg"
+										observes="fc-zoneinfo-location-disabled"/>
+
+								<textbox	id="fc-zoneinfo-addas-textbox-lat-deg"
+											class="foxclocks-coord-deg" maxlength="2"
+											oninput="foxclocks.zoneInfo.onAddAsTextboxLatDegInput()"
+											observes="fc-zoneinfo-location-disabled"/>
+								<label value="&#176;" class="foxclocks-coord-degsymbol"
+											observes="fc-zoneinfo-location-disabled"/>
+								<textbox	id="fc-zoneinfo-addas-textbox-lat-min"
+											class="foxclocks-coord-min" maxlength="2"
+											oninput="foxclocks.zoneInfo.onAddAsTextboxLatMinInput()"
+											observes="fc-zoneinfo-location-disabled"/>
+								<!-- AFM - &#2032; (prime) doesn't work -->
+								<label		value="'" class="foxclocks-coord-minsymbol"
+											observes="fc-zoneinfo-location-disabled"/>
+								<textbox	id="fc-zoneinfo-addas-textbox-lat-sec"
+											class="foxclocks-coord-sec" maxlength="2"
+											oninput="foxclocks.zoneInfo.onAddAsTextboxLatSecInput()"
+											observes="fc-zoneinfo-location-disabled"/>
+								<!-- AFM - &#2033; (double prime) doesn't work -->
+								<label		value='"' class="foxclocks-coord-secsymbol"
+											observes="fc-zoneinfo-location-disabled"/>
+								<menulist	id="fc-zoneinfo-addas-menulist-ns" class="foxclocks-coord-nesw"
+											observes="fc-zoneinfo-location-disabled">
+									<menupopup>
+										<menuitem id="fc-zoneinfo-addas-menu-north" value="N" oncommand="foxclocks.zoneInfo.onNESWChange()"/>
+										<menuitem id="fc-zoneinfo-addas-menu-south" value="S" oncommand="foxclocks.zoneInfo.onNESWChange()"/>
+									</menupopup>
+								</menulist>
+
+							</row>
+							<row align="center" observes="fc-zoneinfo-location-disabled">
+								<label	id="fc-zoneinfo-addas-longitude-label"
+										value="&zoneinfo.addas.longitude.label;"
+										control="fc-zoneinfo-addas-textbox-long-deg"
+										observes="fc-zoneinfo-location-disabled"/>
+
+								<textbox	id="fc-zoneinfo-addas-textbox-long-deg"
+											class="foxclocks-coord-deg" maxlength="3"
+											oninput="foxclocks.zoneInfo.onAddAsTextboxLongDegInput()"
+											observes="fc-zoneinfo-location-disabled"/>
+								<label value="&#176;" class="foxclocks-coord-degsymbol"
+											observes="fc-zoneinfo-location-disabled"/>
+								<textbox	id="fc-zoneinfo-addas-textbox-long-min"
+											class="foxclocks-coord-min" maxlength="2"
+											oninput="foxclocks.zoneInfo.onAddAsTextboxLongMinInput()"
+											observes="fc-zoneinfo-location-disabled"/>
+								<label		value="'" class="foxclocks-coord-minsymbol"
+											observes="fc-zoneinfo-location-disabled"/>
+								<textbox	id="fc-zoneinfo-addas-textbox-long-sec"
+											class="foxclocks-coord-sec" maxlength="2"
+											oninput="foxclocks.zoneInfo.onAddAsTextboxLongSecInput()"
+											observes="fc-zoneinfo-location-disabled"/>
+								<label		value='"' class="foxclocks-coord-secsymbol"
+											observes="fc-zoneinfo-location-disabled"/>
+								<menulist	id="fc-zoneinfo-addas-menulist-ew" class="foxclocks-coord-nesw"
+											observes="fc-zoneinfo-location-disabled">
+									<menupopup>
+										<menuitem id="fc-zoneinfo-addas-menu-east" value="E" oncommand="foxclocks.zoneInfo.onNESWChange()"/>
+										<menuitem id="fc-zoneinfo-addas-menu-west" value="W" oncommand="foxclocks.zoneInfo.onNESWChange()"/>
+									</menupopup>
+								</menulist>
+
+							</row>
+						</rows>
+					</grid>
+				</groupbox>
+				
+				<spacer style="height:1.5ex"/>	
+				
+				<groupbox>
+					<!-- AFM - reusing the tab label here -->
+					<caption id="fc-zoneinfo-zone-caption" initlabel="&zoneinfo.tab.zone.label;" 
+							 align="center" crop="end" tooltip="fc-zoneinfo-zone-extendedinfo"/>
+
+					<box pack="center">
+						<description id="fc-zoneinfo-current-time"/>
+					</box>
+					<spacer style="height:1.5ex"/>
+		
+					<grid>
+						<columns>
+							<column/>
+							<column/>
+					 	</columns>
+		
+						<rows id="fc-zoneinfo-zone-rows">
+							<row>
+								<description id="fc-zoneinfo-standard-zone" value="&zoneinfo.standardzone.label;"/>
+								<description id="fc-zoneinfo-standard-zone-value"/>					
+							</row>
+							<row>
+								<description id="fc-zoneinfo-daylight-zone" value="&zoneinfo.daylightzone.label;"/>
+								<description id="fc-zoneinfo-daylight-zone-value" value="&misc.na;"/>
+							</row>
+							
+							<spacer style="height:1.5ex"/>
+							
+							<row>
+								<data id="fc-zoneinfo-daylightsaving-begins-data" value="&zoneinfo.daylightsaving.begins;"/>
+								<data id="fc-zoneinfo-daylightsaving-began-data" value="&zoneinfo.daylightsaving.began;"/>
+								<description id="fc-zoneinfo-daylightsaving-begin" value="&zoneinfo.daylightsaving.begins;"/>
+								<description id="fc-zoneinfo-daylightsaving-begin-value" value="&misc.na;"/>
+							</row>
+							<row>
+								<data id="fc-zoneinfo-daylightsaving-ends-data" value="&zoneinfo.daylightsaving.ends;"/>
+								<data id="fc-zoneinfo-daylightsaving-ended-data" value="&zoneinfo.daylightsaving.ended;"/>
+								<description id="fc-zoneinfo-daylightsaving-end" value="&zoneinfo.daylightsaving.ends;"/>
+								<description id="fc-zoneinfo-daylightsaving-end-value" value="&misc.na;"/>
+							</row>
+							<!-- AFM - hide this for now -->
+							<row hidden="true">
+								<description value=""/>
+								<description value=""/>
+							</row>
+							<row hidden="true">
+								<description value="&zoneinfo.defaultlocation.label;"/>
+								<description id="fc-zoneinfo-defaultlocation-coords" value="&misc.na;"/>
+							</row>
+						</rows>
+					</grid>
+
+					<!-- AFM
+					<vbox id="fc-zoneinfo-tzdata-advanced-box" align="start">
+						<spacer style="height:1.5ex"/>
+						<description id="fc-zoneinfo-tzdata-advanced-desc"/>
+					</vbox>
+					-->
+
+				</groupbox>
+				
+				<!-- AFM - commented out - just playing for now 
+
+				<groupbox id="fc-zoneinfo-location-map-box">
+					<caption	label="Google Maps"/>
+					<iframe id="fc-zoneinfo-location-iframe"/>
+				</groupbox> -->
+
+			</tabpanel>
+			
+			<tabpanel id="fc-zoneinfo-tab-display-tabpanel" orient="vertical">
+				<groupbox>
+					<caption label="&zoneinfo.display.showclock.caption;"/>
+				
+					<checkbox	id="fc-zoneinfo-display-showclock-checkbox-statusbar"
+								label="&zoneinfo.display.showclock.checkbox.statusbar.label;"
+								accesskey="&zoneinfo.display.showclock.checkbox.statusbar.accesskey;"
+								oncommand="foxclocks.zoneInfo.onShowClockCheckboxCommand()"/>
+
+					<checkbox	id="fc-zoneinfo-display-showclock-checkbox-tooltip"
+								label="&zoneinfo.display.showclock.checkbox.tooltip.label;"
+								accesskey="&zoneinfo.display.showclock.checkbox.tooltip.accesskey;"
+								oncommand="foxclocks.zoneInfo.onShowTooltipCheckboxCommand()"/>
+
+				</groupbox>
+
+				<groupbox orient="vertical">
+					<caption label="&zoneinfo.display.style.caption;"/>
+				
+					<groupbox orient="horizontal" id="fc-zoneinfo-display-style-groupbox">
+						<checkbox	id="fc-zoneinfo-display-style-checkbox-bold"
+									label="&zoneinfo.display.style.checkbox.bold.label;"
+									accesskey="&zoneinfo.display.style.checkbox.bold.accesskey;"
+									observes="fc-zoneinfo-display-style-clock-disabled"/>
+		
+						<checkbox	id="fc-zoneinfo-display-style-checkbox-italic"
+									label="&zoneinfo.display.style.checkbox.italic.label;"
+									accesskey="&zoneinfo.display.style.checkbox.italic.accesskey;"
+									observes="fc-zoneinfo-display-style-clock-disabled"/>
+		
+						<checkbox	id="fc-zoneinfo-display-style-checkbox-underline"
+									label="&zoneinfo.display.style.checkbox.underline.label;"
+									accesskey="&zoneinfo.display.style.checkbox.underline.accesskey;"
+									observes="fc-zoneinfo-display-style-clock-disabled"/>
+
+						<checkbox	id="fc-zoneinfo-display-style-checkbox-flag"
+									label="&zoneinfo.display.style.checkbox.showflag.label;"
+									accesskey="&zoneinfo.display.style.checkbox.showflag.accesskey;"
+									observes="fc-zoneinfo-display-style-clock-disabled"/>
+					</groupbox>
+
+					<hbox align="center">
+						<label	id="fc-zoneinfo-display-style-colour-standard-label"
+								value="&zoneinfo.display.style.colour.standard.label;"
+								accesskey="&zoneinfo.display.style.colour.standard.accesskey;"
+								control="fc-zoneinfo-display-style-colour-standard-picker"
+								observes="fc-zoneinfo-display-style-clock-disabled"/>
+		
+						<!-- AFM - this observes doesn't work. Annoying -->
+						<colorpicker	id="fc-zoneinfo-display-style-colour-standard-picker" type="button"
+										observes="fc-zoneinfo-display-style-clock-disabled"
+										class="foxclocks-colourpicker"/>
+					</hbox>
+
+					<hbox align="center">
+						<checkbox	id="fc-zoneinfo-display-style-colour-alternate-checkbox"
+									label="&zoneinfo.display.style.colour.alternate.label;"
+									accesskey="&zoneinfo.display.style.colour.alternate.accesskey;"
+									observes="fc-zoneinfo-display-style-clock-disabled"
+									oncommand="foxclocks.zoneInfo.onEnableAltColourCheckboxCommand()"/>
+
+						<!-- AFM - this observes doesn't work. Annoying -->
+						<colorpicker	id="fc-zoneinfo-display-style-colour-alternate-picker" type="button"
+										observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+										class="foxclocks-colourpicker"/>
+					</hbox>
+
+					<spacer style="height:2px"/>
+
+					<grid>
+						<columns>
+							<column/>
+							<column/>
+							<column/>
+					 	</columns>
+		
+						<rows>
+							<row align="center">
+								<spacer style="width:2em"/>
+								<label	value="&zoneinfo.display.style.colour.alternate.from.label;"
+										accesskey="&zoneinfo.display.style.colour.alternate.from.accesskey;"
+										control="fc-zoneinfo-start-hour-list"
+										observes="fc-zoneinfo-display-style-colour-alternate-disabled"/>
+
+								<menulist	id="fc-zoneinfo-start-hour-list" observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+											class="foxclocks-timepicker-hour">
+									<menupopup>
+										<menuitem label="01" value="1"/>
+										<menuitem label="02" value="2"/>
+										<menuitem label="03" value="3"/>
+										<menuitem label="04" value="4"/>
+										<menuitem label="05" value="5"/>
+										<menuitem label="06" value="6"/>
+										<menuitem label="07" value="7"/>
+										<menuitem label="08" value="8"/>
+										<menuitem label="09" value="9"/>
+										<menuitem label="10" value="10"/>
+										<menuitem label="11" value="11"/>
+										<menuitem label="12" value="12"/>
+									</menupopup>
+								</menulist>
+
+								<label value=":" class="foxclocks-timepicker-colon" observes="fc-zoneinfo-display-style-colour-alternate-disabled"/>
+
+								<menulist	id="fc-zoneinfo-start-min-list" observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+											class="foxclocks-timepicker-min">
+									<menupopup>
+										<menuitem label="00" value="0"/>
+										<menuitem label="05" value="5"/>
+										<menuitem label="10" value="10"/>
+										<menuitem label="15" value="15"/>
+										<menuitem label="20" value="20"/>
+										<menuitem label="25" value="25"/>
+										<menuitem label="30" value="30"/>
+										<menuitem label="35" value="35"/>
+										<menuitem label="40" value="40"/>
+										<menuitem label="45" value="45"/>
+										<menuitem label="50" value="50"/>
+										<menuitem label="55" value="55"/>
+									</menupopup>
+								</menulist>
+								<menulist	id="fc-zoneinfo-start-ampm-list" observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+											class="foxclocks-timepicker-ampm">
+									<menupopup>
+										<menuitem id="fc-zoneinfo-start-ampm-menuitem-am" value="am"/>
+										<menuitem id="fc-zoneinfo-start-ampm-menuitem-pm" value="pm"/>
+									</menupopup>
+								</menulist>
+							</row>
+							<row align="center">
+								<spacer style="width:2em"/>
+								<label	value="&zoneinfo.display.style.colour.alternate.to.label;"
+										control="fc-zoneinfo-end-hour-list"
+										accesskey="&zoneinfo.display.style.colour.alternate.to.accesskey;"
+										observes="fc-zoneinfo-display-style-colour-alternate-disabled"/>
+
+								<menulist	id="fc-zoneinfo-end-hour-list" observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+											class="foxclocks-timepicker-hour">
+									<menupopup>
+										<menuitem label="01" value="1"/>
+										<menuitem label="02" value="2"/>
+										<menuitem label="03" value="3"/>
+										<menuitem label="04" value="4"/>
+										<menuitem label="05" value="5"/>
+										<menuitem label="06" value="6"/>
+										<menuitem label="07" value="7"/>
+										<menuitem label="08" value="8"/>
+										<menuitem label="09" value="9"/>
+										<menuitem label="10" value="10"/>
+										<menuitem label="11" value="11"/>
+										<menuitem label="12" value="12"/>
+									</menupopup>
+								</menulist>
+
+								<label value=":" class="foxclocks-timepicker-colon" observes="fc-zoneinfo-display-style-colour-alternate-disabled"/>
+
+								<menulist	id="fc-zoneinfo-end-min-list" observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+											class="foxclocks-timepicker-min">
+									<menupopup>
+										<menuitem label="00" value="0"/>
+										<menuitem label="05" value="5"/>
+										<menuitem label="10" value="10"/>
+										<menuitem label="15" value="15"/>
+										<menuitem label="20" value="20"/>
+										<menuitem label="25" value="25"/>
+										<menuitem label="30" value="30"/>
+										<menuitem label="35" value="35"/>
+										<menuitem label="40" value="40"/>
+										<menuitem label="45" value="45"/>
+										<menuitem label="50" value="50"/>
+										<menuitem label="55" value="55"/>
+									</menupopup>
+								</menulist>
+								<menulist	id="fc-zoneinfo-end-ampm-list" observes="fc-zoneinfo-display-style-colour-alternate-disabled"
+											class="foxclocks-timepicker-ampm">
+									<menupopup>
+										<menuitem id="fc-zoneinfo-end-ampm-menuitem-am" value="am"/>
+										<menuitem id="fc-zoneinfo-end-ampm-menuitem-pm" value="pm"/>
+									</menupopup>
+								</menulist>
+							</row>
+						</rows>
+					</grid>
+				</groupbox>
+
+				<groupbox id="fc-zoneinfo-display-flag-groupbox" check_child_caption_label="true">
+					<caption label="&zoneinfo.display.flag.caption;"/>
+					
+					<hbox align="center">
+						<radiogroup orient="horizontal" id="fc-zoneinfo-display-flag-radiogroup"
+									onselect="foxclocks.zoneInfo.onFlagSelect()">
+											
+							<radio	id="fc-zoneinfo-display-flag-radio-none"
+									label="&zoneinfo.display.flag.radio.disabled.label;"
+									accesskey="&zoneinfo.display.flag.radio.disabled.accesskey;"/>
+					
+							<radio	id="fc-zoneinfo-display-flag-radio-standard"
+									label="&zoneinfo.display.flag.radio.standard.label;"
+									accesskey="&zoneinfo.display.flag.radio.standard.accesskey;"/>
+	
+							<radio	id="fc-zoneinfo-display-flag-radio-custom"
+									label="&zoneinfo.display.flag.radio.custom.label;"
+									accesskey="&zoneinfo.display.flag.radio.custom.accesskey;"/>
+						</radiogroup>
+						
+						<spacer style="width:1em"/>
+						
+						<image id="fc-zoneinfo-display-flag-image"/>
+					</hbox>
+
+					<vbox id="fc-zoneinfo-display-flag-custom-browse-box">
+
+						<textbox	id="fc-zoneinfo-custflag-textbox-url" readonly="true"/>
+			
+						<hbox align="center">
+	
+							<button label="&zoneinfo.display.flag.custom.presets.label;"
+									accesskey="&zoneinfo.display.flag.custom.presets.accesskey;"
+									tooltiptext="&zoneinfo.display.flag.custom.presets.tooltiptext;"
+									popup="fc-zoneinfo-custflag-preset-popup" class="button-small"/>
+							
+							<!-- AFM - should be a child of a button with type="menu", but the button
+							is ugly in Firefox 3 -->
+							
+							<menupopup id="fc-zoneinfo-custflag-preset-popup">
+								<hbox id="fc-zoneinfo-display-preset-flag-container"/>
+							</menupopup>
+														
+							<button label="&zoneinfo.display.flag.custom.browse.label;"
+									accesskey="&zoneinfo.display.flag.custom.browse.accesskey;"
+									tooltiptext="&zoneinfo.display.flag.custom.browse.tooltiptext;"
+									command="cmd_custflag_browse" class="button-small"/>
+	
+						</hbox>
+					</vbox>
+										
+				</groupbox>
+				
+				<groupbox id="fc-zoneinfo-display-style-custformat-groupbox" check_child_caption_label="true">
+					<caption label="&zoneinfo.display.customformat.caption.label;"
+						tooltiptext="&zoneinfo.display.customformat.caption.tooltiptext;"/>
+
+					<grid>
+						<columns>
+							<column/>
+							<column/>
+					 	</columns>
+		
+						<rows>
+							<row align="center">
+								<label	value="&zoneinfo.display.customformat.clock.label;"
+										accesskey="&zoneinfo.display.customformat.clock.accesskey;"
+										control="fc-zoneinfo-display-style-custformat-sbar-textbox"
+										observes="fc-zoneinfo-display-style-clock-disabled"/>
+		
+								<textbox	id="fc-zoneinfo-display-style-custformat-sbar-textbox"
+											observes="fc-zoneinfo-display-style-clock-disabled"/>				
+							</row>
+							<row align="center">
+								<label	value="&zoneinfo.display.customformat.tooltip.label;"
+										accesskey="&zoneinfo.display.customformat.tooltip.accesskey;"
+										control="fc-zoneinfo-display-style-custformat-tooltip-textbox"
+										observes="fc-zoneinfo-display-style-tooltip-disabled"/>
+		
+								<textbox	id="fc-zoneinfo-display-style-custformat-tooltip-textbox"
+											observes="fc-zoneinfo-display-style-tooltip-disabled"/>
+							</row>
+	
+						</rows>
+					</grid>									
+				</groupbox>
+
+			</tabpanel>				
+		</tabpanels>
+	</tabbox>
+</dialog>

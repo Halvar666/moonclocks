@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "Strefy czasowe">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "S">
+<!ENTITY foxclocksoverlay.context.options.label "Opcje">
+<!ENTITY foxclocksoverlay.context.options.accesskey "O">
+<!ENTITY foxclocksoverlay.context.help.label "Pomoc">
+<!ENTITY foxclocksoverlay.context.help.accesskey "P">
+<!ENTITY foxclocksoverlay.context.about.label "O MoonClocks">
+<!ENTITY foxclocksoverlay.context.about.accesskey "O">
+<!ENTITY foxclocks.title "MoonClocks - strefy czasowe">
+<!ENTITY foxclocks.accelkey.add "D">
+<!ENTITY foxclocks.accelkey.moveup "G">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "S">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "Dodaj &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "A">
+<!ENTITY foxclocks.button.add.tooltip "Dodaje zaznaczoną(e) miejscowość(ci) do listy">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Usuń">
+<!ENTITY foxclocks.button.remove.accesskey "U">
+<!ENTITY foxclocks.button.remove.tooltip "Usuwa zaznaczoną(e) miejscowość(ci)) z listy">
+<!ENTITY foxclocks.button.addas.label "Dodaj jako...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "D">
+<!ENTITY foxclocks.button.addas.tooltip "Dodaje do listy nową miejscowość z możliwością zmiany jej parametrów">
+<!ENTITY foxclocks.button.moveup.label "Przesuń w górę">
+<!ENTITY foxclocks.button.moveup.accesskey "G">
+<!ENTITY foxclocks.button.moveup.tooltip "Przesuwa zaznaczoną miejscowość w górę listy">
+<!ENTITY foxclocks.button.movedown.label "Przesuń w dół">
+<!ENTITY foxclocks.button.movedown.accesskey "D">
+<!ENTITY foxclocks.button.movedown.tooltip "Przesuwa zaznaczoną miejscowość w dół listy">
+<!ENTITY foxclocks.menubar.menu.file.label "Plik">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "P">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Zamknij">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Importuj ustawienia">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Eksportuj ustawienia">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Edytuj">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Dodaj miejscowość do listy miejscowości">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "M">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Dodaj miejscowość do listy miejscowości jako...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Przesuń miejscowość w górę listy">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Przesuń miejscowość w dół listy">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "D">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Usuń miejscowość(ci) z listy">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "U">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Dane miejscowości">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "D">
+<!ENTITY foxclocks.menubar.menu.view.label "Widok">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "W">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Szczegóły strefy czasowej">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Otwórz strefę czasową w OpenStreetMap">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Otwórz miejscowość w OpenStreetMap">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Narzędzia">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "N">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Opcje">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.help.label "Pomoc">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "P">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Pomoc">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "P">
+<!ENTITY foxclocks.menubar.menu.help.about.label "O MoonClocks">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "O">
+<!ENTITY foxclocks.dialog.import.title "Importuj ustawienia MoonClocks">
+<!ENTITY foxclocks.dialog.import.success "Ustawienia zaimportowano">
+<!ENTITY foxclocks.dialog.import.failure "Nie udało się zaimportować ustawień">
+<!ENTITY foxclocks.dialog.export.title "Zapisz ustawienia MoonClocks">
+<!ENTITY foxclocks.dialog.export.success "Zapisano">
+<!ENTITY foxclocks.dialog.export.failure "Nie udało sie zapisać ustawień">
+<!ENTITY foxclocks.dialog.importexport.filter.label "Plik ustawień MoonClocks">
+<!ENTITY foxclocks.zonepicker.description.label "Lista stref">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Wyświetla wszystkie dostępne strefy czasowe.">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Szukaj">
+<!ENTITY foxclocks.zonepicker.search.accesskey "S">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Przeszukuje strefy czasowe wg kraju lub miasta">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Strefa czasowa">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Nazwy stref czasowych">
+<!ENTITY foxclocks.zonepicker.col.offset.label "Kompensata GMT/UTC">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "Wyświetla kompensatę GMT/UTC">
+<!ENTITY foxclocks.zonepicker.footer "* czas letni">
+<!ENTITY foxclocks.zonepicker.context.details.label "Szczegóły">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "E">
+<!ENTITY foxclocks.zonepicker.context.add.label "Dodaj">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "A">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Dodaj jako...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "D">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Lista miejscowości">
+<!ENTITY foxclocks.locationlist.description.tooltip "Lista miejscowości jakie będą widoczne w okienku podpowiedzi MoonClocks i (jeśli skonfigurowano) pasku stanu/pasku narzędzi nawigacyjnych">
+<!ENTITY foxclocks.locationlist.header.location.label "Miejscowość">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Miejscowość w strefie czasowej. Nazwę miejscowości można edytować">
+<!ENTITY foxclocks.locationlist.header.time.label "Czas">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Czas lokalny. Format wyświetlania czasu można dowolnie konfigurować">
+<!ENTITY foxclocks.locationlist.nolocs.label "(nie wybrano miejscowości)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Przenieś do góry">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "G">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Przenieś w dół">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "D">
+<!ENTITY foxclocks.locationlist.context.details.label "Dane miejscowości">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "S">
+<!ENTITY foxclocks.locationlist.context.remove.label "Usuń">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "U">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Usunąć zaznaczone miejscowości?">
+<!ENTITY foxclocks.import.confirm.label "Nadpisać istniejące ustawienia?">
+<!ENTITY options.title "MoonClocks - opcje">
+<!ENTITY options.format.caption "Format czasu">
+<!ENTITY options.format.description "Określ sposób wyświetlania czasu">
+<!ENTITY options.format.clockchoice.clock.label "na pasku stanu - pasek danych czasowych">
+<!ENTITY options.format.clockchoice.tooltip.label "na pasku stanu - okienko informacyjne">
+<!ENTITY options.format.clockchoice.foxclocks.label "w oknie MoonClocks">
+<!ENTITY options.format.clockchoice.all.label "we wszystkich miejscach">
+<!ENTITY options.format.radio.standard.label "Format standardowy">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "Format użytkownika">
+<!ENTITY options.format.radio.custom.accesskey "U">
+<!ENTITY options.format.standard.menu.select "---wybierz---">
+<!ENTITY options.format.custom.textbox.input.label "Ciąg znaków formatu:">
+<!ENTITY options.format.custom.textbox.preview.label "Podgląd:">
+<!ENTITY options.format.custom.secs.label "Sekundy">
+<!ENTITY options.format.custom.mins.label "Minuty">
+<!ENTITY options.format.custom.hours.label "Godziny">
+<!ENTITY options.format.custom.hours.12.1.label "12 godzinny">
+<!ENTITY options.format.custom.hours.12.2.label "12 godzinny, 2 cyfry">
+<!ENTITY options.format.custom.hours.24.1.label "24 godzinny">
+<!ENTITY options.format.custom.hours.24.2.label "24 godzinny, 2 cyfry">
+<!ENTITY options.format.custom.am.label "Część doby">
+<!ENTITY options.format.custom.am.lower.label "am/pm">
+<!ENTITY options.format.custom.am.upper.label "AM/PM">
+<!ENTITY options.format.custom.year.label "Rok">
+<!ENTITY options.format.custom.year.4.label "4 cyfry">
+<!ENTITY options.format.custom.year.2.label "2 cyfry">
+<!ENTITY options.format.custom.month.label "Miesiąc">
+<!ENTITY options.format.custom.month.num.1.label "numeryczny">
+<!ENTITY options.format.custom.month.num.2.label "numeryczny, 2 cyfry">
+<!ENTITY options.format.custom.month.name.long.label "nazwa">
+<!ENTITY options.format.custom.month.name.short.label "nazwa, forma skrócona">
+<!ENTITY options.format.custom.day.label "Dzień">
+<!ENTITY options.format.custom.day.num.1.label "numeryczny">
+<!ENTITY options.format.custom.day.num.2.label "numeryczny, 2 cyfry">
+<!ENTITY options.format.custom.day.name.long.label "nazwa">
+<!ENTITY options.format.custom.day.name.short.label "nazwa, forma skrócona">
+<!ENTITY options.format.custom.day.ordinal.label "liczebnik porządkowy">
+<!ENTITY options.format.custom.day.ofyear.label "dzień roku">
+<!ENTITY options.format.custom.other.label "Inne">
+<!ENTITY options.format.custom.other.location.label "Miejscowość">
+<!ENTITY options.format.custom.other.offset.label "Kompensata GMT">
+<!ENTITY options.format.custom.other.zone.label "Nazwa strefy">
+<!ENTITY options.format.custom.other.1.label "przecinek">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "dwukropek">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "spacja">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Wygląd i położenie">
+<!ENTITY options.clock.position.description.label "Wyświetl na:">
+<!ENTITY options.clock.position.radio.statusbar.label "Pasku stanu">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "P">
+<!ENTITY options.clock.position.radio.toolbar.label "Pasku narzędzi nawigacyjnych (przeciągnij ikonę z okna Dostosuj...)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "n">
+<!ENTITY options.clock.position.statusbar.radio.left.label "po lewej stronie">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "L">
+<!ENTITY options.clock.position.statusbar.radio.right.label "po prawej stronie">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "R">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "w określonej pozycji:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "P">
+<!ENTITY options.clock.style.label "Wyświetl jako:">
+<!ENTITY options.clock.style.radio.clocks.label "Multi zegar">
+<!ENTITY options.clock.style.radio.clocks.accesskey "M">
+<!ENTITY options.clock.style.radio.icon.label "Ikonę MoonClocks (umieszczenie kursora nad ikoną wyświetla dane czasowe)">
+<!ENTITY options.clock.style.radio.icon.accesskey "K">
+<!ENTITY options.data.caption "Dane strefy czasowej">
+<!ENTITY options.data.info.caption.label "Baza danych aktualnej strefy czasowej">
+<!ENTITY options.data.info.source.label "Źródło:">
+<!ENTITY options.data.info.version.label "Wersja:">
+<!ENTITY options.data.info.date.label "Data:">
+<!ENTITY options.data.update.caption.label "Aktualizacje bazy danych">
+<!ENTITY options.data.update.last.date.label "Ostatnia aktualizacja:">
+<!ENTITY options.data.update.last.status.label "Wynik:">
+<!ENTITY options.data.update.next.date.label "Następna aktualizacja:">
+<!ENTITY options.data.update.auto.enable.label "Włącz automatyczną aktualizację">
+<!ENTITY options.data.update.auto.enable.accesskey "A">
+<!ENTITY options.data.update.checknow.button.label "Sprawdź teraz">
+<!ENTITY options.data.update.checknow.button.accesskey "S">
+<!ENTITY options.advanced.caption "Zaawansowane">
+<!ENTITY options.advanced.newloc.caption.label "Dodawanie lokalizacji do listy miejscowości">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Wyświetlaj zegar na pasku stanu/narzędzi">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Wyświetlaj flagę na pasku stanu/narzędzi">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Wyświetlaj zegar w podpowiedzi na pasku stanu/narzędzi">
+<!ENTITY options.advanced.misc.caption.label "Różne">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Wyświetlaj flagę w podpowiedzi na pasku stanu/narzędzi">
+<!ENTITY options.advanced.alert.autoupdate.label "Wyświetlaj powiadomienie o aktualizacji bazy danych stref czasowych">
+<!ENTITY options.advanced.menuitem.hidden.label "Wyświetlaj element &quot;MoonClocks&quot; w menu &quot;Narzędzia&quot;">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "Potwierdzaj usunięcie lokalizacji z listy">
+<!ENTITY zoneinfo.title.zone "Właściwości strefy czasowej">
+<!ENTITY zoneinfo.title.location "Właściwości miejscowości">
+<!ENTITY zoneinfo.tab.zone.label "Strefa czasowa">
+<!ENTITY zoneinfo.tab.location.label "Miejscowość">
+<!ENTITY zoneinfo.tab.display.label "Wyświetlanie">
+<!ENTITY zoneinfo.standardzone.label "Standardowa strefa czasowa:">
+<!ENTITY zoneinfo.daylightzone.label "Strefa czasowa czasu letniego:">
+<!ENTITY zoneinfo.daylightsaving.begins "Czas letni rozpoczyna się">
+<!ENTITY zoneinfo.daylightsaving.began "Czas letni rozpoczął się:">
+<!ENTITY zoneinfo.daylightsaving.ends "Czas letni kończy się:">
+<!ENTITY zoneinfo.daylightsaving.ended "Czas letni zakończył się:">
+<!ENTITY zoneinfo.defaultlocation.label "Domyślna miejscowość">
+<!ENTITY zoneinfo.addas.name.label "Nazwa miejscowości">
+<!ENTITY zoneinfo.addas.latitude.label "Szerokość geograficzna (opcjonalnie)">
+<!ENTITY zoneinfo.addas.longitude.label "Długość geograficzna (opcjonalnie)">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap">
+<!ENTITY zoneinfo.display.description "Gdy MoonClocks pracuje w trybie ikony ustawienia danych czasowych na pasku stanu/narzędzi nie są wyświetlane. Zobacz na karcie Opcje/&quot;Wygląd i położenie&quot;.">
+<!ENTITY zoneinfo.display.showclock.caption "Wyświetl/ukryj dane czasowe MoonClocks">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Wyświetl dane czasowe na pasku stanu/narzędzi">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "W">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Wyświetl dane czasowe na pasku stanu/narzędzi w postaci dymka">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "P">
+<!ENTITY zoneinfo.display.style.caption "Styl wyświetlania danych czasowych (czcionka)">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Pogrubiona">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "U">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Kursywa">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "K">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Podkreślona">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "D">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Flaga">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "F">
+<!ENTITY zoneinfo.display.style.colour.caption "Kolor danych czasowych na pasku stanu/narzędzi">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Kolor podstawowy">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "S">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Włącz alternatywne kolory">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "A">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "od">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "o">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "do">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "d">
+<!ENTITY zoneinfo.display.flag.caption "Flaga">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Wyłączona">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "N">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Standardowo">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "R">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Konfiguruj">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "K">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Predefiniowane...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "P">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Kliknij, aby wybrać predefiniowane obrazki flag">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Przeglądaj...">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "B">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Kliknij tutaj, aby określić własną flagę">
+<!ENTITY zoneinfo.display.customformat.caption.label "Własne formaty (zaawansowane)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "np.&quot;&lt;l&gt;-&lt;24h&gt;&lt;m&gt;&quot; daje &quot;[Lokalizacja} - 1523&quot;. Przejdź na kartę Opcje-&gt;Format czasu, aby zobaczyć możliwe zamienniki.">
+<!ENTITY zoneinfo.display.customformat.clock.label "Zegar na pasku stanu/narzędzi">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "P">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Podpowiedź dla zegara na pasku stanu/narzędzi">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "Z">
+<!ENTITY welcome.title "Powitanie">
+<!ENTITY welcome.header "Witaj w MoonClocks">
+<!ENTITY welcome.message "MoonClocks wyświetla lokalny czas dla ponad 400 miast na świecie używając informacji z bazy danych stref czasowych i czasu letniego. Integruje się także (jeśli jest zainstalowany) z OpenStreetMap oraz  wyświetla czas lokalny na pasku stanu przeglądarki.|Ponieważ MoonClocks został uruchomiony po raz pierwszy należy dokonać konfiguracji czasu. Rozszerzenie dostarcza przykładowe listy miejscowości, jedną dla każdego kontynentu.|Następnym razem ta wiadomość nie będzie już wyświetlana. Rozszerzenie może być otwierane z menu &apos;&apos;Narzędzia&apos;&apos; lub poprzez dwukrotne kliknięcie na danych czasowych na pasku stanu.">
+<!ENTITY welcome.checkbox.launch.label "Uruchom MoonClocks">
+<!ENTITY welcome.checkbox.launch.accesskey "U">
+<!ENTITY welcome.checkbox.openhomepage.label "Przejdź do strony domowej MoonClocks">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "P">
+<!ENTITY update.title "Aktualizacja MoonClocks">
+<!ENTITY update.thisversion "Wersja:">
+<!ENTITY update.message "MoonClocks został zaktualizowany. Aby zobaczyć co jest nowego w tej wersji MoonClocks zaznacz opcję &quot;Zobacz listę zmian&quot; i naciśnij przycisk &quot;OK&quot;.">
+<!ENTITY update.checkbox.launch.label "Zobacz listę zmian">
+<!ENTITY update.checkbox.launch.accesskey "Z">
+<!ENTITY about.title "MoonClocks - informacje">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "Nigdy">
+<!ENTITY misc.na "Nie dostępne">
+<!ENTITY misc.done "Zakończono">
+<!ENTITY misc.apply "Zastosuj">

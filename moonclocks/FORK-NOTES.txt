@@ -1,0 +1,72 @@
+MoonClocks 1.0.0 fork notes
+================================
+
+MoonClocks is a Pale Moon and Epyrus XUL fork based on the GPL-licensed
+FoxClocks 4.2.3 codebase.
+
+Versioning
+----------
+
+MoonClocks uses its own version line. The first renamed test build was
+MoonClocks 1.0.0a1. MoonClocks 1.0.0a2 renamed the internal chrome URLs and preference branch. MoonClocks 1.0.0 is the first GitHub release build.
+The underlying GPL XUL codebase originates from FoxClocks 4.2.3.
+
+Extension ID
+------------
+
+Original FoxClocks used a different extension ID. Earlier internal test builds
+used foxclocks-legacy-palemoon@halvar666. MoonClocks uses:
+
+  moonclocks@halvar666
+
+Existing users should back up their profile and clock settings, uninstall the
+original FoxClocks or earlier FoxClocks Legacy test build, restart the
+application, and then install MoonClocks.
+
+Licensing and data
+------------------
+
+This fork is based on FoxClocks 4.2.3, licensed under GPL-2.0-or-later.
+The timezone database file was regenerated from the public IANA Time Zone
+Database. No source files from the WebExtension version of FoxClocks were used.
+
+IANA tzdb source files are public domain unless otherwise noted.
+
+Changes in MoonClocks 1.0.0
+-----------------------------
+
+- Renamed visible product name from FoxClocks Legacy to MoonClocks.
+- Changed extension ID to moonclocks@halvar666.
+- Renamed the internal chrome package URLs from chrome://foxclocks/ to
+  chrome://moonclocks/.
+- Renamed runtime preferences from extensions.foxclocks.* to
+  extensions.moonclocks.*.
+- Renamed standalone-window preference segments from .foxclocks. to
+  .moonclocks. where they referred to the product window.
+- Renamed the raw timezone database test pref to
+  extensions.moonclocks.data.update.rawurl.
+- New export files use the .mcl extension.
+- Bundled timezone database updated to IANA tzdb 2026b.
+- OpenStreetMap replaces the old Google Earth integration.
+- Local release notes replace upstream install/update web pages.
+- Zone Picker cleanup for Kyiv, Ukraine, Crimea, Simferopol, Famagusta, and
+  selected tzdb 2026b additions.
+- Pale Moon and Epyrus target applications are supported.
+- Linux/GTK menubar hover styling adjusted for consistent highlighting.
+- Added a new MoonClocks icon based on the Europe icon by Icons8.
+- Added icon attribution to the About window and documentation.
+
+Icon attribution
+----------------
+
+Icon:
+The MoonClocks icon is based on the Europe icon by Icons8 and is used with attribution.
+https://icons8.com/icon/APGJ1BQp3nID/europe
+
+Timezone database release note
+------------------------------
+MoonClocks 1.0.0 bundles timezone data marked as IANA tzdb 2026b.
+The update includes the 2026b future timestamp change for British Columbia /
+America/Vancouver, modelled from the 2026-11-01 transition point described
+by IANA tzdb 2026b.
+

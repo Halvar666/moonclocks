@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Beállítások...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "B">
+<!ENTITY foxclocksoverlay.context.help.label "Súgó...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "S">
+<!ENTITY foxclocksoverlay.context.about.label "MoonClocks névjegye...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "N">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "H">
+<!ENTITY foxclocks.accelkey.moveup "E">
+<!ENTITY foxclocks.accelkey.movedown "L">
+<!ENTITY foxclocks.accelkey.loc.details "R">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "B">
+<!ENTITY foxclocks.button.add.label "Hozzáadás &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "D">
+<!ENTITY foxclocks.button.add.tooltip "A Zónaválasztóban kiválasztott hely(ek)et adja hozzá a Figyelési listához az időzónák alapján">
+<!ENTITY foxclocks.button.remove.label "Eltávolítás">
+<!ENTITY foxclocks.button.remove.accesskey "V">
+<!ENTITY foxclocks.button.remove.tooltip "Eltávolítja a kiválasztott helyeket a Figyelési listáról">
+<!ENTITY foxclocks.button.addas.label "Hozzáadás mint...">
+<!ENTITY foxclocks.button.addas.accesskey "M">
+<!ENTITY foxclocks.button.addas.tooltip "Helyet ad hozzá a Zónaválasztóban kiválasztott időzóna alapján a &quot;Hely tulajdonságai&quot; panelen keresztül">
+<!ENTITY foxclocks.button.moveup.label "Mozgatás fel">
+<!ENTITY foxclocks.button.moveup.accesskey "F">
+<!ENTITY foxclocks.button.moveup.tooltip "A kiválasztott helyet felfelé mozgatja a Figyelési listán">
+<!ENTITY foxclocks.button.movedown.label "Mozgatás le">
+<!ENTITY foxclocks.button.movedown.accesskey "L">
+<!ENTITY foxclocks.button.movedown.tooltip "A kiválasztott helyet lefelé mozgatja a Figyelési listán">
+<!ENTITY foxclocks.menubar.menu.file.label "Fájl">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "F">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Bezárás">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "B">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Importálás beállítások...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Exportálás beállítások....">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Szerkesztés">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Zóna(ák) hozzáadása a Figyelési listához">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Zóna hozzáadása mint...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "M">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "A helyet felfelé mozgatja a Figyelési listán">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "A helyet lefelé mozgatja a Figyelési listán">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Eltávolítja a kiválasztott helye(ke)t a Figyelési listáról">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Hely tulajdonságai...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "U">
+<!ENTITY foxclocks.menubar.menu.view.label "Nézet">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "N">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Időzóna tulajdonságai">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Időzóna megnyitása OpenStreetMap-ben">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Hely megnyitása OpenStreetMap-ben">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "R">
+<!ENTITY foxclocks.menubar.menu.tools.label "Eszközök">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Beállítások">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "B">
+<!ENTITY foxclocks.menubar.menu.help.label "Súgó">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Súgó...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.help.about.label "MoonClocks névjegye...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "F">
+<!ENTITY foxclocks.dialog.import.title "MoonClocks beállítások betöltése">
+<!ENTITY foxclocks.dialog.import.success "A beállítások sikeresen importálva lettek">
+<!ENTITY foxclocks.dialog.import.failure "A beállítások importálása nem sikerült">
+<!ENTITY foxclocks.dialog.export.title "MoonClocks beállításainak mentése">
+<!ENTITY foxclocks.dialog.export.success "A beállítások mentése sikerült">
+<!ENTITY foxclocks.dialog.export.failure "A beállítások mentése nem sikerült">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks beállítás fájlok">
+<!ENTITY foxclocks.zonepicker.description.label "Zónaválasztó">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Minden elérhető időzónát megjelenít. Az időzónák helyekké válnak a Figyelési listára kerülés után">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Keresés">
+<!ENTITY foxclocks.zonepicker.search.accesskey "K">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Zónaválasztó keresése országra vagy városra">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Időzóna">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Időzóna">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC eltérés">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT/UTC eltérés">
+<!ENTITY foxclocks.zonepicker.footer "*jelzi, hogy a nyári időszámítás hatályban van">
+<!ENTITY foxclocks.zonepicker.context.details.label "Időzóna tulajdonságok">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "I">
+<!ENTITY foxclocks.zonepicker.context.add.label "Hozzáadás a Figyelési listához">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "H">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Hozzáadás a Figyelési listához mint...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "S">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Figyelési lista">
+<!ENTITY foxclocks.locationlist.description.tooltip "A Figyelési listán lévő helyek a státuszsorban/eszköztippben jelenhetnek meg">
+<!ENTITY foxclocks.locationlist.header.location.label "Hely">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Hely az időzónában. A helyre való dupla kattintással beállíthatja a tulajdonságait">
+<!ENTITY foxclocks.locationlist.header.time.label "Idő">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Helyi idő. Az időformátumok teljesen beállíthatók">
+<!ENTITY foxclocks.locationlist.nolocs.label "(nincs hely kiválasztva)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Felfelé mozgatás">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "E">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Lefelé mozgatás">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "L">
+<!ENTITY foxclocks.locationlist.context.details.label "Hely tulajdonságai...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "H">
+<!ENTITY foxclocks.locationlist.context.remove.label "Eltávolítás">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "V">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Eltávolítja a kiválasztott helye(ke)t?">
+<!ENTITY foxclocks.import.confirm.label "Felülírja a meglévő MoonClocks beállításokat?">
+<!ENTITY options.title "MoonClocks beállítások">
+<!ENTITY options.format.caption "Idő formátum">
+<!ENTITY options.format.description "Meghatározza, hogy az időt hogyan jelezze ki">
+<!ENTITY options.format.clockchoice.clock.label "státuszsor/eszköztár órák">
+<!ENTITY options.format.clockchoice.tooltip.label "státuszsor/eszköztár tipp">
+<!ENTITY options.format.clockchoice.foxclocks.label "MoonClocks ablak">
+<!ENTITY options.format.clockchoice.all.label "minden óra">
+<!ENTITY options.format.radio.standard.label "Általános formátumok">
+<!ENTITY options.format.radio.standard.accesskey "Á">
+<!ENTITY options.format.radio.custom.label "Egyedi formátumok">
+<!ENTITY options.format.radio.custom.accesskey "E">
+<!ENTITY options.format.standard.menu.select "---kiválasztás---">
+<!ENTITY options.format.custom.textbox.input.label "Formátum">
+<!ENTITY options.format.custom.textbox.preview.label "Előnézet:">
+<!ENTITY options.format.custom.secs.label "másodperc">
+<!ENTITY options.format.custom.mins.label "perc">
+<!ENTITY options.format.custom.hours.label "óra:">
+<!ENTITY options.format.custom.hours.12.1.label "12-óra">
+<!ENTITY options.format.custom.hours.12.2.label "12-óra, 2 számjegy">
+<!ENTITY options.format.custom.hours.24.1.label "24-óra">
+<!ENTITY options.format.custom.hours.24.2.label "24-óra, 2 számjegy">
+<!ENTITY options.format.custom.am.label "de/du:">
+<!ENTITY options.format.custom.am.lower.label "de/du">
+<!ENTITY options.format.custom.am.upper.label "DE/DU">
+<!ENTITY options.format.custom.year.label "Év:">
+<!ENTITY options.format.custom.year.4.label "4 számjegy">
+<!ENTITY options.format.custom.year.2.label "2 számjegy">
+<!ENTITY options.format.custom.month.label "Hónap:">
+<!ENTITY options.format.custom.month.num.1.label "szám">
+<!ENTITY options.format.custom.month.num.2.label "szám, 2 számjegy">
+<!ENTITY options.format.custom.month.name.long.label "név">
+<!ENTITY options.format.custom.month.name.short.label "név, rövid formátum">
+<!ENTITY options.format.custom.day.label "nap">
+<!ENTITY options.format.custom.day.num.1.label "szám">
+<!ENTITY options.format.custom.day.num.2.label "szám, 2 számjegy">
+<!ENTITY options.format.custom.day.name.long.label "név">
+<!ENTITY options.format.custom.day.name.short.label "név, rövid formátum">
+<!ENTITY options.format.custom.day.ordinal.label "sorszám">
+<!ENTITY options.format.custom.day.ofyear.label "év napja">
+<!ENTITY options.format.custom.other.label "Más">
+<!ENTITY options.format.custom.other.location.label "Hely">
+<!ENTITY options.format.custom.other.offset.label "GMT eltérés">
+<!ENTITY options.format.custom.other.zone.label "Időzóna neve">
+<!ENTITY options.format.custom.other.1.label "vessző">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "kettőspont">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "betűköz">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Elhelyezkedés és stílus">
+<!ENTITY options.clock.position.description.label "Megjelenítés">
+<!ENTITY options.clock.position.radio.statusbar.label "Státuszsor">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "a">
+<!ENTITY options.clock.position.radio.toolbar.label "Eszköztár (húzza az &quot;Eszköztár testreszabása&quot; palettáról)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "E">
+<!ENTITY options.clock.position.statusbar.radio.left.label "a bal oldalon">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "B">
+<!ENTITY options.clock.position.statusbar.radio.right.label "jobb oldalon">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "J">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "egy meghatározott helyen:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "M">
+<!ENTITY options.clock.style.label "Megjelenítés mint:">
+<!ENTITY options.clock.style.radio.clocks.label "többszörös óra">
+<!ENTITY options.clock.style.radio.clocks.accesskey "T">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks ikon (idő megjelenítése, ha az egér fölötte van)">
+<!ENTITY options.clock.style.radio.icon.accesskey "F">
+<!ENTITY options.data.caption "Időzóna adat">
+<!ENTITY options.data.info.caption.label "Aktuális időzóna adatbázis">
+<!ENTITY options.data.info.source.label "Forrás:">
+<!ENTITY options.data.info.version.label "Verzió:">
+<!ENTITY options.data.info.date.label "Dátum:">
+<!ENTITY options.data.update.caption.label "Adatbázis frissítések">
+<!ENTITY options.data.update.last.date.label "Utolsó frissítés:">
+<!ENTITY options.data.update.last.status.label "Eredmény">
+<!ENTITY options.data.update.next.date.label "Következő frissítés:">
+<!ENTITY options.data.update.auto.enable.label "Automatikus frissítés engedélyezése">
+<!ENTITY options.data.update.auto.enable.accesskey "E">
+<!ENTITY options.data.update.checknow.button.label "Ellenőrzés most">
+<!ENTITY options.data.update.checknow.button.accesskey "M">
+<!ENTITY options.advanced.caption "Kiterjesztett">
+<!ENTITY options.advanced.newloc.caption.label "Hely hozzáadása a figyelési listához">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Óra kijelzése a státuszsoron/eszköztáron">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Zászló kijelzése a státuszsoron/eszköztáron">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Óra kijelzése a státuszsoron/eszköztáron tippben">
+<!ENTITY options.advanced.misc.caption.label "Vegyes">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Zászló kijelzése a státuszsoron/eszköztáron">
+<!ENTITY options.advanced.alert.autoupdate.label "Időzóna adatbázis frissítés figyelmeztető mutatása">
+<!ENTITY options.advanced.menuitem.hidden.label "Foxclocks &apos;Eszközök&apos; menűbejegyzés mutatása">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "Helyek eltávolításának jóváhagyása a figyelési listáról">
+<!ENTITY zoneinfo.title.zone "Időzóna tulajdonságok">
+<!ENTITY zoneinfo.title.location "Hely tulajdonságok">
+<!ENTITY zoneinfo.tab.zone.label "Időzóna">
+<!ENTITY zoneinfo.tab.location.label "Hely">
+<!ENTITY zoneinfo.tab.display.label "Megjelenítés">
+<!ENTITY zoneinfo.standardzone.label "Általános időzóna">
+<!ENTITY zoneinfo.daylightzone.label "nyári időszámítás">
+<!ENTITY zoneinfo.daylightsaving.begins "nyári időszámítás kezdete">
+<!ENTITY zoneinfo.daylightsaving.began "nyári időszámítás elkezdődött">
+<!ENTITY zoneinfo.daylightsaving.ends "nyári időszámítás vége">
+<!ENTITY zoneinfo.daylightsaving.ended "nyári időszámítás véget ért">
+<!ENTITY zoneinfo.defaultlocation.label "Alapértelmezett hely">
+<!ENTITY zoneinfo.addas.name.label "Hely neve">
+<!ENTITY zoneinfo.addas.latitude.label "Földrajzi szélesség">
+<!ENTITY zoneinfo.addas.longitude.label "Földrajzi hosszúság">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "Státuszsor/eszközsor óra beállítások nem alkalmazhatók amikor a MoonClocks &quot;ikon&quot; módban van (lásd Beállítások-&gt;Elhelyezkedés és stílus lap)">
+<!ENTITY zoneinfo.display.showclock.caption "Órát mutat/elrejt">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Óra mutatása az eszközsoron">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "M">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Óra mutatása az eszközsoron buborékként">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "T">
+<!ENTITY zoneinfo.display.style.caption "Órastílus az eszközsoron">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Félkövér">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "F">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Dőlt">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "D">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Aláhúzott">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "A">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Zászló">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "Z">
+<!ENTITY zoneinfo.display.style.colour.caption "Az óra színe az eszközsoron/státuszsorban">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Alapszín">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "S">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Más szín engedélyezése">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "E">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "-tól">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "T">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "-ig">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "I">
+<!ENTITY zoneinfo.display.flag.caption "Zászló">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Letiltva">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "L">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Általános">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "Á">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Egyedi">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "G">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Előre beállítottak...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "E">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Kattintson az előre beállított zászló képek kiválasztásához">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Böngészés...">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "B">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Kattintson az egyedi zászló böngészéséhez">
+<!ENTITY zoneinfo.display.customformat.caption.label "Egyedi formátumok (haladó)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "pl. &apos;&lt;h&gt;&lt;24h&gt;&lt;p&gt;&apos; &apos;[Hely]-1523&apos;-t ad. Nézze meg a Beállítások -&gt; Időzóna lapot az elérhető">
+<!ENTITY zoneinfo.display.customformat.clock.label "Státuszsor/eszköztár óra">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "E">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Státuszsor/eszköztár óra tipp">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "T">
+<!ENTITY welcome.title "Üdvözöljük">
+<!ENTITY welcome.header "Üdvözöljük a MoonClocks-ban">
+<!ENTITY welcome.message "A MoonClocks megjeleníti a helyi időt az eszköz- vagy állapotsoron. A világ minden időzónáját támogatja. A program az időzónákat a OpenStreetMap programban is megmutatja. |Kezdetnek:| - hozz létre órát minden olyan időzónára, amit látni szeretnél, és opcióként változtasd meg az óra nevét;| - beállíthatod a színt, a stílust, a második színt (ami például az éjszakai időszakot jelezheti) ;| - válassz egy szokásos időkijelzési formátumot, vagy hozz létre újat.|A későbbiekben ez az üzenet nem jelenik meg; nyisd meg a MoonClocksot az Eszközök menüből, vagy bármelyik órára duplán kattintva.">
+<!ENTITY welcome.checkbox.launch.label "MoonClocks indítása">
+<!ENTITY welcome.checkbox.launch.accesskey "Ü">
+<!ENTITY welcome.checkbox.openhomepage.label "A MoonClocks honlapjának megnyitása">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "M">
+<!ENTITY update.title "A MoonClocks frissítve lett">
+<!ENTITY update.thisversion "Ez a verzió:">
+<!ENTITY update.message "Köszönjük a MoonClocks frissítését. Megtekintheti a Foxclocks változási naplót, hogy lássa milyen újdonságok vannak az új verzióban.">
+<!ENTITY update.checkbox.launch.label "A változási napló mutatása">
+<!ENTITY update.checkbox.launch.accesskey "V">
+<!ENTITY about.title "A MoonClocksról">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "soha">
+<!ENTITY misc.na "nincs">
+<!ENTITY misc.done "Kész">
+<!ENTITY misc.apply "Alkalmaz">

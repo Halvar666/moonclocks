@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks…">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Inställningar…">
+<!ENTITY foxclocksoverlay.context.options.accesskey "I">
+<!ENTITY foxclocksoverlay.context.help.label "Hjälp…">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "Om MoonClocks…">
+<!ENTITY foxclocksoverlay.context.about.accesskey "O">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "L">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "N">
+<!ENTITY foxclocks.accelkey.loc.details "P">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "I">
+<!ENTITY foxclocks.button.add.label "Lägg till &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "L">
+<!ENTITY foxclocks.button.add.tooltip "Lägger till plats(er) i Bevakningslistan baserat på tidszon(er) som valts i Zonväljaren">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Ta bort">
+<!ENTITY foxclocks.button.remove.accesskey "T">
+<!ENTITY foxclocks.button.remove.tooltip "Tar bort markerade platser från Bevakningslistan">
+<!ENTITY foxclocks.button.addas.label "Lägg till som… &gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "s">
+<!ENTITY foxclocks.button.addas.tooltip "Lägger till plats baserat på tidszon som valts i Zonväljaren, via dialogen &quot;Platsegenskaper…&quot;">
+<!ENTITY foxclocks.button.moveup.label "Flytta uppåt">
+<!ENTITY foxclocks.button.moveup.accesskey "u">
+<!ENTITY foxclocks.button.moveup.tooltip "Flyttar markerad plats uppåt i Bevakningslistan">
+<!ENTITY foxclocks.button.movedown.label "Flytta nedåt">
+<!ENTITY foxclocks.button.movedown.accesskey "d">
+<!ENTITY foxclocks.button.movedown.tooltip "Flyttar markerad plats nedåt i Bevakningslistan">
+<!ENTITY foxclocks.menubar.menu.file.label "Arkiv">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "A">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Stäng">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Importera inställningar…">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Exportera inställningar…">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Redigera">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "R">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Lägg till zon(er) i Bevakningslistan">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Lägg till zon i Bevakningslistan som…">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "s">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Flytta plats uppåt i Bevakningslistan">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "u">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Flytta plats nedåt i Bevakningslistan">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "d">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Ta bort plats(er) från Bevakningslistan">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Platsegenskaper…">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "P">
+<!ENTITY foxclocks.menubar.menu.view.label "Visa">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "V">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Zonegenskaper…">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Öppna zon i OpenStreetMap…">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Öppna plats i OpenStreetMap…">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Verktyg">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "k">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Inställningar…">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "ä">
+<!ENTITY foxclocks.menubar.menu.help.label "Hjälp">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Hjälp…">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "Om MoonClocks…">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "O">
+<!ENTITY foxclocks.dialog.import.title "Importera klockinställningar">
+<!ENTITY foxclocks.dialog.import.success "Klockinställningarna importerades utan fel">
+<!ENTITY foxclocks.dialog.import.failure "Import av klockinställningar misslyckades">
+<!ENTITY foxclocks.dialog.export.title "Spara klockinställningar">
+<!ENTITY foxclocks.dialog.export.success "Klockinställningarna sparades utan fel">
+<!ENTITY foxclocks.dialog.export.failure "Sparande av klockinställningar misslyckades">
+<!ENTITY foxclocks.dialog.importexport.filter.label "Klockinställningar för MoonClocks">
+<!ENTITY foxclocks.zonepicker.description.label "Zonväljare">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Visar alla tillgängliga tidszoner. Zoner blir platser när de läggs till i Bevakningslistan">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Sök">
+<!ENTITY foxclocks.zonepicker.search.accesskey "ö">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Sök i Zonväljaren efter ett land eller en stad">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Tidszon">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Tidszoner sorterade efter region, land och stad">
+<!ENTITY foxclocks.zonepicker.col.offset.label "Tidsdiff. GMT/UTC">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "Tidsskillnaden i timmar mot GMT/UTC">
+<!ENTITY foxclocks.zonepicker.footer "* indikerar att sommartid för närvarande gäller på platsen">
+<!ENTITY foxclocks.zonepicker.context.details.label "Zonegenskaper…">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "Lägg till i Bevakningslistan">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "L">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Lägg till i Bevakningslistan som…">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "s">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap…">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Bevakningslista">
+<!ENTITY foxclocks.locationlist.description.tooltip "Platser i Bevakningslistan kan visas i statusfältet/verktygsfältet och/eller som verktygstips">
+<!ENTITY foxclocks.locationlist.header.location.label "Plats">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Plats inom tidszonen. Dubbelklicka på en plats för att ställa in dess egenskaper">
+<!ENTITY foxclocks.locationlist.header.time.label "Tid">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Lokal tid. Tidsformaten är helt och hållet anpassningsbara">
+<!ENTITY foxclocks.locationlist.nolocs.label "(inga platser markerade)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Flytta uppåt">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "u">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Flytta nedåt">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "d">
+<!ENTITY foxclocks.locationlist.context.details.label "Platsegenskaper…">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "P">
+<!ENTITY foxclocks.locationlist.context.remove.label "Ta bort">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "T">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap…">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Ta bort markerade platser?">
+<!ENTITY foxclocks.import.confirm.label "Vill du ersätta de befintliga klockinställningarna?">
+<!ENTITY options.title "Inställningar för MoonClocks">
+<!ENTITY options.format.caption "Tidsformat">
+<!ENTITY options.format.description "Avgör hur tiden visas i">
+<!ENTITY options.format.clockchoice.clock.label "statusfältets/verktygsfältets klockor">
+<!ENTITY options.format.clockchoice.tooltip.label "statusfältets/verktygsfältets klockverktygstips">
+<!ENTITY options.format.clockchoice.foxclocks.label "MoonClocks-fönstret">
+<!ENTITY options.format.clockchoice.all.label "alla klockor">
+<!ENTITY options.format.radio.standard.label "Standardformat">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "Anpassat format">
+<!ENTITY options.format.radio.custom.accesskey "A">
+<!ENTITY options.format.standard.menu.select "---välj---">
+<!ENTITY options.format.custom.textbox.input.label "Format:">
+<!ENTITY options.format.custom.textbox.preview.label "Förhandsgranskning:">
+<!ENTITY options.format.custom.secs.label "Sekunder">
+<!ENTITY options.format.custom.mins.label "Minuter">
+<!ENTITY options.format.custom.hours.label "Timmar:">
+<!ENTITY options.format.custom.hours.12.1.label "12 timmar">
+<!ENTITY options.format.custom.hours.12.2.label "12 timmar, tvåsiffrigt">
+<!ENTITY options.format.custom.hours.24.1.label "24 timmar">
+<!ENTITY options.format.custom.hours.24.2.label "24 timmar, tvåsiffrigt">
+<!ENTITY options.format.custom.am.label "f.m./e.m.:">
+<!ENTITY options.format.custom.am.lower.label "f.m./e.m.">
+<!ENTITY options.format.custom.am.upper.label "F.M./E.M.">
+<!ENTITY options.format.custom.year.label "År:">
+<!ENTITY options.format.custom.year.4.label "fyrsiffrigt">
+<!ENTITY options.format.custom.year.2.label "tvåsiffrigt">
+<!ENTITY options.format.custom.month.label "Månad:">
+<!ENTITY options.format.custom.month.num.1.label "numeriskt">
+<!ENTITY options.format.custom.month.num.2.label "numeriskt, tvåsiffrigt">
+<!ENTITY options.format.custom.month.name.long.label "namn">
+<!ENTITY options.format.custom.month.name.short.label "namn, kortform">
+<!ENTITY options.format.custom.day.label "Dag:">
+<!ENTITY options.format.custom.day.num.1.label "numeriskt">
+<!ENTITY options.format.custom.day.num.2.label "numeriskt, tvåsiffrigt">
+<!ENTITY options.format.custom.day.name.long.label "namn">
+<!ENTITY options.format.custom.day.name.short.label "namn, kortform">
+<!ENTITY options.format.custom.day.ordinal.label "ordningstal">
+<!ENTITY options.format.custom.day.ofyear.label "dag på året">
+<!ENTITY options.format.custom.other.label "Övrigt:">
+<!ENTITY options.format.custom.other.location.label "Plats">
+<!ENTITY options.format.custom.other.offset.label "Tidsdifferens GMT">
+<!ENTITY options.format.custom.other.zone.label "Tidszonsnamn">
+<!ENTITY options.format.custom.other.1.label "komma">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "kolon">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "mellanslag">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Position och stil">
+<!ENTITY options.clock.position.description.label "Visa i:">
+<!ENTITY options.clock.position.radio.statusbar.label "Statusfältet">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "a">
+<!ENTITY options.clock.position.radio.toolbar.label "Verktygsfältet (se &quot;Anpassa verktygsfält&quot;-paletten)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "t">
+<!ENTITY options.clock.position.statusbar.radio.left.label "på vänster sida">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "v">
+<!ENTITY options.clock.position.statusbar.radio.right.label "på höger sida">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "h">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "på en specifik position:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "p">
+<!ENTITY options.clock.style.label "Visa som:">
+<!ENTITY options.clock.style.radio.clocks.label "Multipla klockor">
+<!ENTITY options.clock.style.radio.clocks.accesskey "M">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks-ikon (för muspekaren över ikonen för att visa klockor)">
+<!ENTITY options.clock.style.radio.icon.accesskey "i">
+<!ENTITY options.data.caption "Tidszonsdata">
+<!ENTITY options.data.info.caption.label "Nuvarande tidszonsdatabas">
+<!ENTITY options.data.info.source.label "Källa:">
+<!ENTITY options.data.info.version.label "Version:">
+<!ENTITY options.data.info.date.label "Datum:">
+<!ENTITY options.data.update.caption.label "Databasuppdateringar">
+<!ENTITY options.data.update.last.date.label "Senaste uppdatering:">
+<!ENTITY options.data.update.last.status.label "Resultat:">
+<!ENTITY options.data.update.next.date.label "Nästa uppdatering:">
+<!ENTITY options.data.update.auto.enable.label "Uppdatera tidszonsdatabasen automatiskt">
+<!ENTITY options.data.update.auto.enable.accesskey "A">
+<!ENTITY options.data.update.checknow.button.label "Uppdatera">
+<!ENTITY options.data.update.checknow.button.accesskey "U">
+<!ENTITY options.advanced.caption "Avancerat">
+<!ENTITY options.advanced.newloc.caption.label "När en ny plats läggs till i Bevakningslistan">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Visa klocka i statusfältet/verktygsfältet">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Visa flagga i statusfältet/verktygsfältet">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Visa klocka i statusfältets/verktygsfältets verktygstips">
+<!ENTITY options.advanced.misc.caption.label "Övrigt">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Visa flaggor i statusfältets/verktygsfältets verktygstips">
+<!ENTITY options.advanced.alert.autoupdate.label "Visa uppdateringsmeddelanden för tidszonsdatabasen">
+<!ENTITY options.advanced.menuitem.hidden.label "Visa MoonClocks &quot;Verktyg&quot;-menyposter">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "Bekräfta borttagning av platser från Bevakningslistan">
+<!ENTITY zoneinfo.title.zone "Tidszonsegenskaper">
+<!ENTITY zoneinfo.title.location "Platsegenskaper">
+<!ENTITY zoneinfo.tab.zone.label "Tidszon">
+<!ENTITY zoneinfo.tab.location.label "Plats">
+<!ENTITY zoneinfo.tab.display.label "Visa">
+<!ENTITY zoneinfo.standardzone.label "Standardtidszon">
+<!ENTITY zoneinfo.daylightzone.label "Sommartidstidszon">
+<!ENTITY zoneinfo.daylightsaving.begins "Sommartid börjar">
+<!ENTITY zoneinfo.daylightsaving.began "Sommartid började">
+<!ENTITY zoneinfo.daylightsaving.ends "Sommartid slutar">
+<!ENTITY zoneinfo.daylightsaving.ended "Sommartid slutade">
+<!ENTITY zoneinfo.defaultlocation.label "Standardplats">
+<!ENTITY zoneinfo.addas.name.label "Platsnamn">
+<!ENTITY zoneinfo.addas.latitude.label "Latitud">
+<!ENTITY zoneinfo.addas.longitude.label "Longitud">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap…">
+<!ENTITY zoneinfo.display.description "Statusfältets/verktygsfältets klockinställningar tillämpas inte när MoonClocks är i &quot;ikon&quot;-läge (se Inställningar &gt; fliken Position och stil)">
+<!ENTITY zoneinfo.display.showclock.caption "Visa/dölj klocka">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Visa klocka i statusfältet/verktygsfältet">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "s">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Visa klocka i statusfältets/verktygsfältets verktygstips">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "t">
+<!ENTITY zoneinfo.display.style.caption "Statusfältets/verktygsfältets klockstil">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Fet">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "F">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Kursiv">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "K">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Understruken">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "U">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Flagga">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "g">
+<!ENTITY zoneinfo.display.style.colour.caption "Statusfältets/verktygsfältets klockfärg">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Standardfärg">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "ä">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Aktivera alternativfärg">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "A">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "från">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "t.o.m.">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "t">
+<!ENTITY zoneinfo.display.flag.caption "Flaggbild">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Ingen">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "n">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Standard">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "r">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Anpassad">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "A">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Förinställningar…">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "ö">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Klicka här för att välja förinställda flaggbilder">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Bläddra…">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "B">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Klicka här för att bläddra efter en anpassad flagga">
+<!ENTITY zoneinfo.display.customformat.caption.label "Anpassa format (avancerat)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "Exempel: &quot;&lt;l&gt;-&lt;24tim&gt;&lt;m&gt;&quot; ger &quot;[Plats]-1523&quot;. Se Inställningar-&gt;Tidsformat-fliken för tillgängliga platshållare">
+<!ENTITY zoneinfo.display.customformat.clock.label "Statusfältets/verktygsfältets klockor">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "l">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Statusfältets/verktygsfältets klockverktygstips">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "k">
+<!ENTITY welcome.title "Välkommen">
+<!ENTITY welcome.header "Välkommen till MoonClocks">
+<!ENTITY welcome.message "MoonClocks visar lokala tider från hela världen i statusfältet eller i vilket verktygsfält som helst. Tillägget har stöd för praktiskt taget alla världens tidszoner. MoonClocks låter dig också utforska varje tidszon i OpenStreetMap.|För att komma igång:| - Skapa en klocka för varje tidszon du vill kunna se och ändra vid behov klockornas standardnamn.| - Anpassa klockans stil, färg och alternativfärg (att använda utanför arbetstiderna, t.ex.).| - Välj ett av standardtidsformaten för din klocka, eller skapa ditt eget.|I framtiden kommer inte det här meddelandet att visas; öppna MoonClocks från Verktyg-menyn eller genom att dubbelklicka på en klocka.">
+<!ENTITY welcome.checkbox.launch.label "Starta MoonClocks">
+<!ENTITY welcome.checkbox.launch.accesskey "S">
+<!ENTITY welcome.checkbox.openhomepage.label "Gå till MoonClocks webbplats">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "G">
+<!ENTITY update.title "MoonClocks är uppdaterat">
+<!ENTITY update.thisversion "Den här versionen:">
+<!ENTITY update.message "Tack för att du uppdaterar MoonClocks. Du kanske vill se MoonClocks ändringslogg för att se vad som är nytt i den här versionen.">
+<!ENTITY update.checkbox.launch.label "Visa ändringslogg">
+<!ENTITY update.checkbox.launch.accesskey "V">
+<!ENTITY about.title "Om MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "aldrig">
+<!ENTITY misc.na "i.u.">
+<!ENTITY misc.done "Klar">
+<!ENTITY misc.apply "Verkställ">

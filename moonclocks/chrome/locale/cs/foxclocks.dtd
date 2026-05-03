@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Možnosti...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "M">
+<!ENTITY foxclocksoverlay.context.help.label "Nápověda...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "N">
+<!ENTITY foxclocksoverlay.context.about.label "O rozšíření MoonClocks...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "O">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "P">
+<!ENTITY foxclocks.accelkey.moveup "N">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "M">
+<!ENTITY foxclocks.button.add.label "Přidat &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "P">
+<!ENTITY foxclocks.button.add.tooltip "Přidává podle časového pásma v seznamu pásem místo(a) do seznamu hodin">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Odebrat">
+<!ENTITY foxclocks.button.remove.accesskey "O">
+<!ENTITY foxclocks.button.remove.tooltip "Odstraňuje ze seznamu hodin zvolené místo(a)">
+<!ENTITY foxclocks.button.addas.label "Přidat jako...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "j">
+<!ENTITY foxclocks.button.addas.tooltip "Přidává podle časového pásma zvoleného v seznamu pásem místo přes dialog &apos;Přidat jako...&apos;">
+<!ENTITY foxclocks.button.moveup.label "Posunout nahoru">
+<!ENTITY foxclocks.button.moveup.accesskey "n">
+<!ENTITY foxclocks.button.moveup.tooltip "Posouvá vybrané místo v seznamu hodin nahoru">
+<!ENTITY foxclocks.button.movedown.label "Posunout dolů">
+<!ENTITY foxclocks.button.movedown.accesskey "d">
+<!ENTITY foxclocks.button.movedown.tooltip "Posouvá vybrané místo v seznamu hodin">
+<!ENTITY foxclocks.menubar.menu.file.label "Soubor">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Zavřít">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Importovat nastavení...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Exportovat nastavení...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Upravit">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "U">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Přidat pásmo(a) do seznamu hodin">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "P">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Přidat pásmo do seznamu hodin jako...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "j">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Posunout místo v seznamu hodin nahoru">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "n">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Posunout místo v seznamu hodin dolů">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "d">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Odstranit místo(a) ze seznamu hodin">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Podrobnosti místa...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "P">
+<!ENTITY foxclocks.menubar.menu.view.label "Zobrazit">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Podrobnosti pásma...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "p">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Otevřít pásmo v OpenStreetMap...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Otevřít místo v OpenStreetMap...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Nástroje">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "N">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Možnosti...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "M">
+<!ENTITY foxclocks.menubar.menu.help.label "Nápověda">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "N">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Nápověda...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "N">
+<!ENTITY foxclocks.menubar.menu.help.about.label "O rozšíření MoonClocks...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "O">
+<!ENTITY foxclocks.dialog.import.title "Načíst nastavení MoonClocks">
+<!ENTITY foxclocks.dialog.import.success "Nastavení úspěšně importováno">
+<!ENTITY foxclocks.dialog.import.failure "Chyba importu nastavení">
+<!ENTITY foxclocks.dialog.export.title "Uložit nastavení MoonClocks">
+<!ENTITY foxclocks.dialog.export.success "Nastavení uloženo">
+<!ENTITY foxclocks.dialog.export.failure "Chyba v ukládání nastavení">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks uložené soubory">
+<!ENTITY foxclocks.zonepicker.description.label "Seznam pásem">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Zobrazuje všechna dostupná časová pásma. Při přidávaní míst do seznamu hodin jsou místa rozdělena podle pásem.">
+<!ENTITY foxclocks.zonepicker.search.initvalue "">
+<!ENTITY foxclocks.zonepicker.search.accesskey "">
+<!ENTITY foxclocks.zonepicker.search.tooltip "">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Časové pásmo">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Časové pásmo">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC rozdíl">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT/UTC rozdíl">
+<!ENTITY foxclocks.zonepicker.footer "* znamená, že je použit letní čas">
+<!ENTITY foxclocks.zonepicker.context.details.label "Podrobnosti o pásmu...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "U">
+<!ENTITY foxclocks.zonepicker.context.add.label "Přidat">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "P">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Pridat jako...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "j">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "seznam hodin">
+<!ENTITY foxclocks.locationlist.description.tooltip "Zobrazuje místa viditelná v popisku MoonClocks a (jak je to nastavené) ve stavovém řádku/na panelu nástrojů">
+<!ENTITY foxclocks.locationlist.header.location.label "Místo">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Místo v časovém pásmu. Názvy míst lze upravit.">
+<!ENTITY foxclocks.locationlist.header.time.label "Čas">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Místní čas. Formáty času lze přizpůsobit.">
+<!ENTITY foxclocks.locationlist.nolocs.label "(nejsou zvolena žádná místa)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Posunout nahoru">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "n">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Posunout dolů">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "d">
+<!ENTITY foxclocks.locationlist.context.details.label "Podrobnosti o místě...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "m">
+<!ENTITY foxclocks.locationlist.context.remove.label "Odstranit">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "O">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Odebrat označené místo?">
+<!ENTITY foxclocks.import.confirm.label "Zaměnit existující nastavení MoonClocks?">
+<!ENTITY options.title "Možnosti MoonClocks">
+<!ENTITY options.format.caption "Formát času">
+<!ENTITY options.format.description "Určuje, jak se zobrazuje čas">
+<!ENTITY options.format.clockchoice.clock.label "na hodinách ve stavovém řádku/na panelu nástrojů">
+<!ENTITY options.format.clockchoice.tooltip.label "v popisku hodin ve stavovém řádku/na panelu nástrojů">
+<!ENTITY options.format.clockchoice.foxclocks.label "okně MoonClocks">
+<!ENTITY options.format.clockchoice.all.label "na všech hodinách">
+<!ENTITY options.format.radio.standard.label "Standartní formáty">
+<!ENTITY options.format.radio.standard.accesskey "D">
+<!ENTITY options.format.radio.custom.label "Vlastní formát">
+<!ENTITY options.format.radio.custom.accesskey "V">
+<!ENTITY options.format.standard.menu.select "---vyberte---">
+<!ENTITY options.format.custom.textbox.input.label "Řetězec formátu:">
+<!ENTITY options.format.custom.textbox.preview.label "Ukázka:">
+<!ENTITY options.format.custom.secs.label "Sekundy">
+<!ENTITY options.format.custom.mins.label "Minuty">
+<!ENTITY options.format.custom.hours.label "Hodiny:">
+<!ENTITY options.format.custom.hours.12.1.label "12-hod.">
+<!ENTITY options.format.custom.hours.12.2.label "12-hod., 2 číslice">
+<!ENTITY options.format.custom.hours.24.1.label "24-hod.">
+<!ENTITY options.format.custom.hours.24.2.label "24-hod., 2 číslice">
+<!ENTITY options.format.custom.am.label "am/pm:">
+<!ENTITY options.format.custom.am.lower.label "am/pm">
+<!ENTITY options.format.custom.am.upper.label "AM/PM">
+<!ENTITY options.format.custom.year.label "Rok:">
+<!ENTITY options.format.custom.year.4.label "4 číslice">
+<!ENTITY options.format.custom.year.2.label "2 číslice">
+<!ENTITY options.format.custom.month.label "Měsíc:">
+<!ENTITY options.format.custom.month.num.1.label "číselně">
+<!ENTITY options.format.custom.month.num.2.label "číselně, 2 číslice">
+<!ENTITY options.format.custom.month.name.long.label "názvem">
+<!ENTITY options.format.custom.month.name.short.label "názvem, krátký formát">
+<!ENTITY options.format.custom.day.label "Den:">
+<!ENTITY options.format.custom.day.num.1.label "číselně">
+<!ENTITY options.format.custom.day.num.2.label "číselně, 2 číslice">
+<!ENTITY options.format.custom.day.name.long.label "názvem">
+<!ENTITY options.format.custom.day.name.short.label "názvem, krátký formát">
+<!ENTITY options.format.custom.day.ordinal.label "pořadové">
+<!ENTITY options.format.custom.day.ofyear.label "den roku">
+<!ENTITY options.format.custom.other.label "Jiné:">
+<!ENTITY options.format.custom.other.location.label "Místo">
+<!ENTITY options.format.custom.other.offset.label "GMT rozdíl">
+<!ENTITY options.format.custom.other.zone.label "Název pásma">
+<!ENTITY options.format.custom.other.1.label "čárka">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "dvojtečka">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "mezera">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Umístění a styl">
+<!ENTITY options.clock.position.description.label "Zobrazit v:">
+<!ENTITY options.clock.position.radio.statusbar.label "Stavový řádek">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "S">
+<!ENTITY options.clock.position.radio.toolbar.label "Panel nástrojů (přetáhnete z palety &apos;Přizpůsobit panel nástrojů&apos;)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "T">
+<!ENTITY options.clock.position.statusbar.radio.left.label "na levé straně">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "l">
+<!ENTITY options.clock.position.statusbar.radio.right.label "na pravé straně">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "p">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "na určitém místě:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "u">
+<!ENTITY options.clock.style.label "Zobrazit jako:">
+<!ENTITY options.clock.style.radio.clocks.label "Vícenásobné hodiny">
+<!ENTITY options.clock.style.radio.clocks.accesskey "c">
+<!ENTITY options.clock.style.radio.icon.label "Ikona MoonClocks (zobrazit hodiny při ukázání)">
+<!ENTITY options.clock.style.radio.icon.accesskey "I">
+<!ENTITY options.data.caption "Data časových pásem">
+<!ENTITY options.data.info.caption.label "Reálný čas v časovém pásmu">
+<!ENTITY options.data.info.source.label "Kód:">
+<!ENTITY options.data.info.version.label "Verze">
+<!ENTITY options.data.info.date.label "Datum">
+<!ENTITY options.data.update.caption.label "Databáze aktualizována">
+<!ENTITY options.data.update.last.date.label "Poslední aktualizace">
+<!ENTITY options.data.update.last.status.label "Výsledek:">
+<!ENTITY options.data.update.next.date.label "Další aktualizace:">
+<!ENTITY options.data.update.auto.enable.label "Zapnout automatickou aktualizaci">
+<!ENTITY options.data.update.auto.enable.accesskey "Z">
+<!ENTITY options.data.update.checknow.button.label "Zkontrolovat nyní">
+<!ENTITY options.data.update.checknow.button.accesskey "n">
+<!ENTITY options.advanced.caption "">
+<!ENTITY options.advanced.newloc.caption.label "">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "">
+<!ENTITY options.advanced.misc.caption.label "">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "">
+<!ENTITY options.advanced.alert.autoupdate.label "">
+<!ENTITY options.advanced.menuitem.hidden.label "">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "">
+<!ENTITY zoneinfo.title.zone "Podrobnosti časového pásma">
+<!ENTITY zoneinfo.title.location "Podrobnosti místa">
+<!ENTITY zoneinfo.tab.zone.label "Časová pásma">
+<!ENTITY zoneinfo.tab.location.label "Místa">
+<!ENTITY zoneinfo.tab.display.label "Zobrazit">
+<!ENTITY zoneinfo.standardzone.label "Standartní časové pásmo">
+<!ENTITY zoneinfo.daylightzone.label "Časové pásmo s letním časem">
+<!ENTITY zoneinfo.daylightsaving.begins "Letní čas začne">
+<!ENTITY zoneinfo.daylightsaving.began "Letní čas začal">
+<!ENTITY zoneinfo.daylightsaving.ends "Letní čas skončí">
+<!ENTITY zoneinfo.daylightsaving.ended "Letní čas skončil">
+<!ENTITY zoneinfo.defaultlocation.label "Výchozí místo">
+<!ENTITY zoneinfo.addas.name.label "Název místa">
+<!ENTITY zoneinfo.addas.latitude.label "Zeměpisná šířka (volitelná)">
+<!ENTITY zoneinfo.addas.longitude.label "Zeměpisná délka (volitelná)">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "Stavový řádek/Nástrojová lišta clock  se nepoužije, pokud je MoonClocks v režimu &apos;icon&apos;  (kouknout do nastavení-&gt;Umístění a vzhled )">
+<!ENTITY zoneinfo.display.showclock.caption "Zobrazit/skrýt hodiny">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Zobrazit hodiny ve stavovém řádku/nástrojové liště">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "Z">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Zobrazit hodiny ve stavovém řádku/nástrojové liště místní nápovědy">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "h">
+<!ENTITY zoneinfo.display.style.caption "Stavový řádek/nástrojová lišta  vzhled hodin">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Tučné">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "T">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Kurzíva">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "K">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Podtržené">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "P">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Vlajka">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "V">
+<!ENTITY zoneinfo.display.style.colour.caption "Stavový řádek/nástrojová lišta barva hodin">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Standartní barvy">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "b">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "přidat alternativní barvy">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "a">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "od">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "o">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "do">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "d">
+<!ENTITY zoneinfo.display.flag.caption "">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "">
+<!ENTITY zoneinfo.display.customformat.caption.label "">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "">
+<!ENTITY zoneinfo.display.customformat.clock.label "">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "">
+<!ENTITY welcome.title "Vítejte">
+<!ENTITY welcome.header "Vítejte v rozšíření MoonClocks">
+<!ENTITY welcome.message "MoonClocks zobrazuje ve stavovém řádku nebo na panelu nástrojů aplikace čas ze stovek míst po celém světě, prostřednictvím databáze časových pásem v letním čase. MoonClocks také spolupracuje s OpenStreetMap (pokud ho máte nainstalovaný), ve kterém si můžete prohlédnout kterékoliv místo nacházející se v databázi MoonClocks.|Při prvním použití MoonClocks si můžete nastavit, které časy má MoonClocks zobrazit. Máte k dispozici příklad seznamu míst.|Příště se toto oznámení nezobrazí; MoonClocks je možné otevřít z nabídky Nástroje, poklepáním na libovolné hodiny nebo klepnutím na tlačítko MoonClocks, je-li viditelné.">
+<!ENTITY welcome.checkbox.launch.label "Spustit MoonClocks">
+<!ENTITY welcome.checkbox.launch.accesskey "S">
+<!ENTITY welcome.checkbox.openhomepage.label "Otevřít domovskou stránku MoonClocks">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "O">
+<!ENTITY update.title "MoonClocks aktualizovaný">
+<!ENTITY update.thisversion "Tato verze:">
+<!ENTITY update.message "Děkujeme za aktualizaci MoonClocks. V záznamu o změnách se můžete podívat, co je nového v této verzi MoonClocks.">
+<!ENTITY update.checkbox.launch.label "Zobrazit záznam o změnách">
+<!ENTITY update.checkbox.launch.accesskey "z">
+<!ENTITY about.title "O rozšíření MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "nikdy">
+<!ENTITY misc.na "N/A">
+<!ENTITY misc.done "Hotovo">
+<!ENTITY misc.apply "Použít">

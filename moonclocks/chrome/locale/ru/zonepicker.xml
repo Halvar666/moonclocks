@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zonepicker version="2.0" locale="ru-RU">
+	<Branch name="Австралия">
+		<Branch name="Штаты">
+			<Leaf zone_id="Australia/Melbourne" name="Виктория" />
+			<Leaf zone_id="Australia/Perth" name="Западная Австралия" />
+			<Leaf zone_id="Australia/Brisbane" name="Квинслэнд" />
+			<Leaf zone_id="Australia/Lindeman" name="Квинслэнд - о-в Холидэй" />
+			<Leaf zone_id="Australia/Lord_Howe" name="Лорд Хоу" />
+			<Leaf zone_id="Australia/Sydney" name="Новый Южный Уэльс" />
+			<Leaf zone_id="Australia/Broken_Hill" name="Новый Южный Уэльс - Янковинна" />
+			<Leaf zone_id="Australia/Darwin" name="Северная территория" />
+			<Leaf zone_id="Australia/Hobart" name="Тасмания" />
+			<Leaf zone_id="Australia/Currie" name="Тасмания - о-в Кинг" />
+			<Leaf zone_id="Australia/Adelaide" name="Южная Австралия" />
+		</Branch>
+		<Branch name="Города">
+			<Leaf zone_id="Australia/Adelaide" name="Аделаида" />
+			<Leaf zone_id="Australia/Brisbane" name="Брисбэн" />
+			<Leaf zone_id="Australia/Broken_Hill" name="Брокен Хилл" />
+			<Leaf zone_id="Australia/Darwin" name="Дарвин" />
+			<Leaf zone_id="Australia/Sydney" name="Канберра">
+				<Coordinates latitude="-35.308" longitude="149.124" />
+			</Leaf>
+			<Leaf zone_id="Australia/Currie" name="Курри" />
+			<Leaf zone_id="Australia/Lindeman" name="Линдеман" />
+			<Leaf zone_id="Australia/Lord_Howe" name="Лорд Хоу" />
+			<Leaf zone_id="Australia/Melbourne" name="Мельбурн" />
+			<Leaf zone_id="Australia/Perth" name="Перт" />
+			<Leaf zone_id="Australia/Sydney" name="Сидней" />
+			<Leaf zone_id="Australia/Hobart" name="Хобарт" />
+		</Branch>
+	</Branch>
+	<Branch name="Азия">
+		<Branch name="Страны">
+			<Leaf zone_id="Asia/Baku" name="Азербайджан" />
+			<Leaf zone_id="Asia/Yerevan" name="Армения" />
+			<Leaf zone_id="Asia/Kabul" name="Афганистан" />
+			<Leaf zone_id="Asia/Dhaka" name="Бангладеш" />
+			<Leaf zone_id="Asia/Bahrain" name="Бахрейн" />
+			<Leaf zone_id="Asia/Brunei" name="Бруней" />
+			<Leaf zone_id="Asia/Thimphu" name="Бутан" />
+			<Leaf zone_id="Asia/Dili" name="Восточный Тимор" />
+			<Leaf zone_id="Asia/Ho_Chi_Minh" name="Вьетнам" />
+			<Leaf zone_id="Asia/Hong_Kong" name="Гонконг" />
+			<Leaf zone_id="Asia/Tbilisi" name="Грузия" />
+			<Leaf zone_id="Asia/Jerusalem" name="Израиль" />
+			<Leaf zone_id="Asia/Kolkata" name="Индия">
+				<Coordinates latitude="28.633" longitude="77.217" />
+			</Leaf>
+			<Branch name="Индонезия">
+				<Leaf zone_id="Asia/Makassar" name="Вост. и Юж. Борнео, Сулавеси, Бали и Восток" />
+				<Leaf zone_id="Asia/Pontianak" name="Зап. и Цент. Борнео" />
+				<Leaf zone_id="Asia/Jayapura" name="Ирия Джайя и Молуккские о-ва" />
+				<Leaf zone_id="Asia/Jakarta" name="Ява и Суматра" />
+			</Branch>
+			<Leaf zone_id="Asia/Amman" name="Иордания" />
+			<Leaf zone_id="Asia/Baghdad" name="Ирак" />
+			<Leaf zone_id="Asia/Tehran" name="Иран" />
+			<Leaf zone_id="Asia/Aden" name="Йемен">
+				<Coordinates latitude="15.352" longitude="44.207" />
+			</Leaf>
+			<Branch name="Казахстан">
+				<Leaf zone_id="Asia/Aqtobe" name="Актюбинск" />
+				<Leaf zone_id="Asia/Aqtau" name="Атырау, Мангистау" />
+				<Leaf zone_id="Asia/Atyrau" name="Atyrau" />
+				<Leaf zone_id="Asia/Qostanay" name="Qostanay" />
+				<Leaf zone_id="Asia/Oral" name="Зап. Казахстан" />
+				<Leaf zone_id="Asia/Almaty" name="Казахстан (большая часть)" />
+				<Leaf zone_id="Asia/Qyzylorda" name="Квизилорда" />
+			</Branch>
+			<Leaf zone_id="Asia/Phnom_Penh" name="Камбоджа" />
+			<Leaf zone_id="Asia/Qatar" name="Катар" />
+			<Leaf zone_id="Asia/Nicosia" name="Кипр" />
+			<Leaf zone_id="Asia/Shanghai" name="Китай">
+				<Coordinates latitude="39.904" longitude="116.391" />
+			</Leaf>
+			<Branch name="Китай (исторический)">
+				<Leaf zone_id="Asia/Kashgar" name="Зап. Тибет и Xinjiang" />
+				<Leaf zone_id="Asia/Urumqi" name="Тибет и Xinjiang (большая часть)" />
+				<Leaf zone_id="Asia/Harbin" name="Хэйлуцзян (кроме Мохе), Джилин" />
+				<Leaf zone_id="Asia/Chongqing" name="Центральный Китай" />
+			</Branch>
+			<Leaf zone_id="Asia/Pyongyang" name="Корея, Северная" />
+			<Leaf zone_id="Asia/Seoul" name="Корея, Южная" />
+			<Leaf zone_id="Asia/Kuwait" name="Кувейт" />
+			<Leaf zone_id="Asia/Bishkek" name="Кыргызстан" />
+			<Leaf zone_id="Asia/Vientiane" name="Лаос" />
+			<Leaf zone_id="Asia/Beirut" name="Ливан" />
+			<Leaf zone_id="Asia/Macau" name="Макао" />
+			<Branch name="Малайзия">
+				<Leaf zone_id="Asia/Kuala_Lumpur" name="Малазийский п-ов" />
+				<Leaf zone_id="Asia/Kuching" name="Саба и Саравак" />
+			</Branch>
+			<Branch name="Монголия">
+				<Leaf zone_id="Asia/Hovd" name="Баян-Оглы, Ховд, и т.д." />
+				<Leaf zone_id="Asia/Choibalsan" name="Дорнод, Сухэ-Батор" />
+				<Leaf zone_id="Asia/Ulaanbaatar" name="Монголия (большая часть)" />
+			</Branch>
+			<Leaf zone_id="Asia/Rangoon" name="Мьянма (Бирма)" />
+			<Leaf zone_id="Asia/Yangon" name="Yangon" />
+			<Leaf zone_id="Asia/Kathmandu" name="Непал" />
+			<Leaf zone_id="Asia/Muscat" name="Оман" />
+			<Leaf zone_id="Asia/Dubai" name="ОАЭ" />
+			<Leaf zone_id="Asia/Karachi" name="Пакистан" />
+			<Leaf zone_id="Asia/Gaza" name="Палестина" />
+			<Branch name="Россия">
+				<Leaf zone_id="Asia/Yekaterinburg" name="Москва+02 - Урал" />
+				<Leaf zone_id="Asia/Novosibirsk" name="Москва+03 - Новосибирск" />
+				<Leaf zone_id="Asia/Tomsk" name="Tomsk" />
+				<Leaf zone_id="Asia/Omsk" name="Москва+03 - Зап. Сибирь" />
+				<Leaf zone_id="Asia/Krasnoyarsk" name="Москва+04 - р. Енисей" />
+				<Leaf zone_id="Asia/Irkutsk" name="Москва+05 - оз. Байкал" />
+				<Leaf zone_id="Asia/Yakutsk" name="Москва+06 - р. Лена" />
+				<Leaf zone_id="Asia/Vladivostok" name="Москва+07 - р. Амур" />
+				<Leaf zone_id="Asia/Sakhalin" name="Москва+07 - о-в Сахалин" />
+				<Leaf zone_id="Asia/Magadan" name="Москва+08 - Магадан" />
+				<Leaf zone_id="Asia/Kamchatka" name="Москва+09 - Камчатка" />
+				<Leaf zone_id="Asia/Anadyr" name="Москва+10 - Берингово море" />
+			</Branch>
+			<Leaf zone_id="Asia/Riyadh" name="Саудовская Аравия" />
+			<Leaf zone_id="Asia/Singapore" name="Сингапур" />
+			<Leaf zone_id="Asia/Damascus" name="Сирия" />
+			<Leaf zone_id="Asia/Dushanbe" name="Таджикистан" />
+			<Leaf zone_id="Asia/Bangkok" name="Таиланд" />
+			<Leaf zone_id="Asia/Taipei" name="Тайвань" />
+			<Leaf zone_id="Asia/Ashgabat" name="Туркменистан" />
+			<Branch name="Узбекистан">
+				<Leaf zone_id="Asia/Tashkent" name="Вост. Узбекистан" />
+				<Leaf zone_id="Asia/Samarkand" name="Зап. Узбекистан" />
+			</Branch>
+			<Leaf zone_id="Asia/Manila" name="Филиппины" />
+			<Leaf zone_id="Asia/Colombo" name="Шри-Ланка" />
+			<Leaf zone_id="Asia/Tokyo" name="Япония" />
+		</Branch>
+		<Branch name="Города">
+			<Leaf zone_id="Asia/Aden" name="Аден" />
+			<Leaf zone_id="Asia/Aqtau" name="Актау" />
+			<Leaf zone_id="Asia/Atyrau" name="Atyrau" />
+			<Leaf zone_id="Asia/Qostanay" name="Qostanay" />
+			<Leaf zone_id="Asia/Aqtobe" name="Актюбинск" />
+			<Leaf zone_id="Asia/Almaty" name="Алматы" />
+			<Leaf zone_id="Asia/Amman" name="Амман" />
+			<Leaf zone_id="Asia/Anadyr" name="Анадырь" />
+			<Leaf zone_id="Asia/Ashgabat" name="Ашхабад" />
+			<Leaf zone_id="Asia/Baghdad" name="Багдад" />
+			<Leaf zone_id="Asia/Baku" name="Баку" />
+			<Leaf zone_id="Asia/Bangkok" name="Бангкок" />
+			<Leaf zone_id="Asia/Brunei" name="Бандар-Сери-Бегаван" />
+			<Leaf zone_id="Asia/Beirut" name="Бейрут" />
+			<Leaf zone_id="Asia/Bishkek" name="Бишкек" />
+			<Leaf zone_id="Asia/Kolkata" name="Бомбей">
+				<Coordinates latitude="19.032" longitude="72.849" />
+			</Leaf>
+			<Leaf zone_id="Asia/Vladivostok" name="Владивосток" />
+			<Leaf zone_id="Asia/Vientiane" name="Вьентьян" />
+			<Leaf zone_id="Asia/Gaza" name="Газа" />
+			<Leaf zone_id="Asia/Hong_Kong" name="Гонконг" />
+			<Leaf zone_id="Asia/Dhaka" name="Дака" />
+			<Leaf zone_id="Asia/Damascus" name="Дамаск" />
+			<Leaf zone_id="Asia/Jakarta" name="Джакарта" />
+			<Leaf zone_id="Asia/Dili" name="Дили" />
+			<Leaf zone_id="Asia/Qatar" name="Доха" />
+			<Leaf zone_id="Asia/Dubai" name="Дубай" />
+			<Leaf zone_id="Asia/Dushanbe" name="Душанбе" />
+			<Leaf zone_id="Asia/Yekaterinburg" name="Екатеринбург" />
+			<Leaf zone_id="Asia/Yerevan" name="Ереван" />
+			<Leaf zone_id="Asia/Jerusalem" name="Иерусалим" />
+			<Leaf zone_id="Asia/Irkutsk" name="Иркутск" />
+			<Leaf zone_id="Asia/Kabul" name="Кабул" />
+			<Leaf zone_id="Asia/Kolkata" name="Калькутта" />
+			<Leaf zone_id="Asia/Karachi" name="Карачи" />
+			<Leaf zone_id="Asia/Kathmandu" name="Катманду" />
+			<Leaf zone_id="Asia/Kashgar" name="Кашгар" />
+			<Leaf zone_id="Asia/Qyzylorda" name="Квизилорда" />
+			<Leaf zone_id="Asia/Colombo" name="Коломбо" />
+			<Leaf zone_id="Asia/Krasnoyarsk" name="Красноярск" />
+			<Leaf zone_id="Asia/Kuala_Lumpur" name="Куала-Лумпур" />
+			<Leaf zone_id="Asia/Kuwait" name="Кувейт" />
+			<Leaf zone_id="Asia/Kuching" name="Кучинг" />
+			<Leaf zone_id="Asia/Macau" name="Макао" />
+			<Leaf zone_id="Asia/Magadan" name="Магадан" />
+			<Leaf zone_id="Asia/Makassar" name="Макассар" />
+			<Leaf zone_id="Asia/Bahrain" name="Манама" />
+			<Leaf zone_id="Asia/Manila" name="Манила" />
+			<Leaf zone_id="Asia/Muscat" name="Мускат" />
+			<Leaf zone_id="Asia/Nicosia" name="Никосия" />
+			<Leaf zone_id="Asia/Novosibirsk" name="Новосибирск" />
+			<Leaf zone_id="Asia/Tomsk" name="Tomsk" />
+			<Leaf zone_id="Asia/Kolkata" name="Нью-Дели">
+				<Coordinates latitude="28.633" longitude="77.217" />
+			</Leaf>
+			<Leaf zone_id="Asia/Omsk" name="Омск" />
+			<Leaf zone_id="Asia/Oral" name="Орал" />
+			<Leaf zone_id="Asia/Shanghai" name="Пекин">
+				<Coordinates latitude="39.904" longitude="116.391" />
+			</Leaf>
+			<Leaf zone_id="Asia/Kamchatka" name="Петропавловск-Камчатский" />
+			<Leaf zone_id="Asia/Phnom_Penh" name="Пномпень" />
+			<Leaf zone_id="Asia/Pontianak" name="Понтианак" />
+			<Leaf zone_id="Asia/Pyongyang" name="Пхеньян" />
+			<Leaf zone_id="Asia/Rangoon" name="Рангун" />
+			<Leaf zone_id="Asia/Yangon" name="Yangon" />
+			<Leaf zone_id="Asia/Riyadh" name="Рийяд" />
+			<Leaf zone_id="Asia/Ho_Chi_Minh" name="Сайгон" />
+			<Leaf zone_id="Asia/Samarkand" name="Самарканд" />
+			<Leaf zone_id="Asia/Aden" name="Сана">
+				<Coordinates latitude="15.352" longitude="44.207" />
+			</Leaf>
+			<Leaf zone_id="Asia/Seoul" name="Сеул" />
+			<Leaf zone_id="Asia/Singapore" name="Сингапур" />
+			<Leaf zone_id="Asia/Istanbul" name="Стамбул" />
+			<Leaf zone_id="Asia/Taipei" name="Тайпей" />
+			<Leaf zone_id="Asia/Tashkent" name="Ташкент" />
+			<Leaf zone_id="Asia/Tbilisi" name="Тбилиси" />
+			<Leaf zone_id="Asia/Tehran" name="Тегеран" />
+			<Leaf zone_id="Asia/Thimphu" name="Тимфу" />
+			<Leaf zone_id="Asia/Tokyo" name="Токио" />
+			<Leaf zone_id="Asia/Ulaanbaatar" name="Улан-Батор" />
+			<Leaf zone_id="Asia/Urumqi" name="Урумчи" />
+			<Leaf zone_id="Asia/Harbin" name="Харбин" />
+			<Leaf zone_id="Asia/Hovd" name="Ховд" />
+			<Leaf zone_id="Asia/Choibalsan" name="Чойбалсан" />
+			<Leaf zone_id="Asia/Chongqing" name="Чонгкинг" />
+			<Leaf zone_id="Asia/Shanghai" name="Шанхай" />
+			<Leaf zone_id="Asia/Sakhalin" name="Южно-Сахалинск" />
+			<Leaf zone_id="Asia/Yakutsk" name="Якутск" />
+			<Leaf zone_id="Asia/Jayapura" name="Яяпура" />
+		</Branch>
+	</Branch>
+	<Branch name="Америка">
+		<Branch name="Страны">
+			<Leaf zone_id="America/Anguilla" name="Ангилья" />
+			<Leaf zone_id="America/Antigua" name="Антигуа и Барбуда" />
+			<Leaf zone_id="America/Curacao" name="Антильские о-ва (Нидерданды)" />
+			<Branch name="Аргентина">
+				<Leaf zone_id="America/Argentina/Buenos_Aires" name="Буэнос-Айрес (BA, CF)" />
+				<Leaf zone_id="America/Argentina/Jujuy" name="Джуджуй (JY)" />
+				<Leaf zone_id="America/Argentina/Catamarca" name="Катамарка (CT), Чубут (CH)" />
+				<Leaf zone_id="America/Argentina/Cordoba" name="Аргентина (большая часть)" />
+				<Leaf zone_id="America/Argentina/La_Rioja" name="Ла Риоха (LR)" />
+				<Leaf zone_id="America/Argentina/Mendoza" name="Мендоза (MZ)" />
+				<Leaf zone_id="America/Argentina/Rio_Gallegos" name="Санта-Круз (SC)" />
+				<Leaf zone_id="America/Argentina/San_Juan" name="Сан-Хуан (SJ)" />
+				<Leaf zone_id="America/Argentina/Tucuman" name="Тукуман (TM)" />
+				<Leaf zone_id="America/Argentina/Ushuaia" name="Тьерра дель Фуэго (TF)" />
+			</Branch>
+			<Leaf zone_id="America/Aruba" name="Аруба" />
+			<Leaf zone_id="America/Nassau" name="Багамы" />
+			<Leaf zone_id="America/Barbados" name="Барбадос" />
+			<Leaf zone_id="America/Belize" name="Белиз" />
+			<Leaf zone_id="America/La_Paz" name="Боливия" />
+			<Branch name="Бразилия">
+				<Leaf zone_id="America/Rio_Branco" name="Акре" />
+				<Leaf zone_id="America/Maceio" name="Алагоас, Сержипе" />
+				<Leaf zone_id="America/Belem" name="Амапа, Вост. Пара" />
+				<Leaf zone_id="America/Noronha" name="Атлантические о-ва" />
+				<Leaf zone_id="America/Bahia" name="Бахия" />
+				<Leaf zone_id="America/Manaus" name="Вост. Амазонас" />
+				<Leaf zone_id="America/Eirunepe" name="Зап. Амазонас" />
+				<Leaf zone_id="America/Porto_Velho" name="Зап. Пара, Рондония" />
+				<Leaf zone_id="America/Cuiaba" name="Мато-Гроссо" />
+				<Leaf zone_id="America/Campo_Grande" name="Мато-Гроссо ду Сул" />
+				<Leaf zone_id="America/Recife" name="Пернамбуко" />
+				<Leaf zone_id="America/Boa_Vista" name="Рорайма" />
+				<Leaf zone_id="America/Fortaleza" name="Сев-вост. Бразилия" />
+				<Leaf zone_id="America/Araguaina" name="Токантинс" />
+				<Leaf zone_id="America/Sao_Paulo" name="Юж. и Юго-вост. Бразилия" />
+			</Branch>
+			<Leaf zone_id="America/Caracas" name="Венесуэла" />
+			<Leaf zone_id="America/Tortola" name="Виргинские о-ва (Британия)" />
+			<Leaf zone_id="America/St_Thomas" name="Виргинские о-ва (США)" />
+			<Leaf zone_id="America/Port-au-Prince" name="Гаити" />
+			<Leaf zone_id="America/Guyana" name="Гайана" />
+			<Leaf zone_id="America/Guadeloupe" name="Гваделупа" />
+			<Leaf zone_id="America/Guatemala" name="Гватемала" />
+			<Leaf zone_id="America/Cayenne" name="Гвиана (Французская)" />
+			<Leaf zone_id="America/Tegucigalpa" name="Гондурас" />
+			<Leaf zone_id="America/Grenada" name="Гренада" />
+			<Branch name="Гренландия">
+				<Leaf zone_id="America/Danmarkshavn" name="Вост. побережье, Север Скорсбайсунда" />
+				<Leaf zone_id="America/Godthab" name="Гренландия (бол. часть)" />
+				<Leaf zone_id="America/Nuuk" name="Nuuk" />
+				<Leaf zone_id="America/Scoresbysund" name="Скорсбайсунд/Иттоккортоормиит" />
+				<Leaf zone_id="America/Thule" name="Туле/Питуффик" />
+			</Branch>
+			<Leaf zone_id="America/Dominica" name="Доминика" />
+			<Leaf zone_id="America/Santo_Domingo" name="Доминиканская республика" />
+			<Leaf zone_id="America/Cayman" name="Кайманы" />
+			<Branch name="Канада">
+				<Branch name="Атлантическое время">
+					<Leaf zone_id="America/Goose_Bay" name="Лабрадор" />
+					<Leaf zone_id="America/Moncton" name="Нью-Брансуик" />
+					<Leaf zone_id="America/Halifax" name="NS &amp; PEI" />
+				</Branch>
+				<Branch name="Восточное время">
+					<Leaf zone_id="America/Toronto" name="Онтарио" />
+					<Leaf zone_id="America/Montreal" name="Квебеку" />
+					<Leaf zone_id="America/Iqaluit" name="Вост. Нунавут" />
+				</Branch>
+				<Branch name="Горное время">
+					<Leaf zone_id="America/Edmonton" name="Альберта, Вост. БК и Зап. СК" />
+					<Leaf zone_id="America/Yellowknife" name="Центр СЗТ" />
+					<Leaf zone_id="America/Cambridge_Bay" name="Зап. Нунавут" />
+					<Leaf zone_id="America/Inuvik" name="Запад СЗТ" />
+				</Branch>
+				<Branch name="Ньюфаундлендское время">
+					<Leaf zone_id="America/St_Johns" name="Ньюфаундленд и Ю-В Лабрадора" />
+				</Branch>
+				<Branch name="Стандартное центральное время">
+					<Leaf zone_id="America/Regina" name="Саскачеван" />
+				</Branch>
+				<Branch name="Тихоокеанское время">
+					<Leaf zone_id="America/Dawson" name="Сев. Юкон" />
+					<Leaf zone_id="America/Whitehorse" name="Юж. Юкон" />
+					<Leaf zone_id="America/Vancouver" name="Запад BC" />
+				</Branch>
+				<Branch name="Центральное время">
+					<Leaf zone_id="America/Winnipeg" name="Манитоба и Западное Онтарио" />
+					<Leaf zone_id="America/Rankin_Inlet" name="Центральный Нунавут" />
+				</Branch>
+				<Branch name="Исключения">
+					<Branch name="Атлантическое время">
+						<Leaf zone_id="America/Glace_Bay" name="NS - нет DST 1966-1971" />
+					</Branch>
+					<Branch name="Восточное время">
+						<Leaf zone_id="America/Nipigon" name="ON и QC - нет DST 1967-1973" />
+						<Leaf zone_id="America/Pangnirtung" name="Пангниртунг, NU" />
+						<Leaf zone_id="America/Thunder_Bay" name="Зандер-бэй, Онтарио" />
+					</Branch>
+					<Branch name="Стандартное атлантическое время">
+						<Leaf zone_id="America/Blanc-Sablon" name="QC - Lower N Shore" />
+					</Branch>
+					<Branch name="Стандартное восточное время">
+						<Leaf zone_id="America/Atikokan" name="Атикокан, ON и о-в Саутгемптон, NU" />
+					</Branch>
+					<Branch name="Стандартное горное время">
+						<Leaf zone_id="America/Dawson_Creek" name="Доусон-крик и форт Сент-Джон, BC" />
+					</Branch>
+					<Branch name="Стандартное центральное время">
+						<Leaf zone_id="America/Swift_Current" name="Саскачеван - средний запад" />
+					</Branch>
+					<Branch name="Центральное время">
+						<Leaf zone_id="America/Rainy_River" name="Рэйни-ривер и форт Фрэнс, ON" />
+					</Branch>
+				</Branch>
+			</Branch>
+			<Leaf zone_id="America/Bogota" name="Колумбия" />
+			<Leaf zone_id="America/Costa_Rica" name="Коста-рика" />
+			<Leaf zone_id="America/Havana" name="Куба" />
+			<Leaf zone_id="America/Martinique" name="Мартиника" />
+			<Branch name="Мексика">
+				<Branch name="Центральное время">
+					<Leaf zone_id="America/Mexico_City" name="Центр. Мексика (бол. часть)" />
+					<Leaf zone_id="America/Merida" name="Кампече, Юкатан" />
+					<Leaf zone_id="America/Monterrey" name="Коахуила, Дуранго, Нуэво-Леон, Тамаулипас" />
+					<Leaf zone_id="America/Cancun" name="Куинтана Ру" />
+				</Branch>
+				<Branch name="Стандартное горное время">
+					<Leaf zone_id="America/Hermosillo" name="Сонора" />
+				</Branch>
+				<Branch name="Горное время">
+					<Leaf zone_id="America/Chihuahua" name="Чихуахуа" />
+					<Leaf zone_id="America/Ciudad_Juarez" name="Ciudad Juárez" />
+					<Leaf zone_id="America/Mazatlan" name="Юж. Баджа, Найарит, Синалоа" />
+				</Branch>
+				<Leaf zone_id="America/Tijuana" name="Тихоокеан. поб. Мексики" />
+			</Branch>
+			<Leaf zone_id="America/Montserrat" name="Монсеррат" />
+			<Leaf zone_id="America/Managua" name="Никарагуа" />
+			<Leaf zone_id="America/Panama" name="Панама" />
+			<Leaf zone_id="America/Asuncion" name="Парагвай" />
+			<Leaf zone_id="America/Lima" name="Перу" />
+			<Leaf zone_id="America/Puerto_Rico" name="Пуэрто-Рико" />
+			<Leaf zone_id="America/St_Vincent" name="Сент-Винсент" />
+			<Leaf zone_id="America/St_Kitts" name="Сент-Китс и Невис" />
+			<Leaf zone_id="America/St_Lucia" name="Сент-Люсия" />
+			<Leaf zone_id="America/Miquelon" name="Сент-Пьер и Микелон" />
+			<Branch name="Соединённые Штаты">
+				<Branch name="Аляска">
+					<Leaf zone_id="America/Anchorage" name="Аляска (most)" />
+					<Leaf zone_id="America/Juneau" name="Аляска panhandle" />
+					<Leaf zone_id="America/Yakutat" name="Аляска panhandle neck" />
+					<Leaf zone_id="America/Adak" name="Алеутские о-ва" />
+					<Leaf zone_id="America/Nome" name="Зап. Аляска" />
+				</Branch>
+				<Leaf zone_id="America/Chicago" name="Центральное время" />
+				<Leaf zone_id="America/New_York" name="Восточное время" />
+				<Leaf zone_id="Pacific/Honolulu" name="Гавайи" />
+				<Leaf zone_id="America/Denver" name="Горное время" />
+				<Leaf zone_id="America/Los_Angeles" name="Тихоокеанское время" />
+				<Branch name="Исключения">
+					<Branch name="Центральное время">
+						<Branch name="Индиана">
+							<Leaf zone_id="America/Indiana/Vincennes" name="Daviess, Dubois, Knox, Martin, Perry и Pulaski Cos" />
+							<Leaf zone_id="America/Indiana/Petersburg" name="Pike Co" />
+						</Branch>
+						<Branch name="Мичиган">
+							<Leaf zone_id="America/Menominee" name="Dickinson, Gogebic, Iron и Menominee Cos" />
+						</Branch>
+						<Branch name="Северная дакота">
+							<Leaf zone_id="America/North_Dakota/New_Salem" name="Morton Co (кроме области Мандан)" />
+							<Leaf zone_id="America/North_Dakota/Center" name="Oliver Co" />
+						</Branch>
+					</Branch>
+					<Branch name="Восточное время">
+						<Branch name="Индиана">
+							<Leaf zone_id="America/Indiana/Indianapolis" name="Индиана (большая часть)" />
+							<Leaf zone_id="America/Indiana/Marengo" name="Crawford Co" />
+							<Leaf zone_id="America/Indiana/Knox" name="Starke Co" />
+							<Leaf zone_id="America/Indiana/Vevay" name="Switzerland Co" />
+						</Branch>
+						<Branch name="Кентукки">
+							<Leaf zone_id="America/Kentucky/Louisville" name="область Луисвилль" />
+							<Leaf zone_id="America/Kentucky/Monticello" name="Wayne Co" />
+						</Branch>
+						<Leaf zone_id="America/Detroit" name="Мичиган (большая часть)" />
+					</Branch>
+					<Branch name="Горное время">
+						<Leaf zone_id="America/Phoenix" name="Аризона" />
+						<Leaf zone_id="America/Shiprock" name="Навахо" />
+						<Leaf zone_id="America/Boise" name="Юж. Айдахо и Вост. Орегон" />
+					</Branch>
+				</Branch>
+			</Branch>
+			<Leaf zone_id="America/Paramaribo" name="Суринам" />
+			<Leaf zone_id="America/Grand_Turk" name="Тёркс и Кайкос" />
+			<Leaf zone_id="America/Port_of_Spain" name="Тринидад и Тобаго" />
+			<Leaf zone_id="America/Montevideo" name="Уругвай" />
+			<Leaf zone_id="America/Santiago" name="Чили" />
+			<Leaf zone_id="America/Coyhaique" name="Coyhaique" />
+			<Leaf zone_id="America/Punta_Arenas" name="Punta Arenas" />
+			<Leaf zone_id="America/Guayaquil" name="Эквадор">
+				<Coordinates latitude="-0.223" longitude="-78.513" />
+			</Leaf>
+			<Leaf zone_id="America/El_Salvador" name="Эль-сальвадор" />
+			<Leaf zone_id="America/Jamaica" name="Ямайка" />
+		</Branch>
+		<Branch name="Города">
+			<Leaf zone_id="America/Adak" name="Адак" />
+			<Leaf zone_id="America/Anchorage" name="Анкоридж" />
+			<Leaf zone_id="America/Araguaina" name="Арагуайна" />
+			<Leaf zone_id="America/Asuncion" name="Асуньон" />
+			<Leaf zone_id="America/Atikokan" name="Атикокан" />
+			<Leaf zone_id="America/Guadeloupe" name="Бассе-Терре, Гваделупа" />
+			<Leaf zone_id="America/St_Kitts" name="Бассетерре, Сент-Китс" />
+			<Leaf zone_id="America/Bahia" name="Бахиа" />
+			<Leaf zone_id="America/Belem" name="Белем" />
+			<Leaf zone_id="America/Belize" name="Белиз" />
+			<Leaf zone_id="America/Blanc-Sablon" name="Блэнк-Саблон" />
+			<Leaf zone_id="America/Boa_Vista" name="Боа Виста" />
+			<Leaf zone_id="America/Bogota" name="Богота" />
+			<Leaf zone_id="America/Boise" name="Бойзе" />
+			<Leaf zone_id="America/Barbados" name="Бриджтаун" />
+			<Leaf zone_id="America/Argentina/Buenos_Aires" name="Буэнос-Айрес" />
+			<Leaf zone_id="America/Anguilla" name="Валлей" />
+			<Leaf zone_id="America/Vancouver" name="Ванкувер" />
+			<Leaf zone_id="America/New_York" name="Вашингтон">
+				<Coordinates latitude="38.895" longitude="-77.037" />
+			</Leaf>
+			<Leaf zone_id="America/Curacao" name="Виллемстад" />
+			<Leaf zone_id="America/Winnipeg" name="Виннипег" />
+			<Leaf zone_id="America/Havana" name="Гавана" />
+			<Leaf zone_id="America/Guyana" name="Гайана" />
+			<Leaf zone_id="America/Halifax" name="Галифакс" />
+			<Leaf zone_id="America/Guayaquil" name="Гвадайакиль" />
+			<Leaf zone_id="America/Guatemala" name="Гватемала" />
+			<Leaf zone_id="America/Glace_Bay" name="Глэйс бэй" />
+			<Leaf zone_id="Pacific/Honolulu" name="Гонолулу" />
+			<Leaf zone_id="America/Godthab" name="Готхаб" />
+			<Leaf zone_id="America/Nuuk" name="Nuuk" />
+			<Leaf zone_id="America/Goose_Bay" name="Гус бэй" />
+			<Leaf zone_id="America/Danmarkshavn" name="Данмаркшавн" />
+			<Leaf zone_id="America/Denver" name="Денвер" />
+			<Leaf zone_id="America/Detroit" name="Детройт" />
+			<Leaf zone_id="America/Cayman" name="Джорджтаун, Кайманы" />
+			<Leaf zone_id="America/Guyana" name="Джорджтаун, Гайана" />
+			<Leaf zone_id="America/Argentina/Jujuy" name="Джуджуй" />
+			<Leaf zone_id="America/Juneau" name="Джуно" />
+			<Leaf zone_id="America/Dawson" name="Доусон" />
+			<Leaf zone_id="America/Dawson_Creek" name="Доусон-Крик" />
+			<Leaf zone_id="America/Thunder_Bay" name="Зандер Бэй" />
+			<Leaf zone_id="America/Indianapolis" name="Индианаполис" />
+			<Branch name="Индиана">
+				<Leaf zone_id="America/Indiana/Vevay" name="Вевэй" />
+				<Leaf zone_id="America/Indiana/Vincennes" name="Винсенс" />
+				<Leaf zone_id="America/Indiana/Indianapolis" name="Индианаполис" />
+				<Leaf zone_id="America/Indiana/Knox" name="Нокс" />
+				<Leaf zone_id="America/Indiana/Marengo" name="Маренго" />
+				<Leaf zone_id="America/Indiana/Petersburg" name="Питерсбург" />
+			</Branch>
+			<Leaf zone_id="America/Inuvik" name="Инувик" />
+			<Leaf zone_id="America/Iqaluit" name="Икалют" />
+			<Leaf zone_id="America/Yellowknife" name="Йеллоунайф" />
+			<Leaf zone_id="America/Cayenne" name="Кайенн" />
+			<Leaf zone_id="America/Cayman" name="Кайманы" />
+			<Leaf zone_id="America/Campo_Grande" name="Кампо-Гранде" />
+			<Leaf zone_id="America/Cancun" name="Канкун" />
+			<Leaf zone_id="America/Caracas" name="Каракас" />
+			<Leaf zone_id="America/Argentina/Catamarca" name="Катамарка" />
+			<Leaf zone_id="America/Guayaquil" name="Квито">
+				<Coordinates latitude="-0.223" longitude="-78.513" />
+			</Leaf>
+			<Branch name="Кентукки">
+				<Leaf zone_id="America/Kentucky/Louisville" name="Луисвиль" />
+				<Leaf zone_id="America/Kentucky/Monticello" name="Монтиселло" />
+			</Branch>
+			<Leaf zone_id="America/Jamaica" name="Кингстон" />
+			<Leaf zone_id="America/Grand_Turk" name="Кокбёрн-таун" />
+			<Leaf zone_id="America/Argentina/ComodRivadavia" name="Комодоро-Ривадавия" />
+			<Leaf zone_id="America/Argentina/Cordoba" name="Кордоба" />
+			<Leaf zone_id="America/Bogota" name="Колумбия" />
+			<Leaf zone_id="America/Costa_Rica" name="Коста-рика" />
+			<Leaf zone_id="America/Havana" name="Куба" />
+			<Leaf zone_id="America/Cuiaba" name="Куяба" />
+			<Leaf zone_id="America/Cambridge_Bay" name="Кэмбридж Бэй" />
+			<Leaf zone_id="America/La_Paz" name="Ла-Пас" />
+			<Leaf zone_id="America/Argentina/La_Rioja" name="Ла-Риоха" />
+			<Leaf zone_id="America/Lima" name="Лима" />
+			<Leaf zone_id="America/Los_Angeles" name="Лос Анджелес" />
+			<Leaf zone_id="America/Louisville" name="Луисвилль" />
+			<Leaf zone_id="America/Mazatlan" name="Мазатлан" />
+			<Leaf zone_id="America/Managua" name="Манагуа" />
+			<Leaf zone_id="America/Manaus" name="Манаус" />
+			<Leaf zone_id="America/Maceio" name="Мацейо" />
+			<Leaf zone_id="America/Argentina/Mendoza" name="Мендоза" />
+			<Leaf zone_id="America/Menominee" name="Меномини" />
+			<Leaf zone_id="America/Merida" name="Мерида" />
+			<Leaf zone_id="America/Mexico_City" name="Мехико" />
+			<Leaf zone_id="America/Miquelon" name="Микелон" />
+			<Leaf zone_id="America/Moncton" name="Монктон" />
+			<Leaf zone_id="America/Montreal" name="Монреаль" />
+			<Leaf zone_id="America/Montevideo" name="Монтевидео" />
+			<Leaf zone_id="America/Monterrey" name="Монтеррей" />
+			<Leaf zone_id="America/Nassau" name="Нассау" />
+			<Leaf zone_id="America/Nipigon" name="Нипигон" />
+			<Leaf zone_id="America/Nome" name="Ном" />
+			<Leaf zone_id="America/Noronha" name="Норонья" />
+			<Leaf zone_id="America/New_York" name="Нью-Йорк" />
+			<Leaf zone_id="America/Aruba" name="Оранжестад" />
+			<Leaf zone_id="America/Panama" name="Панама" />
+			<Leaf zone_id="America/Pangnirtung" name="Панниртунг" />
+			<Leaf zone_id="America/Paramaribo" name="Парамарибо" />
+			<Leaf zone_id="America/Montserrat" name="Плимут" />
+			<Leaf zone_id="America/Port-au-Prince" name="Порт-о-Пренс" />
+			<Leaf zone_id="America/Port_of_Spain" name="Порт оф Спейн" />
+			<Leaf zone_id="America/Porto_Velho" name="Порто Вельо" />
+			<Leaf zone_id="America/Puerto_Rico" name="Пуэрто Рико" />
+			<Leaf zone_id="America/Rainy_River" name="Рэйни Ривер" />
+			<Leaf zone_id="America/Rankin_Inlet" name="Рэнкин Инлет" />
+			<Leaf zone_id="America/Recife" name="Ресифе" />
+			<Leaf zone_id="America/Regina" name="Реджина" />
+			<Leaf zone_id="America/Rio_Branco" name="Рио Бранко" />
+			<Leaf zone_id="America/Sao_Paulo" name="Рио де Жанейро">
+				<Coordinates latitude="-22.909" longitude="-43.215" />
+			</Leaf>
+			<Leaf zone_id="America/Argentina/Rio_Gallegos" name="Рио-Галлегос" />
+			<Leaf zone_id="America/Dominica" name="Розо" />
+			<Leaf zone_id="America/El_Salvador" name="Сан-Сальвадор" />
+			<Leaf zone_id="America/Santiago" name="Сантьяго" />
+			<Leaf zone_id="America/Coyhaique" name="Coyhaique" />
+			<Leaf zone_id="America/Punta_Arenas" name="Punta Arenas" />
+			<Leaf zone_id="America/Santo_Domingo" name="Санто Доминго" />
+			<Leaf zone_id="America/Sao_Paulo" name="Сан-Паулу" />
+			<Leaf zone_id="America/Costa_Rica" name="Сан-Хосе" />
+			<Leaf zone_id="America/Argentina/San_Juan" name="Сан-Хуан, Аргентина" />
+			<Leaf zone_id="America/Puerto_Rico" name="Сан-Хуан, Пуэрто-Рико" />
+			<Leaf zone_id="America/Swift_Current" name="Свифт Каррент" />
+			<Branch name="Северная Дакота">
+				<Leaf zone_id="America/North_Dakota/Center" name="Центр" />
+				<Leaf zone_id="America/North_Dakota/New_Salem" name="Нью-Салем" />
+			</Branch>
+			<Leaf zone_id="America/Antigua" name="Сент-Джонс, Антигуа" />
+			<Leaf zone_id="America/St_Johns" name="Сент-Джонс, Ньюфаундленд" />
+			<Leaf zone_id="America/Grenada" name="Сент-Джордж" />
+			<Leaf zone_id="America/St_Lucia" name="Сент-Люсия" />
+			<Leaf zone_id="America/St_Thomas" name="Сент-Томас" />
+			<Leaf zone_id="America/St_Vincent" name="Сент-Винсент" />
+			<Leaf zone_id="America/Scoresbysund" name="Скорсбайсунд" />
+			<Leaf zone_id="America/Tegucigalpa" name="Тегусигальпа" />
+			<Leaf zone_id="America/Thule" name="Туле" />
+			<Leaf zone_id="America/Tijuana" name="Тихуана" />
+			<Leaf zone_id="America/Toronto" name="Торонто" />
+			<Leaf zone_id="America/Tortola" name="Тортола" />
+			<Leaf zone_id="America/Argentina/Tucuman" name="Тукуман" />
+			<Leaf zone_id="America/Whitehorse" name="Уайт-Хорс" />
+			<Leaf zone_id="America/Argentina/Ushuaia" name="Ушуайя" />
+			<Leaf zone_id="America/Phoenix" name="Феникс" />
+			<Leaf zone_id="America/Fortaleza" name="Форталеза" />
+			<Leaf zone_id="America/Martinique" name="Форт-де-Франс" />
+			<Leaf zone_id="America/Hermosillo" name="Хермосилло" />
+			<Leaf zone_id="America/Chicago" name="Чикаго" />
+			<Leaf zone_id="America/Chihuahua" name="Чихуахуа" />
+			<Leaf zone_id="America/Ciudad_Juarez" name="Ciudad Juárez" />
+			<Leaf zone_id="America/Shiprock" name="Шипрок" />
+			<Leaf zone_id="America/Edmonton" name="Эдмонтон" />
+			<Leaf zone_id="America/Eirunepe" name="Эйрунепе" />
+			<Leaf zone_id="America/Yakutat" name="Якутат" />
+			<Leaf zone_id="America/Jamaica" name="Ямайка" />
+		</Branch>
+	</Branch>
+	<Branch name="Антарктика">
+		<Leaf zone_id="Antarctica/South_Pole" name="ст. Амундсен-Скотт, Южный полюс" />
+		<Leaf zone_id="Antarctica/Vostok" name="ст. Восток, Южный магнитный полюс" />
+		<Leaf zone_id="Antarctica/Davis" name="ст. Дэвис, холмы Вестфолд" />
+		<Leaf zone_id="Antarctica/DumontDUrville" name="ст. Дюмон Д'Юрвиль, земля Адели" />
+		<Leaf zone_id="Antarctica/Casey" name="ст. Кейси, Bailey Peninsula" />
+		<Leaf zone_id="Antarctica/McMurdo" name="ст. Мак-Мердо, о-в Росс" />
+		<Leaf zone_id="Antarctica/Mawson" name="ст. Моусон, Холм-бэй" />
+		<Leaf zone_id="Antarctica/Palmer" name="ст. Палмер, о-в Анверс" />
+		<Leaf zone_id="Antarctica/Rothera" name="ст. Ротера, о-в Аделаиды" />
+		<Leaf zone_id="Antarctica/Syowa" name="ст. Сайова, о-в Вост. Онгул" />
+	</Branch>
+	<Branch name="Арктический океан">
+		<Branch name="Свалбард и Ян-Майен">
+			<Leaf zone_id="Arctic/Longyearbyen" name="Свалбард" />
+		</Branch>
+	</Branch>
+	<Branch name="Атлантический океан">
+		<Leaf zone_id="Atlantic/Bermuda" name="Бермуды" />
+		<Leaf zone_id="Atlantic/Reykjavik" name="Исландия" />
+		<Leaf zone_id="Atlantic/Cape_Verde" name="Кабо Верде" />
+		<Branch name="Испания">
+			<Leaf zone_id="Atlantic/Canary" name="Канары" />
+		</Branch>
+		<Branch name="Португалия">
+			<Leaf zone_id="Atlantic/Azores" name="Азоры" />
+			<Leaf zone_id="Atlantic/Madeira" name="Мадейра" />
+		</Branch>
+		<Leaf zone_id="Atlantic/St_Helena" name="Св. Елены" />
+		<Branch name="Свальбард и Ян-Майен">
+			<Leaf zone_id="Atlantic/Jan_Mayen" name="Ян-Майен" />
+		</Branch>
+		<Leaf zone_id="Atlantic/Faeroe" name="Фареры" />
+		<Leaf zone_id="Atlantic/Stanley" name="Фолкленды" />
+		<Leaf zone_id="Atlantic/South_Georgia" name="Юж. Джорджия и Юж. Сандвичевы о-ва" />
+	</Branch>
+	<Branch name="Африка">
+		<Branch name="Страны">
+			<Leaf zone_id="Africa/Algiers" name="Алжир" />
+			<Leaf zone_id="Africa/Luanda" name="Ангола" />
+			<Leaf zone_id="Africa/Porto-Novo" name="Бенин" />
+			<Leaf zone_id="Africa/Gaborone" name="Ботсвана" />
+			<Leaf zone_id="Africa/Ouagadougou" name="Буркина-фасо" />
+			<Leaf zone_id="Africa/Bujumbura" name="Бурунди" />
+			<Leaf zone_id="Africa/Libreville" name="Габон" />
+			<Leaf zone_id="Africa/Banjul" name="Гамбия" />
+			<Leaf zone_id="Africa/Accra" name="Гана" />
+			<Leaf zone_id="Africa/Conakry" name="Гвинея" />
+			<Leaf zone_id="Africa/Bissau" name="Гвинея-Бисау" />
+			<Leaf zone_id="Africa/Djibouti" name="Джибути" />
+			<Leaf zone_id="Africa/Cairo" name="Египет" />
+			<Leaf zone_id="Africa/El_Aaiun" name="Западная Сахара" />
+			<Leaf zone_id="Africa/Lusaka" name="Замбия" />
+			<Leaf zone_id="Africa/Harare" name="Зимбабве" />
+			<Leaf zone_id="Africa/Douala" name="Камерун" />
+			<Leaf zone_id="Africa/Nairobi" name="Кения" />
+			<Branch name="Демократическая республика Конго">
+				<Leaf zone_id="Africa/Lubumbashi" name="Вост. Конго" />
+				<Leaf zone_id="Africa/Kinshasa" name="Зап. Конго" />
+			</Branch>
+			<Leaf zone_id="Africa/Brazzaville" name="Республика Конго" />
+			<Leaf zone_id="Africa/Abidjan" name="Кот д'Ивуар" />
+			<Leaf zone_id="Africa/Maseru" name="Лесото" />
+			<Leaf zone_id="Africa/Monrovia" name="Либерия" />
+			<Leaf zone_id="Africa/Tripoli" name="Ливия" />
+			<Leaf zone_id="Africa/Nouakchott" name="Мавритания" />
+			<Leaf zone_id="Indian/Antananarivo" name="Мадагаскар" />
+			<Leaf zone_id="Africa/Blantyre" name="Малави" />
+			<Leaf zone_id="Africa/Bamako" name="Мали" />
+			<Leaf zone_id="Africa/Casablanca" name="Марокко" />
+			<Leaf zone_id="Africa/Maputo" name="Мозамбик" />
+			<Leaf zone_id="Africa/Windhoek" name="Намибия" />
+			<Leaf zone_id="Africa/Niamey" name="Нигер" />
+			<Leaf zone_id="Africa/Lagos" name="Нигерия" />
+			<Leaf zone_id="Africa/Kigali" name="Руанда" />
+			<Leaf zone_id="Africa/Sao_Tome" name="Сан-Томе и Принсипи" />
+			<Leaf zone_id="Africa/Mbabane" name="Свазиленд" />
+			<Leaf zone_id="Africa/Dakar" name="Сенегал" />
+			<Leaf zone_id="Africa/Ceuta" name="Сеута и Мелилья" />
+			<Leaf zone_id="Africa/Mogadishu" name="Сомали" />
+			<Leaf zone_id="Africa/Khartoum" name="Судан" />
+			<Leaf zone_id="Africa/Freetown" name="Сьерра-Леоне" />
+			<Leaf zone_id="Africa/Dar_es_Salaam" name="Танзания" />
+			<Leaf zone_id="Africa/Lome" name="Того" />
+			<Leaf zone_id="Africa/Tunis" name="Тунис" />
+			<Leaf zone_id="Africa/Kampala" name="Уганда" />
+			<Leaf zone_id="Africa/Bangui" name="Центральноафриканская республика" />
+			<Leaf zone_id="Africa/Ndjamena" name="Чад" />
+			<Leaf zone_id="Africa/Malabo" name="Экваториальная гвинея" />
+			<Leaf zone_id="Africa/Asmera" name="Эритрея" />
+			<Leaf zone_id="Africa/Addis_Ababa" name="Эфиопия" />
+			<Leaf zone_id="Africa/Johannesburg" name="Южная Африка" />
+		</Branch>
+		<Branch name="Города">
+			<Leaf zone_id="Africa/Abidjan" name="Абиджан" />
+			<Leaf zone_id="Africa/Addis_Ababa" name="Аддис-абеба" />
+			<Leaf zone_id="Africa/Accra" name="Аккра" />
+			<Leaf zone_id="Africa/Algiers" name="Алжир" />
+			<Leaf zone_id="Indian/Antananarivo" name="Antananarivo" />
+			<Leaf zone_id="Africa/Asmera" name="Асмера" />
+			<Leaf zone_id="Africa/Bamako" name="Бамако" />
+			<Leaf zone_id="Africa/Bangui" name="Банги" />
+			<Leaf zone_id="Africa/Banjul" name="Банжул" />
+			<Leaf zone_id="Africa/Bissau" name="Биссау" />
+			<Leaf zone_id="Africa/Blantyre" name="Блантир" />
+			<Leaf zone_id="Africa/Brazzaville" name="Браззавиль" />
+			<Leaf zone_id="Africa/Bujumbura" name="Бужумбра" />
+			<Leaf zone_id="Africa/Windhoek" name="Виндхук" />
+			<Leaf zone_id="Africa/Gaborone" name="Габороне" />
+			<Leaf zone_id="Africa/Dakar" name="Дакар" />
+			<Leaf zone_id="Africa/Dar_es_Salaam" name="Дар-эс-салам" />
+			<Leaf zone_id="Africa/Djibouti" name="Джибути" />
+			<Leaf zone_id="Africa/Douala" name="Дуала" />
+			<Leaf zone_id="Africa/Johannesburg" name="Йоханессбург" />
+			<Leaf zone_id="Africa/Cairo" name="Каир" />
+			<Leaf zone_id="Africa/Kampala" name="Кампала" />
+			<Leaf zone_id="Africa/Casablanca" name="Касабланка" />
+			<Leaf zone_id="Africa/Johannesburg" name="Кейптаун">
+				<Coordinates latitude="-33.925" longitude="18.43" />
+			</Leaf>
+			<Leaf zone_id="Africa/Kigali" name="Кигали" />
+			<Leaf zone_id="Africa/Kinshasa" name="Киншаса" />
+			<Leaf zone_id="Africa/Conakry" name="Конакри" />
+			<Leaf zone_id="Africa/Lagos" name="Лагос" />
+			<Leaf zone_id="Africa/Libreville" name="Либревиль" />
+			<Leaf zone_id="Africa/Lome" name="Ломе" />
+			<Leaf zone_id="Africa/Luanda" name="Луанда" />
+			<Leaf zone_id="Africa/Lubumbashi" name="Лубумбаши" />
+			<Leaf zone_id="Africa/Lusaka" name="Лусака" />
+			<Leaf zone_id="Africa/Malabo" name="Малабо" />
+			<Leaf zone_id="Africa/Maputo" name="Мапуту" />
+			<Leaf zone_id="Africa/Maseru" name="Масеру" />
+			<Leaf zone_id="Africa/Mbabane" name="Мбабане" />
+			<Leaf zone_id="Africa/Mogadishu" name="Могадишу" />
+			<Leaf zone_id="Africa/Monrovia" name="Монровия" />
+			<Leaf zone_id="Africa/Nairobi" name="Найроби" />
+			<Leaf zone_id="Africa/Ndjamena" name="Нджамена" />
+			<Leaf zone_id="Africa/Niamey" name="Ниамей" />
+			<Leaf zone_id="Africa/Nouakchott" name="Нуакшот" />
+			<Leaf zone_id="Africa/Porto-Novo" name="Порто-Ново" />
+			<Leaf zone_id="Africa/Sao_Tome" name="Сан-Томе" />
+			<Leaf zone_id="Africa/Ceuta" name="Сеута" />
+			<Leaf zone_id="Africa/Timbuktu" name="Тимбукту" />
+			<Leaf zone_id="Africa/Tripoli" name="Триполи" />
+			<Leaf zone_id="Africa/Tunis" name="Тунис" />
+			<Leaf zone_id="Africa/Ouagadougou" name="Уагадугу" />
+			<Leaf zone_id="Africa/Freetown" name="Фритаун" />
+			<Leaf zone_id="Africa/Harare" name="Хараре" />
+			<Leaf zone_id="Africa/Khartoum" name="Хартум" />
+			<Leaf zone_id="Africa/El_Aaiun" name="Эль-аюн" />
+		</Branch>
+	</Branch>
+	<Branch name="Европа">
+		<Branch name="Страны">
+			<Leaf zone_id="Europe/Vienna" name="Австрия" />
+			<Leaf zone_id="Europe/Mariehamn" name="Аландские о-ва" />
+			<Leaf zone_id="Europe/Tirane" name="Албания" />
+			<Leaf zone_id="Europe/Andorra" name="Андорра" />
+			<Leaf zone_id="Europe/Minsk" name="Беларусь" />
+			<Leaf zone_id="Europe/Brussels" name="Бельгия" />
+			<Leaf zone_id="Europe/Sofia" name="Болгария" />
+			<Leaf zone_id="Europe/Sarajevo" name="Босния и Герцеговина" />
+			<Leaf zone_id="Europe/Vatican" name="Ватикан" />
+			<Leaf zone_id="Europe/London" name="Великобритания" />
+			<Leaf zone_id="Europe/Budapest" name="Венгрия" />
+			<Leaf zone_id="Europe/Berlin" name="Германия" />
+			<Leaf zone_id="Europe/Guernsey" name="Гёрнси" />
+			<Leaf zone_id="Europe/Gibraltar" name="Гибралтар" />
+			<Leaf zone_id="Europe/Athens" name="Греция" />
+			<Leaf zone_id="Europe/Copenhagen" name="Дания" />
+			<Leaf zone_id="Europe/Jersey" name="Джерси" />
+			<Leaf zone_id="Europe/Dublin" name="Ирландия" />
+			<Leaf zone_id="Atlantic/Reykjavik" name="Исландия" />
+			<Leaf zone_id="Europe/Madrid" name="Испания" />
+			<Leaf zone_id="Europe/Rome" name="Италия" />
+			<Leaf zone_id="Europe/Riga" name="Латвия" />
+			<Leaf zone_id="Europe/Vilnius" name="Литва" />
+			<Leaf zone_id="Europe/Vaduz" name="Лихтенштейн" />
+			<Leaf zone_id="Europe/Luxembourg" name="Люксембург" />
+			<Leaf zone_id="Europe/Skopje" name="Македония" />
+			<Leaf zone_id="Europe/Malta" name="Мальта" />
+			<Leaf zone_id="Europe/Chisinau" name="Молдова" />
+			<Leaf zone_id="Europe/Monaco" name="Монако" />
+			<Leaf zone_id="Europe/Isle_of_Man" name="о-в Мэн" />
+			<Leaf zone_id="Europe/Amsterdam" name="Нидерланды" />
+			<Leaf zone_id="Europe/Oslo" name="Норвегия" />
+			<Leaf zone_id="Europe/Warsaw" name="Польша" />
+			<Leaf zone_id="Europe/Lisbon" name="Португалия" />
+			<Branch name="Россия">
+				<Leaf zone_id="Europe/Volgograd" name="Москва+00 - Каспийское море" />
+				<Leaf zone_id="Europe/Kirov" name="Kirov" />
+				<Leaf zone_id="Europe/Saratov" name="Saratov" />
+				<Leaf zone_id="Europe/Moscow" name="Москва+00 - Европейская Россия" />
+				<Leaf zone_id="Europe/Samara" name="Москва+01 - Самара, Удмуртия" />
+				<Leaf zone_id="Europe/Kaliningrad" name="Москва-01 - Калининград" />
+			</Branch>
+			<Leaf zone_id="Europe/Bucharest" name="Румыния" />
+			<Leaf zone_id="Europe/San_Marino" name="Сан-Марино" />
+			<Leaf zone_id="Europe/Belgrade" name="Сербия" />
+			<Leaf zone_id="Europe/Bratislava" name="Словакия" />
+			<Leaf zone_id="Europe/Ljubljana" name="Словения" />
+			<Leaf zone_id="Europe/Istanbul" name="Турция" />
+			<Branch name="Украина">
+				<Leaf zone_id="Europe/Kyiv" name="Украина (большая часть)" />
+				<Leaf zone_id="Europe/Uzhgorod" name="Закарпатье" />
+				<Leaf zone_id="Europe/Zaporozhye" name="Запорожье, Вост. Луганск" />
+				<Leaf zone_id="Europe/Simferopol" name="Центральный Крым" />
+			</Branch>
+			<Leaf zone_id="Europe/Helsinki" name="Финляндия" />
+			<Leaf zone_id="Europe/Paris" name="Франция" />
+			<Leaf zone_id="Europe/Zagreb" name="Хорватия" />
+			<Leaf zone_id="Europe/Podgorica" name="Черногория" />
+			<Leaf zone_id="Europe/Prague" name="Чехия" />
+			<Leaf zone_id="Europe/Zurich" name="Швейцария" />
+			<Leaf zone_id="Europe/Stockholm" name="Швеция" />
+			<Leaf zone_id="Europe/Tallinn" name="Эстония" />
+		</Branch>
+		<Branch name="Города">
+			<Leaf zone_id="Europe/Amsterdam" name="Амстердам" />
+			<Leaf zone_id="Europe/Andorra" name="Андорра ла Велья" />
+			<Leaf zone_id="Europe/Athens" name="Афины" />
+			<Leaf zone_id="Europe/Madrid" name="Барселона">
+				<Coordinates latitude="41.388" longitude="2.17" />
+			</Leaf>
+			<Leaf zone_id="Europe/Belgrade" name="Белград" />
+			<Leaf zone_id="Europe/Belfast" name="Белфаст" />
+			<Leaf zone_id="Europe/Berlin" name="Берлин" />
+			<Leaf zone_id="Europe/Bratislava" name="Братислава" />
+			<Leaf zone_id="Europe/Brussels" name="Брюссель" />
+			<Leaf zone_id="Europe/Budapest" name="Будапешт" />
+			<Leaf zone_id="Europe/Bucharest" name="Бухарест" />
+			<Leaf zone_id="Europe/Vaduz" name="Вадуц" />
+			<Leaf zone_id="Europe/Warsaw" name="Варшава" />
+			<Leaf zone_id="Europe/Vatican" name="Ватикан" />
+			<Leaf zone_id="Europe/Vienna" name="Вена" />
+			<Leaf zone_id="Europe/Vilnius" name="Вильнюс" />
+			<Leaf zone_id="Europe/Volgograd" name="Волгоград" />
+			<Leaf zone_id="Europe/Kirov" name="Kirov" />
+			<Leaf zone_id="Europe/Saratov" name="Saratov" />
+			<Leaf zone_id="Europe/Gibraltar" name="Гибралтар" />
+			<Leaf zone_id="Europe/Dublin" name="Дублин" />
+			<Leaf zone_id="Europe/Isle_of_Man" name="Дуглас" />
+			<Leaf zone_id="Europe/Zagreb" name="Загреб" />
+			<Leaf zone_id="Europe/Zaporozhye" name="Запорожье" />
+			<Leaf zone_id="Europe/Kaliningrad" name="Калининград" />
+			<Leaf zone_id="Europe/Kyiv" name="Kyiv" />
+			<Leaf zone_id="Europe/Chisinau" name="Кишинёв" />
+			<Leaf zone_id="Europe/Copenhagen" name="Копенгаген" />
+			<Leaf zone_id="Europe/Lisbon" name="Лиссабон" />
+			<Leaf zone_id="Europe/London" name="Лондон" />
+			<Leaf zone_id="Europe/Ljubljana" name="Любляна" />
+			<Leaf zone_id="Europe/Luxembourg" name="Люксембург" />
+			<Leaf zone_id="Europe/Madrid" name="Мадрид" />
+			<Leaf zone_id="Europe/Malta" name="Мальта" />
+			<Leaf zone_id="Europe/Mariehamn" name="Мариехамн" />
+			<Leaf zone_id="Europe/Minsk" name="Минск" />
+			<Leaf zone_id="Europe/Monaco" name="Монте-Карло" />
+			<Leaf zone_id="Europe/Moscow" name="Москва" />
+			<Leaf zone_id="Europe/Nicosia" name="Никосия" />
+			<Leaf zone_id="Asia/Famagusta" name="Famagusta" />
+			<Leaf zone_id="Europe/Oslo" name="Осло" />
+			<Leaf zone_id="Europe/Paris" name="Париж" />
+			<Leaf zone_id="Europe/Podgorica" name="Подгорица" />
+			<Leaf zone_id="Europe/Prague" name="Прага" />
+			<Leaf zone_id="Atlantic/Reykjavik" name="Рейкьявик" />
+			<Leaf zone_id="Europe/Riga" name="Рига" />
+			<Leaf zone_id="Europe/Rome" name="Рим" />
+			<Leaf zone_id="Europe/Samara" name="Самара" />
+			<Leaf zone_id="Europe/San_Marino" name="Сан-Марино" />
+			<Leaf zone_id="Europe/Sarajevo" name="Сараево" />
+			<Leaf zone_id="Europe/Guernsey" name="Сент-Питер" />
+			<Leaf zone_id="Europe/Jersey" name="Сент-Хэлиер" />
+			<Leaf zone_id="Europe/Simferopol" name="Симферополь" />
+			<Leaf zone_id="Europe/Skopje" name="Скопье" />
+			<Leaf zone_id="Europe/Sofia" name="София" />
+			<Leaf zone_id="Europe/Istanbul" name="Стамбул" />
+			<Leaf zone_id="Europe/Stockholm" name="Стокгольм" />
+			<Leaf zone_id="Europe/Tallinn" name="Таллин" />
+			<Leaf zone_id="Europe/Tirane" name="Тирана" />
+			<Leaf zone_id="Europe/Uzhgorod" name="Ужгород" />
+			<Leaf zone_id="Europe/Helsinki" name="Хельсинки" />
+			<Leaf zone_id="Europe/Zurich" name="Цюрих" />
+		</Branch>
+	</Branch>
+	<Branch name="Индийский океан">
+		<Leaf zone_id="Indian/Chagos" name="Британские территории в Индийском океане" />
+		<Leaf zone_id="Indian/Cocos" name="о-в Кокос (Килинг)" />
+		<Leaf zone_id="Indian/Comoro" name="о-в Коморо" />
+		<Leaf zone_id="Indian/Mauritius" name="Маврикий" />
+		<Leaf zone_id="Indian/Mayotte" name="Майотт" />
+		<Leaf zone_id="Indian/Maldives" name="Мальдивы" />
+		<Leaf zone_id="Indian/Reunion" name="Реюньон" />
+		<Leaf zone_id="Indian/Christmas" name="о-в Рождества" />
+		<Leaf zone_id="Indian/Mahe" name="Сейшелы" />
+		<Leaf zone_id="Indian/Kerguelen" name="Французские Южные и Антарктические территории" />
+	</Branch>
+	<Branch name="Тихий океан">
+		<Branch name="Страны">
+			<Leaf zone_id="Pacific/Pago_Pago" name="Американское Самоа" />
+			<Leaf zone_id="Pacific/Efate" name="Вануату" />
+			<Leaf zone_id="Pacific/Guam" name="Гуам" />
+			<Leaf zone_id="Pacific/Apia" name="Западное Самоа" />
+			<Branch name="Кирибати">
+				<Leaf zone_id="Pacific/Tarawa" name="о-ва Гилберт" />
+				<Leaf zone_id="Pacific/Kiritimati" name="о-ва Лайн" />
+				<Leaf zone_id="Pacific/Enderbury" name="о-ва Феникс" />
+				<Leaf zone_id="Pacific/Kanton" name="Kanton" />
+			</Branch>
+			<Leaf zone_id="Pacific/Rarotonga" name="о-ва Кука" />
+			<Branch name="Маршалловы о-ва">
+				<Leaf zone_id="Pacific/Kwajalein" name="Кваджалейн" />
+				<Leaf zone_id="Pacific/Majuro" name="Маршалловы о-ва (большая часть)" />
+			</Branch>
+			<Branch name="Микронезия">
+				<Leaf zone_id="Pacific/Kosrae" name="Косраэ" />
+				<Leaf zone_id="Pacific/Pohnpei" name="Понапэ" />
+				<Leaf zone_id="Pacific/Chuuk" name="Трук и Яп" />
+			</Branch>
+			<Leaf zone_id="Pacific/Nauru" name="Науру" />
+			<Leaf zone_id="Pacific/Niue" name="Ниуэ" />
+			<Leaf zone_id="Pacific/Auckland" name="Новая Зеландия" />
+			<Leaf zone_id="Pacific/Chatham" name="Новая Зеландия - о-в Чатам" />
+			<Leaf zone_id="Pacific/Norfolk" name="о-в Норфолк" />
+			<Leaf zone_id="Pacific/Palau" name="Палау" />
+			<Leaf zone_id="Pacific/Port_Moresby" name="Папуа-Новая Гвинея " />
+			<Leaf zone_id="Pacific/Pitcairn" name="о-в Питкэрн" />
+			<Leaf zone_id="Pacific/Saipan" name="Сев. Марианские о-ва" />
+			<Leaf zone_id="Pacific/Guadalcanal" name="Соломоновы о-ва" />
+			<Leaf zone_id="Pacific/Fakaofo" name="Токелау" />
+			<Leaf zone_id="Pacific/Tongatapu" name="Тонга" />
+			<Leaf zone_id="Pacific/Funafuti" name="Тувалу" />
+			<Leaf zone_id="Pacific/Wallis" name="Уоллис и Футуна" />
+			<Leaf zone_id="Pacific/Fiji" name="Фиджи" />
+			<Branch name="Французская Полинезия">
+				<Leaf zone_id="Pacific/Gambier" name="о-ва Гамбье" />
+				<Leaf zone_id="Pacific/Marquesas" name="Маркизские о-ва" />
+				<Leaf zone_id="Pacific/Tahiti" name="о-ва Сообщества" />
+			</Branch>
+			<Branch name="US Minor Outlying Is">
+				<Leaf zone_id="Pacific/Johnston" name="атолл Джонстон" />
+				<Leaf zone_id="Pacific/Midway" name="о-в Мидуэй" />
+				<Leaf zone_id="Pacific/Wake" name="о-в Уэйк" />
+			</Branch>
+			<Branch name="Чили">
+				<Leaf zone_id="Pacific/Easter" name="о-в Пасхи, Сала и Гомез" />
+			</Branch>
+			<Branch name="Эквадор">
+				<Leaf zone_id="Pacific/Galapagos" name="Галапагосские о-ва" />
+			</Branch>
+		</Branch>
+		<Branch name="Города">
+			<Leaf zone_id="Pacific/Rarotonga" name="Авару" />
+			<Leaf zone_id="Pacific/Niue" name="Алофи" />
+			<Leaf zone_id="Pacific/Apia" name="Апиа" />
+			<Leaf zone_id="Pacific/Auckland" name="Веллингтон">
+				<Coordinates latitude="-41.286" longitude="174.776" />
+			</Leaf>
+			<Leaf zone_id="Pacific/Kiritimati" name="Киритимати" />
+			<Leaf zone_id="Pacific/Majuro" name="Маджуро" />
+			<Leaf zone_id="Pacific/Palau" name="Мелекеок" />
+			<Leaf zone_id="Pacific/Tongatapu" name="Нукуалофа" />
+			<Leaf zone_id="Pacific/Noumea" name="Нумеа" />
+			<Leaf zone_id="Pacific/Auckland" name="Окленд" />
+			<Leaf zone_id="Pacific/Pago_Pago" name="Паго-Паго" />
+			<Leaf zone_id="Pacific/Tahiti" name="Папеэте" />
+			<Leaf zone_id="Pacific/Efate" name="Порт-Вила" />
+			<Leaf zone_id="Pacific/Port_Moresby" name="Порт-Морсби" />
+			<Leaf zone_id="Pacific/Saipan" name="Сайпан" />
+			<Leaf zone_id="Pacific/Tarawa" name="Саут-Тарава" />
+			<Leaf zone_id="Pacific/Fiji" name="Сува" />
+			<Leaf zone_id="Pacific/Funafuti" name="Фунафути" />
+			<Leaf zone_id="Pacific/Guadalcanal" name="Хониара" />
+			<Leaf zone_id="Pacific/Nauru" name="Ярен" />
+		</Branch>
+	</Branch>
+	<Leaf zone_id="Etc/UTC" name="GMT/UTC" />
+</zonepicker>

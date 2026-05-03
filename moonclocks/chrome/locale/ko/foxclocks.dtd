@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "설정...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "O">
+<!ENTITY foxclocksoverlay.context.help.label "도움말...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "MoonClocks 정보...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "A">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "A">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "넣기 &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "A">
+<!ENTITY foxclocks.button.add.tooltip "시간대 목록에서 선택한 시간대를 시계 목록에 넣습니다.">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; 빼기">
+<!ENTITY foxclocks.button.remove.accesskey "R">
+<!ENTITY foxclocks.button.remove.tooltip "선택한 지역을 시계 목록에서 뺍니다.">
+<!ENTITY foxclocks.button.addas.label "새로 넣기...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "S">
+<!ENTITY foxclocks.button.addas.tooltip "선택한 시간대를 '지역 정보...'창을 거쳐 새 이름으로 시계 목록에 넣습니다.">
+<!ENTITY foxclocks.button.moveup.label "위로">
+<!ENTITY foxclocks.button.moveup.accesskey "U">
+<!ENTITY foxclocks.button.moveup.tooltip "선택한 지역을 시계 목록의 위로 옮깁니다.">
+<!ENTITY foxclocks.button.movedown.label "아래로">
+<!ENTITY foxclocks.button.movedown.accesskey "D">
+<!ENTITY foxclocks.button.movedown.tooltip "선택한 지역을 시계 목록의 아래로 옮깁니다.">
+<!ENTITY foxclocks.menubar.menu.file.label "파일">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "F">
+<!ENTITY foxclocks.menubar.menu.file.close.label "닫기">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "C">
+<!ENTITY foxclocks.menubar.menu.file.import.label "설정 가져오기...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "설정 내보내기...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "편집">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "이 시간대를 시계 목록에 넣기">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "A">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "새 이름으로 시계 목록에 넣기...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "시계 목록의 위로 옮기기">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "U">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "시계 목록의 아래로 옮기기">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "D">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "이 지역을 시계 목록에서 빼기">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "R">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "지역 정보...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.view.label "보기">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "V">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "시간대 정보...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "이 시간대를 OpenStreetMap으로 열기...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "이 지역을 OpenStreetMap으로 열기...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "도구">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "설정...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.help.label "도움말">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "도움말...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "MoonClocks 정보...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "A">
+<!ENTITY foxclocks.dialog.import.title "MoonClocks 설정 가져오기">
+<!ENTITY foxclocks.dialog.import.success "설정을 제대로 가져왔습니다.">
+<!ENTITY foxclocks.dialog.import.failure "설정을 가져오지 못했습니다.">
+<!ENTITY foxclocks.dialog.export.title "MoonClocks 설정 내보내기">
+<!ENTITY foxclocks.dialog.export.success "설정을 내보냈습니다.">
+<!ENTITY foxclocks.dialog.export.failure "설정을 내보내지 못했습니다.">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks 설정 파일">
+<!ENTITY foxclocks.zonepicker.description.label "시간대 목록">
+<!ENTITY foxclocks.zonepicker.description.tooltip "선택할 수 있는 시간대를 모두 표시합니다. 시계 목록에 추가하면 시간대는 지역이 됩니다.">
+<!ENTITY foxclocks.zonepicker.search.initvalue "찾기">
+<!ENTITY foxclocks.zonepicker.search.accesskey "Q">
+<!ENTITY foxclocks.zonepicker.search.tooltip "시간대 목록에서 나라나 도시 이름으로 찾습니다.">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "시간대">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "시간대">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC와의 시차">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "그리니치 표준시/협정 세계시와의 시차">
+<!ENTITY foxclocks.zonepicker.footer "*은 일광 절약 시간제 상태를 나타냅니다.">
+<!ENTITY foxclocks.zonepicker.context.details.label "시간대 정보...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "시계 목록에 넣기">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "A">
+<!ENTITY foxclocks.zonepicker.context.addas.label "새 이름으로 시계 목록에 넣기 ...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "S">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "시계 목록">
+<!ENTITY foxclocks.locationlist.description.tooltip "지역을 MoonClocks의 상태 표시줄/도구 모음 및 말풍선에 표시합니다.">
+<!ENTITY foxclocks.locationlist.header.location.label "지역">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "두번 클릭으로 지역 정보를 바꿀 수 있습니다.">
+<!ENTITY foxclocks.locationlist.header.time.label "시간">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "시계 형식을 자유롭게 바꿀 수 있습니다.">
+<!ENTITY foxclocks.locationlist.nolocs.label "(선택한 지역이 없습니다)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "위로">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "U">
+<!ENTITY foxclocks.locationlist.context.movedown.label "아래로">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "D">
+<!ENTITY foxclocks.locationlist.context.details.label "지역 정보...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "L">
+<!ENTITY foxclocks.locationlist.context.remove.label "빼기">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "R">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "선택한 지역을 지우시겠습니까?">
+<!ENTITY foxclocks.import.confirm.label "현재 여우시계 설정에 덮어 쓰시겠습니까?">
+<!ENTITY options.title "MoonClocks 설정">
+<!ENTITY options.format.caption "시계 형식">
+<!ENTITY options.format.description "시계 형식 설정">
+<!ENTITY options.format.clockchoice.clock.label "상태 표시줄/도구 모음의 시계">
+<!ENTITY options.format.clockchoice.tooltip.label "상태 표시줄/도구 모음 시계의 말풍선">
+<!ENTITY options.format.clockchoice.foxclocks.label "여우시계 창">
+<!ENTITY options.format.clockchoice.all.label "모든 시계">
+<!ENTITY options.format.radio.standard.label "표준 형식">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "사용자 형식">
+<!ENTITY options.format.radio.custom.accesskey "C">
+<!ENTITY options.format.standard.menu.select "---선택---">
+<!ENTITY options.format.custom.textbox.input.label "형식:">
+<!ENTITY options.format.custom.textbox.preview.label "미리보기:">
+<!ENTITY options.format.custom.secs.label "초">
+<!ENTITY options.format.custom.mins.label "분">
+<!ENTITY options.format.custom.hours.label "시:">
+<!ENTITY options.format.custom.hours.12.1.label "12시간">
+<!ENTITY options.format.custom.hours.12.2.label "12시간, 2자릿수">
+<!ENTITY options.format.custom.hours.24.1.label "24시간">
+<!ENTITY options.format.custom.hours.24.2.label "24시간, 2자릿수">
+<!ENTITY options.format.custom.am.label "오전/오후:">
+<!ENTITY options.format.custom.am.lower.label "오전/오후">
+<!ENTITY options.format.custom.am.upper.label "AM/PM">
+<!ENTITY options.format.custom.year.label "연도:">
+<!ENTITY options.format.custom.year.4.label "4자릿수">
+<!ENTITY options.format.custom.year.2.label "2자릿수">
+<!ENTITY options.format.custom.month.label "월:">
+<!ENTITY options.format.custom.month.num.1.label "숫자">
+<!ENTITY options.format.custom.month.num.2.label "숫자, 2자릿수">
+<!ENTITY options.format.custom.month.name.long.label "영어(예:Jan)">
+<!ENTITY options.format.custom.month.name.short.label "한국어(예:1월)">
+<!ENTITY options.format.custom.day.label "일,요일:">
+<!ENTITY options.format.custom.day.num.1.label "숫자">
+<!ENTITY options.format.custom.day.num.2.label "숫자, 2자릿수">
+<!ENTITY options.format.custom.day.name.long.label "요일(예:월요일)">
+<!ENTITY options.format.custom.day.name.short.label "요일(예:월)">
+<!ENTITY options.format.custom.day.ordinal.label "날짜(예:1일)">
+<!ENTITY options.format.custom.day.ofyear.label "연초부터의 날짜">
+<!ENTITY options.format.custom.other.label "나머지:">
+<!ENTITY options.format.custom.other.location.label "지역 이름">
+<!ENTITY options.format.custom.other.offset.label "GMT와의 시차">
+<!ENTITY options.format.custom.other.zone.label "시간대 이름">
+<!ENTITY options.format.custom.other.1.label "콤마">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "콜론">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "빈칸">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "위치와 모양">
+<!ENTITY options.clock.position.description.label "위치:">
+<!ENTITY options.clock.position.radio.statusbar.label "상태 표시줄">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "S">
+<!ENTITY options.clock.position.radio.toolbar.label "도구모음(도구 모음 설정 창에서 드래그 하십시오)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "t">
+<!ENTITY options.clock.position.statusbar.radio.left.label "왼쪽에 표시">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "L">
+<!ENTITY options.clock.position.statusbar.radio.right.label "오른쪽에 표시">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "R">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "표시할 곳 지정:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "P">
+<!ENTITY options.clock.style.label "표시할 곳:">
+<!ENTITY options.clock.style.radio.clocks.label "여러개의 시계를 표시">
+<!ENTITY options.clock.style.radio.clocks.accesskey "C">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks 아이콘(마우스를 올려놓으면 시간 표시)">
+<!ENTITY options.clock.style.radio.icon.accesskey "I">
+<!ENTITY options.data.caption "시간대 자료">
+<!ENTITY options.data.info.caption.label "현재 시간대 데이터베이스">
+<!ENTITY options.data.info.source.label "소스:">
+<!ENTITY options.data.info.version.label "버전:">
+<!ENTITY options.data.info.date.label "날짜:">
+<!ENTITY options.data.update.caption.label "데이터베이스 업데이트">
+<!ENTITY options.data.update.last.date.label "최종 업데이트:">
+<!ENTITY options.data.update.last.status.label "결과:">
+<!ENTITY options.data.update.next.date.label "다음 업데이트:">
+<!ENTITY options.data.update.auto.enable.label "자동 업데이트 사용">
+<!ENTITY options.data.update.auto.enable.accesskey "E">
+<!ENTITY options.data.update.checknow.button.label "지금 확인">
+<!ENTITY options.data.update.checknow.button.accesskey "C">
+<!ENTITY options.advanced.caption "고급">
+<!ENTITY options.advanced.newloc.caption.label "시계 목록을 보일 곳">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "시계를 상태 표시줄/도구 모음에 표시">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "국기를 상태 표시줄/도구 모음에 표시">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "시계를 상태 표시줄/도구 모음 말풍선에 표시">
+<!ENTITY options.advanced.misc.caption.label "기타">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "국기를 상태 표시줄/도구 모음 말풍선에 표시">
+<!ENTITY options.advanced.alert.autoupdate.label "시간대 데이터베이스 업데이트 알림을 표시">
+<!ENTITY options.advanced.menuitem.hidden.label "여우시계를 '도구' 메뉴 항목에 표시">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "시계 목록에서 뺄 때 물어보기">
+<!ENTITY zoneinfo.title.zone "시간대 정보">
+<!ENTITY zoneinfo.title.location "지역 정보">
+<!ENTITY zoneinfo.tab.zone.label "시간대">
+<!ENTITY zoneinfo.tab.location.label "지역">
+<!ENTITY zoneinfo.tab.display.label "표시">
+<!ENTITY zoneinfo.standardzone.label "표준 시간제">
+<!ENTITY zoneinfo.daylightzone.label "일광 절약 시간제">
+<!ENTITY zoneinfo.daylightsaving.begins "일광 절약 시간제 시작">
+<!ENTITY zoneinfo.daylightsaving.began "일광 절약 시간제 시작">
+<!ENTITY zoneinfo.daylightsaving.ends "일광 절약 시간제 종료">
+<!ENTITY zoneinfo.daylightsaving.ended "일광 절약 시간제 종료">
+<!ENTITY zoneinfo.defaultlocation.label "기본 지역">
+<!ENTITY zoneinfo.addas.name.label "지역 이름">
+<!ENTITY zoneinfo.addas.latitude.label "위도">
+<!ENTITY zoneinfo.addas.longitude.label "경도">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "상태 표시줄/도구 모음 시계의 설정은 MoonClocks가 아이콘 상태일 때 작동하지 않습니다. (설정-&gt;위치와 모양 탭에서 설정 가능)">
+<!ENTITY zoneinfo.display.showclock.caption "시계 보이기/숨기기">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "시계를 상태 표시줄/도구 모음에 표시">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "S">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "시계를 상태 표시줄/도구 모음 말풍선에 표시">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "T">
+<!ENTITY zoneinfo.display.style.caption "상태 막대/도구 막대 시계 모양">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "굵게">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "B">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "기울임꼴">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "I">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "밑줄">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "U">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "국기">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.caption "상태 막대/도구 막대 시계 색깔">
+<!ENTITY zoneinfo.display.style.colour.standard.label "기본 색깔">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "C">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "바뀌는 시계 색깔 사용">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "A">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "시작">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "끝">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "n">
+<!ENTITY zoneinfo.display.flag.caption "국기 그림">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "사용 안함">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "D">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "기본 국기">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "R">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "사용자 지정">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "O">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "기본 국기 목록...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "P">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "기본 국기 그림 중에서 선택하려면 클릭하십시오.">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "찾아보기...">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "W">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "국기로 사용할 그림을 찾으려면 클릭하십시오.">
+<!ENTITY zoneinfo.display.customformat.caption.label "사용자 형식(고급)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "설정-&gt;시계 형식 탭에서의 설정과는 별개로 이 지역만의 시계 형식을 설정할 수 있습니다.">
+<!ENTITY zoneinfo.display.customformat.clock.label "상태 표시줄/도구 모음 시계">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "L">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "상태 표시줄/도구 모음 시계의 말풍선">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "K">
+<!ENTITY welcome.title "감사합니다">
+<!ENTITY welcome.header "MoonClocks을 설치해 주셔서 감사합니다.">
+<!ENTITY welcome.message "MoonClocks은 세계 각국의 현지 시간을 상태 표시줄 및 도구 모음에 보여줍니다. 세계 각국의 거의 대부분의 시간대를 지원합니다. 또한 MoonClocks는 OpenStreetMap을 이용하여 시간대를 찾을 수도 있습니다.|시작하려면:| - 목록에서 지켜보길 원하는 시간대를 선택하여 시계를 만드십시오. 기본 이름은 바꾸실 수 있습니다.| - 시계의 모양, 색깔 및 바뀌는 시계 색깔(예: 연장 근무 시간 표시등에 사용) 등을 설정하십시오.| - 표준 형식 중에서 선택하거나 직접 시계 형식을 만드십시오.|앞으로 이 메시지는 표시되지 않습니다.도구 메뉴에서 MoonClocks을 열거나 아무 시계나 두번 클릭 하십시오.">
+<!ENTITY welcome.checkbox.launch.label "MoonClocks 실행">
+<!ENTITY welcome.checkbox.launch.accesskey "L">
+<!ENTITY welcome.checkbox.openhomepage.label "MoonClocks 홈페이지 방문">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "O">
+<!ENTITY update.title "MoonClocks이 업데이트됨">
+<!ENTITY update.thisversion "현재 버전:">
+<!ENTITY update.message "MoonClocks을 업데이트해 주셔서 감사합니다. 변경 기록부에서 새 버전의 변경 사항을 보실 수 있습니다.">
+<!ENTITY update.checkbox.launch.label "변경 기록부 보기">
+<!ENTITY update.checkbox.launch.accesskey "V">
+<!ENTITY about.title "MoonClocks 정보">
+<!ENTITY about.message "저작권 (c) 2015 Andy McDonald">
+<!ENTITY misc.never "없음">
+<!ENTITY misc.na "알 수 없음">
+<!ENTITY misc.done "완료">
+<!ENTITY misc.apply "적용">

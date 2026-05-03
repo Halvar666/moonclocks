@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright (c) 2015 Andy McDonald. All rights reserved.
+Please refer to licence.txt for licensing terms.
+-->
+
+<?xml-stylesheet href="chrome://moonclocks/content/bindings.css" type="text/css"?>
+<?xml-stylesheet href="chrome://moonclocks/skin/foxclocks.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://moonclocks/locale/foxclocks.dtd">
+
+<overlay	id="foxclocks-overlay"
+			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="foxclocks-bundle" class="overlay-unloadable" src="chrome://moonclocks/locale/foxclocks.properties"/>
+	</stringbundleset>
+	
+	<commandset class="overlay-unloadable">
+		<command id="cmd_fcov_openfc" oncommand="foxclocks.utils.openChromeFoxClocks()"/>
+		<command id="cmd_fcov_openopt" oncommand="foxclocks.utils.openChromeOptions()"/>
+		<command id="cmd_fcov_openhelp" oncommand="foxclocks.utils.openFoxClocksHelp()"/>
+		<command id="cmd_fcov_openabout" oncommand="foxclocks.utils.openChromeAbout()"/>
+	</commandset>
+	
+	<keyset id="mainKeyset"> <!-- Firefox, SeaMonkey -->
+		<key	id="foxclocksoverlay-foxclocks-open-key"/>
+	</keyset>
+	
+	<keyset id="tasksKeys"> <!-- Thunderbird, SeaMonkey -->
+		<key	id="foxclocksoverlay-foxclocks-open-key"/>
+	</keyset>
+	
+	<keyset id="navKeys"> <!-- SeaMonkey -->
+		<key	id="foxclocksoverlay-foxclocks-open-key"/>
+	</keyset>
+	
+	<key	id="foxclocksoverlay-foxclocks-open-key" class="overlay-unloadable" modifiers="control shift"
+			key="&foxclocksoverlay.menuitem.accelkey;" command="cmd_fcov_openfc"/>
+
+	<menupopup id="menu_ToolsPopup"> <!-- Firefox -->
+		<menuitem	id="foxclocksoverlay-menuitem" class="overlay-unloadable" insertafter="menu_openAddons"
+					label="&foxclocksoverlay.menuitem.label;" accesskey="&foxclocksoverlay.menuitem.accesskey;"
+					key="foxclocksoverlay-foxclocks-open-key" command="cmd_fcov_openfc"/>
+	</menupopup>
+	
+	<menupopup id="taskPopup"> <!-- Thunderbird, SeaMonkey (insertafter="downloadmgr") -->
+		<menuitem	id="foxclocksoverlay-menuitem" class="overlay-unloadable" insertafter="addonsManager" insertbefore="prefSep"
+					label="&foxclocksoverlay.menuitem.label;" accesskey="&foxclocksoverlay.menuitem.accesskey;"
+					key="foxclocksoverlay-foxclocks-open-key" command="cmd_fcov_openfc"/>
+	</menupopup>
+	
+  
+ 	<window id="main-window"> <!-- Firefox, SeaMonkey -->
+		<popupset id="foxclocksoverlay-popupset"/>
+	</window>
+	
+	<window id="messengerWindow"> <!-- Thunderbird, SeaMonkey -->
+		<popupset id="foxclocksoverlay-popupset"/>
+	</window>
+	
+	<window id="msgcomposeWindow"> <!-- Thunderbird, SeaMonkey -->
+		<popupset id="foxclocksoverlay-popupset"/>
+	</window>
+	
+	<window id="calendar-window"> <!-- SeaMonkey -->
+		<popupset id="foxclocksoverlay-popupset"/>
+	</window>
+	
+	<popupset id="foxclocksoverlay-popupset" class="overlay-unloadable">
+		<menupopup id="foxclocksoverlay-clock-context">
+					
+			<menuitem	label="&foxclocksoverlay.context.foxclocks.label;" accesskey="&foxclocksoverlay.context.foxclocks.accesskey;"
+						key="foxclocksoverlay-foxclocks-open-key" command="cmd_fcov_openfc"/>
+						
+			<menuitem	label="&foxclocksoverlay.context.options.label;" accesskey="&foxclocksoverlay.context.options.accesskey;"
+						command="cmd_fcov_openopt"/>
+						
+			<menuseparator/>
+			<menuitem	label="&foxclocksoverlay.context.help.label;" accesskey="&foxclocksoverlay.context.help.accesskey;"
+						command="cmd_fcov_openhelp"/>	
+			<menuitem	label="&foxclocksoverlay.context.about.label;" accesskey="&foxclocksoverlay.context.about.accesskey;"
+						command="cmd_fcov_openabout"/>
+		</menupopup>
+		
+		<tooltip id="foxclocksoverlay-clock-tooltip" noautohide="true"/>
+		
+		<data id="foxclocksoverlay-nolocs-label" label="&foxclocks.locationlist.nolocs.label;"/>
+		<data id="foxclocksoverlay-toolbarbutton-clocks-label" label="&foxclocksoverlay.toolbarbutton.clocks.label;"/>
+	</popupset>
+
+	<toolbarpalette id="BrowserToolbarPalette"> <!-- Firefox, SeaMonkey -->
+		<toolbaritem	id="foxclocksoverlay-toolbaritem-clocks"/>
+	</toolbarpalette>
+	
+	<toolbarpalette id="MailToolbarPalette"> <!-- Thunderbird, SeaMonkey -->
+		<toolbaritem	id="foxclocksoverlay-toolbaritem-clocks"/>
+	</toolbarpalette>
+	
+	<toolbarpalette id="MsgComposeToolbarPalette"> <!-- Thunderbird, SeaMonkey -->
+		<toolbaritem	id="foxclocksoverlay-toolbaritem-clocks"/>
+	</toolbarpalette>
+	
+	<toolbarpalette id="calendarToolbarPalette"> <!-- SeaMonkey -->
+		<toolbaritem	id="foxclocksoverlay-toolbaritem-clocks"/>
+	</toolbarpalette>
+	
+	<!-- Not created by loadOverlay() for Firefox and Thunderbird. No idea why -->
+	<toolbaritem	id="foxclocksoverlay-toolbaritem-clocks" class="chromeclass-toolbar-additional overlay-unloadable" removable="true"
+					tooltip="foxclocksoverlay-clock-tooltip" label="&foxclocksoverlay.toolbarbutton.clocks.label;">
+
+		<toolbarbutton	id="foxclocksoverlay-toolbarbutton-clocks" class="toolbarbutton-1" align="center" command="cmd_fcov_openfc"
+ 						label="&foxclocksoverlay.toolbarbutton.clocks.label;" title="&foxclocksoverlay.toolbarbutton.clocks.label;"/>
+		
+		<hbox id="foxclocksoverlay-toolbaritem-box" align="center"/>
+
+	</toolbaritem>
+
+	<script type="application/x-javascript" src="chrome://moonclocks/content/common.js" class="overlay-unloadable"/>
+	<script type="application/x-javascript" src="chrome://moonclocks/content/foxclocksoverlay.js" class="overlay-unloadable overlay-loaded"/>
+
+</overlay>

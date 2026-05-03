@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Einstellungen...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "E">
+<!ENTITY foxclocksoverlay.context.help.label "Hilfe (engl.)...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "Über MoonClocks...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "Ü">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "F">
+<!ENTITY foxclocks.accelkey.moveup "H">
+<!ENTITY foxclocks.accelkey.movedown "R">
+<!ENTITY foxclocks.accelkey.loc.details "O">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "I">
+<!ENTITY foxclocks.button.add.label "Hinzufügen &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "H">
+<!ENTITY foxclocks.button.add.tooltip "Fügt Orte aus der ausgewählten Zeitzone zur Beobachtungsliste hinzu">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Entfernen">
+<!ENTITY foxclocks.button.remove.accesskey "E">
+<!ENTITY foxclocks.button.remove.tooltip "Entfernt ausgewählte Orte aus der Beobachtungsliste">
+<!ENTITY foxclocks.button.addas.label "Hinzufügen als... &gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "a">
+<!ENTITY foxclocks.button.addas.tooltip "Fügt mit Bearbeitungsmöglichkeit Orte aus der ausgewählten Zeitzone hinzu">
+<!ENTITY foxclocks.button.moveup.label "Nach oben">
+<!ENTITY foxclocks.button.moveup.accesskey "o">
+<!ENTITY foxclocks.button.moveup.tooltip "Verschiebt den ausgewählten Ort in der Beobachtungsliste nach oben">
+<!ENTITY foxclocks.button.movedown.label "Nach unten">
+<!ENTITY foxclocks.button.movedown.accesskey "u">
+<!ENTITY foxclocks.button.movedown.tooltip "Verschiebt den ausgewählten Ort in der Beobachtungsliste nach unten">
+<!ENTITY foxclocks.menubar.menu.file.label "Datei">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "D">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Schließen">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Einstellungen importieren...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Einstellungen exportieren...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Bearbeiten">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "B">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Zone(n) zur Beobachtungsliste hinzufügen">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Zone zur Beobachtungsliste hinzufügen als...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "A">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Ort in der Beobachtungsliste nach oben verschieben">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "o">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Ort in der Beobachtungsliste nach unten verschieben">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "u">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Ort(e) aus der Beobachtungsliste entfernen">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "e">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Ortseigenschaften...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "r">
+<!ENTITY foxclocks.menubar.menu.view.label "Anzeigen">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "A">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Zonenangaben...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Zone in OpenStreetMap öffnen...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Ort in OpenStreetMap öffnen...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Extras">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "x">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Einstellungen...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.help.label "Hilfe">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Hilfe (engl.)...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "Über MoonClocks...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "Ü">
+<!ENTITY foxclocks.dialog.import.title "MoonClocks-Einstellungen importieren">
+<!ENTITY foxclocks.dialog.import.success "Einstellungen wurden erfolgreich importiert">
+<!ENTITY foxclocks.dialog.import.failure "Importieren der Einstellungen fehlgeschlagen">
+<!ENTITY foxclocks.dialog.export.title "MoonClocks-Einstellungen speichern">
+<!ENTITY foxclocks.dialog.export.success "Einstellungen wurden erfolgreich gespeichert">
+<!ENTITY foxclocks.dialog.export.failure "Speichern der Einstellungen fehlgeschlagen">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks-Einstellungsdateien">
+<!ENTITY foxclocks.zonepicker.description.label "Zonenauswahl">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Alle verfügbaren Zeitzonen. Zonen werden in der Beobachtungsliste zu Orten">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Suchen">
+<!ENTITY foxclocks.zonepicker.search.accesskey "Q">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Durchsucht die Zonenauswahl nach Ländern oder Städten">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Zeitzone">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Zeitzone">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT-/UTC-Zeitverschiebung">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT-/UTC-Zeitverschiebung">
+<!ENTITY foxclocks.zonepicker.footer "* weist darauf hin, dass aktuell Sommerzeit gilt">
+<!ENTITY foxclocks.zonepicker.context.details.label "Zonenangaben...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "Hinzufügen">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "H">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Hinzufügen als...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "a">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Beobachtungsliste">
+<!ENTITY foxclocks.locationlist.description.tooltip "Die im Tooltip und (falls konfiguriert) in der Status-/Symbolleiste sichbaren Zeitanzeigen">
+<!ENTITY foxclocks.locationlist.header.location.label "Ort">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Ort innerhalb der Zeitzone. Ortsnamen können bearbeitet werden">
+<!ENTITY foxclocks.locationlist.header.time.label "Zeit">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Ortszeit. Zeitformate können komplett angepasst werden">
+<!ENTITY foxclocks.locationlist.nolocs.label "(keine Orte ausgewählt)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Nach oben">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "o">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Nach unten">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "u">
+<!ENTITY foxclocks.locationlist.context.details.label "Ortseigenschaften...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "O">
+<!ENTITY foxclocks.locationlist.context.remove.label "Entfernen">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "E">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Ausgewählte Orte entfernen?">
+<!ENTITY foxclocks.import.confirm.label "Bestehende MoonClocks-Einstellung überschreiben?">
+<!ENTITY options.title "MoonClocks - Einstellungen">
+<!ENTITY options.format.caption "Zeitformat">
+<!ENTITY options.format.description "Format der Zeitanzeige festlegen für">
+<!ENTITY options.format.clockchoice.clock.label "die Status- oder Symbolleiste">
+<!ENTITY options.format.clockchoice.tooltip.label "die Tooltips der Status- oder Symbolleiste">
+<!ENTITY options.format.clockchoice.foxclocks.label "das MoonClocks-Fenster">
+<!ENTITY options.format.clockchoice.all.label "alle Zeitanzeigen">
+<!ENTITY options.format.radio.standard.label "Standardformate">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "Benutzerdefiniertes Format">
+<!ENTITY options.format.radio.custom.accesskey "B">
+<!ENTITY options.format.standard.menu.select "---auswählen---">
+<!ENTITY options.format.custom.textbox.input.label "Zeichenkette:">
+<!ENTITY options.format.custom.textbox.preview.label "Vorschau:">
+<!ENTITY options.format.custom.secs.label "Sekunden">
+<!ENTITY options.format.custom.mins.label "Minuten">
+<!ENTITY options.format.custom.hours.label "Stunden:">
+<!ENTITY options.format.custom.hours.12.1.label "12 Stunden">
+<!ENTITY options.format.custom.hours.12.2.label "12 Stunden, zweistellig">
+<!ENTITY options.format.custom.hours.24.1.label "24 Stunden">
+<!ENTITY options.format.custom.hours.24.2.label "24 Stunden, zweistellig">
+<!ENTITY options.format.custom.am.label "am/pm:">
+<!ENTITY options.format.custom.am.lower.label "am/pm">
+<!ENTITY options.format.custom.am.upper.label "AM/PM">
+<!ENTITY options.format.custom.year.label "Jahr:">
+<!ENTITY options.format.custom.year.4.label "Vierstellig">
+<!ENTITY options.format.custom.year.2.label "Zweistellig">
+<!ENTITY options.format.custom.month.label "Monat:">
+<!ENTITY options.format.custom.month.num.1.label "Numerisch">
+<!ENTITY options.format.custom.month.num.2.label "Numerisch, zweistellig">
+<!ENTITY options.format.custom.month.name.long.label "Name">
+<!ENTITY options.format.custom.month.name.short.label "Name, Kurzform">
+<!ENTITY options.format.custom.day.label "Tag:">
+<!ENTITY options.format.custom.day.num.1.label "Numerisch">
+<!ENTITY options.format.custom.day.num.2.label "Numerisch, zweistellig">
+<!ENTITY options.format.custom.day.name.long.label "Name">
+<!ENTITY options.format.custom.day.name.short.label "Name, Kurzform">
+<!ENTITY options.format.custom.day.ordinal.label "Ordnungszahl">
+<!ENTITY options.format.custom.day.ofyear.label "Tag des Jahres">
+<!ENTITY options.format.custom.other.label "Andere:">
+<!ENTITY options.format.custom.other.location.label "Ort">
+<!ENTITY options.format.custom.other.offset.label "GMT-Zeitverschiebung">
+<!ENTITY options.format.custom.other.zone.label "Zonenname">
+<!ENTITY options.format.custom.other.1.label "Komma">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "Doppelpunkt">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "Leerzeichen">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Position und Aussehen">
+<!ENTITY options.clock.position.description.label "Anzeigen in:">
+<!ENTITY options.clock.position.radio.statusbar.label "der Statusleiste">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "S">
+<!ENTITY options.clock.position.radio.toolbar.label "der Symbolleiste (anzulegen über den Anpassen-Dialog)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "y">
+<!ENTITY options.clock.position.statusbar.radio.left.label "auf der linken Seite">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "L">
+<!ENTITY options.clock.position.statusbar.radio.right.label "auf der rechten Seite">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "R">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "an bestimmter Position:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "P">
+<!ENTITY options.clock.style.label "Anzeigen als:">
+<!ENTITY options.clock.style.radio.clocks.label "Mehrere Zeitanzeigen">
+<!ENTITY options.clock.style.radio.clocks.accesskey "M">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks-Symbol (Mauszeiger über Symbol blendet Tooltip ein)">
+<!ENTITY options.clock.style.radio.icon.accesskey "F">
+<!ENTITY options.data.caption "Zeitzonendaten">
+<!ENTITY options.data.info.caption.label "Aktuelle Zeitzonendatenbank">
+<!ENTITY options.data.info.source.label "Quelle:">
+<!ENTITY options.data.info.version.label "Version:">
+<!ENTITY options.data.info.date.label "Datum:">
+<!ENTITY options.data.update.caption.label "Datenbankaktualisierungen:">
+<!ENTITY options.data.update.last.date.label "Letzte Aktualisierung:">
+<!ENTITY options.data.update.last.status.label "Ergebnis:">
+<!ENTITY options.data.update.next.date.label "Nächste Aktualisierung:">
+<!ENTITY options.data.update.auto.enable.label "Automatische Aktualisierung aktivieren">
+<!ENTITY options.data.update.auto.enable.accesskey "A">
+<!ENTITY options.data.update.checknow.button.label "Jetzt prüfen">
+<!ENTITY options.data.update.checknow.button.accesskey "J">
+<!ENTITY options.advanced.caption "Erweitert">
+<!ENTITY options.advanced.newloc.caption.label "Einen Ort zur Beobachtungsliste hinzufügen">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Zeitanzeige in der Status-/Symbolleiste anzeigen">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Flagge in der Status-/Symbolleiste anzeigen">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Zeitanzeige im Tooltip der Status-/Symbolleiste anzeigen">
+<!ENTITY options.advanced.misc.caption.label "Verschiedenes">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Flagge im Tooltip der Status-/Symbolleiste anzeigen">
+<!ENTITY options.advanced.alert.autoupdate.label "Bei Datenbankaktualisierung eine Benachrichtigungen anzeigen">
+<!ENTITY options.advanced.menuitem.hidden.label "MoonClocks-Eintrag im Menü &quot;Extras&quot; anzeigen">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "Orte aus der Beobachtungsliste entfernen bestätigen">
+<!ENTITY zoneinfo.title.zone "Zeitzoneneigenschaften">
+<!ENTITY zoneinfo.title.location "Ortseigenschaften">
+<!ENTITY zoneinfo.tab.zone.label "Zeitzone">
+<!ENTITY zoneinfo.tab.location.label "Ort">
+<!ENTITY zoneinfo.tab.display.label "Anzeige">
+<!ENTITY zoneinfo.standardzone.label "Standardzeitzone">
+<!ENTITY zoneinfo.daylightzone.label "Sommerzeitzone">
+<!ENTITY zoneinfo.daylightsaving.begins "Anfang der Sommerzeit">
+<!ENTITY zoneinfo.daylightsaving.began "Anfang der Sommerzeit">
+<!ENTITY zoneinfo.daylightsaving.ends "Ende der Sommerzeit">
+<!ENTITY zoneinfo.daylightsaving.ended "Ende der Sommerzeit">
+<!ENTITY zoneinfo.defaultlocation.label "Standardort">
+<!ENTITY zoneinfo.addas.name.label "Ortsname">
+<!ENTITY zoneinfo.addas.latitude.label "Breitengrad (optional)">
+<!ENTITY zoneinfo.addas.longitude.label "Längengrad (optional)">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "Einstellungen für die Status-/Symbolleiste kommen nicht zur Anwendung, wenn MoonClocks sich im &apos;Symbol&apos;-Modus befindet (siehe Einstellungen -&gt; Position und Aussehen)">
+<!ENTITY zoneinfo.display.showclock.caption "Zeitanzeige ein-/ausblenden">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Zeitanzeige in der Status-/Symbolleiste anzeigen">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "y">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Zeitanzeige im Tooltip der Status-/Symbolleiste anzeigen">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "o">
+<!ENTITY zoneinfo.display.style.caption "Aussehen der Zeitanzeige in der Status-/Symbolleiste">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Fett">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "e">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Kursiv">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "K">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Unterstrichen">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "U">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Flagge">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "a">
+<!ENTITY zoneinfo.display.style.colour.caption "Farbe der Zeitanzeige in der Status-/Symbolleiste">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Standardfarbe verwenden">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "f">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Wechselnde Farben aktivieren">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "W">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "von">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "v">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "bis">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "b">
+<!ENTITY zoneinfo.display.flag.caption "Flagge">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Deaktiviert">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "D">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Standard">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "S">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Benutzerdefiniert">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "B">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Vorlagen...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "V">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Eine der vorhandenen Flaggen auswählen">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Durchsuchen...">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "c">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Die Festplatte nach eigenen Flaggen durchsuchen">
+<!ENTITY zoneinfo.display.customformat.caption.label "Benutzerdefinierte Formate (erweitert)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "Zum Beispiel &quot;&lt;l&gt;-&lt;24h&gt;&lt;m&gt;&quot; ergibt &apos;[Ort]-1523&apos;. Siehe Einstellungen-&gt;Zeitformat-Tab für verfügbare Platzhalter">
+<!ENTITY zoneinfo.display.customformat.clock.label "Zeitanzeige in der Status-/Symbolleiste">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "Z">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Zeitanzeige im Tooltip der Status-/Symbolleiste">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "T">
+<!ENTITY welcome.title "Willkommen">
+<!ENTITY welcome.header "Willkommen zu MoonClocks">
+<!ENTITY welcome.message "MoonClocks stellt mehrere Zeitanzeigen für hunderte von Städten weltweit in der Status- oder Symbolleiste dar und greift hierfür auf eine Datenbank mit Informationen zu Zeitzonen und Angaben zur Sommerzeit zu. MoonClocks bietet darüber hinaus eine Integration mit OpenStreetMap (sofern installiert) und bringt Sie damit zu jedem Ort aus dem MoonClocks-Datenbestand.|Da Sie MoonClocks zum ersten Mal einsetzen, möchten Sie vielleicht die dargestellten Zeitanzeigen zunächst anpassen. Zu diesem Zweck wird anfangs eine Beispielliste von Orten bereitgestellt.|Diese Meldung wird in Zukunft nicht mehr angezeigt. Sie können das MoonClocks-Fenster über das Menü &quot;Extras&quot;, durch Doppelklick auf eine der Zeitanzeigen oder durch Klick auf die MoonClocks-Schaltfläche (falls sichtbar) aufrufen.">
+<!ENTITY welcome.checkbox.launch.label "MoonClocks starten">
+<!ENTITY welcome.checkbox.launch.accesskey "L">
+<!ENTITY welcome.checkbox.openhomepage.label "Homepage von MoonClocks öffnen">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "F">
+<!ENTITY update.title "MoonClocks wurde aktualisiert">
+<!ENTITY update.thisversion "Version:">
+<!ENTITY update.message "Danke, dass Sie MoonClocks aktualisiert haben. Sie können das Changelog anzeigen lassen, um zu sehen, was neu ist in dieser Version.">
+<!ENTITY update.checkbox.launch.label "Changelog anzeigen">
+<!ENTITY update.checkbox.launch.accesskey "a">
+<!ENTITY about.title "Über MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "Nie">
+<!ENTITY misc.na "k.A.">
+<!ENTITY misc.done "Fertig">
+<!ENTITY misc.apply "Übernehmen">

@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks..">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Seçenekler">
+<!ENTITY foxclocksoverlay.context.options.accesskey "O">
+<!ENTITY foxclocksoverlay.context.help.label "Yardım...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "MoonClocks Hakkında...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "A">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "A">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "Ekle&gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "A">
+<!ENTITY foxclocks.button.add.tooltip "Alan Seçicide seçili olan zaman dilimlerini İzleme Listesinde konum olarak ekle">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Kaldır">
+<!ENTITY foxclocks.button.remove.accesskey "R">
+<!ENTITY foxclocks.button.remove.tooltip "İzleme listesinden seçili konumları kaldır">
+<!ENTITY foxclocks.button.addas.label "Ekle..&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "S">
+<!ENTITY foxclocks.button.addas.tooltip "&apos;Özellikler konumu..&quot; penceresi aracılığı ile Bölge Seçiciye seçili alanlardan konum ekle">
+<!ENTITY foxclocks.button.moveup.label "Yukarı Taşı">
+<!ENTITY foxclocks.button.moveup.accesskey "U">
+<!ENTITY foxclocks.button.moveup.tooltip "Seçili konumu İzleme listesinde üste taşı">
+<!ENTITY foxclocks.button.movedown.label "Aşağı Taşı">
+<!ENTITY foxclocks.button.movedown.accesskey "D">
+<!ENTITY foxclocks.button.movedown.tooltip "Seçili konumu İzleme listesinde aşağı taşı">
+<!ENTITY foxclocks.menubar.menu.file.label "Dosya">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "F">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Kapat">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "C">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Ayarları içe aktar..">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Ayarları dışa aktar..">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Düzenle">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "İzleme listesine bölge ekle">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "A">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "İzleme listesine bölge ekle..">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Seçili konumu İzleme listesinde üste taşı">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "U">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Seçili konumu İzleme listesinde aşağı taşı">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "D">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "İzleme listesinden konum sil">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "R">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Konum özellikleri...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.view.label "Görünüm">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "V">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Bölge özellikleri...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "OpenStreetMap içinden bölge aç...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "OpenStreetMap içinden konum aç..">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Araçlar">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Seçenekler...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.help.label "Yardım">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Yardım...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "MoonClocks Hakkında..">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "A">
+<!ENTITY foxclocks.dialog.import.title "MoonClocks ayarlarını yükle">
+<!ENTITY foxclocks.dialog.import.success "Ayarlar başarıyla alındı">
+<!ENTITY foxclocks.dialog.import.failure "İçe ayar aktarma başarısız">
+<!ENTITY foxclocks.dialog.export.title "MoonClocks ayarlarını kaydet">
+<!ENTITY foxclocks.dialog.export.success "Ayarlar başarıyla kaydedildi">
+<!ENTITY foxclocks.dialog.export.failure "Ayarlar kaydedilemedi">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks ayar dosyaları">
+<!ENTITY foxclocks.zonepicker.description.label "Bölge Seçici">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Mevcut tüm zaman dilimlerini görüntüle. Bölgeler izleme listesine konumlar ile gelir.">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Ara">
+<!ENTITY foxclocks.zonepicker.search.accesskey "Q">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Alan Seçicide ülke veya şehir ara">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Zaman Dilimi">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Zaman Dilimi">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC Karşılığı">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT/UTC Karşılığı">
+<!ENTITY foxclocks.zonepicker.footer "* gün ışığından yararlanma değişikliklerinde saati otomatik ayarla">
+<!ENTITY foxclocks.zonepicker.context.details.label "Bölge özellikleri..">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "İzleme Listesine ekle">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "A">
+<!ENTITY foxclocks.zonepicker.context.addas.label "İzleme listesine ekle...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "S">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap..">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "İzleme Listesi">
+<!ENTITY foxclocks.locationlist.description.tooltip "İzleme Listesindeki konumlar durum çubuğunda/araç çubuğunda ve/veya ipucunda görüntülenir">
+<!ENTITY foxclocks.locationlist.header.location.label "Konum">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Zaman dilimindeki konum. Konuma çift tıklayarak özellikleri yapılandırın">
+<!ENTITY foxclocks.locationlist.header.time.label "Saat">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Yerel saat. Saat biçimleri tamamen yapılandırılabilir">
+<!ENTITY foxclocks.locationlist.nolocs.label "(konum seçilmedi)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Yukarı Taşı">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "U">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Aşağı Taşı">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "D">
+<!ENTITY foxclocks.locationlist.context.details.label "Konum özellikleri..">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "L">
+<!ENTITY foxclocks.locationlist.context.remove.label "Kaldır">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "R">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Seçili konumlar kaldırılsın mı?">
+<!ENTITY foxclocks.import.confirm.label "MoonClocks ayarları varolanın üzerine yazılsın mı?">
+<!ENTITY options.title "MoonClocks Seçenekleri">
+<!ENTITY options.format.caption "Saat Biçimi">
+<!ENTITY options.format.description "Saat görünümü belirtilen seçenek için nasıl belirlensin:">
+<!ENTITY options.format.clockchoice.clock.label "durum çubuğu / araç çubuğunda">
+<!ENTITY options.format.clockchoice.tooltip.label "durum çubuğu / araç çubuğu ipucunda">
+<!ENTITY options.format.clockchoice.foxclocks.label "MoonClocks penceresi">
+<!ENTITY options.format.clockchoice.all.label "tüm saatler">
+<!ENTITY options.format.radio.standard.label "Standart biçim">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "Özel biçim">
+<!ENTITY options.format.radio.custom.accesskey "C">
+<!ENTITY options.format.standard.menu.select "-- seç --">
+<!ENTITY options.format.custom.textbox.input.label "Biçim:">
+<!ENTITY options.format.custom.textbox.preview.label "Önizleme:">
+<!ENTITY options.format.custom.secs.label "Saniye">
+<!ENTITY options.format.custom.mins.label "Dakika">
+<!ENTITY options.format.custom.hours.label "Saat:">
+<!ENTITY options.format.custom.hours.12.1.label "12-saat">
+<!ENTITY options.format.custom.hours.12.2.label "12-saat,2-hane">
+<!ENTITY options.format.custom.hours.24.1.label "24-saat">
+<!ENTITY options.format.custom.hours.24.2.label "24-saat, 2-hane">
+<!ENTITY options.format.custom.am.label "sbh/aks:">
+<!ENTITY options.format.custom.am.lower.label "sbh/aks">
+<!ENTITY options.format.custom.am.upper.label "SBH/AKS">
+<!ENTITY options.format.custom.year.label "Yıl:">
+<!ENTITY options.format.custom.year.4.label "4-hane">
+<!ENTITY options.format.custom.year.2.label "2-hane">
+<!ENTITY options.format.custom.month.label "Ay:">
+<!ENTITY options.format.custom.month.num.1.label "numerik">
+<!ENTITY options.format.custom.month.num.2.label "numerik, 2-hane">
+<!ENTITY options.format.custom.month.name.long.label "ad">
+<!ENTITY options.format.custom.month.name.short.label "ad, kısa form">
+<!ENTITY options.format.custom.day.label "Gün:">
+<!ENTITY options.format.custom.day.num.1.label "numerik">
+<!ENTITY options.format.custom.day.num.2.label "numerik, 2-hane">
+<!ENTITY options.format.custom.day.name.long.label "ad">
+<!ENTITY options.format.custom.day.name.short.label "ad, kısa form">
+<!ENTITY options.format.custom.day.ordinal.label "sıra">
+<!ENTITY options.format.custom.day.ofyear.label "yılın günü">
+<!ENTITY options.format.custom.other.label "Diğer:">
+<!ENTITY options.format.custom.other.location.label "Konum">
+<!ENTITY options.format.custom.other.offset.label "GMT karşılığı">
+<!ENTITY options.format.custom.other.zone.label "Bölge adı">
+<!ENTITY options.format.custom.other.1.label "virgül">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "sütun">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "boşluk">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Pozisyon ve Stil">
+<!ENTITY options.clock.position.description.label "Görünüm:">
+<!ENTITY options.clock.position.radio.statusbar.label "Durum çubuğu">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "a">
+<!ENTITY options.clock.position.radio.toolbar.label "Araç çubuğu (&apos;Araç Çubuğunu Özelleştir&apos; paletinden sürükle)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "t">
+<!ENTITY options.clock.position.statusbar.radio.left.label "solda">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "L">
+<!ENTITY options.clock.position.statusbar.radio.right.label "sağda">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "R">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "bir konum belirle:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "P">
+<!ENTITY options.clock.style.label "Görünüm:">
+<!ENTITY options.clock.style.radio.clocks.label "Çoklu saat">
+<!ENTITY options.clock.style.radio.clocks.accesskey "M">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks simgesi">
+<!ENTITY options.clock.style.radio.icon.accesskey "I">
+<!ENTITY options.data.caption "Zaman Dilimi Verisi">
+<!ENTITY options.data.info.caption.label "Geçerli zaman dilimi veritabanı">
+<!ENTITY options.data.info.source.label "Kaynak:">
+<!ENTITY options.data.info.version.label "Sürüm:">
+<!ENTITY options.data.info.date.label "Tarih:">
+<!ENTITY options.data.update.caption.label "Veritabanı güncellemeleri">
+<!ENTITY options.data.update.last.date.label "Son güncelleme:">
+<!ENTITY options.data.update.last.status.label "Sonuç:">
+<!ENTITY options.data.update.next.date.label "Sonraki güncelleme:">
+<!ENTITY options.data.update.auto.enable.label "Otomatik güncelleme etkin">
+<!ENTITY options.data.update.auto.enable.accesskey "E">
+<!ENTITY options.data.update.checknow.button.label "Şimdi kontrol et">
+<!ENTITY options.data.update.checknow.button.accesskey "n">
+<!ENTITY options.advanced.caption "Gelişmiş">
+<!ENTITY options.advanced.newloc.caption.label "İzleme listesine bir konum ekle">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Durum çubuğunda/araç çubuğunda saati göster">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Durum çubuğunda/araç çubuğunda bayrağı göster">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Saat için durum çubuğunda/araç çubuğunda ipucunu göster">
+<!ENTITY options.advanced.misc.caption.label "Çeşitli">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Bayrak için durum çubuğunda/araç çubuğunda ipucunu göster">
+<!ENTITY options.advanced.alert.autoupdate.label "Zaman dilimi veritabanı güncelleme uyarılarını göster">
+<!ENTITY options.advanced.menuitem.hidden.label "FoxClock seçeneğini &apos;Araçlar&apos; menüsünde göster">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "İzleme listesinden konum silmeyi onayla">
+<!ENTITY zoneinfo.title.zone "Zaman Dilimi Özellikleri">
+<!ENTITY zoneinfo.title.location "Konum Özellikleri">
+<!ENTITY zoneinfo.tab.zone.label "Zaman Dilimi">
+<!ENTITY zoneinfo.tab.location.label "Konum">
+<!ENTITY zoneinfo.tab.display.label "Görünüm">
+<!ENTITY zoneinfo.standardzone.label "Standart zaman dilimi">
+<!ENTITY zoneinfo.daylightzone.label "Günışığından faydalanma">
+<!ENTITY zoneinfo.daylightsaving.begins "Günışığından faydalanma başlangıcı">
+<!ENTITY zoneinfo.daylightsaving.began "Günışığından faydalanma başladı">
+<!ENTITY zoneinfo.daylightsaving.ends "Günışığından faydalanma bitişi">
+<!ENTITY zoneinfo.daylightsaving.ended "Günışığından faydalanma bitti">
+<!ENTITY zoneinfo.defaultlocation.label "Varsayılan konum">
+<!ENTITY zoneinfo.addas.name.label "Konum adı">
+<!ENTITY zoneinfo.addas.latitude.label "Enlem">
+<!ENTITY zoneinfo.addas.longitude.label "Boylan">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "MoonClocks &apos;simge&apos; modunda iken araç çubuğu/durum çubuğu ayarları uygulanmaz (Seçenekler-&gt;Pozisyon ve Stil sekmesine bakın)">
+<!ENTITY zoneinfo.display.showclock.caption "Saati göster/gizle">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Saati durum çubuğunda/araç çubuğunda göster">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "S">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Saati durum çubuğunda/araç çubuğunda ipucu olarak göster">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "T">
+<!ENTITY zoneinfo.display.style.caption "Durum Ç./Araç Ç. saat biçimi">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Kalın">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "K">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Eğik">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "E">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Altı Çizili">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "A">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Bayrak">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "B">
+<!ENTITY zoneinfo.display.style.colour.caption "Durum Ç./Araç Ç. saat rengi">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Standart renk">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "R">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Alternatif renk etkin">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "L">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "den">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "n">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "kadar">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "k">
+<!ENTITY zoneinfo.display.flag.caption "Bayrak">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Devredışı">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "D">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Standart">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "R">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Özel">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "O">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Öntanımlı...">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "P">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Seçtiğiniz öntanımlı bayrak resimlerine tıklayın">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Gözat">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "W">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Özel bir bayrak seçmek için tıklayın">
+<!ENTITY zoneinfo.display.customformat.caption.label "Özel Biçimler (gelişmiş)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "ör. &apos;&lt;l&lt;-&lt;24s&gt;&lt;d&gt;&apos; &apos;[Konum]-1523&apos;. Geçerli alanlar için Seçenekler -&gt; Saat Biçimi sekmesine bakın.">
+<!ENTITY zoneinfo.display.customformat.clock.label "Durum çubuğu/araç çubuğu saati">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "L">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Durum çubuğu/araç çubuğu saat ipucu">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "K">
+<!ENTITY welcome.title "Hoşgeldiniz">
+<!ENTITY welcome.header "MoonClocks&apos;a Hoşgeldiniz">
+<!ENTITY welcome.message "MoonClocks durum çubuğunda ya da herhangi bir araç çubuğunda tüm dünya ülkelerinin yerel saatlerini görüntüler. Tüm sanal zaman dilimleri desteklenir. MoonClocks, OpenStreetMap aracılığı ile de her bir zaman dilimini gezinebilirsiniz.|Başlarken:|- görmek istediğiniz her bir zaman dilimine ait bir saat oluşturun ve saatin varsayılan ismini değiştirin;|- saat biçimini, rengini ve alternatif rengini özelleştirin;|- standart zaman dilimi biçimlerini seçin veya kendiniz oluşturun.|Gelecekte bu mesaj gösterilmeyecek; MoonClocks Araçlar menüsünden ya da herhangi bir saate çift tıklayarak açabilirsiniz.">
+<!ENTITY welcome.checkbox.launch.label "MoonClocks&apos;ı Çalıştır">
+<!ENTITY welcome.checkbox.launch.accesskey "Ç">
+<!ENTITY welcome.checkbox.openhomepage.label "MoonClocks web sitesi">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "W">
+<!ENTITY update.title "MoonClocks Güncellendi">
+<!ENTITY update.thisversion "Bu sürüm:">
+<!ENTITY update.message "FoxClock&apos;ı güncellediğiniz için teşekkürler. FoxClock&apos;ın bu sürümündeki güncelleme notlarını görüntüleyebilirsiniz.">
+<!ENTITY update.checkbox.launch.label "Değişiklikleri Göster">
+<!ENTITY update.checkbox.launch.accesskey "G">
+<!ENTITY about.title "MoonClocks Hakkında">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "asla">
+<!ENTITY misc.na "A/G">
+<!ENTITY misc.done "Tamam">
+<!ENTITY misc.apply "Uygula">

@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks…">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Opties…">
+<!ENTITY foxclocksoverlay.context.options.accesskey "O">
+<!ENTITY foxclocksoverlay.context.help.label "Help…">
+<!ENTITY foxclocksoverlay.context.help.accesskey "H">
+<!ENTITY foxclocksoverlay.context.about.label "Over MoonClocks…">
+<!ENTITY foxclocksoverlay.context.about.accesskey "O">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "T">
+<!ENTITY foxclocks.accelkey.moveup "H">
+<!ENTITY foxclocks.accelkey.movedown "L">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "Toevoegen &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "T">
+<!ENTITY foxclocks.button.add.tooltip "Voegt locatie(s) aan de aan de lijst toe, gebaseerd op de tijdzone(s) zoals geselecteerd in de zoneselectie">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Verwijderen">
+<!ENTITY foxclocks.button.remove.accesskey "V">
+<!ENTITY foxclocks.button.remove.tooltip "Verwijdert geselecteerde locatie(s) uit de lijst">
+<!ENTITY foxclocks.button.addas.label "Toevoegen als… &gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "S">
+<!ENTITY foxclocks.button.addas.tooltip "Voegt een locatie toe gebaseerd op de zone zoals geselecteerd in de zoneselectie, via het dialoogvenster ‘Locatie-eigenschappen…’">
+<!ENTITY foxclocks.button.moveup.label "Omhoog">
+<!ENTITY foxclocks.button.moveup.accesskey "H">
+<!ENTITY foxclocks.button.moveup.tooltip "Verplaatst de geselecteerde locatie omhoog in de lijst">
+<!ENTITY foxclocks.button.movedown.label "Omlaag">
+<!ENTITY foxclocks.button.movedown.accesskey "L">
+<!ENTITY foxclocks.button.movedown.tooltip "Verplaatst de geselecteerde locatie omlaag in de lijst">
+<!ENTITY foxclocks.menubar.menu.file.label "Bestand">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "B">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Sluiten">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Instellingen importeren…">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "I">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Instellingen exporteren…">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.edit.label "Bewerken">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "w">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Zone(s) aan lijst toevoegen">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "T">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Zone aan lijst toevoegen als…">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "S">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Locatie omhoog verplaatsen op lijst">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Locatie omlaag verplaatsen op lijst">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Locatie(s) uit lijst verwijderen">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "V">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Locatie-eigenschappen…">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "L">
+<!ENTITY foxclocks.menubar.menu.view.label "Beeld">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "l">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Zone-eigenschappen…">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "Z">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Zone in OpenStreetMap openen…">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Locatie in OpenStreetMap openen…">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Extra">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "x">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Opties…">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "O">
+<!ENTITY foxclocks.menubar.menu.help.label "Help">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Help…">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "H">
+<!ENTITY foxclocks.menubar.menu.help.about.label "Over MoonClocks…">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "O">
+<!ENTITY foxclocks.dialog.import.title "MoonClocks-instellingen laden">
+<!ENTITY foxclocks.dialog.import.success "Instellingen succesvol geïmporteerd">
+<!ENTITY foxclocks.dialog.import.failure "Importeren van instellingen mislukt">
+<!ENTITY foxclocks.dialog.export.title "MoonClocks-instellingen opslaan">
+<!ENTITY foxclocks.dialog.export.success "Instellingen opgeslagen">
+<!ENTITY foxclocks.dialog.export.failure "Opslaan van instellingen mislukt">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks-instellingsbestanden">
+<!ENTITY foxclocks.zonepicker.description.label "Zoneselectie">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Toont alle beschikbare tijdzones. Zones worden locaties wanneer ze aan de lijst worden toegevoegd">
+<!ENTITY foxclocks.zonepicker.search.initvalue "Zoeken">
+<!ENTITY foxclocks.zonepicker.search.accesskey "Q">
+<!ENTITY foxclocks.zonepicker.search.tooltip "Zonelijst doorzoeken op land of stad">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Tijdzone">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Tijdzone">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC-instelling">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT/UTC-instelling">
+<!ENTITY foxclocks.zonepicker.footer "* geeft aan dat de zomertijd wordt toegepast">
+<!ENTITY foxclocks.zonepicker.context.details.label "Zone-eigenschappen…">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "Z">
+<!ENTITY foxclocks.zonepicker.context.add.label "Aan lijst toevoegen">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "A">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Aan lijst toevoegen als…">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "S">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap…">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Lijst">
+<!ENTITY foxclocks.locationlist.description.tooltip "Locaties in de lijst kunnen verschijnen in de statusbalk/werkbalk en/of als tooltip">
+<!ENTITY foxclocks.locationlist.header.location.label "Locatie">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Locatie in de tijdzone. Dubbelklik op een locatie om de eigenschappen te configureren">
+<!ENTITY foxclocks.locationlist.header.time.label "Tijd">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Lokale tijd. Tijdopmaak is volledig configureerbaar">
+<!ENTITY foxclocks.locationlist.nolocs.label "(geen locaties geselecteerd)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Omhoog">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "H">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Omlaag">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "L">
+<!ENTITY foxclocks.locationlist.context.details.label "Locatie-eigenschappen…">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "L">
+<!ENTITY foxclocks.locationlist.context.remove.label "Verwijderen">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "W">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap…">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Geselecteerde locatie(s) verwijderen?">
+<!ENTITY foxclocks.import.confirm.label "Bestaande MoonClocks-instellingen overschrijven?">
+<!ENTITY options.title "MoonClocks-opties">
+<!ENTITY options.format.caption "Tijdopmaak">
+<!ENTITY options.format.description "Bepaalt hoe de tijd wordt weergegeven in">
+<!ENTITY options.format.clockchoice.clock.label "de statusbalk- / werkbalkklokken">
+<!ENTITY options.format.clockchoice.tooltip.label "de statusbalk- / werkbalktooltip">
+<!ENTITY options.format.clockchoice.foxclocks.label "het MoonClocks-venster">
+<!ENTITY options.format.clockchoice.all.label "alle klokken">
+<!ENTITY options.format.radio.standard.label "Standaardopmaken">
+<!ENTITY options.format.radio.standard.accesskey "S">
+<!ENTITY options.format.radio.custom.label "Aangepaste opmaak">
+<!ENTITY options.format.radio.custom.accesskey "A">
+<!ENTITY options.format.standard.menu.select "---selecteer---">
+<!ENTITY options.format.custom.textbox.input.label "Tekstopmaak:">
+<!ENTITY options.format.custom.textbox.preview.label "Voorbeeld:">
+<!ENTITY options.format.custom.secs.label "Seconden">
+<!ENTITY options.format.custom.mins.label "Minuten">
+<!ENTITY options.format.custom.hours.label "Uren:">
+<!ENTITY options.format.custom.hours.12.1.label "12 uur">
+<!ENTITY options.format.custom.hours.12.2.label "12 uur, 2 cijfers">
+<!ENTITY options.format.custom.hours.24.1.label "24 uur">
+<!ENTITY options.format.custom.hours.24.2.label "24 uur, 2 cijfers">
+<!ENTITY options.format.custom.am.label "vm/nm:">
+<!ENTITY options.format.custom.am.lower.label "vm/nm">
+<!ENTITY options.format.custom.am.upper.label "VM/NM">
+<!ENTITY options.format.custom.year.label "Jaar:">
+<!ENTITY options.format.custom.year.4.label "4 cijfers">
+<!ENTITY options.format.custom.year.2.label "2 cijfers">
+<!ENTITY options.format.custom.month.label "Maand:">
+<!ENTITY options.format.custom.month.num.1.label "numeriek">
+<!ENTITY options.format.custom.month.num.2.label "numeriek, 2 cijfers">
+<!ENTITY options.format.custom.month.name.long.label "naam">
+<!ENTITY options.format.custom.month.name.short.label "naam, kort">
+<!ENTITY options.format.custom.day.label "Dag:">
+<!ENTITY options.format.custom.day.num.1.label "numeriek">
+<!ENTITY options.format.custom.day.num.2.label "numeriek, 2 cijfers">
+<!ENTITY options.format.custom.day.name.long.label "naam">
+<!ENTITY options.format.custom.day.name.short.label "naam, kort">
+<!ENTITY options.format.custom.day.ordinal.label "ordinaal">
+<!ENTITY options.format.custom.day.ofyear.label "dag van het jaar">
+<!ENTITY options.format.custom.other.label "Anders:">
+<!ENTITY options.format.custom.other.location.label "Locatie">
+<!ENTITY options.format.custom.other.offset.label "GMT-instelling">
+<!ENTITY options.format.custom.other.zone.label "Zonenaam">
+<!ENTITY options.format.custom.other.1.label "komma">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "dubbele punt">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "spatie">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Positie en stijl">
+<!ENTITY options.clock.position.description.label "Weergeven in:">
+<!ENTITY options.clock.position.radio.statusbar.label "Statusbalk">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "S">
+<!ENTITY options.clock.position.radio.toolbar.label "Een werkbalk (sleep het pictogram vanuit het overzicht ‘Werkbalk aanpassen’)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "w">
+<!ENTITY options.clock.position.statusbar.radio.left.label "aan de linkerkant">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "L">
+<!ENTITY options.clock.position.statusbar.radio.right.label "aan de rechterkant">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "R">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "op een specifieke plaats:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "P">
+<!ENTITY options.clock.style.label "Weergeven als:">
+<!ENTITY options.clock.style.radio.clocks.label "Meerdere klokken">
+<!ENTITY options.clock.style.radio.clocks.accesskey "K">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks-pictogram (de muis erboven laat de klokken verschijnen)">
+<!ENTITY options.clock.style.radio.icon.accesskey "P">
+<!ENTITY options.data.caption "Tijdzonegegevens">
+<!ENTITY options.data.info.caption.label "Huidige tijdzonedatabase">
+<!ENTITY options.data.info.source.label "Bron:">
+<!ENTITY options.data.info.version.label "Versie:">
+<!ENTITY options.data.info.date.label "Datum:">
+<!ENTITY options.data.update.caption.label "Database-updates">
+<!ENTITY options.data.update.last.date.label "Laatste update">
+<!ENTITY options.data.update.last.status.label "Resultaat:">
+<!ENTITY options.data.update.next.date.label "Volgende update:">
+<!ENTITY options.data.update.auto.enable.label "Automatische updates inschakelen">
+<!ENTITY options.data.update.auto.enable.accesskey "I">
+<!ENTITY options.data.update.checknow.button.label "Nu controleren">
+<!ENTITY options.data.update.checknow.button.accesskey "C">
+<!ENTITY options.advanced.caption "Geavanceerd">
+<!ENTITY options.advanced.newloc.caption.label "Een locatie aan de lijst toevoegen">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "Klok in statusbalk/werkbalk weergeven">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "Vlag in statusbalk/werkbalk weergeven">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "Klok in statusbalk-/werkbalktooltip weergeven">
+<!ENTITY options.advanced.misc.caption.label "Diversen">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "Vlaggen in statusbalk-/werkbalktooltip weergeven">
+<!ENTITY options.advanced.alert.autoupdate.label "Updatewaarschuwingen voor tijdzonedatabase weergeven">
+<!ENTITY options.advanced.menuitem.hidden.label "MoonClocks in menu Extra weergeven">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "Verwijderen van locaties uit lijst bevestigen">
+<!ENTITY zoneinfo.title.zone "Tijdzone-eigenschappen">
+<!ENTITY zoneinfo.title.location "Locatie-eigenschappen">
+<!ENTITY zoneinfo.tab.zone.label "Tijdzone">
+<!ENTITY zoneinfo.tab.location.label "Locatie">
+<!ENTITY zoneinfo.tab.display.label "Weergave">
+<!ENTITY zoneinfo.standardzone.label "Standaardtijdzone">
+<!ENTITY zoneinfo.daylightzone.label "Tijdzone met zomertijd">
+<!ENTITY zoneinfo.daylightsaving.begins "Zomertijd begint op">
+<!ENTITY zoneinfo.daylightsaving.began "Zomertijd is begonnen op">
+<!ENTITY zoneinfo.daylightsaving.ends "Zomertijd eindigt op">
+<!ENTITY zoneinfo.daylightsaving.ended "Zomertijd is geëindigd op">
+<!ENTITY zoneinfo.defaultlocation.label "Standaardlocatie">
+<!ENTITY zoneinfo.addas.name.label "Locatienaam">
+<!ENTITY zoneinfo.addas.latitude.label "Breedtegraad (optioneel)">
+<!ENTITY zoneinfo.addas.longitude.label "Lengtegraad (optioneel)">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap…">
+<!ENTITY zoneinfo.display.description "Statusbalk- / werkbalkklokinstellingen zijn niet van toepassing wanneer MoonClocks in de ‘pictogram’-modus staat (zie Opties -&gt; Positie en tabblad Stijl)">
+<!ENTITY zoneinfo.display.showclock.caption "Klok weergeven/verbergen">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Klok in statusbalk/werkbalk weergeven">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "S">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Klok in statusbalk/werkbalktooltip weergeven">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "T">
+<!ENTITY zoneinfo.display.style.caption "Klokstijl in statusbalk/werkbalk">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Vet">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "V">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Schuin">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "S">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Onderstreept">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "O">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Vlag weergeven">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "M">
+<!ENTITY zoneinfo.display.style.colour.caption "Klokkleur in statusbalk/werkbalk">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Standaardkleur">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "k">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Alternatieve kleur inschakelen">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "A">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "van">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "v">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "tot">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "t">
+<!ENTITY zoneinfo.display.flag.caption "Statusbalk-/werkbalkvlag">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "Uitgeschakeld">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "U">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "Standaard">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "r">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "Aangepast">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "A">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "Voorinstellingen…">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "V">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "Klik om vooringestelde vlagafbeeldingen te selecteren">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "Bladeren…">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "B">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "Klik om een aangepaste vlag te selecteren">
+<!ENTITY zoneinfo.display.customformat.caption.label "Aangepaste opmaak (geavanceerd)">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "bijv. ‘&lt;l&gt;-&lt;24h&gt;&lt;m&gt;’ geeft ‘[Locatie]-1523’. Kijk bij Opties -&gt; Tijdopmaak voor beschikbare plaatshouders">
+<!ENTITY zoneinfo.display.customformat.clock.label "Statusbalk-/werkbalkklok">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "l">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "Statusbalk-/werkbalktooltip">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "k">
+<!ENTITY welcome.title "Welkom">
+<!ENTITY welcome.header "Welkom bij MoonClocks">
+<!ENTITY welcome.message "MoonClocks toont lokale tijden over de hele wereld in uw statusbalk of een willekeurige werkbalk. Vrijwel alle tijdzones op de wereld worden ondersteund. MoonClocks stelt u ook in staat om elke tijdzone in OpenStreetMap te verkennen.|Om te beginnen:|-creëer een klok voor elke tijdzone die u wilt zien, en wijzig optioneel de standaardnaam van de klok;|-pas de stijl, kleur en alternatieve kleur (buiten kantoortijden bijvoorbeeld) aan;|-kies één van de standaard tijdopmaken voor uw klokken, of creëer uw eigen opmaak.|Dit bericht wordt slecht éénmaal getoond; open MoonClocks vanuit het menu Extra of door te dubbelklikken op een klok.">
+<!ENTITY welcome.checkbox.launch.label "MoonClocks starten">
+<!ENTITY welcome.checkbox.launch.accesskey "S">
+<!ENTITY welcome.checkbox.openhomepage.label "MoonClocks-startpagina openen">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "O">
+<!ENTITY update.title "MoonClocks is bijgewerkt">
+<!ENTITY update.thisversion "Deze versie:">
+<!ENTITY update.message "Bedankt voor het bijwerken van MoonClocks. Bekijk het wijzigingsoverzicht om te zien wat er nieuw is in deze versie van MoonClocks.">
+<!ENTITY update.checkbox.launch.label "Wijzigingsoverzicht bekijken">
+<!ENTITY update.checkbox.launch.accesskey "B">
+<!ENTITY about.title "Over MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "nooit">
+<!ENTITY misc.na "N.B.">
+<!ENTITY misc.done "Klaar">
+<!ENTITY misc.apply "Toepassen">

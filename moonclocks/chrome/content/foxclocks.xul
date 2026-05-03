@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright (c) 2015 Andy McDonald. All rights reserved.
+Please refer to licence.txt for licensing terms.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>		
+<?xml-stylesheet href="chrome://moonclocks/skin/foxclocks.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://moonclocks/locale/foxclocks.dtd">
+
+<window id="fc-foxclocks"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		onload="foxclocks.mainManager.onLoad()"
+		onunload="foxclocks.mainManager.onUnload()"
+		title="&foxclocks.title;"
+		width="700"
+		height="350"
+		persist="screenX screenY width height">
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="foxclocks-bundle" src="chrome://moonclocks/locale/foxclocks.properties"/>
+	</stringbundleset>
+	
+	<script type="application/x-javascript" src="chrome://global/content/nsDragAndDrop.js"/>
+	<script type="application/x-javascript" src="chrome://global/content/nsTransferable.js"/>
+	<script type="application/x-javascript"><![CDATA[
+
+		// AFM - modifying nsDragAndDrop, which doesn't allow dropping on the originating node
+		//
+		nsDragAndDrop.checkCanDrop = function(aEvent, aDragDropObserver)
+		{
+			if (!this.mDragSession) 
+				this.mDragSession = this.mDragService.getCurrentSession();
+			if (!this.mDragSession) 
+				return false;
+			this.mDragSession.canDrop = true; // this.mDragSession.sourceNode != aEvent.target;
+			if ("canDrop" in aDragDropObserver)
+				this.mDragSession.canDrop &= aDragDropObserver.canDrop(aEvent, this.mDragSession);
+			return true;
+		};
+	]]></script>
+
+	<script type="application/x-javascript" src="chrome://moonclocks/content/common.js" />
+	<script type="application/x-javascript" src="chrome://moonclocks/content/foxclocks.js" />
+
+	<commandset>
+		<command id="cmd_fc_close" oncommand="window.close()"/>
+		<command id="cmd_fc_import" oncommand="foxclocks.mainManager.onImportCmd()"/>
+		<command id="cmd_fc_export" oncommand="foxclocks.mainManager.onExportCmd()"/>
+		<command id="cmd_fc_add" oncommand="foxclocks.mainManager.onAddCmd()"/>
+		<command id="cmd_fc_addas" oncommand="foxclocks.mainManager.onAddAsCmd()"/>
+		<command id="cmd_fc_moveup" oncommand="foxclocks.mainManager.onMoveUpCmd()"/>
+		<command id="cmd_fc_movedown" oncommand="foxclocks.mainManager.onMoveDownCmd()"/>
+		<command id="cmd_fc_remove" oncommand="foxclocks.mainManager.onRemoveCmd()"/>
+		<command id="cmd_fc_locdetails" oncommand="foxclocks.mainManager.onOpenLocDetailsCmd()"/>
+		<command id="cmd_fc_zonedetails" oncommand="foxclocks.mainManager.onOpenZoneDetailsCmd()"/>
+		<command id="cmd_fc_options" oncommand="foxclocks.mainManager.onOpenOptionsCmd()"/>
+		<command id="cmd_fc_help" oncommand="foxclocks.utils.openFoxClocksHelp()"/>
+		<command id="cmd_fc_about" oncommand="foxclocks.mainManager.onOpenAboutCmd()"/>
+		<command id="cmd_fc_locgoogleearth" oncommand="foxclocks.mainManager.onOpenLocGoogleEarthCmd()"/>
+		<command id="cmd_fc_zonegoogleearth" oncommand="foxclocks.mainManager.onOpenZoneGoogleEarthCmd()"/>
+		<command id="cmd_fc_toggle_bar_clocks" oncommand="foxclocks.mainManager.onToggleBarClocksCmd()"/>
+		<command id="cmd_fc_toggle_bar_flag" oncommand="foxclocks.mainManager.onToggleBarFlagCmd()"/>
+		<command id="cmd_fc_setzonepickerstates" oncommand="foxclocks.mainManager.setZonePickerStates()"/>
+		<command id="cmd_fc_zonepickersearch_focus" oncommand="foxclocks.mainManager.onZonePickerSearchFocus()"/>		
+		<command id="cmd_fc_zonepickersearch_input" oncommand="foxclocks.mainManager.onZonePickerSearchInput()"/>
+		<command id="cmd_fc_zonepickersearch_blur" oncommand="foxclocks.mainManager.onZonePickerSearchBlur()"/>
+	</commandset>
+
+	<keyset>
+		<key id="fc-close-key" modifiers="accel" key="W" command="cmd_fc_close"/>
+
+		<!-- AFM - for some reason, escape doesn't close this window otherwise -->
+		<key id="fc-close-key-extra" keycode="VK_ESCAPE" command="cmd_fc_close"/>
+		<key id="fc-add-key" modifiers="accel" key="&foxclocks.accelkey.add;" command="cmd_fc_add"/>
+		<key id="fc-moveup-key" modifiers="accel" key="&foxclocks.accelkey.moveup;" command="cmd_fc_moveup"/>
+		<key id="fc-movedown-key" modifiers="accel" key="&foxclocks.accelkey.movedown;" command="cmd_fc_movedown"/>
+		<key id="fc-remove-key" keycode="VK_DELETE" command="cmd_fc_remove"/>
+		<key id="fc-loc-details-key" modifiers="accel" key="&foxclocks.accelkey.loc.details;" command="cmd_fc_locdetails"/>
+		<key id="fc-zone-details-key" modifiers="accel" key="&foxclocks.accelkey.zone.details;" command="cmd_fc_zonedetails"/>		
+		<key id="fc-options-key" modifiers="accel" key="&foxclocks.accelkey.options;" command="cmd_fc_options"/>
+		<key id="fc-help-key" keycode="VK_F1" command="cmd_fc_help"/>
+
+		<!-- AFM - keycode="VK_SPACE" doesn't work
+		<key id="fc-togglebarclocks-key" keycode="VK_SPACE" command="cmd_fc_toggle_bar_clocks"/> -->
+		<key id="fc-togglebarclocks-key" key=" " command="cmd_fc_toggle_bar_clocks"/>
+		<key id="fc-togglebarflag-key" keycode="VK_F2" command="cmd_fc_toggle_bar_flag"/>
+	</keyset>
+	
+	<toolbox>
+		<menubar flex="1">
+			<menu	label="&foxclocks.menubar.menu.file.label;"
+					accesskey="&foxclocks.menubar.menu.file.accesskey;">
+				<menupopup>
+					<menuitem	label="&foxclocks.menubar.menu.file.close.label;"
+								accesskey="&foxclocks.menubar.menu.file.close.accesskey;" key="fc-close-key"
+								command="cmd_fc_close"/>
+					<menuseparator/>
+					<menuitem	label="&foxclocks.menubar.menu.file.import.label;"
+								accesskey="&foxclocks.menubar.menu.file.import.accesskey;"
+								command="cmd_fc_import"/>
+					<menuitem	label="&foxclocks.menubar.menu.file.export.label;"
+								accesskey="&foxclocks.menubar.menu.file.export.accesskey;"
+								command="cmd_fc_export"/>
+				</menupopup>
+			</menu>
+			<menu	label="&foxclocks.menubar.menu.edit.label;"
+					accesskey="&foxclocks.menubar.menu.edit.accesskey;">
+				<menupopup>
+					<menuitem	label="&foxclocks.menubar.menu.edit.add.label;"
+								accesskey="&foxclocks.menubar.menu.edit.add.accesskey;" key="fc-add-key"
+								command="cmd_fc_add"/>
+					<menuitem	label="&foxclocks.menubar.menu.edit.addas.label;"
+								accesskey="&foxclocks.menubar.menu.edit.addas.accesskey;"
+								command="cmd_fc_addas"/>
+					<menuseparator/>
+					<menuitem	label="&foxclocks.menubar.menu.edit.moveup.label;"
+								accesskey="&foxclocks.menubar.menu.edit.moveup.accesskey;" key="fc-moveup-key"
+								command="cmd_fc_moveup"/>
+					<menuitem	label="&foxclocks.menubar.menu.edit.movedown.label;"
+								accesskey="&foxclocks.menubar.menu.edit.movedown.accesskey;" key="fc-movedown-key"
+								command="cmd_fc_movedown"/>
+					<menuseparator/>
+					<menuitem	label="&foxclocks.menubar.menu.edit.remove.label;"
+								accesskey="&foxclocks.menubar.menu.edit.remove.accesskey;" key="fc-remove-key"
+								command="cmd_fc_remove"/>
+					<menuseparator/>
+					<menuitem	label="&foxclocks.menubar.menu.edit.loc.details.label;"
+								accesskey="&foxclocks.menubar.menu.edit.loc.details.accesskey;" key="fc-loc-details-key"
+								command="cmd_fc_locdetails"/>
+				</menupopup>
+			</menu>
+			
+			<menu	label="&foxclocks.menubar.menu.view.label;"
+					accesskey="&foxclocks.menubar.menu.view.accesskey;">
+				<menupopup>
+					<menuitem	label="&foxclocks.menubar.menu.view.zone.details.label;"
+								accesskey="&foxclocks.menubar.menu.view.zone.details.accesskey;" key="fc-zone-details-key"
+								command="cmd_fc_zonedetails"/>
+					<menuitem	label="&foxclocks.menubar.menu.view.zone.googleearth.label;"
+								accesskey="&foxclocks.menubar.menu.view.zone.googleearth.accesskey;"
+								command="cmd_fc_zonegoogleearth"/>
+					<menuseparator/>
+					<menuitem	label="&foxclocks.menubar.menu.view.loc.googleearth.label;"
+								accesskey="&foxclocks.menubar.menu.view.loc.googleearth.accesskey;"
+								command="cmd_fc_locgoogleearth"/>
+				</menupopup>
+			</menu>
+			
+			<menu	label="&foxclocks.menubar.menu.tools.label;"
+					accesskey="&foxclocks.menubar.menu.tools.accesskey;">
+				<menupopup>
+					<menuitem	label="&foxclocks.menubar.menu.tools.options.label;"
+								accesskey="&foxclocks.menubar.menu.tools.options.accesskey;" key="fc-options-key"
+								command="cmd_fc_options"/>
+				</menupopup>
+			</menu>
+			<menu	label="&foxclocks.menubar.menu.help.label;"
+					accesskey="&foxclocks.menubar.menu.help.accesskey;">
+				<menupopup>
+					<menuitem	label="&foxclocks.menubar.menu.help.help.label;"
+								accesskey="&foxclocks.menubar.menu.help.help.accesskey;" key="fc-help-key"
+								command="cmd_fc_help"/>
+					<menuseparator/>
+					<menuitem	label="&foxclocks.menubar.menu.help.about.label;"
+								accesskey="&foxclocks.menubar.menu.help.about.accesskey;"
+								command="cmd_fc_about"/>
+				</menupopup>
+			</menu>
+		</menubar>
+	</toolbox>
+	
+	<hbox flex="1">
+		<vbox flex="1">
+			<hbox align="center" id="fc-zonepicker-header">
+				<description class="header" style="margin-top: 3px;" tooltiptext="&foxclocks.zonepicker.description.tooltip;">
+					&foxclocks.zonepicker.description.label;
+				</description>
+				<hbox id="fc-zonepicker-searchbox-hbox" pack="end" flex="1">
+					<textbox	id="fc-zonepicker-searchbox"
+								value="&foxclocks.zonepicker.search.initvalue;"
+								fc_init_value="&foxclocks.zonepicker.search.initvalue;"
+								accesskey="&foxclocks.zonepicker.search.accesskey;"
+								tooltiptext="&foxclocks.zonepicker.search.tooltip;"
+								newlines="replacewithspaces"
+								onfocus="document.getElementById('cmd_fc_zonepickersearch_focus').doCommand(); event.stopPropagation()"
+								oninput="document.getElementById('cmd_fc_zonepickersearch_input').doCommand(); event.stopPropagation()"
+								onblur="document.getElementById('cmd_fc_zonepickersearch_blur').doCommand(); event.stopPropagation()"/>
+				</hbox>
+			</hbox>
+			
+			<!-- AFM - ensure that the click target was an item, rather than, say, a treecol. Avoid && -->
+			<tree	id="fc-zonepicker" flex="1" style="min-width:25em;" hidecolumnpicker="true"
+					ondblclick="if (!(event.button != 0 || event.target.tagName != 'treechildren')) document.getElementById('cmd_fc_zonedetails').doCommand()"
+					onkeypress="if (event.keyCode == KeyEvent.DOM_VK_ENTER || event.keyCode == KeyEvent.DOM_VK_RETURN) document.getElementById('cmd_fc_zonedetails').doCommand()"
+					onselect="foxclocks.mainManager.onZonePickerSelect(event)">
+					
+				<treecols>
+					<treecol	id="Needthisoritgoeswrong1" flex="1"
+								label="&foxclocks.zonepicker.col.timezone.label;" tooltiptext="&foxclocks.zonepicker.col.timezone.tooltip;"
+								primary="true" persist="width"/>
+					<splitter class="tree-splitter"/>
+					<treecol	id="Needthisoritgoeswrong2" flex="0"
+								label="&foxclocks.zonepicker.col.offset.label;" tooltiptext="&foxclocks.zonepicker.col.offset.tooltip;"
+								persist="width"/>
+				</treecols>
+				
+				<!-- AFM - from http://blog.360.yahoo.com/yogishb?p=46 -->
+				<treechildren	id="fc-zonepicker-treechildren-root"
+								context="fc-zonepicker-context"
+								oncontextmenu="document.getElementById('cmd_fc_setzonepickerstates').doCommand()"
+								ondraggesture="nsDragAndDrop.startDrag(event, foxclocks.mainManager)"
+								ondragover="nsDragAndDrop.dragOver(event, foxclocks.mainManager)"
+								ondragexit="nsDragAndDrop.dragExit(event, foxclocks.mainManager)"
+								ondragdrop="nsDragAndDrop.drop(event, foxclocks.mainManager)"
+								ondragleave="nsDragAndDrop.dragExit(event, foxclocks.mainManager)"
+								ondrop="nsDragAndDrop.drop(event, foxclocks.mainManager)"/>
+			</tree>
+		</vbox>
+
+		<hbox align="center">
+			<vbox flex="1">
+				<button label="&foxclocks.button.add.label;"
+						accesskey="&foxclocks.button.add.accesskey;"
+						tooltiptext="&foxclocks.button.add.tooltip;"
+						command="cmd_fc_add" class="button-small"/>
+						
+				<button label="&foxclocks.button.remove.label;"
+						accesskey="&foxclocks.button.remove.accesskey;"
+						tooltiptext="&foxclocks.button.remove.tooltip;"
+						command="cmd_fc_remove" class="button-small"/>
+						
+				<spacer height="16px"/>
+				
+				<button label="&foxclocks.button.addas.label;"
+						accesskey="&foxclocks.button.addas.accesskey;"
+						tooltiptext="&foxclocks.button.addas.tooltip;"
+						command="cmd_fc_addas" class="button-small"/>
+						
+				<spacer height="16px"/>
+				
+				<button label="&foxclocks.button.moveup.label;"
+						accesskey="&foxclocks.button.moveup.accesskey;"
+						tooltiptext="&foxclocks.button.moveup.tooltip;"
+						command="cmd_fc_moveup" class="button-small"/>
+						
+				<button label="&foxclocks.button.movedown.label;"
+						accesskey="&foxclocks.button.movedown.accesskey;"
+						tooltiptext="&foxclocks.button.movedown.tooltip;"
+						command="cmd_fc_movedown" class="button-small"/>
+			</vbox>
+		</hbox>
+		
+		<vbox flex="3"> <!-- AFM - or else the zone picker stretches too quickly -->
+			<hbox align="center" pack="start" id="fc-locationlist-header">
+				<description class="header" style="margin-top: 3px;" tooltiptext="&foxclocks.locationlist.description.tooltip;">
+					&foxclocks.locationlist.description.label;
+				</description>
+			</hbox>
+
+			<!-- AFM - ensure that the click target was an item, rather than, say, a treecol. Avoid &&.
+				Hide columnpicker since 1) not useful, and 2) shows 'Restore Natural Order' which we
+				don't support -->
+			<tree	id="fc-watchlist" flex="1" hidecolumnpicker="true" seltype="multiple"
+					ondblclick="if (!(event.button != 0 || event.target.tagName != 'treechildren')) document.getElementById('cmd_fc_locdetails').doCommand()"
+					onkeypress="foxclocks.mainManager.onWatchListKeyPress(event)"
+					onselect="foxclocks.mainManager.onWatchlistSelect(event)"
+					persist="sortResource" enableColumnDrag="true">
+		
+				<!-- AFM - have to use '_' rather than '-' in id's or property id parsing fails.
+						Update: don't know what this comment means anymore -->
+				<treecols>
+					<treecol	id="fc_watchlist_col_location" flex="1"
+								label="&foxclocks.locationlist.header.location.label;"
+								tooltiptext="&foxclocks.locationlist.header.location.tooltip;"
+								class="sortDirectionIndicator"
+								persist="width ordinal sortDirection hidden"
+								onclick="foxclocks.mainManager.onSortWatchlist(event)" primary="true"/>
+					<splitter class="tree-splitter"/>
+					<treecol	id="fc_watchlist_col_time" flex="1"
+								label="&foxclocks.locationlist.header.time.label;"
+								tooltiptext="&foxclocks.locationlist.header.time.tooltip;"
+								class="sortDirectionIndicator"
+								persist="width ordinal sortDirection hidden"
+								onclick="foxclocks.mainManager.onSortWatchlist(event)"/>
+				</treecols>
+				
+				<!-- AFM - from http://blog.360.yahoo.com/yogishb?p=46 -->
+				<treechildren	id="fc-watchlist-treechildren-root"
+								context="fc-watchlist-context"
+								ondraggesture="nsDragAndDrop.startDrag(event, foxclocks.mainManager)"
+								ondragover="nsDragAndDrop.dragOver(event, foxclocks.mainManager)"
+								ondragexit="nsDragAndDrop.dragExit(event, foxclocks.mainManager)"
+								ondragdrop="nsDragAndDrop.drop(event, foxclocks.mainManager)"
+								ondragleave="nsDragAndDrop.dragExit(event, foxclocks.mainManager)"
+								ondrop="nsDragAndDrop.drop(event, foxclocks.mainManager)"/>
+			</tree>
+		</vbox>
+	</hbox>
+
+	<hbox>
+		<hbox align="center" flex="1">
+			<hbox align="center" flex="1">
+				<label value="&foxclocks.zonepicker.footer;"/>
+			</hbox>
+
+			<label id="fc-foxclocks-version-label" class="text-link" onclick="document.getElementById('cmd_fc_help').doCommand(); return false;"/>
+		</hbox>				
+		<resizer dir="bottomright"/>
+	</hbox>
+	
+	<popupset id="fc-foxclocks-popupset">
+	
+		<menupopup id="fc-zonepicker-context">
+			<menuitem	label="&foxclocks.zonepicker.context.details.label;"
+						accesskey="&foxclocks.zonepicker.context.details.accesskey;"
+						command="cmd_fc_zonedetails"/>
+						
+			<menuitem	label="&foxclocks.zonepicker.context.google.label;"
+						accesskey="&foxclocks.zonepicker.context.google.accesskey;"
+						command="cmd_fc_zonegoogleearth"/>
+						
+			<menuseparator/>
+			<menuitem	label="&foxclocks.zonepicker.context.add.label;"
+						accesskey="&foxclocks.zonepicker.context.add.accesskey;"
+						command="cmd_fc_add"/>
+						
+			<menuitem	label="&foxclocks.zonepicker.context.addas.label;"
+						accesskey="&foxclocks.zonepicker.context.addas.accesskey;"
+						command="cmd_fc_addas"/>
+
+		</menupopup>
+
+		<menupopup id="fc-watchlist-context">
+			<menuitem	label="&foxclocks.locationlist.context.details.label;"
+						accesskey="&foxclocks.locationlist.context.details.accesskey;"
+						command="cmd_fc_locdetails"/>
+						
+			<menuitem	label="&foxclocks.locationlist.context.google.label;"
+						accesskey="&foxclocks.locationlist.context.google.accesskey;"
+						command="cmd_fc_locgoogleearth"/>
+						
+			<menuseparator/>
+			<menuitem	label="&foxclocks.locationlist.context.moveup.label;"
+						accesskey="&foxclocks.locationlist.context.moveup.accesskey;"
+						command="cmd_fc_moveup"/>
+						
+			<menuitem	label="&foxclocks.locationlist.context.movedown.label;"
+						accesskey="&foxclocks.locationlist.context.movedown.accesskey;"
+						command="cmd_fc_movedown"/>
+						
+			<menuseparator/>
+			<menuitem	label="&foxclocks.locationlist.context.remove.label;"
+						accesskey="&foxclocks.locationlist.context.remove.accesskey;"
+						command="cmd_fc_remove"/>
+		</menupopup>
+		
+	</popupset>
+
+	<!-- AFM - probably daft, but I prefer having stuff in the DTD, rather than in properties files -->
+	<data id="fc-dialog-import-title" label="&foxclocks.dialog.import.title;"/>
+	<data id="fc-dialog-import-success" label="&foxclocks.dialog.import.success;"/>
+	<data id="fc-dialog-import-failure" label="&foxclocks.dialog.import.failure;"/>
+	<data id="fc-dialog-export-title" label="&foxclocks.dialog.export.title;"/>
+	<data id="fc-dialog-export-success" label="&foxclocks.dialog.export.success;"/>
+	<data id="fc-dialog-export-failure" label="&foxclocks.dialog.export.failure;"/>
+	<data id="fc-dialog-importexport-filter-label" label="&foxclocks.dialog.importexport.filter.label;"/>
+	<data id="fc-remove-confirm-label" label="&foxclocks.remove.confirm.label;"/>
+	<data id="fc-import-confirm-label" label="&foxclocks.import.confirm.label;"/>
+</window>

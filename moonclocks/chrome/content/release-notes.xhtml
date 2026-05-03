@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>MoonClocks 1.0.0</title>
+  <style type="text/css"><![CDATA[
+    body { font: menu; margin: 2.2em; max-width: 52em; line-height: 1.45; }
+    h1 { margin-top: 0; }
+    code { background: #eee; padding: 0.1em 0.25em; }
+    .note { color: #444; }
+  ]]></style>
+</head>
+<body>
+  <h1>MoonClocks 1.0.0</h1>
+  <p class="note">MoonClocks is a Pale Moon and Epyrus XUL fork based on the GPL-licensed FoxClocks 4.2.3 codebase.</p>
+
+  <h2>Changes in this build</h2>
+  <ul>
+    <li>Stabilized menubar hover styling in the standalone MoonClocks window on Pale Moon/GTK.</li>
+    <li>Top-level menu labels now keep the same metrics before and during hover, avoiding the visible text jitter seen in Pale Moon.</li>
+    <li>No changes to the timezone database, Zone Picker data, OpenStreetMap integration, or application targets.</li>
+  </ul>
+
+  <h2>Current MoonClocks changes</h2>
+  <ul>
+    <li>Internal chrome URLs now use the <code>chrome://moonclocks/</code> namespace.</li>
+    <li>Runtime preferences now use the <code>extensions.moonclocks.*</code> branch.</li>
+    <li>Bundled timezone database regenerated from IANA tzdb 2026b into the legacy FoxClocks schema 1.2 format.</li>
+    <li>OpenStreetMap is used for location links instead of the old Google Earth integration.</li>
+    <li>Local release notes are used instead of upstream FoxClocks install/update web pages.</li>
+    <li>Zone Picker cleanup for Kyiv, Ukraine, Crimea, Simferopol, Famagusta, and selected tzdb additions.</li>
+    <li>Pale Moon and Epyrus target applications are supported.</li>
+    <li>Linux/GTK menubar hover styling adjusted in the standalone MoonClocks window.</li>
+  </ul>
+
+  <h2>Upgrade note</h2>
+  <p>Before moving from the original FoxClocks extension or earlier FoxClocks Legacy test builds to MoonClocks, back up your profile and clock settings, uninstall the older extension, restart the application, and then install MoonClocks.</p>
+
+  <h2>License note</h2>
+  <p>MoonClocks is based on FoxClocks 4.2.3, licensed under GPL-2.0-or-later. The timezone database file was regenerated from the public IANA Time Zone Database. No source files from the WebExtension version of FoxClocks were used.</p>
+
+  <h2>Icon attribution</h2>
+  <p>The MoonClocks icon is based on the Europe icon by Icons8 and is used with attribution.<br />
+  <a href="https://icons8.com/icon/APGJ1BQp3nID/europe">https://icons8.com/icon/APGJ1BQp3nID/europe</a></p>
+</body>
+</html>

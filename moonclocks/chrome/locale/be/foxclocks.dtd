@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Наладкі...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "Н">
+<!ENTITY foxclocksoverlay.context.help.label "Даведка...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "Д">
+<!ENTITY foxclocksoverlay.context.about.label "Пра MoonClocks...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "П">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "A">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "Дадаць &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "Д">
+<!ENTITY foxclocks.button.add.tooltip "Дадаць месцы ў сьпіс назіраньня паводле абраных часавых пасаў">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Выдаліць">
+<!ENTITY foxclocks.button.remove.accesskey "В">
+<!ENTITY foxclocks.button.remove.tooltip "Выдаліць вылучаныя месцы з сьпісу назіраньня">
+<!ENTITY foxclocks.button.addas.label "Дадаць як...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "Я">
+<!ENTITY foxclocks.button.addas.tooltip "Дадаць месца паводле абранай зоны, з дапамогай дыялёгу &apos;Уласьцівасьці месца...&apos;">
+<!ENTITY foxclocks.button.moveup.label "Уверх">
+<!ENTITY foxclocks.button.moveup.accesskey "у">
+<!ENTITY foxclocks.button.moveup.tooltip "Перанесьці вылучанае месца ўверх у сьпісе">
+<!ENTITY foxclocks.button.movedown.label "Уніз">
+<!ENTITY foxclocks.button.movedown.accesskey "н">
+<!ENTITY foxclocks.button.movedown.tooltip "Перанесьці вылучанае месца ўніз у сьпісе">
+<!ENTITY foxclocks.menubar.menu.file.label "Файл">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "Ф">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Закрыць">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "З">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Імпартаваць наладкі...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "І">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Экспартаваць наладкі...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "Э">
+<!ENTITY foxclocks.menubar.menu.edit.label "Праўка">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "П">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Дадаць зоны у сьпіс">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "Д">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Дадаць зону ў сьпіс як...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "Я">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Перанесьці месца ўверх у сьпісе">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "у">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Перамясціць месца ўніз у спісе гадзін">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "н">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Выдаліць месцы зь сьпісу">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "В">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Уласьцівасьці месца...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "П">
+<!ENTITY foxclocks.menubar.menu.view.label "Выгляд">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "В">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Уласьцівасьці зоны...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "з">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Адкрыць зону ў OpenStreetMap...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Адкрыць месца ў OpenStreetMap...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Прылады">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "ы">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Наладкі...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "Н">
+<!ENTITY foxclocks.menubar.menu.help.label "Даведка">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "Д">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Даведка...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "Д">
+<!ENTITY foxclocks.menubar.menu.help.about.label "Пра MoonClocks...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "П">
+<!ENTITY foxclocks.dialog.import.title "Загрузіць наладкі MoonClocks">
+<!ENTITY foxclocks.dialog.import.success "Наладкі пасьпяхова імпартаваныя">
+<!ENTITY foxclocks.dialog.import.failure "Не атрымалася імпартаваць наладкі">
+<!ENTITY foxclocks.dialog.export.title "Захаваць наладкі MoonClocks">
+<!ENTITY foxclocks.dialog.export.success "Наладкі пасьпяхова захаваныя">
+<!ENTITY foxclocks.dialog.export.failure "Не атрымалася захаваць наладкі">
+<!ENTITY foxclocks.dialog.importexport.filter.label "Файлы з наладкамі MoonClocks">
+<!ENTITY foxclocks.zonepicker.description.label "Выбар зоны">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Адлюстроўвае ўсе даступныя часавыя зоны. Зоны становяцца месцамі, калі даданыя ў сьпіс гадзін">
+<!ENTITY foxclocks.zonepicker.search.initvalue "">
+<!ENTITY foxclocks.zonepicker.search.accesskey "">
+<!ENTITY foxclocks.zonepicker.search.tooltip "">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Часавая зона">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Часавая зона">
+<!ENTITY foxclocks.zonepicker.col.offset.label "Зрух адносна GMT/UTC">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "Зрух адносна GMT/UTC">
+<!ENTITY foxclocks.zonepicker.footer "* паказвае, што мае месца пераход на летні час">
+<!ENTITY foxclocks.zonepicker.context.details.label "Уласьцівасьці зоны...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "З">
+<!ENTITY foxclocks.zonepicker.context.add.label "Дадаць у сьпіс назіраньня">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "Д">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Дадаць у сьпіс назіраньня як...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "Я">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Сьпіс назіраньня">
+<!ENTITY foxclocks.locationlist.description.tooltip "Месцы зь сьпісу назіраньня могуць паказвацца ў радку статусу ці панэлі інструмэнтаў або ва ўсплывальнай падказцы">
+<!ENTITY foxclocks.locationlist.header.location.label "Месца">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Месца разьмешчанае ў часавай зоне. Двойчы націсьніце кнопку мышы, каб наладзіць яго ўласьцівасьці.">
+<!ENTITY foxclocks.locationlist.header.time.label "Час">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Мясцовы час. Фарматы часу цалкам наладжваюцца">
+<!ENTITY foxclocks.locationlist.nolocs.label "(месцы ня вылучаныя)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Уверх">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "у">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Уніз">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "н">
+<!ENTITY foxclocks.locationlist.context.details.label "Уласьцівасьці месца...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "М">
+<!ENTITY foxclocks.locationlist.context.remove.label "Выдаліць">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "ы">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Выдаліць вылучаныя месцы?">
+<!ENTITY foxclocks.import.confirm.label "Перазапісаць існыя наладкі MoonClocks?">
+<!ENTITY options.title "Наладкі MoonClocks">
+<!ENTITY options.format.caption "Фармат часу">
+<!ENTITY options.format.description "Вызначае, як час паказваецца ў">
+<!ENTITY options.format.clockchoice.clock.label "радку статусу ці панэлі інструмэнтаў">
+<!ENTITY options.format.clockchoice.tooltip.label "падказцы">
+<!ENTITY options.format.clockchoice.foxclocks.label "акне MoonClocks">
+<!ENTITY options.format.clockchoice.all.label "усюды">
+<!ENTITY options.format.radio.standard.label "Стандартныя фарматы">
+<!ENTITY options.format.radio.standard.accesskey "С">
+<!ENTITY options.format.radio.custom.label "Карыстальніцкія фарматы">
+<!ENTITY options.format.radio.custom.accesskey "К">
+<!ENTITY options.format.standard.menu.select "---вылучыць---">
+<!ENTITY options.format.custom.textbox.input.label "Радок фармату:">
+<!ENTITY options.format.custom.textbox.preview.label "Перадпрагляд:">
+<!ENTITY options.format.custom.secs.label "Сэкунды">
+<!ENTITY options.format.custom.mins.label "Хвіліны">
+<!ENTITY options.format.custom.hours.label "Гадзіны:">
+<!ENTITY options.format.custom.hours.12.1.label "12-гадзінны">
+<!ENTITY options.format.custom.hours.12.2.label "12-гадзінны, 2 лічбы">
+<!ENTITY options.format.custom.hours.24.1.label "24-гадзінны">
+<!ENTITY options.format.custom.hours.24.2.label "24-гадзінны, 2 лічбы">
+<!ENTITY options.format.custom.am.label "am/pm:">
+<!ENTITY options.format.custom.am.lower.label "am/pm">
+<!ENTITY options.format.custom.am.upper.label "AM/PM">
+<!ENTITY options.format.custom.year.label "Год:">
+<!ENTITY options.format.custom.year.4.label "4 лічбы">
+<!ENTITY options.format.custom.year.2.label "2 лічбы">
+<!ENTITY options.format.custom.month.label "Месяц:">
+<!ENTITY options.format.custom.month.num.1.label "лічбамі">
+<!ENTITY options.format.custom.month.num.2.label "лічбамі, 2 лічбы">
+<!ENTITY options.format.custom.month.name.long.label "літарамі">
+<!ENTITY options.format.custom.month.name.short.label "літарамі, кароткая форма">
+<!ENTITY options.format.custom.day.label "Дзень:">
+<!ENTITY options.format.custom.day.num.1.label "лічбамі">
+<!ENTITY options.format.custom.day.num.2.label "лічбамі, 2 лічбы">
+<!ENTITY options.format.custom.day.name.long.label "літарамі">
+<!ENTITY options.format.custom.day.name.short.label "літарамі, кароткая форма">
+<!ENTITY options.format.custom.day.ordinal.label "парадкавы">
+<!ENTITY options.format.custom.day.ofyear.label "дзень года">
+<!ENTITY options.format.custom.other.label "Іншыя:">
+<!ENTITY options.format.custom.other.location.label "Месца">
+<!ENTITY options.format.custom.other.offset.label "Зрух ад GMT">
+<!ENTITY options.format.custom.other.zone.label "Імя зоны">
+<!ENTITY options.format.custom.other.1.label "коска">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "двукроп&apos;е">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "прагал">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Пазіцыя і стыль">
+<!ENTITY options.clock.position.description.label "Паказваць на:">
+<!ENTITY options.clock.position.radio.statusbar.label "Радку статусу">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "с">
+<!ENTITY options.clock.position.radio.toolbar.label "Панэлі інструмэнтаў">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "і">
+<!ENTITY options.clock.position.statusbar.radio.left.label "злева">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "л">
+<!ENTITY options.clock.position.statusbar.radio.right.label "справа">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "п">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "у адмысловай пазыцыі:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "а">
+<!ENTITY options.clock.style.label "Паказваць як:">
+<!ENTITY options.clock.style.radio.clocks.label "Некалькі гадзіньнікаў">
+<!ENTITY options.clock.style.radio.clocks.accesskey "Н">
+<!ENTITY options.clock.style.radio.icon.label "Значак MoonClocks (для прагляду падвядзіце да яго курсор)">
+<!ENTITY options.clock.style.radio.icon.accesskey "З">
+<!ENTITY options.data.caption "Зьвесткі часавай зоны">
+<!ENTITY options.data.info.caption.label "База зьвестак бягучай часавай зоны">
+<!ENTITY options.data.info.source.label "Крыніца:">
+<!ENTITY options.data.info.version.label "Вэрсія:">
+<!ENTITY options.data.info.date.label "Дата:">
+<!ENTITY options.data.update.caption.label "Абнаўленьні базы зьвестак">
+<!ENTITY options.data.update.last.date.label "Апошняе абнаўленьне:">
+<!ENTITY options.data.update.last.status.label "Вынік:">
+<!ENTITY options.data.update.next.date.label "Наступнае абнаўленьне:">
+<!ENTITY options.data.update.auto.enable.label "Дазволіць аўтаматычныя абнаўленьні">
+<!ENTITY options.data.update.auto.enable.accesskey "Д">
+<!ENTITY options.data.update.checknow.button.label "Праверыць зараз">
+<!ENTITY options.data.update.checknow.button.accesskey "з">
+<!ENTITY options.advanced.caption "">
+<!ENTITY options.advanced.newloc.caption.label "">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "">
+<!ENTITY options.advanced.misc.caption.label "">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "">
+<!ENTITY options.advanced.alert.autoupdate.label "">
+<!ENTITY options.advanced.menuitem.hidden.label "">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "">
+<!ENTITY zoneinfo.title.zone "Уласьцівасьці часавай зоны">
+<!ENTITY zoneinfo.title.location "Уласьцівасьці месца">
+<!ENTITY zoneinfo.tab.zone.label "Часавая зона">
+<!ENTITY zoneinfo.tab.location.label "Месца">
+<!ENTITY zoneinfo.tab.display.label "Паказаць">
+<!ENTITY zoneinfo.standardzone.label "Стандартная часавая зона">
+<!ENTITY zoneinfo.daylightzone.label "Часавая зона зь летнім часам">
+<!ENTITY zoneinfo.daylightsaving.begins "Летні час пачынаецца">
+<!ENTITY zoneinfo.daylightsaving.began "Летні час пачаўся">
+<!ENTITY zoneinfo.daylightsaving.ends "Летні час сканчаецца">
+<!ENTITY zoneinfo.daylightsaving.ended "Летні час скончыўся">
+<!ENTITY zoneinfo.defaultlocation.label "Размяшчэньне па змоўчаньні">
+<!ENTITY zoneinfo.addas.name.label "Імя месца">
+<!ENTITY zoneinfo.addas.latitude.label "Шырата">
+<!ENTITY zoneinfo.addas.longitude.label "Даўгата">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "Наладкі радку статусу і панэлі інструмэнтаў не працуюць, калі MoonClocks знаходзіцца ў рэжыме &apos;значка&apos; (гл. Наладкі -&gt;Разьмяшчэньне і стыль)">
+<!ENTITY zoneinfo.display.showclock.caption "Паказаць/схаваць">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Паказаць ў радку статусу ці панэлі інструмэнтаў">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "п">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Паказаць гадзіны ва ўсплывальнай падказцы">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "у">
+<!ENTITY zoneinfo.display.style.caption "Стыль для панэлі статусу ці інструмэнтаў">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Тоўсты">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "Т">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Курсіў">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "К">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Падкрэсьлены">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "П">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Сьцяг">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "с">
+<!ENTITY zoneinfo.display.style.colour.caption "Колер у радку статусу ці панэлі інструмэнтаў">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Стандартны колер">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "к">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Альтэрнатыўныя колеры">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "А">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "з">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "з">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "па">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "п">
+<!ENTITY zoneinfo.display.flag.caption "">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "">
+<!ENTITY zoneinfo.display.customformat.caption.label "">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "">
+<!ENTITY zoneinfo.display.customformat.clock.label "">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "">
+<!ENTITY welcome.title "Сардэчна запрашаем">
+<!ENTITY welcome.header "Сардэчна запрашаем у MoonClocks">
+<!ENTITY welcome.message "MoonClocks паказвае час у любым месцы на Зямлі ў радку статусу альбо панэлі інструмэнтаў, карыстаючыся базаю дадзеных часавых зон і дат пераходу на летні/зімовы час. MoonClocks інтэгруецца з OpenStreetMap.|Для пачатку Вы можаце зараз наладзіць MoonClocks – абраць часавыя зоны, час для якіх ён будзе паказваць.|Болей гэтае паведамленьне паказвацца ня будзе; каб зьмяніць наладкі MoonClocks, выклічыце яго зь сьпісу пашырэньняў.">
+<!ENTITY welcome.checkbox.launch.label "Запусьціць MoonClocks">
+<!ENTITY welcome.checkbox.launch.accesskey "З">
+<!ENTITY welcome.checkbox.openhomepage.label "Адкрыць хатнюю старонку MoonClocks">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "А">
+<!ENTITY update.title "MoonClocks абноўлены">
+<!ENTITY update.thisversion "Гэтая вэрсія:">
+<!ENTITY update.message "Дзякуй за тое, што абнавілі MoonClocks. Магчыма, вы захочаце праглядзець сьпіс зьменаў у MoonClocks, каб даведацца, што новага зьявілася ў гэтай вэрсіі.">
+<!ENTITY update.checkbox.launch.label "Праглядзець сьпіс зьменаў">
+<!ENTITY update.checkbox.launch.accesskey "П">
+<!ENTITY about.title "Пра MoonClocks">
+<!ENTITY about.message "Copyright (c) 2015 Andy McDonald">
+<!ENTITY misc.never "ніколі">
+<!ENTITY misc.na "н/д">
+<!ENTITY misc.done "Гатова">
+<!ENTITY misc.apply "Ужыць">

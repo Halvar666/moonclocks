@@ -1,0 +1,284 @@
+﻿<!ENTITY foxclocksoverlay.menuitem.label "MoonClocks">
+<!ENTITY foxclocksoverlay.menuitem.accesskey "F">
+<!ENTITY foxclocksoverlay.menuitem.accelkey "Q">
+<!ENTITY foxclocksoverlay.toolbarbutton.clocks.label "MoonClocks">
+<!ENTITY foxclocksoverlay.context.foxclocks.label "MoonClocks...">
+<!ENTITY foxclocksoverlay.context.foxclocks.accesskey "F">
+<!ENTITY foxclocksoverlay.context.options.label "Тохиргоо...">
+<!ENTITY foxclocksoverlay.context.options.accesskey "х">
+<!ENTITY foxclocksoverlay.context.help.label "Тусламж...">
+<!ENTITY foxclocksoverlay.context.help.accesskey "ж">
+<!ENTITY foxclocksoverlay.context.about.label "MoonClocks-н тухай...">
+<!ENTITY foxclocksoverlay.context.about.accesskey "й">
+<!ENTITY foxclocks.title "MoonClocks">
+<!ENTITY foxclocks.accelkey.add "A">
+<!ENTITY foxclocks.accelkey.moveup "U">
+<!ENTITY foxclocks.accelkey.movedown "D">
+<!ENTITY foxclocks.accelkey.loc.details "L">
+<!ENTITY foxclocks.accelkey.zone.details "Z">
+<!ENTITY foxclocks.accelkey.options "O">
+<!ENTITY foxclocks.button.add.label "Нэм &gt;&gt;">
+<!ENTITY foxclocks.button.add.accesskey "э">
+<!ENTITY foxclocks.button.add.tooltip "Цагийн бүсээс сонгоод харуулах жагсаалтанд байршлуудыг нэмнэ">
+<!ENTITY foxclocks.button.remove.label "&lt;&lt; Устга">
+<!ENTITY foxclocks.button.remove.accesskey "У">
+<!ENTITY foxclocks.button.remove.tooltip "Харуулах жагсаалтаас байршлыг устгана">
+<!ENTITY foxclocks.button.addas.label "Нэр өгч нэм...&gt;&gt;">
+<!ENTITY foxclocks.button.addas.accesskey "э">
+<!ENTITY foxclocks.button.addas.tooltip "&apos;Байршлын шинж чанар...&apos; цонх ашиглаж цагийн бүсээс байршлыг сонгож нэмнэ">
+<!ENTITY foxclocks.button.moveup.label "Дээш зөө">
+<!ENTITY foxclocks.button.moveup.accesskey "ш">
+<!ENTITY foxclocks.button.moveup.tooltip "Сонгосон байршлыг харуулах жагсаалтанд нэг дээшлүүлнэ">
+<!ENTITY foxclocks.button.movedown.label "Доош зөө">
+<!ENTITY foxclocks.button.movedown.accesskey "о">
+<!ENTITY foxclocks.button.movedown.tooltip "Сонгосон байршлыг харуулах жагсаалтанд нэг доошлуулна">
+<!ENTITY foxclocks.menubar.menu.file.label "Файл">
+<!ENTITY foxclocks.menubar.menu.file.accesskey "Ф">
+<!ENTITY foxclocks.menubar.menu.file.close.label "Хаа">
+<!ENTITY foxclocks.menubar.menu.file.close.accesskey "Х">
+<!ENTITY foxclocks.menubar.menu.file.import.label "Тохиргоо импортлох...">
+<!ENTITY foxclocks.menubar.menu.file.import.accesskey "и">
+<!ENTITY foxclocks.menubar.menu.file.export.label "Тохиргоо экспортлох...">
+<!ENTITY foxclocks.menubar.menu.file.export.accesskey "э">
+<!ENTITY foxclocks.menubar.menu.edit.label "Засварла">
+<!ENTITY foxclocks.menubar.menu.edit.accesskey "З">
+<!ENTITY foxclocks.menubar.menu.edit.add.label "Харуулах жагсаалтанд цагийн бүс нэм">
+<!ENTITY foxclocks.menubar.menu.edit.add.accesskey "м">
+<!ENTITY foxclocks.menubar.menu.edit.addas.label "Харуулах жагсаалтанд цагийн бүд нэр өгч нэм...">
+<!ENTITY foxclocks.menubar.menu.edit.addas.accesskey "ө">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.label "Байршлыг нэг дээшлүүл">
+<!ENTITY foxclocks.menubar.menu.edit.moveup.accesskey "э">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.label "Байршлыг нэг доошлуул">
+<!ENTITY foxclocks.menubar.menu.edit.movedown.accesskey "о">
+<!ENTITY foxclocks.menubar.menu.edit.remove.label "Харуулах жагсаалтаас байршлыг устга">
+<!ENTITY foxclocks.menubar.menu.edit.remove.accesskey "у">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.label "Байршлын шинж чанар...">
+<!ENTITY foxclocks.menubar.menu.edit.loc.details.accesskey "ш">
+<!ENTITY foxclocks.menubar.menu.view.label "Харах">
+<!ENTITY foxclocks.menubar.menu.view.accesskey "р">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.label "Цагийн бүсийн шинж чанар...">
+<!ENTITY foxclocks.menubar.menu.view.zone.details.accesskey "б">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.label "Цагийн бүсийг OpenStreetMap дээр нээ...">
+<!ENTITY foxclocks.menubar.menu.view.zone.googleearth.accesskey "G">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.label "Байршлыг OpenStreetMap дээр нээ...">
+<!ENTITY foxclocks.menubar.menu.view.loc.googleearth.accesskey "E">
+<!ENTITY foxclocks.menubar.menu.tools.label "Багаж">
+<!ENTITY foxclocks.menubar.menu.tools.accesskey "г">
+<!ENTITY foxclocks.menubar.menu.tools.options.label "Тохиргоо...">
+<!ENTITY foxclocks.menubar.menu.tools.options.accesskey "р">
+<!ENTITY foxclocks.menubar.menu.help.label "Тусламж">
+<!ENTITY foxclocks.menubar.menu.help.accesskey "ж">
+<!ENTITY foxclocks.menubar.menu.help.help.label "Тусламж...">
+<!ENTITY foxclocks.menubar.menu.help.help.accesskey "м">
+<!ENTITY foxclocks.menubar.menu.help.about.label "MoonClocks-н тухай...">
+<!ENTITY foxclocks.menubar.menu.help.about.accesskey "й">
+<!ENTITY foxclocks.dialog.import.title "MoonClocks-н тохиргоог дууд">
+<!ENTITY foxclocks.dialog.import.success "Тохиргоог амжилттай импортлов">
+<!ENTITY foxclocks.dialog.import.failure "Тохиргоог импортлоход алдаа гарав">
+<!ENTITY foxclocks.dialog.export.title "MoonClocks тохиргоог хадгал">
+<!ENTITY foxclocks.dialog.export.success "Тохиргоо амжилттай хадгалагдав">
+<!ENTITY foxclocks.dialog.export.failure "Тохиргоог хадгалахад алдаа гарав">
+<!ENTITY foxclocks.dialog.importexport.filter.label "MoonClocks тохиргооны файл">
+<!ENTITY foxclocks.zonepicker.description.label "Цагийн бүс сонгогч">
+<!ENTITY foxclocks.zonepicker.description.tooltip "Боломжтой бүх цагийн бүсийг харуулдаг. Цагийн бүсийг харуулах жагсаалтад нэмвэл байршил болдог">
+<!ENTITY foxclocks.zonepicker.search.initvalue "">
+<!ENTITY foxclocks.zonepicker.search.accesskey "">
+<!ENTITY foxclocks.zonepicker.search.tooltip "">
+<!ENTITY foxclocks.zonepicker.col.timezone.label "Цагийн бүс">
+<!ENTITY foxclocks.zonepicker.col.timezone.tooltip "Цагийн бүс">
+<!ENTITY foxclocks.zonepicker.col.offset.label "GMT/UTC шилжилт">
+<!ENTITY foxclocks.zonepicker.col.offset.tooltip "GMT/UTC шилжилт">
+<!ENTITY foxclocks.zonepicker.footer "* гэсэн тэмдэг нь цаг урагшлуулалт эсвэл хойшлуулалт хэрэгжсэн гэдгийг зааж байдаг">
+<!ENTITY foxclocks.zonepicker.context.details.label "Цагийн бүсийн шинж чанар...">
+<!ENTITY foxclocks.zonepicker.context.details.accesskey "б">
+<!ENTITY foxclocks.zonepicker.context.add.label "Харуулах жагсаалтад нэм">
+<!ENTITY foxclocks.zonepicker.context.add.accesskey "м">
+<!ENTITY foxclocks.zonepicker.context.addas.label "Харуулах жагсаалтад нэр өгч нэм...">
+<!ENTITY foxclocks.zonepicker.context.addas.accesskey "ө">
+<!ENTITY foxclocks.zonepicker.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.zonepicker.context.google.accesskey "G">
+<!ENTITY foxclocks.locationlist.description.label "Харуулах жагсаалт">
+<!ENTITY foxclocks.locationlist.description.tooltip "Харуулах жагсаалтад байгаа байршлууд нь төлвийн/багажит самбар ба/эсвэл багажийн тайлбар дээр байрладаг">
+<!ENTITY foxclocks.locationlist.header.location.label "Байршил">
+<!ENTITY foxclocks.locationlist.header.location.tooltip "Цагийн бүсэд байгаа байршил. Байршил дээр хоёр дарж шинж чанарыг нь тохируулдаг">
+<!ENTITY foxclocks.locationlist.header.time.label "Цаг">
+<!ENTITY foxclocks.locationlist.header.time.tooltip "Орон нутгийн цаг. Цагийн харуулах хэлбэрийг өөрчлөх боломжтой">
+<!ENTITY foxclocks.locationlist.nolocs.label "(ямар ч байршил сонгогдсонгүй)">
+<!ENTITY foxclocks.locationlist.context.moveup.label "Дээш зөө">
+<!ENTITY foxclocks.locationlist.context.moveup.accesskey "э">
+<!ENTITY foxclocks.locationlist.context.movedown.label "Доош зөө">
+<!ENTITY foxclocks.locationlist.context.movedown.accesskey "о">
+<!ENTITY foxclocks.locationlist.context.details.label "Байршлын шинж чанар...">
+<!ENTITY foxclocks.locationlist.context.details.accesskey "ш">
+<!ENTITY foxclocks.locationlist.context.remove.label "Устга">
+<!ENTITY foxclocks.locationlist.context.remove.accesskey "У">
+<!ENTITY foxclocks.locationlist.context.google.label "OpenStreetMap...">
+<!ENTITY foxclocks.locationlist.context.google.accesskey "G">
+<!ENTITY foxclocks.remove.confirm.label "Сонгосон байршил(ууд)ыг устгах уу?">
+<!ENTITY foxclocks.import.confirm.label "Одоогийн MoonClocks тохиргоог дарж бичих үү?">
+<!ENTITY options.title "MoonClocks тохиргоо">
+<!ENTITY options.format.caption "Цагийн харуулах хэлбэр">
+<!ENTITY options.format.description "Дараах талбарт цагийг хэрхэн харуулахыг тодорхойлж өгдөг">
+<!ENTITY options.format.clockchoice.clock.label "төлвийн/багажит самбар дээр">
+<!ENTITY options.format.clockchoice.tooltip.label "төлвийн/багажит самбарын тайлбар бичиг дээр">
+<!ENTITY options.format.clockchoice.foxclocks.label "MoonClocks цонх">
+<!ENTITY options.format.clockchoice.all.label "бүх боломжин дээр">
+<!ENTITY options.format.radio.standard.label "Стантарт хэлбэр">
+<!ENTITY options.format.radio.standard.accesskey "С">
+<!ENTITY options.format.radio.custom.label "Өөрчилсөн хэлбэр">
+<!ENTITY options.format.radio.custom.accesskey "Ө">
+<!ENTITY options.format.standard.menu.select "---сонго---">
+<!ENTITY options.format.custom.textbox.input.label "Хэлбэршүүлэгч мөр:">
+<!ENTITY options.format.custom.textbox.preview.label "Туршилтын харуулалт:">
+<!ENTITY options.format.custom.secs.label "Секунд">
+<!ENTITY options.format.custom.mins.label "Минут">
+<!ENTITY options.format.custom.hours.label "Цаг:">
+<!ENTITY options.format.custom.hours.12.1.label "12-цаг">
+<!ENTITY options.format.custom.hours.12.2.label "12-цаг, 2-оронтой">
+<!ENTITY options.format.custom.hours.24.1.label "24-цаг">
+<!ENTITY options.format.custom.hours.24.2.label "24-цаг, 2-оронтой">
+<!ENTITY options.format.custom.am.label "үө/үш:">
+<!ENTITY options.format.custom.am.lower.label "үө/үш">
+<!ENTITY options.format.custom.am.upper.label "ҮӨ/ҮШ">
+<!ENTITY options.format.custom.year.label "Жил:">
+<!ENTITY options.format.custom.year.4.label "4-оронтой">
+<!ENTITY options.format.custom.year.2.label "2-оронтой">
+<!ENTITY options.format.custom.month.label "Сар:">
+<!ENTITY options.format.custom.month.num.1.label "тоон">
+<!ENTITY options.format.custom.month.num.2.label "тоон, 2-оронтой">
+<!ENTITY options.format.custom.month.name.long.label "нэр">
+<!ENTITY options.format.custom.month.name.short.label "нэр, товчилсон">
+<!ENTITY options.format.custom.day.label "Өдөр:">
+<!ENTITY options.format.custom.day.num.1.label "тоон">
+<!ENTITY options.format.custom.day.num.2.label "тоон, 2-оронтой">
+<!ENTITY options.format.custom.day.name.long.label "нэр">
+<!ENTITY options.format.custom.day.name.short.label "нэр, товчилсон">
+<!ENTITY options.format.custom.day.ordinal.label "дэс дугаарласан">
+<!ENTITY options.format.custom.day.ofyear.label "жилийн өдөр">
+<!ENTITY options.format.custom.other.label "Бусад:">
+<!ENTITY options.format.custom.other.location.label "Байршил">
+<!ENTITY options.format.custom.other.offset.label "GMT шилжилт">
+<!ENTITY options.format.custom.other.zone.label "Цагийн бүсийн нэр">
+<!ENTITY options.format.custom.other.1.label "таслал">
+<!ENTITY options.format.custom.other.1.value ",">
+<!ENTITY options.format.custom.other.2.label "тодорхойлох цэг">
+<!ENTITY options.format.custom.other.2.value ":">
+<!ENTITY options.format.custom.other.3.label "сул зай">
+<!ENTITY options.format.custom.other.3.value " ">
+<!ENTITY options.clock.caption "Байрлал болон загвар">
+<!ENTITY options.clock.position.description.label "Энд харуул:">
+<!ENTITY options.clock.position.radio.statusbar.label "Төлвийн самбарт">
+<!ENTITY options.clock.position.radio.statusbar.accesskey "ө">
+<!ENTITY options.clock.position.radio.toolbar.label "Багажит самбарт (&apos;Самбар өөрчлөх&apos; цонхноос чирнэ)">
+<!ENTITY options.clock.position.radio.toolbar.accesskey "ж">
+<!ENTITY options.clock.position.statusbar.radio.left.label "зүүн талд">
+<!ENTITY options.clock.position.statusbar.radio.left.accesskey "з">
+<!ENTITY options.clock.position.statusbar.radio.right.label "баруун талд">
+<!ENTITY options.clock.position.statusbar.radio.right.accesskey "б">
+<!ENTITY options.clock.position.statusbar.radio.specific.label "заасан байрлалд:">
+<!ENTITY options.clock.position.statusbar.radio.specific.accesskey "б">
+<!ENTITY options.clock.style.label "Харуулахдаа:">
+<!ENTITY options.clock.style.radio.clocks.label "Олон цаг">
+<!ENTITY options.clock.style.radio.clocks.accesskey "О">
+<!ENTITY options.clock.style.radio.icon.label "MoonClocks цонх (урсаж гардаг)">
+<!ENTITY options.clock.style.radio.icon.accesskey "ц">
+<!ENTITY options.data.caption "Цагийн бүсийн өгөгдөл">
+<!ENTITY options.data.info.caption.label "Одоогийн цагийн бүсийн өгөгдлийн бааз">
+<!ENTITY options.data.info.source.label "Эх:">
+<!ENTITY options.data.info.version.label "Хувилбар:">
+<!ENTITY options.data.info.date.label "Огноо:">
+<!ENTITY options.data.update.caption.label "Өгөгдлийн баазын шинэчлэл">
+<!ENTITY options.data.update.last.date.label "Сүүлд шинэчлэсэн огноо:">
+<!ENTITY options.data.update.last.status.label "Үр дүн:">
+<!ENTITY options.data.update.next.date.label "Дараагийн шинэчлэх огноо:">
+<!ENTITY options.data.update.auto.enable.label "Автоматаар шинэчлэхийг зөвшөөр">
+<!ENTITY options.data.update.auto.enable.accesskey "з">
+<!ENTITY options.data.update.checknow.button.label "Одоо шалга">
+<!ENTITY options.data.update.checknow.button.accesskey "ш">
+<!ENTITY options.advanced.caption "">
+<!ENTITY options.advanced.newloc.caption.label "">
+<!ENTITY options.advanced.newloc.statusbar.clockvisible.label "">
+<!ENTITY options.advanced.newloc.statusbar.flagvisible.label "">
+<!ENTITY options.advanced.newloc.tooltip.clockvisible.label "">
+<!ENTITY options.advanced.misc.caption.label "">
+<!ENTITY options.advanced.allloc.tooltip.flagvisible.label "">
+<!ENTITY options.advanced.alert.autoupdate.label "">
+<!ENTITY options.advanced.menuitem.hidden.label "">
+<!ENTITY options.advanced.watchlist.remove.confirm.label "">
+<!ENTITY zoneinfo.title.zone "Цагийн бүсийн шинж чанар">
+<!ENTITY zoneinfo.title.location "Байршлын шинж чанар">
+<!ENTITY zoneinfo.tab.zone.label "Цагийн бүс">
+<!ENTITY zoneinfo.tab.location.label "Байршил">
+<!ENTITY zoneinfo.tab.display.label "Харуулалт">
+<!ENTITY zoneinfo.standardzone.label "Стандарт цагийн бүс">
+<!ENTITY zoneinfo.daylightzone.label "Цаг өөрчлөлттэй цагийн бүс">
+<!ENTITY zoneinfo.daylightsaving.begins "Цаг өөрчлөлт эхлэх огноо">
+<!ENTITY zoneinfo.daylightsaving.began "Цаг өөрчлөлт эхэлсэн огноо">
+<!ENTITY zoneinfo.daylightsaving.ends "Цаг өөрчлөлт дуусах огноо">
+<!ENTITY zoneinfo.daylightsaving.ended "Цаг өөрчлөлт дууссан огноо">
+<!ENTITY zoneinfo.defaultlocation.label "Анхдагч байршил">
+<!ENTITY zoneinfo.addas.name.label "Байршлын нэр">
+<!ENTITY zoneinfo.addas.latitude.label "Өргөрөг (сонгомол)">
+<!ENTITY zoneinfo.addas.longitude.label "Уртраг (сонгомол)">
+<!ENTITY zoneinfo.button.google.label "OpenStreetMap...">
+<!ENTITY zoneinfo.display.description "Төлвийн/Багажит самбарын цагийн тохиргоо нь MoonClocks ийг &apos;цонх&apos; горимд биш бол хэрэгждэггүй (Тохиргоо-&gt;Байрлал болон загвар самбараас харна уу)">
+<!ENTITY zoneinfo.display.showclock.caption "Цагийг харуул/нуу">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.label "Цагийг төлвийн/багажит самбарт харуул">
+<!ENTITY zoneinfo.display.showclock.checkbox.statusbar.accesskey "х">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.label "Цагийг төлвийн/багажит самбарын тайлбарт харуул">
+<!ENTITY zoneinfo.display.showclock.checkbox.tooltip.accesskey "а">
+<!ENTITY zoneinfo.display.style.caption "Төлвийн/Багажит самбарын цагны загвар">
+<!ENTITY zoneinfo.display.style.checkbox.bold.label "Зузаан">
+<!ENTITY zoneinfo.display.style.checkbox.bold.accesskey "З">
+<!ENTITY zoneinfo.display.style.checkbox.italic.label "Налуу">
+<!ENTITY zoneinfo.display.style.checkbox.italic.accesskey "а">
+<!ENTITY zoneinfo.display.style.checkbox.underline.label "Зааж өгөөгүй">
+<!ENTITY zoneinfo.display.style.checkbox.underline.accesskey "й">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.label "Тугийг харуул">
+<!ENTITY zoneinfo.display.style.checkbox.showflag.accesskey "л">
+<!ENTITY zoneinfo.display.style.colour.caption "Төлвийн/Багажит самбарын цагны өнгө">
+<!ENTITY zoneinfo.display.style.colour.standard.label "Үндсэн өнгө">
+<!ENTITY zoneinfo.display.style.colour.standard.accesskey "Ү">
+<!ENTITY zoneinfo.display.style.colour.alternate.label "Өөр өнгийг дараах үед өгөхийг зөвшөөр">
+<!ENTITY zoneinfo.display.style.colour.alternate.accesskey "ө">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.label "эхлэх">
+<!ENTITY zoneinfo.display.style.colour.alternate.from.accesskey "э">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.label "дуусах">
+<!ENTITY zoneinfo.display.style.colour.alternate.to.accesskey "д">
+<!ENTITY zoneinfo.display.flag.caption "">
+<!ENTITY zoneinfo.display.flag.radio.disabled.label "">
+<!ENTITY zoneinfo.display.flag.radio.disabled.accesskey "">
+<!ENTITY zoneinfo.display.flag.radio.standard.label "">
+<!ENTITY zoneinfo.display.flag.radio.standard.accesskey "">
+<!ENTITY zoneinfo.display.flag.radio.custom.label "">
+<!ENTITY zoneinfo.display.flag.radio.custom.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.presets.label "">
+<!ENTITY zoneinfo.display.flag.custom.presets.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.presets.tooltiptext "">
+<!ENTITY zoneinfo.display.flag.custom.browse.label "">
+<!ENTITY zoneinfo.display.flag.custom.browse.accesskey "">
+<!ENTITY zoneinfo.display.flag.custom.browse.tooltiptext "">
+<!ENTITY zoneinfo.display.customformat.caption.label "">
+<!ENTITY zoneinfo.display.customformat.caption.tooltiptext "">
+<!ENTITY zoneinfo.display.customformat.clock.label "">
+<!ENTITY zoneinfo.display.customformat.clock.accesskey "">
+<!ENTITY zoneinfo.display.customformat.tooltip.label "">
+<!ENTITY zoneinfo.display.customformat.tooltip.accesskey "">
+<!ENTITY welcome.title "Тавтай морил">
+<!ENTITY welcome.header "MoonClocks-д тавтай морилно уу">
+<!ENTITY welcome.message "MoonClocks нь дэлхийн зуу зуун орны цагийг цагийн бүсийн мэдээлэл болон цаг өөрчлөх мэдээллийг нь ашиглаж таны төлвийн юмуу багажит самбар дээр харуулдаг өргөтгөл юм. MoonClocks мөн OpenStreetMap тай хамтарч ажилладаг бөгөөд (хэрэв та суулгасан бол), MoonClocks-н өгөгдлийн баазад байгаа бүх байрлалыг танд үзүүлж чадна.|Хэрэв та MoonClocks-г анх удаагаа хэрэглэж байгаа бол, та магадгүй MoonClocks дээр ямар цаг харуулахаа тохируулах хэрэгтэй. Бид жишээ болгож хэдэн байршил оруулсан байдаг.| Ирээдүйд энэ тайлбар танд дахин харуулагдахгүй; MoonClocks-ийг сонгохыг хүсвэл Багаж цэснээс, эсвэл харуулж байгаа цаг дээр хоёр дарах, мөн хэрэв харуулагдаж байвал MoonClocks товч дээр дараарай.">
+<!ENTITY welcome.checkbox.launch.label "MoonClocks-г ажиллуул">
+<!ENTITY welcome.checkbox.launch.accesskey "ж">
+<!ENTITY welcome.checkbox.openhomepage.label "MoonClocks-н вэб хуудсыг нээ">
+<!ENTITY welcome.checkbox.openhomepage.accesskey "н">
+<!ENTITY update.title "MoonClocks шинэчлэгдсэн">
+<!ENTITY update.thisversion "Энэ хувилбар нь:">
+<!ENTITY update.message "MoonClocks-г шинэчлэсэн танд баярлалаа. Энэ хувилбарт юу шинээр нэмж өөрчлөгдсөнийг нь MoonClocks-н өөрчлөлтийн бүртгэл бичлэгээс харна уу.">
+<!ENTITY update.checkbox.launch.label "Бүртгэл бичлэгийг харах">
+<!ENTITY update.checkbox.launch.accesskey "б">
+<!ENTITY about.title "MoonClocks-н тухай">
+<!ENTITY about.message "Зохиогчийн эрх хуулиар хамгаалагдсан (c) 2015 Andy McDonald">
+<!ENTITY misc.never "хэзээ ч үл">
+<!ENTITY misc.na "Зааж өгөөгүй">
+<!ENTITY misc.done "Гүйцэтгэсэн">
+<!ENTITY misc.apply "Хэрэгжүүл">

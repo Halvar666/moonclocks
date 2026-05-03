@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright (c) 2015 Andy McDonald. All rights reserved.
+Please refer to licence.txt for licensing terms.
+-->
+
+<bindings	xmlns="http://www.mozilla.org/xbl"
+			xmlns:xbl="http://www.mozilla.org/xbl"
+			xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<binding id="foxclocks-clockpanel">
+		<content>
+			<xul:hbox flex="1" align="center">
+				<xul:image xbl:inherits="src" anonid="image"/>
+				<xul:label xbl:inherits="value=label,crop,class=labelclass" anonid="label"/>
+			</xul:hbox>
+		</content>
+	</binding>
+
+</bindings>

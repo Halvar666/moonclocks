@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>moonclocks@halvar666</em:id>
+		<em:type>2</em:type>
+		<em:bootstrap>true</em:bootstrap>
+		<em:unpack>false</em:unpack>
+		<em:version>1.0.0</em:version>
+		<em:name>MoonClocks</em:name>
+		<em:description>World clocks for Pale Moon and Epyrus. Based on the GPL-licensed FoxClocks 4.2.3 XUL codebase, with IANA tzdb 2026b and OpenStreetMap links.</em:description>
+		<em:creator>Andy McDonald (original FoxClocks author); MoonClocks fork by Halvar666</em:creator>
+		<em:iconURL>chrome://moonclocks/skin/icon32.png</em:iconURL>
+		<em:icon64URL>chrome://moonclocks/skin/icon64.png</em:icon64URL>
+		<em:optionsURL>chrome://moonclocks/content/foxclocks.xul</em:optionsURL>
+		<em:multiprocessCompatible>true</em:multiprocessCompatible>
+
+		<!-- Pale Moon -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+				<em:minVersion>27.0</em:minVersion>
+				<em:maxVersion>34.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<!-- Epyrus -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{29877c1d-27df-4421-9a79-382c31470151}</em:id>
+				<em:minVersion>2.0</em:minVersion>
+				<em:maxVersion>2.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<em:translator>be: DRKA, Andrew O. Shadoura</em:translator>
+		<em:translator>bg: Martin - Varna</em:translator>
+		<em:translator>cs: Michal NOIEX</em:translator>
+		<em:translator>da: AlleyKat (Babelzillian)</em:translator>
+		<em:translator>de: ReinekeFux, Team erweiterungen.de, D|Z</em:translator>
+		<em:translator>es-ES: Proyecto Nave</em:translator>
+		<!-- <em:translator>es-CL: DJFunkinmixer</em:translator> -->
+		<em:translator>fr: Okaryn, Olivier Tribout, Yann Schwarz</em:translator>
+		<!-- <em:translator>el: Antony_256</em:translator> -->
+		<em:translator>hu: fenya25, misibacsi</em:translator>
+		<!-- <em:translator>id: AuGee</em:translator> -->
+		<!-- <em:translator>is: sveinki</em:translator> -->
+		<em:translator>it: Pedro (Luca Pedrazzi)</em:translator>
+		<em:translator>ja: William Barnes, Reuentahl, Victory, T.R. Satoh, Shadow912</em:translator>
+		<em:translator>ko: Hunimini</em:translator>
+		<!-- <em:contributor>mk: Zoriv Ivanovski</em:translator> -->
+		<em:translator>mn: Natsagdorj Shagdar</em:translator>
+		<em:translator>nb-NO: Håvard Mork</em:translator>
+		<em:translator>nl: markh</em:translator>
+		<em:translator>pl: Leszek(teo)Zyczkowski</em:translator>
+		<em:translator>pt-BR: tchu, RodrigoBiker</em:translator>
+		<em:translator>ru: Alexander L. Slovesnik a.k.a Unghost</em:translator>
+		<em:translator>sk: SlovakSoft</em:translator>
+		<em:translator>sv-SE: Mikael Hiort af Ornäs</em:translator>
+		<em:translator>tr: Kenan Balamir</em:translator>
+		<em:translator>uk: Andriy Baranskyy</em:translator>
+		<em:translator>zh-CN: Rick Cart, 冰男, xmoke</em:translator>
+		<em:translator>zh-TW: Jiayun Zhou, G.S.K.Lee, MilchFlasche</em:translator>
+
+		<em:contributor>Eric H. Jung</em:contributor>
+		<em:contributor>Carl Ireland</em:contributor>
+		<em:contributor>Sandi Trillo</em:contributor>
+		<em:contributor>Philip Chee</em:contributor>
+		<em:contributor>Stefan Sitter</em:contributor>
+		<em:contributor>Sebastian Lisken</em:contributor>
+		<em:contributor>Flags: Mark James (famfamfam.com), John Crepezzi (seejohncode.com), Juan Rodas, Will (Coke) Coleda, Ed Sanders</em:contributor>
+	</Description>
+</RDF>
