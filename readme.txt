@@ -96,10 +96,12 @@ MoonClocks 1.0.0 notes:
 - Uses OpenStreetMap for location links.
 - Supports Pale Moon and Epyrus.
 
-MoonClocks 1.0.1a1 notes:
+MoonClocks 1.0.1 notes:
+- Second public MoonClocks release.
 - Adds a manifest-based timezone database update channel.
 - Default manifest URL: https://halvar666.github.io/moonclocks/tzdb/latest.json
 - The update channel is only for timezone database updates, not XPI/add-on updates.
+- The updater validates manifest schema, database schema, file size and SHA-256 before installing a downloaded database.
 - Automatic database updates remain disabled by default.
 
 Icon:
