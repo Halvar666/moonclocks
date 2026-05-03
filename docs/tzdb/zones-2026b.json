@@ -1,0 +1,8502 @@
+{
+  "schema_version": 1.2,
+  "source": {
+    "date": "2026-04-22",
+    "id": "https://data.iana.org/time-zones/tzdb-2026b/",
+    "name": "IANA Time Zone Database",
+    "version": "2026b"
+  },
+  "zones": {
+    "Africa/Abidjan": {
+      "coords": {
+        "lat_decimal": 5.31667,
+        "long_decimal": -4.03333
+      },
+      "country_code": "CI",
+      "fixed": {
+        "name": "GMT",
+        "offset_mins": 0
+      }
+    },
+    "Africa/Accra": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 5.55,
+        "long_decimal": -0.21667
+      },
+      "country_code": "GH"
+    },
+    "Africa/Addis_Ababa": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": 9.03333,
+        "long_decimal": 38.7
+      },
+      "country_code": "ET"
+    },
+    "Africa/Algiers": {
+      "coords": {
+        "lat_decimal": 36.78333,
+        "long_decimal": 3.05
+      },
+      "country_code": "DZ",
+      "fixed": {
+        "name": "CET",
+        "offset_mins": 60
+      }
+    },
+    "Africa/Asmara": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": 15.33333,
+        "long_decimal": 38.88333
+      },
+      "country_code": "ER"
+    },
+    "Africa/Asmera": {
+      "alias_for": "Africa/Nairobi"
+    },
+    "Africa/Bamako": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 12.65,
+        "long_decimal": -8.0
+      },
+      "country_code": "ML"
+    },
+    "Africa/Bangui": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": 4.36667,
+        "long_decimal": 18.58333
+      },
+      "country_code": "CF"
+    },
+    "Africa/Banjul": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 13.46667,
+        "long_decimal": -16.65
+      },
+      "country_code": "GM"
+    },
+    "Africa/Bissau": {
+      "coords": {
+        "lat_decimal": 11.85,
+        "long_decimal": -15.58333
+      },
+      "country_code": "GW",
+      "fixed": {
+        "name": "GMT",
+        "offset_mins": 0
+      }
+    },
+    "Africa/Blantyre": {
+      "alias_for": "Africa/Maputo",
+      "coords": {
+        "lat_decimal": -15.78333,
+        "long_decimal": 35.0
+      },
+      "country_code": "MW"
+    },
+    "Africa/Brazzaville": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": -4.26667,
+        "long_decimal": 15.28333
+      },
+      "country_code": "CG"
+    },
+    "Africa/Bujumbura": {
+      "alias_for": "Africa/Maputo",
+      "coords": {
+        "lat_decimal": -3.38333,
+        "long_decimal": 29.36667
+      },
+      "country_code": "BI"
+    },
+    "Africa/Cairo": {
+      "coords": {
+        "lat_decimal": 30.05,
+        "long_decimal": 31.25
+      },
+      "country_code": "EG",
+      "transitions": [
+        {
+          "epoch": 1761858000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1776981600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1793307600000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1809036000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824757200000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Africa/Casablanca": {
+      "coords": {
+        "lat_decimal": 33.65,
+        "long_decimal": -7.58333
+      },
+      "country_code": "MA",
+      "transitions": [
+        {
+          "epoch": 1771120800000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774144800000,
+          "is_dst": false,
+          "name": "+01",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1801965600000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1804989600000,
+          "is_dst": false,
+          "name": "+01",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1832205600000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Africa/Ceuta": {
+      "comments": {
+        "en": "Ceuta, Melilla"
+      },
+      "coords": {
+        "lat_decimal": 35.88333,
+        "long_decimal": -5.31667
+      },
+      "country_code": "ES",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Africa/Conakry": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 9.51667,
+        "long_decimal": -13.71667
+      },
+      "country_code": "GN"
+    },
+    "Africa/Dakar": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 14.66667,
+        "long_decimal": -17.43333
+      },
+      "country_code": "SN"
+    },
+    "Africa/Dar_es_Salaam": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": -6.8,
+        "long_decimal": 39.28333
+      },
+      "country_code": "TZ"
+    },
+    "Africa/Djibouti": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": 11.6,
+        "long_decimal": 43.15
+      },
+      "country_code": "DJ"
+    },
+    "Africa/Douala": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": 4.05,
+        "long_decimal": 9.7
+      },
+      "country_code": "CM"
+    },
+    "Africa/El_Aaiun": {
+      "coords": {
+        "lat_decimal": 27.15,
+        "long_decimal": -13.2
+      },
+      "country_code": "EH",
+      "transitions": [
+        {
+          "epoch": 1771120800000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774144800000,
+          "is_dst": false,
+          "name": "+01",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1801965600000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1804989600000,
+          "is_dst": false,
+          "name": "+01",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1832205600000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Africa/Freetown": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 8.5,
+        "long_decimal": -13.25
+      },
+      "country_code": "SL"
+    },
+    "Africa/Gaborone": {
+      "alias_for": "Africa/Maputo",
+      "coords": {
+        "lat_decimal": -24.65,
+        "long_decimal": 25.91667
+      },
+      "country_code": "BW"
+    },
+    "Africa/Harare": {
+      "alias_for": "Africa/Maputo",
+      "coords": {
+        "lat_decimal": -17.83333,
+        "long_decimal": 31.05
+      },
+      "country_code": "ZW"
+    },
+    "Africa/Johannesburg": {
+      "coords": {
+        "lat_decimal": -26.25,
+        "long_decimal": 28.0
+      },
+      "country_code": "ZA",
+      "fixed": {
+        "name": "SAST",
+        "offset_mins": 120
+      }
+    },
+    "Africa/Juba": {
+      "coords": {
+        "lat_decimal": 4.85,
+        "long_decimal": 31.61667
+      },
+      "country_code": "SS",
+      "fixed": {
+        "name": "CAT",
+        "offset_mins": 120
+      }
+    },
+    "Africa/Kampala": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": 0.31667,
+        "long_decimal": 32.41667
+      },
+      "country_code": "UG"
+    },
+    "Africa/Khartoum": {
+      "coords": {
+        "lat_decimal": 15.6,
+        "long_decimal": 32.53333
+      },
+      "country_code": "SD",
+      "fixed": {
+        "name": "CAT",
+        "offset_mins": 120
+      }
+    },
+    "Africa/Kigali": {
+      "alias_for": "Africa/Maputo",
+      "coords": {
+        "lat_decimal": -1.95,
+        "long_decimal": 30.06667
+      },
+      "country_code": "RW"
+    },
+    "Africa/Kinshasa": {
+      "alias_for": "Africa/Lagos",
+      "comments": {
+        "en": "Dem. Rep. of Congo (west)"
+      },
+      "coords": {
+        "lat_decimal": -4.3,
+        "long_decimal": 15.3
+      },
+      "country_code": "CD"
+    },
+    "Africa/Lagos": {
+      "coords": {
+        "lat_decimal": 6.45,
+        "long_decimal": 3.4
+      },
+      "country_code": "NG",
+      "fixed": {
+        "name": "WAT",
+        "offset_mins": 60
+      }
+    },
+    "Africa/Libreville": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": 0.38333,
+        "long_decimal": 9.45
+      },
+      "country_code": "GA"
+    },
+    "Africa/Lome": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 6.13333,
+        "long_decimal": 1.21667
+      },
+      "country_code": "TG"
+    },
+    "Africa/Luanda": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": -8.8,
+        "long_decimal": 13.23333
+      },
+      "country_code": "AO"
+    },
+    "Africa/Lubumbashi": {
+      "alias_for": "Africa/Maputo",
+      "comments": {
+        "en": "Dem. Rep. of Congo (east)"
+      },
+      "coords": {
+        "lat_decimal": -11.66667,
+        "long_decimal": 27.46667
+      },
+      "country_code": "CD"
+    },
+    "Africa/Lusaka": {
+      "alias_for": "Africa/Maputo",
+      "coords": {
+        "lat_decimal": -15.41667,
+        "long_decimal": 28.28333
+      },
+      "country_code": "ZM"
+    },
+    "Africa/Malabo": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": 3.75,
+        "long_decimal": 8.78333
+      },
+      "country_code": "GQ"
+    },
+    "Africa/Maputo": {
+      "coords": {
+        "lat_decimal": -25.96667,
+        "long_decimal": 32.58333
+      },
+      "country_code": "MZ",
+      "fixed": {
+        "name": "CAT",
+        "offset_mins": 120
+      }
+    },
+    "Africa/Maseru": {
+      "alias_for": "Africa/Johannesburg",
+      "coords": {
+        "lat_decimal": -29.46667,
+        "long_decimal": 27.5
+      },
+      "country_code": "LS"
+    },
+    "Africa/Mbabane": {
+      "alias_for": "Africa/Johannesburg",
+      "coords": {
+        "lat_decimal": -26.3,
+        "long_decimal": 31.1
+      },
+      "country_code": "SZ"
+    },
+    "Africa/Mogadishu": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": 2.06667,
+        "long_decimal": 45.36667
+      },
+      "country_code": "SO"
+    },
+    "Africa/Monrovia": {
+      "coords": {
+        "lat_decimal": 6.3,
+        "long_decimal": -10.78333
+      },
+      "country_code": "LR",
+      "fixed": {
+        "name": "GMT",
+        "offset_mins": 0
+      }
+    },
+    "Africa/Nairobi": {
+      "coords": {
+        "lat_decimal": -1.28333,
+        "long_decimal": 36.81667
+      },
+      "country_code": "KE",
+      "fixed": {
+        "name": "EAT",
+        "offset_mins": 180
+      }
+    },
+    "Africa/Ndjamena": {
+      "coords": {
+        "lat_decimal": 12.11667,
+        "long_decimal": 15.05
+      },
+      "country_code": "TD",
+      "fixed": {
+        "name": "WAT",
+        "offset_mins": 60
+      }
+    },
+    "Africa/Niamey": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": 13.51667,
+        "long_decimal": 2.11667
+      },
+      "country_code": "NE"
+    },
+    "Africa/Nouakchott": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 18.1,
+        "long_decimal": -15.95
+      },
+      "country_code": "MR"
+    },
+    "Africa/Ouagadougou": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 12.36667,
+        "long_decimal": -1.51667
+      },
+      "country_code": "BF"
+    },
+    "Africa/Porto-Novo": {
+      "alias_for": "Africa/Lagos",
+      "coords": {
+        "lat_decimal": 6.48333,
+        "long_decimal": 2.61667
+      },
+      "country_code": "BJ"
+    },
+    "Africa/Sao_Tome": {
+      "coords": {
+        "lat_decimal": 0.33333,
+        "long_decimal": 6.73333
+      },
+      "country_code": "ST",
+      "fixed": {
+        "name": "GMT",
+        "offset_mins": 0
+      }
+    },
+    "Africa/Timbuktu": {
+      "alias_for": "Africa/Abidjan"
+    },
+    "Africa/Tripoli": {
+      "coords": {
+        "lat_decimal": 32.9,
+        "long_decimal": 13.18333
+      },
+      "country_code": "LY",
+      "fixed": {
+        "name": "EET",
+        "offset_mins": 120
+      }
+    },
+    "Africa/Tunis": {
+      "coords": {
+        "lat_decimal": 36.8,
+        "long_decimal": 10.18333
+      },
+      "country_code": "TN",
+      "fixed": {
+        "name": "CET",
+        "offset_mins": 60
+      }
+    },
+    "Africa/Windhoek": {
+      "coords": {
+        "lat_decimal": -22.56667,
+        "long_decimal": 17.1
+      },
+      "country_code": "NA",
+      "fixed": {
+        "name": "CAT",
+        "offset_mins": 120
+      }
+    },
+    "America/Adak": {
+      "comments": {
+        "en": "Alaska - western Aleutians"
+      },
+      "coords": {
+        "lat_decimal": 51.88,
+        "long_decimal": -176.65806
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762081200000,
+          "is_dst": false,
+          "name": "HST",
+          "offset_mins": -600
+        },
+        {
+          "epoch": 1772971200000,
+          "is_dst": true,
+          "name": "HDT",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1793530800000,
+          "is_dst": false,
+          "name": "HST",
+          "offset_mins": -600
+        },
+        {
+          "epoch": 1805025600000,
+          "is_dst": true,
+          "name": "HDT",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1825585200000,
+          "is_dst": false,
+          "name": "HST",
+          "offset_mins": -600
+        }
+      ]
+    },
+    "America/Anchorage": {
+      "comments": {
+        "en": "Alaska (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 61.21806,
+        "long_decimal": -149.90028
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762077600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1772967600000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1793527200000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1805022000000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1825581600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        }
+      ]
+    },
+    "America/Anguilla": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 18.2,
+        "long_decimal": -63.06667
+      },
+      "country_code": "AI"
+    },
+    "America/Antigua": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 17.05,
+        "long_decimal": -61.8
+      },
+      "country_code": "AG"
+    },
+    "America/Araguaina": {
+      "comments": {
+        "en": "Tocantins"
+      },
+      "coords": {
+        "lat_decimal": -7.2,
+        "long_decimal": -48.2
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Buenos_Aires": {
+      "comments": {
+        "en": "Buenos Aires (BA, CF)"
+      },
+      "coords": {
+        "lat_decimal": -34.6,
+        "long_decimal": -58.45
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Catamarca": {
+      "comments": {
+        "en": "Catamarca (CT), Chubut (CH)"
+      },
+      "coords": {
+        "lat_decimal": -28.46667,
+        "long_decimal": -65.78333
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/ComodRivadavia": {
+      "alias_for": "America/Argentina/Catamarca"
+    },
+    "America/Argentina/Cordoba": {
+      "comments": {
+        "en": "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
+      },
+      "coords": {
+        "lat_decimal": -31.4,
+        "long_decimal": -64.18333
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Jujuy": {
+      "comments": {
+        "en": "Jujuy (JY)"
+      },
+      "coords": {
+        "lat_decimal": -24.18333,
+        "long_decimal": -65.3
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/La_Rioja": {
+      "comments": {
+        "en": "La Rioja (LR)"
+      },
+      "coords": {
+        "lat_decimal": -29.43333,
+        "long_decimal": -66.85
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Mendoza": {
+      "comments": {
+        "en": "Mendoza (MZ)"
+      },
+      "coords": {
+        "lat_decimal": -32.88333,
+        "long_decimal": -68.81667
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Rio_Gallegos": {
+      "comments": {
+        "en": "Santa Cruz (SC)"
+      },
+      "coords": {
+        "lat_decimal": -51.63333,
+        "long_decimal": -69.21667
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Salta": {
+      "comments": {
+        "en": "Salta (SA, LP, NQ, RN)"
+      },
+      "coords": {
+        "lat_decimal": -24.78333,
+        "long_decimal": -65.41667
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/San_Juan": {
+      "comments": {
+        "en": "San Juan (SJ)"
+      },
+      "coords": {
+        "lat_decimal": -31.53333,
+        "long_decimal": -68.51667
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/San_Luis": {
+      "comments": {
+        "en": "San Luis (SL)"
+      },
+      "coords": {
+        "lat_decimal": -33.31667,
+        "long_decimal": -66.35
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Tucuman": {
+      "comments": {
+        "en": "Tucuman (TM)"
+      },
+      "coords": {
+        "lat_decimal": -26.81667,
+        "long_decimal": -65.21667
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Argentina/Ushuaia": {
+      "comments": {
+        "en": "Tierra del Fuego (TF)"
+      },
+      "coords": {
+        "lat_decimal": -54.8,
+        "long_decimal": -68.3
+      },
+      "country_code": "AR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Aruba": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 12.5,
+        "long_decimal": -69.96667
+      },
+      "country_code": "AW"
+    },
+    "America/Asuncion": {
+      "coords": {
+        "lat_decimal": -25.26667,
+        "long_decimal": -57.66667
+      },
+      "country_code": "PY",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Atikokan": {
+      "alias_for": "America/Panama",
+      "comments": {
+        "en": "EST - ON (Atikokan), NU (Coral H)"
+      },
+      "coords": {
+        "lat_decimal": 48.75861,
+        "long_decimal": -91.62167
+      },
+      "country_code": "CA"
+    },
+    "America/Atka": {
+      "alias_for": "America/Adak"
+    },
+    "America/Bahia": {
+      "comments": {
+        "en": "Bahia"
+      },
+      "coords": {
+        "lat_decimal": -12.98333,
+        "long_decimal": -38.51667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Bahia_Banderas": {
+      "comments": {
+        "en": "Bahia de Banderas"
+      },
+      "coords": {
+        "lat_decimal": 20.8,
+        "long_decimal": -105.25
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Barbados": {
+      "coords": {
+        "lat_decimal": 13.1,
+        "long_decimal": -59.61667
+      },
+      "country_code": "BB",
+      "fixed": {
+        "name": "AST",
+        "offset_mins": -240
+      }
+    },
+    "America/Belem": {
+      "comments": {
+        "en": "Para (east), Amapa"
+      },
+      "coords": {
+        "lat_decimal": -1.45,
+        "long_decimal": -48.48333
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Belize": {
+      "coords": {
+        "lat_decimal": 17.5,
+        "long_decimal": -88.2
+      },
+      "country_code": "BZ",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Blanc-Sablon": {
+      "alias_for": "America/Puerto_Rico",
+      "comments": {
+        "en": "AST - QC (Lower North Shore)"
+      },
+      "coords": {
+        "lat_decimal": 51.41667,
+        "long_decimal": -57.11667
+      },
+      "country_code": "CA"
+    },
+    "America/Boa_Vista": {
+      "comments": {
+        "en": "Roraima"
+      },
+      "coords": {
+        "lat_decimal": 2.81667,
+        "long_decimal": -60.66667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Bogota": {
+      "coords": {
+        "lat_decimal": 4.6,
+        "long_decimal": -74.08333
+      },
+      "country_code": "CO",
+      "fixed": {
+        "name": "-05",
+        "offset_mins": -300
+      }
+    },
+    "America/Boise": {
+      "comments": {
+        "en": "Mountain - ID (south), OR (east)"
+      },
+      "coords": {
+        "lat_decimal": 43.61361,
+        "long_decimal": -116.2025
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762070400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1772960400000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1793520000000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1805014800000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1825574400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Buenos_Aires": {
+      "alias_for": "America/Argentina/Buenos_Aires"
+    },
+    "America/Cambridge_Bay": {
+      "comments": {
+        "en": "Mountain - NU (west)"
+      },
+      "coords": {
+        "lat_decimal": 69.11389,
+        "long_decimal": -105.05278
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762070400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1772960400000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1793520000000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1805014800000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1825574400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Campo_Grande": {
+      "comments": {
+        "en": "Mato Grosso do Sul"
+      },
+      "coords": {
+        "lat_decimal": -20.45,
+        "long_decimal": -54.61667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Cancun": {
+      "comments": {
+        "en": "Quintana Roo"
+      },
+      "coords": {
+        "lat_decimal": 21.08333,
+        "long_decimal": -86.76667
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "EST",
+        "offset_mins": -300
+      }
+    },
+    "America/Caracas": {
+      "coords": {
+        "lat_decimal": 10.5,
+        "long_decimal": -66.93333
+      },
+      "country_code": "VE",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Catamarca": {
+      "alias_for": "America/Argentina/Catamarca"
+    },
+    "America/Cayenne": {
+      "coords": {
+        "lat_decimal": 4.93333,
+        "long_decimal": -52.33333
+      },
+      "country_code": "GF",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Cayman": {
+      "alias_for": "America/Panama",
+      "coords": {
+        "lat_decimal": 19.3,
+        "long_decimal": -81.38333
+      },
+      "country_code": "KY"
+    },
+    "America/Chicago": {
+      "comments": {
+        "en": "Central (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 41.85,
+        "long_decimal": -87.65
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Chihuahua": {
+      "comments": {
+        "en": "Chihuahua (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 28.63333,
+        "long_decimal": -106.08333
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Ciudad_Juarez": {
+      "comments": {
+        "en": "Chihuahua (US border - west)"
+      },
+      "coords": {
+        "lat_decimal": 31.73333,
+        "long_decimal": -106.48333
+      },
+      "country_code": "MX",
+      "transitions": [
+        {
+          "epoch": 1762070400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1772960400000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1793520000000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1805014800000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1825574400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Coral_Harbour": {
+      "alias_for": "America/Panama"
+    },
+    "America/Cordoba": {
+      "alias_for": "America/Argentina/Cordoba"
+    },
+    "America/Costa_Rica": {
+      "coords": {
+        "lat_decimal": 9.93333,
+        "long_decimal": -84.08333
+      },
+      "country_code": "CR",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Coyhaique": {
+      "comments": {
+        "en": "Aysen Region"
+      },
+      "coords": {
+        "lat_decimal": -45.56667,
+        "long_decimal": -72.06667
+      },
+      "country_code": "CL",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Creston": {
+      "alias_for": "America/Phoenix",
+      "comments": {
+        "en": "MST - BC (Creston)"
+      },
+      "coords": {
+        "lat_decimal": 49.1,
+        "long_decimal": -116.51667
+      },
+      "country_code": "CA"
+    },
+    "America/Cuiaba": {
+      "comments": {
+        "en": "Mato Grosso"
+      },
+      "coords": {
+        "lat_decimal": -15.58333,
+        "long_decimal": -56.08333
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Curacao": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 12.18333,
+        "long_decimal": -69.0
+      },
+      "country_code": "CW"
+    },
+    "America/Danmarkshavn": {
+      "comments": {
+        "en": "National Park (east coast)"
+      },
+      "coords": {
+        "lat_decimal": 76.76667,
+        "long_decimal": -18.66667
+      },
+      "country_code": "GL",
+      "fixed": {
+        "name": "GMT",
+        "offset_mins": 0
+      }
+    },
+    "America/Dawson": {
+      "comments": {
+        "en": "MST - Yukon (west)"
+      },
+      "coords": {
+        "lat_decimal": 64.06667,
+        "long_decimal": -139.41667
+      },
+      "country_code": "CA",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Dawson_Creek": {
+      "comments": {
+        "en": "MST - BC (Dawson Cr, Ft St John)"
+      },
+      "coords": {
+        "lat_decimal": 55.76667,
+        "long_decimal": -120.23333
+      },
+      "country_code": "CA",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Denver": {
+      "comments": {
+        "en": "Mountain (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 39.73917,
+        "long_decimal": -104.98417
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762070400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1772960400000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1793520000000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1805014800000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1825574400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Detroit": {
+      "comments": {
+        "en": "Eastern - MI (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 42.33139,
+        "long_decimal": -83.04583
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Dominica": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 15.3,
+        "long_decimal": -61.4
+      },
+      "country_code": "DM"
+    },
+    "America/Edmonton": {
+      "comments": {
+        "en": "Mountain - AB, BC(E), NT(E), SK(W)"
+      },
+      "coords": {
+        "lat_decimal": 53.55,
+        "long_decimal": -113.46667
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762070400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1772960400000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1793520000000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1805014800000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1825574400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Eirunepe": {
+      "comments": {
+        "en": "Amazonas (west)"
+      },
+      "coords": {
+        "lat_decimal": -6.66667,
+        "long_decimal": -69.86667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-05",
+        "offset_mins": -300
+      }
+    },
+    "America/El_Salvador": {
+      "coords": {
+        "lat_decimal": 13.7,
+        "long_decimal": -89.2
+      },
+      "country_code": "SV",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Ensenada": {
+      "alias_for": "America/Tijuana"
+    },
+    "America/Fort_Nelson": {
+      "comments": {
+        "en": "MST - BC (Ft Nelson)"
+      },
+      "coords": {
+        "lat_decimal": 58.8,
+        "long_decimal": -122.7
+      },
+      "country_code": "CA",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Fort_Wayne": {
+      "alias_for": "America/Indiana/Indianapolis"
+    },
+    "America/Fortaleza": {
+      "comments": {
+        "en": "Brazil (northeast: MA, PI, CE, RN, PB)"
+      },
+      "coords": {
+        "lat_decimal": -3.71667,
+        "long_decimal": -38.5
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Glace_Bay": {
+      "comments": {
+        "en": "Atlantic - NS (Cape Breton)"
+      },
+      "coords": {
+        "lat_decimal": 46.2,
+        "long_decimal": -59.95
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1772949600000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1805004000000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        }
+      ]
+    },
+    "America/Godthab": {
+      "alias_for": "America/Nuuk"
+    },
+    "America/Goose_Bay": {
+      "comments": {
+        "en": "Atlantic - Labrador (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 53.33333,
+        "long_decimal": -60.41667
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1772949600000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1805004000000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        }
+      ]
+    },
+    "America/Grand_Turk": {
+      "coords": {
+        "lat_decimal": 21.46667,
+        "long_decimal": -71.13333
+      },
+      "country_code": "TC",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Grenada": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 12.05,
+        "long_decimal": -61.75
+      },
+      "country_code": "GD"
+    },
+    "America/Guadeloupe": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 16.23333,
+        "long_decimal": -61.53333
+      },
+      "country_code": "GP"
+    },
+    "America/Guatemala": {
+      "coords": {
+        "lat_decimal": 14.63333,
+        "long_decimal": -90.51667
+      },
+      "country_code": "GT",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Guayaquil": {
+      "comments": {
+        "en": "Ecuador (mainland)"
+      },
+      "coords": {
+        "lat_decimal": -2.16667,
+        "long_decimal": -79.83333
+      },
+      "country_code": "EC",
+      "fixed": {
+        "name": "-05",
+        "offset_mins": -300
+      }
+    },
+    "America/Guyana": {
+      "coords": {
+        "lat_decimal": 6.8,
+        "long_decimal": -58.16667
+      },
+      "country_code": "GY",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Halifax": {
+      "comments": {
+        "en": "Atlantic - NS (most areas), PE"
+      },
+      "coords": {
+        "lat_decimal": 44.65,
+        "long_decimal": -63.6
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1772949600000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1805004000000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        }
+      ]
+    },
+    "America/Havana": {
+      "coords": {
+        "lat_decimal": 23.13333,
+        "long_decimal": -82.36667
+      },
+      "country_code": "CU",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772946000000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805000400000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Hermosillo": {
+      "comments": {
+        "en": "Sonora"
+      },
+      "coords": {
+        "lat_decimal": 29.06667,
+        "long_decimal": -110.96667
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Indiana/Indianapolis": {
+      "comments": {
+        "en": "Eastern - IN (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 39.76833,
+        "long_decimal": -86.15806
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Indiana/Knox": {
+      "comments": {
+        "en": "Central - IN (Starke)"
+      },
+      "coords": {
+        "lat_decimal": 41.29583,
+        "long_decimal": -86.625
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Indiana/Marengo": {
+      "comments": {
+        "en": "Eastern - IN (Crawford)"
+      },
+      "coords": {
+        "lat_decimal": 38.37556,
+        "long_decimal": -86.34472
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Indiana/Petersburg": {
+      "comments": {
+        "en": "Eastern - IN (Pike)"
+      },
+      "coords": {
+        "lat_decimal": 38.49194,
+        "long_decimal": -87.27861
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Indiana/Tell_City": {
+      "comments": {
+        "en": "Central - IN (Perry)"
+      },
+      "coords": {
+        "lat_decimal": 37.95306,
+        "long_decimal": -86.76139
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Indiana/Vevay": {
+      "comments": {
+        "en": "Eastern - IN (Switzerland)"
+      },
+      "coords": {
+        "lat_decimal": 38.74778,
+        "long_decimal": -85.06722
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Indiana/Vincennes": {
+      "comments": {
+        "en": "Eastern - IN (Da, Du, K, Mn)"
+      },
+      "coords": {
+        "lat_decimal": 38.67722,
+        "long_decimal": -87.52861
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Indiana/Winamac": {
+      "comments": {
+        "en": "Eastern - IN (Pulaski)"
+      },
+      "coords": {
+        "lat_decimal": 41.05139,
+        "long_decimal": -86.60306
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Indianapolis": {
+      "alias_for": "America/Indiana/Indianapolis"
+    },
+    "America/Inuvik": {
+      "comments": {
+        "en": "Mountain - NT (west)"
+      },
+      "coords": {
+        "lat_decimal": 68.34972,
+        "long_decimal": -133.71667
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762070400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1772960400000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1793520000000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1805014800000,
+          "is_dst": true,
+          "name": "MDT",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1825574400000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Iqaluit": {
+      "comments": {
+        "en": "Eastern - NU (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 63.73333,
+        "long_decimal": -68.46667
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Jamaica": {
+      "coords": {
+        "lat_decimal": 17.96806,
+        "long_decimal": -76.79333
+      },
+      "country_code": "JM",
+      "fixed": {
+        "name": "EST",
+        "offset_mins": -300
+      }
+    },
+    "America/Jujuy": {
+      "alias_for": "America/Argentina/Jujuy"
+    },
+    "America/Juneau": {
+      "comments": {
+        "en": "Alaska - Juneau area"
+      },
+      "coords": {
+        "lat_decimal": 58.30194,
+        "long_decimal": -134.41972
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762077600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1772967600000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1793527200000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1805022000000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1825581600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        }
+      ]
+    },
+    "America/Kentucky/Louisville": {
+      "comments": {
+        "en": "Eastern - KY (Louisville area)"
+      },
+      "coords": {
+        "lat_decimal": 38.25417,
+        "long_decimal": -85.75944
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Kentucky/Monticello": {
+      "comments": {
+        "en": "Eastern - KY (Wayne)"
+      },
+      "coords": {
+        "lat_decimal": 36.82972,
+        "long_decimal": -84.84917
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Knox_IN": {
+      "alias_for": "America/Indiana/Knox"
+    },
+    "America/Kralendijk": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 12.15083,
+        "long_decimal": -68.27667
+      },
+      "country_code": "BQ"
+    },
+    "America/La_Paz": {
+      "coords": {
+        "lat_decimal": -16.5,
+        "long_decimal": -68.15
+      },
+      "country_code": "BO",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Lima": {
+      "coords": {
+        "lat_decimal": -12.05,
+        "long_decimal": -77.05
+      },
+      "country_code": "PE",
+      "fixed": {
+        "name": "-05",
+        "offset_mins": -300
+      }
+    },
+    "America/Los_Angeles": {
+      "comments": {
+        "en": "Pacific"
+      },
+      "coords": {
+        "lat_decimal": 34.05222,
+        "long_decimal": -118.24278
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762074000000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1772964000000,
+          "is_dst": true,
+          "name": "PDT",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1793523600000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1805018400000,
+          "is_dst": true,
+          "name": "PDT",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1825578000000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        }
+      ]
+    },
+    "America/Louisville": {
+      "alias_for": "America/Kentucky/Louisville"
+    },
+    "America/Lower_Princes": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 18.05139,
+        "long_decimal": -63.04722
+      },
+      "country_code": "SX"
+    },
+    "America/Maceio": {
+      "comments": {
+        "en": "Alagoas, Sergipe"
+      },
+      "coords": {
+        "lat_decimal": -9.66667,
+        "long_decimal": -35.71667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Managua": {
+      "coords": {
+        "lat_decimal": 12.15,
+        "long_decimal": -86.28333
+      },
+      "country_code": "NI",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Manaus": {
+      "comments": {
+        "en": "Amazonas (east)"
+      },
+      "coords": {
+        "lat_decimal": -3.13333,
+        "long_decimal": -60.01667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Marigot": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 18.06667,
+        "long_decimal": -63.08333
+      },
+      "country_code": "MF"
+    },
+    "America/Martinique": {
+      "coords": {
+        "lat_decimal": 14.6,
+        "long_decimal": -61.08333
+      },
+      "country_code": "MQ",
+      "fixed": {
+        "name": "AST",
+        "offset_mins": -240
+      }
+    },
+    "America/Matamoros": {
+      "comments": {
+        "en": "Coahuila, Nuevo Leon, Tamaulipas (US border)"
+      },
+      "coords": {
+        "lat_decimal": 25.83333,
+        "long_decimal": -97.5
+      },
+      "country_code": "MX",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Mazatlan": {
+      "comments": {
+        "en": "Baja California Sur, Nayarit (most areas), Sinaloa"
+      },
+      "coords": {
+        "lat_decimal": 23.21667,
+        "long_decimal": -106.41667
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Mendoza": {
+      "alias_for": "America/Argentina/Mendoza"
+    },
+    "America/Menominee": {
+      "comments": {
+        "en": "Central - MI (Wisconsin border)"
+      },
+      "coords": {
+        "lat_decimal": 45.10778,
+        "long_decimal": -87.61417
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Merida": {
+      "comments": {
+        "en": "Campeche, Yucatan"
+      },
+      "coords": {
+        "lat_decimal": 20.96667,
+        "long_decimal": -89.61667
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Metlakatla": {
+      "comments": {
+        "en": "Alaska - Annette Island"
+      },
+      "coords": {
+        "lat_decimal": 55.12694,
+        "long_decimal": -131.57639
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762077600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1772967600000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1793527200000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1805022000000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1825581600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        }
+      ]
+    },
+    "America/Mexico_City": {
+      "comments": {
+        "en": "Central Mexico"
+      },
+      "coords": {
+        "lat_decimal": 19.4,
+        "long_decimal": -99.15
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Miquelon": {
+      "coords": {
+        "lat_decimal": 47.05,
+        "long_decimal": -56.33333
+      },
+      "country_code": "PM",
+      "transitions": [
+        {
+          "epoch": 1762056000000,
+          "is_dst": false,
+          "name": "-03",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1772946000000,
+          "is_dst": true,
+          "name": "-02",
+          "offset_mins": -120
+        },
+        {
+          "epoch": 1793505600000,
+          "is_dst": false,
+          "name": "-03",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1805000400000,
+          "is_dst": true,
+          "name": "-02",
+          "offset_mins": -120
+        },
+        {
+          "epoch": 1825560000000,
+          "is_dst": false,
+          "name": "-03",
+          "offset_mins": -180
+        }
+      ]
+    },
+    "America/Moncton": {
+      "comments": {
+        "en": "Atlantic - New Brunswick"
+      },
+      "coords": {
+        "lat_decimal": 46.1,
+        "long_decimal": -64.78333
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1772949600000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1805004000000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        }
+      ]
+    },
+    "America/Monterrey": {
+      "comments": {
+        "en": "Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 25.66667,
+        "long_decimal": -100.31667
+      },
+      "country_code": "MX",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Montevideo": {
+      "coords": {
+        "lat_decimal": -34.90917,
+        "long_decimal": -56.2125
+      },
+      "country_code": "UY",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Montreal": {
+      "alias_for": "America/Toronto"
+    },
+    "America/Montserrat": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 16.71667,
+        "long_decimal": -62.21667
+      },
+      "country_code": "MS"
+    },
+    "America/Nassau": {
+      "alias_for": "America/Toronto",
+      "coords": {
+        "lat_decimal": 25.08333,
+        "long_decimal": -77.35
+      },
+      "country_code": "BS"
+    },
+    "America/New_York": {
+      "comments": {
+        "en": "Eastern (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 40.71417,
+        "long_decimal": -74.00639
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Nipigon": {
+      "alias_for": "America/Toronto"
+    },
+    "America/Nome": {
+      "comments": {
+        "en": "Alaska (west)"
+      },
+      "coords": {
+        "lat_decimal": 64.50111,
+        "long_decimal": -165.40639
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762077600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1772967600000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1793527200000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1805022000000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1825581600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        }
+      ]
+    },
+    "America/Noronha": {
+      "comments": {
+        "en": "Atlantic islands"
+      },
+      "coords": {
+        "lat_decimal": -3.85,
+        "long_decimal": -32.41667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-02",
+        "offset_mins": -120
+      }
+    },
+    "America/North_Dakota/Beulah": {
+      "comments": {
+        "en": "Central - ND (Mercer)"
+      },
+      "coords": {
+        "lat_decimal": 47.26417,
+        "long_decimal": -101.77778
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/North_Dakota/Center": {
+      "comments": {
+        "en": "Central - ND (Oliver)"
+      },
+      "coords": {
+        "lat_decimal": 47.11639,
+        "long_decimal": -101.29917
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/North_Dakota/New_Salem": {
+      "comments": {
+        "en": "Central - ND (Morton rural)"
+      },
+      "coords": {
+        "lat_decimal": 46.845,
+        "long_decimal": -101.41083
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Nuuk": {
+      "comments": {
+        "en": "most of Greenland"
+      },
+      "coords": {
+        "lat_decimal": 64.18333,
+        "long_decimal": -51.73333
+      },
+      "country_code": "GL",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "-02",
+          "offset_mins": -120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "-01",
+          "offset_mins": -60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "-02",
+          "offset_mins": -120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "-01",
+          "offset_mins": -60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "-02",
+          "offset_mins": -120
+        }
+      ]
+    },
+    "America/Ojinaga": {
+      "comments": {
+        "en": "Chihuahua (US border - east)"
+      },
+      "coords": {
+        "lat_decimal": 29.56667,
+        "long_decimal": -104.41667
+      },
+      "country_code": "MX",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Panama": {
+      "coords": {
+        "lat_decimal": 8.96667,
+        "long_decimal": -79.53333
+      },
+      "country_code": "PA",
+      "fixed": {
+        "name": "EST",
+        "offset_mins": -300
+      }
+    },
+    "America/Pangnirtung": {
+      "alias_for": "America/Iqaluit"
+    },
+    "America/Paramaribo": {
+      "coords": {
+        "lat_decimal": 5.83333,
+        "long_decimal": -55.16667
+      },
+      "country_code": "SR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Phoenix": {
+      "comments": {
+        "en": "MST - AZ (except Navajo)"
+      },
+      "coords": {
+        "lat_decimal": 33.44833,
+        "long_decimal": -112.07333
+      },
+      "country_code": "US",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Port-au-Prince": {
+      "coords": {
+        "lat_decimal": 18.53333,
+        "long_decimal": -72.33333
+      },
+      "country_code": "HT",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Port_of_Spain": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 10.65,
+        "long_decimal": -61.51667
+      },
+      "country_code": "TT"
+    },
+    "America/Porto_Acre": {
+      "alias_for": "America/Rio_Branco"
+    },
+    "America/Porto_Velho": {
+      "comments": {
+        "en": "Rondonia"
+      },
+      "coords": {
+        "lat_decimal": -8.76667,
+        "long_decimal": -63.9
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "America/Puerto_Rico": {
+      "coords": {
+        "lat_decimal": 18.46833,
+        "long_decimal": -66.10611
+      },
+      "country_code": "PR",
+      "fixed": {
+        "name": "AST",
+        "offset_mins": -240
+      }
+    },
+    "America/Punta_Arenas": {
+      "comments": {
+        "en": "Magallanes Region"
+      },
+      "coords": {
+        "lat_decimal": -53.15,
+        "long_decimal": -70.91667
+      },
+      "country_code": "CL",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Rainy_River": {
+      "alias_for": "America/Winnipeg"
+    },
+    "America/Rankin_Inlet": {
+      "comments": {
+        "en": "Central - NU (central)"
+      },
+      "coords": {
+        "lat_decimal": 62.81667,
+        "long_decimal": -92.08306
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Recife": {
+      "comments": {
+        "en": "Pernambuco"
+      },
+      "coords": {
+        "lat_decimal": -8.05,
+        "long_decimal": -34.9
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Regina": {
+      "comments": {
+        "en": "CST - SK (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 50.4,
+        "long_decimal": -104.65
+      },
+      "country_code": "CA",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Resolute": {
+      "comments": {
+        "en": "Central - NU (Resolute)"
+      },
+      "coords": {
+        "lat_decimal": 74.69556,
+        "long_decimal": -94.82917
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Rio_Branco": {
+      "comments": {
+        "en": "Acre"
+      },
+      "coords": {
+        "lat_decimal": -9.96667,
+        "long_decimal": -67.8
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-05",
+        "offset_mins": -300
+      }
+    },
+    "America/Rosario": {
+      "alias_for": "America/Argentina/Cordoba"
+    },
+    "America/Santa_Isabel": {
+      "alias_for": "America/Tijuana"
+    },
+    "America/Santarem": {
+      "comments": {
+        "en": "Para (west)"
+      },
+      "coords": {
+        "lat_decimal": -2.43333,
+        "long_decimal": -54.86667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Santiago": {
+      "comments": {
+        "en": "most of Chile"
+      },
+      "coords": {
+        "lat_decimal": -33.45,
+        "long_decimal": -70.66667
+      },
+      "country_code": "CL",
+      "transitions": [
+        {
+          "epoch": 1757217600000,
+          "is_dst": true,
+          "name": "-03",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1775358000000,
+          "is_dst": false,
+          "name": "-04",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1788667200000,
+          "is_dst": true,
+          "name": "-03",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1806807600000,
+          "is_dst": false,
+          "name": "-04",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1820116800000,
+          "is_dst": true,
+          "name": "-03",
+          "offset_mins": -180
+        }
+      ]
+    },
+    "America/Santo_Domingo": {
+      "coords": {
+        "lat_decimal": 18.46667,
+        "long_decimal": -69.9
+      },
+      "country_code": "DO",
+      "fixed": {
+        "name": "AST",
+        "offset_mins": -240
+      }
+    },
+    "America/Sao_Paulo": {
+      "comments": {
+        "en": "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+      },
+      "coords": {
+        "lat_decimal": -23.53333,
+        "long_decimal": -46.61667
+      },
+      "country_code": "BR",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "America/Scoresbysund": {
+      "comments": {
+        "en": "Scoresbysund/Ittoqqortoormiit"
+      },
+      "coords": {
+        "lat_decimal": 70.48333,
+        "long_decimal": -21.96667
+      },
+      "country_code": "GL",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "-02",
+          "offset_mins": -120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "-01",
+          "offset_mins": -60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "-02",
+          "offset_mins": -120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "-01",
+          "offset_mins": -60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "-02",
+          "offset_mins": -120
+        }
+      ]
+    },
+    "America/Shiprock": {
+      "alias_for": "America/Denver"
+    },
+    "America/Sitka": {
+      "comments": {
+        "en": "Alaska - Sitka area"
+      },
+      "coords": {
+        "lat_decimal": 57.17639,
+        "long_decimal": -135.30194
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762077600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1772967600000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1793527200000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1805022000000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1825581600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        }
+      ]
+    },
+    "America/St_Barthelemy": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 17.88333,
+        "long_decimal": -62.85
+      },
+      "country_code": "BL"
+    },
+    "America/St_Johns": {
+      "comments": {
+        "en": "Newfoundland, Labrador (SE)"
+      },
+      "coords": {
+        "lat_decimal": 47.56667,
+        "long_decimal": -52.71667
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762057800000,
+          "is_dst": false,
+          "name": "NST",
+          "offset_mins": -210
+        },
+        {
+          "epoch": 1772947800000,
+          "is_dst": true,
+          "name": "NDT",
+          "offset_mins": -150
+        },
+        {
+          "epoch": 1793507400000,
+          "is_dst": false,
+          "name": "NST",
+          "offset_mins": -210
+        },
+        {
+          "epoch": 1805002200000,
+          "is_dst": true,
+          "name": "NDT",
+          "offset_mins": -150
+        },
+        {
+          "epoch": 1825561800000,
+          "is_dst": false,
+          "name": "NST",
+          "offset_mins": -210
+        }
+      ]
+    },
+    "America/St_Kitts": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 17.3,
+        "long_decimal": -62.71667
+      },
+      "country_code": "KN"
+    },
+    "America/St_Lucia": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 14.01667,
+        "long_decimal": -61.0
+      },
+      "country_code": "LC"
+    },
+    "America/St_Thomas": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 18.35,
+        "long_decimal": -64.93333
+      },
+      "country_code": "VI"
+    },
+    "America/St_Vincent": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 13.15,
+        "long_decimal": -61.23333
+      },
+      "country_code": "VC"
+    },
+    "America/Swift_Current": {
+      "comments": {
+        "en": "CST - SK (midwest)"
+      },
+      "coords": {
+        "lat_decimal": 50.28333,
+        "long_decimal": -107.83333
+      },
+      "country_code": "CA",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Tegucigalpa": {
+      "coords": {
+        "lat_decimal": 14.1,
+        "long_decimal": -87.21667
+      },
+      "country_code": "HN",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": -360
+      }
+    },
+    "America/Thule": {
+      "comments": {
+        "en": "Thule/Pituffik"
+      },
+      "coords": {
+        "lat_decimal": 76.56667,
+        "long_decimal": -68.78333
+      },
+      "country_code": "GL",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1772949600000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1805004000000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        }
+      ]
+    },
+    "America/Thunder_Bay": {
+      "alias_for": "America/Toronto"
+    },
+    "America/Tijuana": {
+      "comments": {
+        "en": "Baja California"
+      },
+      "coords": {
+        "lat_decimal": 32.53333,
+        "long_decimal": -117.01667
+      },
+      "country_code": "MX",
+      "transitions": [
+        {
+          "epoch": 1762074000000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1772964000000,
+          "is_dst": true,
+          "name": "PDT",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1793523600000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1805018400000,
+          "is_dst": true,
+          "name": "PDT",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1825578000000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        }
+      ]
+    },
+    "America/Toronto": {
+      "comments": {
+        "en": "Eastern - ON & QC (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 43.65,
+        "long_decimal": -79.38333
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762063200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1772953200000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1793512800000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1805007600000,
+          "is_dst": true,
+          "name": "EDT",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1825567200000,
+          "is_dst": false,
+          "name": "EST",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "America/Tortola": {
+      "alias_for": "America/Puerto_Rico",
+      "coords": {
+        "lat_decimal": 18.45,
+        "long_decimal": -64.61667
+      },
+      "country_code": "VG"
+    },
+    "America/Vancouver": {
+      "comments": {
+        "en": "Pacific - BC (most areas)"
+      },
+      "coords": {
+        "lat_decimal": 49.26667,
+        "long_decimal": -123.11667
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762074000000,
+          "is_dst": false,
+          "name": "PST",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1772964000000,
+          "is_dst": true,
+          "name": "PDT",
+          "offset_mins": -420
+        },
+        {
+          "epoch": 1793523600000,
+          "is_dst": false,
+          "name": "MST",
+          "offset_mins": -420
+        }
+      ]
+    },
+    "America/Virgin": {
+      "alias_for": "America/Puerto_Rico"
+    },
+    "America/Whitehorse": {
+      "comments": {
+        "en": "MST - Yukon (east)"
+      },
+      "coords": {
+        "lat_decimal": 60.71667,
+        "long_decimal": -135.05
+      },
+      "country_code": "CA",
+      "fixed": {
+        "name": "MST",
+        "offset_mins": -420
+      }
+    },
+    "America/Winnipeg": {
+      "comments": {
+        "en": "Central - ON (west), Manitoba"
+      },
+      "coords": {
+        "lat_decimal": 49.88333,
+        "long_decimal": -97.15
+      },
+      "country_code": "CA",
+      "transitions": [
+        {
+          "epoch": 1762066800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1772956800000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1793516400000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1805011200000,
+          "is_dst": true,
+          "name": "CDT",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1825570800000,
+          "is_dst": false,
+          "name": "CST",
+          "offset_mins": -360
+        }
+      ]
+    },
+    "America/Yakutat": {
+      "comments": {
+        "en": "Alaska - Yakutat"
+      },
+      "coords": {
+        "lat_decimal": 59.54694,
+        "long_decimal": -139.72722
+      },
+      "country_code": "US",
+      "transitions": [
+        {
+          "epoch": 1762077600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1772967600000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1793527200000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        },
+        {
+          "epoch": 1805022000000,
+          "is_dst": true,
+          "name": "AKDT",
+          "offset_mins": -480
+        },
+        {
+          "epoch": 1825581600000,
+          "is_dst": false,
+          "name": "AKST",
+          "offset_mins": -540
+        }
+      ]
+    },
+    "America/Yellowknife": {
+      "alias_for": "America/Edmonton"
+    },
+    "Antarctica/Casey": {
+      "comments": {
+        "en": "Casey"
+      },
+      "coords": {
+        "lat_decimal": -66.28333,
+        "long_decimal": 110.51667
+      },
+      "country_code": "AQ",
+      "fixed": {
+        "name": "+08",
+        "offset_mins": 480
+      }
+    },
+    "Antarctica/Davis": {
+      "comments": {
+        "en": "Davis"
+      },
+      "coords": {
+        "lat_decimal": -68.58333,
+        "long_decimal": 77.96667
+      },
+      "country_code": "AQ",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Antarctica/DumontDUrville": {
+      "alias_for": "Pacific/Port_Moresby",
+      "comments": {
+        "en": "Dumont-d'Urville"
+      },
+      "coords": {
+        "lat_decimal": -66.66667,
+        "long_decimal": 140.01667
+      },
+      "country_code": "AQ"
+    },
+    "Antarctica/Macquarie": {
+      "comments": {
+        "en": "Macquarie Island"
+      },
+      "coords": {
+        "lat_decimal": -54.5,
+        "long_decimal": 158.95
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759593600000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1775318400000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1791043200000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1806768000000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1822492800000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        }
+      ]
+    },
+    "Antarctica/Mawson": {
+      "comments": {
+        "en": "Mawson"
+      },
+      "coords": {
+        "lat_decimal": -67.6,
+        "long_decimal": 62.88333
+      },
+      "country_code": "AQ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Antarctica/McMurdo": {
+      "alias_for": "Pacific/Auckland",
+      "comments": {
+        "en": "New Zealand time - McMurdo, South Pole"
+      },
+      "coords": {
+        "lat_decimal": -77.83333,
+        "long_decimal": 166.6
+      },
+      "country_code": "AQ"
+    },
+    "Antarctica/Palmer": {
+      "comments": {
+        "en": "Palmer"
+      },
+      "coords": {
+        "lat_decimal": -64.8,
+        "long_decimal": -64.1
+      },
+      "country_code": "AQ",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "Antarctica/Rothera": {
+      "comments": {
+        "en": "Rothera"
+      },
+      "coords": {
+        "lat_decimal": -67.56667,
+        "long_decimal": -68.13333
+      },
+      "country_code": "AQ",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "Antarctica/South_Pole": {
+      "alias_for": "Pacific/Auckland"
+    },
+    "Antarctica/Syowa": {
+      "alias_for": "Asia/Riyadh",
+      "comments": {
+        "en": "Syowa"
+      },
+      "coords": {
+        "lat_decimal": -69.00611,
+        "long_decimal": 39.59
+      },
+      "country_code": "AQ"
+    },
+    "Antarctica/Troll": {
+      "comments": {
+        "en": "Troll"
+      },
+      "coords": {
+        "lat_decimal": -72.01139,
+        "long_decimal": 2.535
+      },
+      "country_code": "AQ",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "+02",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "+02",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "+00",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Antarctica/Vostok": {
+      "comments": {
+        "en": "Vostok"
+      },
+      "coords": {
+        "lat_decimal": -78.4,
+        "long_decimal": 106.9
+      },
+      "country_code": "AQ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Arctic/Longyearbyen": {
+      "alias_for": "Europe/Berlin",
+      "coords": {
+        "lat_decimal": 78.0,
+        "long_decimal": 16.0
+      },
+      "country_code": "SJ"
+    },
+    "Asia/Aden": {
+      "alias_for": "Asia/Riyadh",
+      "coords": {
+        "lat_decimal": 12.75,
+        "long_decimal": 45.2
+      },
+      "country_code": "YE"
+    },
+    "Asia/Almaty": {
+      "comments": {
+        "en": "most of Kazakhstan"
+      },
+      "coords": {
+        "lat_decimal": 43.25,
+        "long_decimal": 76.95
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Amman": {
+      "coords": {
+        "lat_decimal": 31.95,
+        "long_decimal": 35.93333
+      },
+      "country_code": "JO",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Asia/Anadyr": {
+      "comments": {
+        "en": "MSK+09 - Bering Sea"
+      },
+      "coords": {
+        "lat_decimal": 64.75,
+        "long_decimal": 177.48333
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Asia/Aqtau": {
+      "comments": {
+        "en": "Mangghystau/Mankistau"
+      },
+      "coords": {
+        "lat_decimal": 44.51667,
+        "long_decimal": 50.26667
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Aqtobe": {
+      "comments": {
+        "en": "Aqtobe/Aktobe"
+      },
+      "coords": {
+        "lat_decimal": 50.28333,
+        "long_decimal": 57.16667
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Ashgabat": {
+      "coords": {
+        "lat_decimal": 37.95,
+        "long_decimal": 58.38333
+      },
+      "country_code": "TM",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Ashkhabad": {
+      "alias_for": "Asia/Ashgabat"
+    },
+    "Asia/Atyrau": {
+      "comments": {
+        "en": "Atyrau/Atirau/Gur'yev"
+      },
+      "coords": {
+        "lat_decimal": 47.11667,
+        "long_decimal": 51.93333
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Baghdad": {
+      "coords": {
+        "lat_decimal": 33.35,
+        "long_decimal": 44.41667
+      },
+      "country_code": "IQ",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Asia/Bahrain": {
+      "alias_for": "Asia/Qatar",
+      "coords": {
+        "lat_decimal": 26.38333,
+        "long_decimal": 50.58333
+      },
+      "country_code": "BH"
+    },
+    "Asia/Baku": {
+      "coords": {
+        "lat_decimal": 40.38333,
+        "long_decimal": 49.85
+      },
+      "country_code": "AZ",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Asia/Bangkok": {
+      "coords": {
+        "lat_decimal": 13.75,
+        "long_decimal": 100.51667
+      },
+      "country_code": "TH",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Barnaul": {
+      "comments": {
+        "en": "MSK+04 - Altai"
+      },
+      "coords": {
+        "lat_decimal": 53.36667,
+        "long_decimal": 83.75
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Beirut": {
+      "coords": {
+        "lat_decimal": 33.88333,
+        "long_decimal": 35.5
+      },
+      "country_code": "LB",
+      "transitions": [
+        {
+          "epoch": 1761426000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774735200000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792875600000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806184800000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824930000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Asia/Bishkek": {
+      "coords": {
+        "lat_decimal": 42.9,
+        "long_decimal": 74.6
+      },
+      "country_code": "KG",
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Asia/Brunei": {
+      "alias_for": "Asia/Kuching",
+      "coords": {
+        "lat_decimal": 4.93333,
+        "long_decimal": 114.91667
+      },
+      "country_code": "BN"
+    },
+    "Asia/Calcutta": {
+      "alias_for": "Asia/Kolkata"
+    },
+    "Asia/Chita": {
+      "comments": {
+        "en": "MSK+06 - Zabaykalsky"
+      },
+      "coords": {
+        "lat_decimal": 52.05,
+        "long_decimal": 113.46667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+09",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Choibalsan": {
+      "alias_for": "Asia/Ulaanbaatar"
+    },
+    "Asia/Chongqing": {
+      "alias_for": "Asia/Shanghai"
+    },
+    "Asia/Chungking": {
+      "alias_for": "Asia/Shanghai"
+    },
+    "Asia/Colombo": {
+      "coords": {
+        "lat_decimal": 6.93333,
+        "long_decimal": 79.85
+      },
+      "country_code": "LK",
+      "fixed": {
+        "name": "+0530",
+        "offset_mins": 330
+      }
+    },
+    "Asia/Dacca": {
+      "alias_for": "Asia/Dhaka"
+    },
+    "Asia/Damascus": {
+      "coords": {
+        "lat_decimal": 33.5,
+        "long_decimal": 36.3
+      },
+      "country_code": "SY",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Asia/Dhaka": {
+      "coords": {
+        "lat_decimal": 23.71667,
+        "long_decimal": 90.41667
+      },
+      "country_code": "BD",
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Asia/Dili": {
+      "coords": {
+        "lat_decimal": -8.55,
+        "long_decimal": 125.58333
+      },
+      "country_code": "TL",
+      "fixed": {
+        "name": "+09",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Dubai": {
+      "coords": {
+        "lat_decimal": 25.3,
+        "long_decimal": 55.3
+      },
+      "country_code": "AE",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Asia/Dushanbe": {
+      "coords": {
+        "lat_decimal": 38.58333,
+        "long_decimal": 68.8
+      },
+      "country_code": "TJ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Famagusta": {
+      "comments": {
+        "en": "Northern Cyprus"
+      },
+      "coords": {
+        "lat_decimal": 35.11667,
+        "long_decimal": 33.95
+      },
+      "country_code": "CY",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Asia/Gaza": {
+      "comments": {
+        "en": "Gaza Strip"
+      },
+      "coords": {
+        "lat_decimal": 31.5,
+        "long_decimal": 34.46667
+      },
+      "country_code": "PS",
+      "transitions": [
+        {
+          "epoch": 1761346800000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774656000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792796400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806105600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824850800000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Asia/Harbin": {
+      "alias_for": "Asia/Shanghai"
+    },
+    "Asia/Hebron": {
+      "comments": {
+        "en": "West Bank"
+      },
+      "coords": {
+        "lat_decimal": 31.53333,
+        "long_decimal": 35.095
+      },
+      "country_code": "PS",
+      "transitions": [
+        {
+          "epoch": 1761346800000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774656000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792796400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806105600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824850800000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Asia/Ho_Chi_Minh": {
+      "coords": {
+        "lat_decimal": 10.75,
+        "long_decimal": 106.66667
+      },
+      "country_code": "VN",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Hong_Kong": {
+      "coords": {
+        "lat_decimal": 22.28333,
+        "long_decimal": 114.15
+      },
+      "country_code": "HK",
+      "fixed": {
+        "name": "HKT",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Hovd": {
+      "comments": {
+        "en": "Bayan-Olgii, Hovd, Uvs"
+      },
+      "coords": {
+        "lat_decimal": 48.01667,
+        "long_decimal": 91.65
+      },
+      "country_code": "MN",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Irkutsk": {
+      "comments": {
+        "en": "MSK+05 - Irkutsk, Buryatia"
+      },
+      "coords": {
+        "lat_decimal": 52.26667,
+        "long_decimal": 104.33333
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+08",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Istanbul": {
+      "alias_for": "Europe/Istanbul"
+    },
+    "Asia/Jakarta": {
+      "comments": {
+        "en": "Java, Sumatra"
+      },
+      "coords": {
+        "lat_decimal": -6.16667,
+        "long_decimal": 106.8
+      },
+      "country_code": "ID",
+      "fixed": {
+        "name": "WIB",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Jayapura": {
+      "comments": {
+        "en": "New Guinea (West Papua / Irian Jaya), Malukus/Moluccas"
+      },
+      "coords": {
+        "lat_decimal": -2.53333,
+        "long_decimal": 140.7
+      },
+      "country_code": "ID",
+      "fixed": {
+        "name": "WIT",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Jerusalem": {
+      "coords": {
+        "lat_decimal": 31.78056,
+        "long_decimal": 35.22389
+      },
+      "country_code": "IL",
+      "transitions": [
+        {
+          "epoch": 1761433200000,
+          "is_dst": false,
+          "name": "IST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774569600000,
+          "is_dst": true,
+          "name": "IDT",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792882800000,
+          "is_dst": false,
+          "name": "IST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806019200000,
+          "is_dst": true,
+          "name": "IDT",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824937200000,
+          "is_dst": false,
+          "name": "IST",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Asia/Kabul": {
+      "coords": {
+        "lat_decimal": 34.51667,
+        "long_decimal": 69.2
+      },
+      "country_code": "AF",
+      "fixed": {
+        "name": "+0430",
+        "offset_mins": 270
+      }
+    },
+    "Asia/Kamchatka": {
+      "comments": {
+        "en": "MSK+09 - Kamchatka"
+      },
+      "coords": {
+        "lat_decimal": 53.01667,
+        "long_decimal": 158.65
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Asia/Karachi": {
+      "coords": {
+        "lat_decimal": 24.86667,
+        "long_decimal": 67.05
+      },
+      "country_code": "PK",
+      "fixed": {
+        "name": "PKT",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Kashgar": {
+      "alias_for": "Asia/Urumqi"
+    },
+    "Asia/Kathmandu": {
+      "coords": {
+        "lat_decimal": 27.71667,
+        "long_decimal": 85.31667
+      },
+      "country_code": "NP",
+      "fixed": {
+        "name": "+0545",
+        "offset_mins": 345
+      }
+    },
+    "Asia/Katmandu": {
+      "alias_for": "Asia/Kathmandu"
+    },
+    "Asia/Khandyga": {
+      "comments": {
+        "en": "MSK+06 - Tomponsky, Ust-Maysky"
+      },
+      "coords": {
+        "lat_decimal": 62.65639,
+        "long_decimal": 135.55389
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+09",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Kolkata": {
+      "coords": {
+        "lat_decimal": 22.53333,
+        "long_decimal": 88.36667
+      },
+      "country_code": "IN",
+      "fixed": {
+        "name": "IST",
+        "offset_mins": 330
+      }
+    },
+    "Asia/Krasnoyarsk": {
+      "comments": {
+        "en": "MSK+04 - Krasnoyarsk area"
+      },
+      "coords": {
+        "lat_decimal": 56.01667,
+        "long_decimal": 92.83333
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Kuala_Lumpur": {
+      "alias_for": "Asia/Singapore",
+      "comments": {
+        "en": "Malaysia (peninsula)"
+      },
+      "coords": {
+        "lat_decimal": 3.16667,
+        "long_decimal": 101.7
+      },
+      "country_code": "MY"
+    },
+    "Asia/Kuching": {
+      "comments": {
+        "en": "Sabah, Sarawak"
+      },
+      "coords": {
+        "lat_decimal": 1.55,
+        "long_decimal": 110.33333
+      },
+      "country_code": "MY",
+      "fixed": {
+        "name": "+08",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Kuwait": {
+      "alias_for": "Asia/Riyadh",
+      "coords": {
+        "lat_decimal": 29.33333,
+        "long_decimal": 47.98333
+      },
+      "country_code": "KW"
+    },
+    "Asia/Macao": {
+      "alias_for": "Asia/Macau"
+    },
+    "Asia/Macau": {
+      "coords": {
+        "lat_decimal": 22.19722,
+        "long_decimal": 113.54167
+      },
+      "country_code": "MO",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Magadan": {
+      "comments": {
+        "en": "MSK+08 - Magadan"
+      },
+      "coords": {
+        "lat_decimal": 59.56667,
+        "long_decimal": 150.8
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Asia/Makassar": {
+      "comments": {
+        "en": "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)"
+      },
+      "coords": {
+        "lat_decimal": -5.11667,
+        "long_decimal": 119.4
+      },
+      "country_code": "ID",
+      "fixed": {
+        "name": "WITA",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Manila": {
+      "coords": {
+        "lat_decimal": 14.58667,
+        "long_decimal": 120.96778
+      },
+      "country_code": "PH",
+      "fixed": {
+        "name": "PST",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Muscat": {
+      "alias_for": "Asia/Dubai",
+      "coords": {
+        "lat_decimal": 23.6,
+        "long_decimal": 58.58333
+      },
+      "country_code": "OM"
+    },
+    "Asia/Nicosia": {
+      "comments": {
+        "en": "most of Cyprus"
+      },
+      "coords": {
+        "lat_decimal": 35.16667,
+        "long_decimal": 33.36667
+      },
+      "country_code": "CY",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Asia/Novokuznetsk": {
+      "comments": {
+        "en": "MSK+04 - Kemerovo"
+      },
+      "coords": {
+        "lat_decimal": 53.75,
+        "long_decimal": 87.11667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Novosibirsk": {
+      "comments": {
+        "en": "MSK+04 - Novosibirsk"
+      },
+      "coords": {
+        "lat_decimal": 55.03333,
+        "long_decimal": 82.91667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Omsk": {
+      "comments": {
+        "en": "MSK+03 - Omsk"
+      },
+      "coords": {
+        "lat_decimal": 55.0,
+        "long_decimal": 73.4
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Asia/Oral": {
+      "comments": {
+        "en": "West Kazakhstan"
+      },
+      "coords": {
+        "lat_decimal": 51.21667,
+        "long_decimal": 51.35
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Phnom_Penh": {
+      "alias_for": "Asia/Bangkok",
+      "coords": {
+        "lat_decimal": 11.55,
+        "long_decimal": 104.91667
+      },
+      "country_code": "KH"
+    },
+    "Asia/Pontianak": {
+      "comments": {
+        "en": "Borneo (west, central)"
+      },
+      "coords": {
+        "lat_decimal": -0.03333,
+        "long_decimal": 109.33333
+      },
+      "country_code": "ID",
+      "fixed": {
+        "name": "WIB",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Pyongyang": {
+      "coords": {
+        "lat_decimal": 39.01667,
+        "long_decimal": 125.75
+      },
+      "country_code": "KP",
+      "fixed": {
+        "name": "KST",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Qatar": {
+      "coords": {
+        "lat_decimal": 25.28333,
+        "long_decimal": 51.53333
+      },
+      "country_code": "QA",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Asia/Qostanay": {
+      "comments": {
+        "en": "Qostanay/Kostanay/Kustanay"
+      },
+      "coords": {
+        "lat_decimal": 53.2,
+        "long_decimal": 63.61667
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Qyzylorda": {
+      "comments": {
+        "en": "Qyzylorda/Kyzylorda/Kzyl-Orda"
+      },
+      "coords": {
+        "lat_decimal": 44.8,
+        "long_decimal": 65.46667
+      },
+      "country_code": "KZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Rangoon": {
+      "alias_for": "Asia/Yangon"
+    },
+    "Asia/Riyadh": {
+      "coords": {
+        "lat_decimal": 24.63333,
+        "long_decimal": 46.71667
+      },
+      "country_code": "SA",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Asia/Saigon": {
+      "alias_for": "Asia/Ho_Chi_Minh"
+    },
+    "Asia/Sakhalin": {
+      "comments": {
+        "en": "MSK+08 - Sakhalin Island"
+      },
+      "coords": {
+        "lat_decimal": 46.96667,
+        "long_decimal": 142.7
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Asia/Samarkand": {
+      "comments": {
+        "en": "Uzbekistan (west)"
+      },
+      "coords": {
+        "lat_decimal": 39.66667,
+        "long_decimal": 66.8
+      },
+      "country_code": "UZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Seoul": {
+      "coords": {
+        "lat_decimal": 37.55,
+        "long_decimal": 126.96667
+      },
+      "country_code": "KR",
+      "fixed": {
+        "name": "KST",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Shanghai": {
+      "comments": {
+        "en": "Beijing Time"
+      },
+      "coords": {
+        "lat_decimal": 31.23333,
+        "long_decimal": 121.46667
+      },
+      "country_code": "CN",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Singapore": {
+      "coords": {
+        "lat_decimal": 1.28333,
+        "long_decimal": 103.85
+      },
+      "country_code": "SG",
+      "fixed": {
+        "name": "+08",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Srednekolymsk": {
+      "comments": {
+        "en": "MSK+08 - Sakha (E), N Kuril Is"
+      },
+      "coords": {
+        "lat_decimal": 67.46667,
+        "long_decimal": 153.71667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Asia/Taipei": {
+      "coords": {
+        "lat_decimal": 25.05,
+        "long_decimal": 121.5
+      },
+      "country_code": "TW",
+      "fixed": {
+        "name": "CST",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Tashkent": {
+      "comments": {
+        "en": "Uzbekistan (east)"
+      },
+      "coords": {
+        "lat_decimal": 41.33333,
+        "long_decimal": 69.3
+      },
+      "country_code": "UZ",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Tbilisi": {
+      "coords": {
+        "lat_decimal": 41.71667,
+        "long_decimal": 44.81667
+      },
+      "country_code": "GE",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Asia/Tehran": {
+      "coords": {
+        "lat_decimal": 35.66667,
+        "long_decimal": 51.43333
+      },
+      "country_code": "IR",
+      "fixed": {
+        "name": "+0330",
+        "offset_mins": 210
+      }
+    },
+    "Asia/Tel_Aviv": {
+      "alias_for": "Asia/Jerusalem"
+    },
+    "Asia/Thimbu": {
+      "alias_for": "Asia/Thimphu"
+    },
+    "Asia/Thimphu": {
+      "coords": {
+        "lat_decimal": 27.46667,
+        "long_decimal": 89.65
+      },
+      "country_code": "BT",
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Asia/Tokyo": {
+      "coords": {
+        "lat_decimal": 35.65444,
+        "long_decimal": 139.74472
+      },
+      "country_code": "JP",
+      "fixed": {
+        "name": "JST",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Tomsk": {
+      "comments": {
+        "en": "MSK+04 - Tomsk"
+      },
+      "coords": {
+        "lat_decimal": 56.5,
+        "long_decimal": 84.96667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Asia/Ujung_Pandang": {
+      "alias_for": "Asia/Makassar"
+    },
+    "Asia/Ulaanbaatar": {
+      "comments": {
+        "en": "most of Mongolia"
+      },
+      "coords": {
+        "lat_decimal": 47.91667,
+        "long_decimal": 106.88333
+      },
+      "country_code": "MN",
+      "fixed": {
+        "name": "+08",
+        "offset_mins": 480
+      }
+    },
+    "Asia/Ulan_Bator": {
+      "alias_for": "Asia/Ulaanbaatar"
+    },
+    "Asia/Urumqi": {
+      "comments": {
+        "en": "Xinjiang Time"
+      },
+      "coords": {
+        "lat_decimal": 43.8,
+        "long_decimal": 87.58333
+      },
+      "country_code": "CN",
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Asia/Ust-Nera": {
+      "comments": {
+        "en": "MSK+07 - Oymyakonsky"
+      },
+      "coords": {
+        "lat_decimal": 64.56028,
+        "long_decimal": 143.22667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+10",
+        "offset_mins": 600
+      }
+    },
+    "Asia/Vientiane": {
+      "alias_for": "Asia/Bangkok",
+      "coords": {
+        "lat_decimal": 17.96667,
+        "long_decimal": 102.6
+      },
+      "country_code": "LA"
+    },
+    "Asia/Vladivostok": {
+      "comments": {
+        "en": "MSK+07 - Amur River"
+      },
+      "coords": {
+        "lat_decimal": 43.16667,
+        "long_decimal": 131.93333
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+10",
+        "offset_mins": 600
+      }
+    },
+    "Asia/Yakutsk": {
+      "comments": {
+        "en": "MSK+06 - Lena River"
+      },
+      "coords": {
+        "lat_decimal": 62.0,
+        "long_decimal": 129.66667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+09",
+        "offset_mins": 540
+      }
+    },
+    "Asia/Yangon": {
+      "coords": {
+        "lat_decimal": 16.78333,
+        "long_decimal": 96.16667
+      },
+      "country_code": "MM",
+      "fixed": {
+        "name": "+0630",
+        "offset_mins": 390
+      }
+    },
+    "Asia/Yekaterinburg": {
+      "comments": {
+        "en": "MSK+02 - Urals"
+      },
+      "coords": {
+        "lat_decimal": 56.85,
+        "long_decimal": 60.6
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Asia/Yerevan": {
+      "coords": {
+        "lat_decimal": 40.18333,
+        "long_decimal": 44.5
+      },
+      "country_code": "AM",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Atlantic/Azores": {
+      "comments": {
+        "en": "Azores"
+      },
+      "coords": {
+        "lat_decimal": 37.73333,
+        "long_decimal": -25.66667
+      },
+      "country_code": "PT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "-01",
+          "offset_mins": -60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "-01",
+          "offset_mins": -60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "+00",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "-01",
+          "offset_mins": -60
+        }
+      ]
+    },
+    "Atlantic/Bermuda": {
+      "coords": {
+        "lat_decimal": 32.28333,
+        "long_decimal": -64.76667
+      },
+      "country_code": "BM",
+      "transitions": [
+        {
+          "epoch": 1762059600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1772949600000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1793509200000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        },
+        {
+          "epoch": 1805004000000,
+          "is_dst": true,
+          "name": "ADT",
+          "offset_mins": -180
+        },
+        {
+          "epoch": 1825563600000,
+          "is_dst": false,
+          "name": "AST",
+          "offset_mins": -240
+        }
+      ]
+    },
+    "Atlantic/Canary": {
+      "comments": {
+        "en": "Canary Islands"
+      },
+      "coords": {
+        "lat_decimal": 28.1,
+        "long_decimal": -15.4
+      },
+      "country_code": "ES",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Atlantic/Cape_Verde": {
+      "coords": {
+        "lat_decimal": 14.91667,
+        "long_decimal": -23.51667
+      },
+      "country_code": "CV",
+      "fixed": {
+        "name": "-01",
+        "offset_mins": -60
+      }
+    },
+    "Atlantic/Faeroe": {
+      "alias_for": "Atlantic/Faroe"
+    },
+    "Atlantic/Faroe": {
+      "coords": {
+        "lat_decimal": 62.01667,
+        "long_decimal": -6.76667
+      },
+      "country_code": "FO",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Atlantic/Jan_Mayen": {
+      "alias_for": "Europe/Berlin"
+    },
+    "Atlantic/Madeira": {
+      "comments": {
+        "en": "Madeira Islands"
+      },
+      "coords": {
+        "lat_decimal": 32.63333,
+        "long_decimal": -16.9
+      },
+      "country_code": "PT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Atlantic/Reykjavik": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": 64.15,
+        "long_decimal": -21.85
+      },
+      "country_code": "IS"
+    },
+    "Atlantic/South_Georgia": {
+      "coords": {
+        "lat_decimal": -54.26667,
+        "long_decimal": -36.53333
+      },
+      "country_code": "GS",
+      "fixed": {
+        "name": "-02",
+        "offset_mins": -120
+      }
+    },
+    "Atlantic/St_Helena": {
+      "alias_for": "Africa/Abidjan",
+      "coords": {
+        "lat_decimal": -15.91667,
+        "long_decimal": -5.7
+      },
+      "country_code": "SH"
+    },
+    "Atlantic/Stanley": {
+      "coords": {
+        "lat_decimal": -51.7,
+        "long_decimal": -57.85
+      },
+      "country_code": "FK",
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "Australia/ACT": {
+      "alias_for": "Australia/Sydney"
+    },
+    "Australia/Adelaide": {
+      "comments": {
+        "en": "South Australia"
+      },
+      "coords": {
+        "lat_decimal": -34.91667,
+        "long_decimal": 138.58333
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759595400000,
+          "is_dst": true,
+          "name": "ACDT",
+          "offset_mins": 630
+        },
+        {
+          "epoch": 1775320200000,
+          "is_dst": false,
+          "name": "ACST",
+          "offset_mins": 570
+        },
+        {
+          "epoch": 1791045000000,
+          "is_dst": true,
+          "name": "ACDT",
+          "offset_mins": 630
+        },
+        {
+          "epoch": 1806769800000,
+          "is_dst": false,
+          "name": "ACST",
+          "offset_mins": 570
+        },
+        {
+          "epoch": 1822494600000,
+          "is_dst": true,
+          "name": "ACDT",
+          "offset_mins": 630
+        }
+      ]
+    },
+    "Australia/Brisbane": {
+      "comments": {
+        "en": "Queensland (most areas)"
+      },
+      "coords": {
+        "lat_decimal": -27.46667,
+        "long_decimal": 153.03333
+      },
+      "country_code": "AU",
+      "fixed": {
+        "name": "AEST",
+        "offset_mins": 600
+      }
+    },
+    "Australia/Broken_Hill": {
+      "comments": {
+        "en": "New South Wales (Yancowinna)"
+      },
+      "coords": {
+        "lat_decimal": -31.95,
+        "long_decimal": 141.45
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759595400000,
+          "is_dst": true,
+          "name": "ACDT",
+          "offset_mins": 630
+        },
+        {
+          "epoch": 1775320200000,
+          "is_dst": false,
+          "name": "ACST",
+          "offset_mins": 570
+        },
+        {
+          "epoch": 1791045000000,
+          "is_dst": true,
+          "name": "ACDT",
+          "offset_mins": 630
+        },
+        {
+          "epoch": 1806769800000,
+          "is_dst": false,
+          "name": "ACST",
+          "offset_mins": 570
+        },
+        {
+          "epoch": 1822494600000,
+          "is_dst": true,
+          "name": "ACDT",
+          "offset_mins": 630
+        }
+      ]
+    },
+    "Australia/Canberra": {
+      "alias_for": "Australia/Sydney"
+    },
+    "Australia/Currie": {
+      "alias_for": "Australia/Hobart"
+    },
+    "Australia/Darwin": {
+      "comments": {
+        "en": "Northern Territory"
+      },
+      "coords": {
+        "lat_decimal": -12.46667,
+        "long_decimal": 130.83333
+      },
+      "country_code": "AU",
+      "fixed": {
+        "name": "ACST",
+        "offset_mins": 570
+      }
+    },
+    "Australia/Eucla": {
+      "comments": {
+        "en": "Western Australia (Eucla)"
+      },
+      "coords": {
+        "lat_decimal": -31.71667,
+        "long_decimal": 128.86667
+      },
+      "country_code": "AU",
+      "fixed": {
+        "name": "+0845",
+        "offset_mins": 525
+      }
+    },
+    "Australia/Hobart": {
+      "comments": {
+        "en": "Tasmania"
+      },
+      "coords": {
+        "lat_decimal": -42.88333,
+        "long_decimal": 147.31667
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759593600000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1775318400000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1791043200000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1806768000000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1822492800000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        }
+      ]
+    },
+    "Australia/LHI": {
+      "alias_for": "Australia/Lord_Howe"
+    },
+    "Australia/Lindeman": {
+      "comments": {
+        "en": "Queensland (Whitsunday Islands)"
+      },
+      "coords": {
+        "lat_decimal": -20.26667,
+        "long_decimal": 149.0
+      },
+      "country_code": "AU",
+      "fixed": {
+        "name": "AEST",
+        "offset_mins": 600
+      }
+    },
+    "Australia/Lord_Howe": {
+      "comments": {
+        "en": "Lord Howe Island"
+      },
+      "coords": {
+        "lat_decimal": -31.55,
+        "long_decimal": 159.08333
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759591800000,
+          "is_dst": true,
+          "name": "+11",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1775314800000,
+          "is_dst": false,
+          "name": "+1030",
+          "offset_mins": 630
+        },
+        {
+          "epoch": 1791041400000,
+          "is_dst": true,
+          "name": "+11",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1806764400000,
+          "is_dst": false,
+          "name": "+1030",
+          "offset_mins": 630
+        },
+        {
+          "epoch": 1822491000000,
+          "is_dst": true,
+          "name": "+11",
+          "offset_mins": 660
+        }
+      ]
+    },
+    "Australia/Melbourne": {
+      "comments": {
+        "en": "Victoria"
+      },
+      "coords": {
+        "lat_decimal": -37.81667,
+        "long_decimal": 144.96667
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759593600000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1775318400000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1791043200000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1806768000000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1822492800000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        }
+      ]
+    },
+    "Australia/NSW": {
+      "alias_for": "Australia/Sydney"
+    },
+    "Australia/North": {
+      "alias_for": "Australia/Darwin"
+    },
+    "Australia/Perth": {
+      "comments": {
+        "en": "Western Australia (most areas)"
+      },
+      "coords": {
+        "lat_decimal": -31.95,
+        "long_decimal": 115.85
+      },
+      "country_code": "AU",
+      "fixed": {
+        "name": "AWST",
+        "offset_mins": 480
+      }
+    },
+    "Australia/Queensland": {
+      "alias_for": "Australia/Brisbane"
+    },
+    "Australia/South": {
+      "alias_for": "Australia/Adelaide"
+    },
+    "Australia/Sydney": {
+      "comments": {
+        "en": "New South Wales (most areas)"
+      },
+      "coords": {
+        "lat_decimal": -33.86667,
+        "long_decimal": 151.21667
+      },
+      "country_code": "AU",
+      "transitions": [
+        {
+          "epoch": 1759593600000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1775318400000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1791043200000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1806768000000,
+          "is_dst": false,
+          "name": "AEST",
+          "offset_mins": 600
+        },
+        {
+          "epoch": 1822492800000,
+          "is_dst": true,
+          "name": "AEDT",
+          "offset_mins": 660
+        }
+      ]
+    },
+    "Australia/Tasmania": {
+      "alias_for": "Australia/Hobart"
+    },
+    "Australia/Victoria": {
+      "alias_for": "Australia/Melbourne"
+    },
+    "Australia/West": {
+      "alias_for": "Australia/Perth"
+    },
+    "Australia/Yancowinna": {
+      "alias_for": "Australia/Broken_Hill"
+    },
+    "Brazil/Acre": {
+      "alias_for": "America/Rio_Branco"
+    },
+    "Brazil/DeNoronha": {
+      "alias_for": "America/Noronha"
+    },
+    "Brazil/East": {
+      "alias_for": "America/Sao_Paulo"
+    },
+    "Brazil/West": {
+      "alias_for": "America/Manaus"
+    },
+    "CET": {
+      "alias_for": "Europe/Brussels"
+    },
+    "CST6CDT": {
+      "alias_for": "America/Chicago"
+    },
+    "Canada/Atlantic": {
+      "alias_for": "America/Halifax"
+    },
+    "Canada/Central": {
+      "alias_for": "America/Winnipeg"
+    },
+    "Canada/Eastern": {
+      "alias_for": "America/Toronto"
+    },
+    "Canada/Mountain": {
+      "alias_for": "America/Edmonton"
+    },
+    "Canada/Newfoundland": {
+      "alias_for": "America/St_Johns"
+    },
+    "Canada/Pacific": {
+      "alias_for": "America/Vancouver"
+    },
+    "Canada/Saskatchewan": {
+      "alias_for": "America/Regina"
+    },
+    "Canada/Yukon": {
+      "alias_for": "America/Whitehorse"
+    },
+    "Chile/Continental": {
+      "alias_for": "America/Santiago"
+    },
+    "Chile/EasterIsland": {
+      "alias_for": "Pacific/Easter"
+    },
+    "Cuba": {
+      "alias_for": "America/Havana"
+    },
+    "EET": {
+      "alias_for": "Europe/Athens"
+    },
+    "EST": {
+      "alias_for": "America/Panama"
+    },
+    "EST5EDT": {
+      "alias_for": "America/New_York"
+    },
+    "Egypt": {
+      "alias_for": "Africa/Cairo"
+    },
+    "Eire": {
+      "alias_for": "Europe/Dublin"
+    },
+    "Etc/GMT": {
+      "fixed": {
+        "name": "GMT",
+        "offset_mins": 0
+      }
+    },
+    "Etc/GMT+0": {
+      "alias_for": "Etc/GMT"
+    },
+    "Etc/GMT+1": {
+      "fixed": {
+        "name": "-01",
+        "offset_mins": -60
+      }
+    },
+    "Etc/GMT+10": {
+      "fixed": {
+        "name": "-10",
+        "offset_mins": -600
+      }
+    },
+    "Etc/GMT+11": {
+      "fixed": {
+        "name": "-11",
+        "offset_mins": -660
+      }
+    },
+    "Etc/GMT+12": {
+      "fixed": {
+        "name": "-12",
+        "offset_mins": -720
+      }
+    },
+    "Etc/GMT+2": {
+      "fixed": {
+        "name": "-02",
+        "offset_mins": -120
+      }
+    },
+    "Etc/GMT+3": {
+      "fixed": {
+        "name": "-03",
+        "offset_mins": -180
+      }
+    },
+    "Etc/GMT+4": {
+      "fixed": {
+        "name": "-04",
+        "offset_mins": -240
+      }
+    },
+    "Etc/GMT+5": {
+      "fixed": {
+        "name": "-05",
+        "offset_mins": -300
+      }
+    },
+    "Etc/GMT+6": {
+      "fixed": {
+        "name": "-06",
+        "offset_mins": -360
+      }
+    },
+    "Etc/GMT+7": {
+      "fixed": {
+        "name": "-07",
+        "offset_mins": -420
+      }
+    },
+    "Etc/GMT+8": {
+      "fixed": {
+        "name": "-08",
+        "offset_mins": -480
+      }
+    },
+    "Etc/GMT+9": {
+      "fixed": {
+        "name": "-09",
+        "offset_mins": -540
+      }
+    },
+    "Etc/GMT-0": {
+      "alias_for": "Etc/GMT"
+    },
+    "Etc/GMT-1": {
+      "fixed": {
+        "name": "+01",
+        "offset_mins": 60
+      }
+    },
+    "Etc/GMT-10": {
+      "fixed": {
+        "name": "+10",
+        "offset_mins": 600
+      }
+    },
+    "Etc/GMT-11": {
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Etc/GMT-12": {
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Etc/GMT-13": {
+      "fixed": {
+        "name": "+13",
+        "offset_mins": 780
+      }
+    },
+    "Etc/GMT-14": {
+      "fixed": {
+        "name": "+14",
+        "offset_mins": 840
+      }
+    },
+    "Etc/GMT-2": {
+      "fixed": {
+        "name": "+02",
+        "offset_mins": 120
+      }
+    },
+    "Etc/GMT-3": {
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Etc/GMT-4": {
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Etc/GMT-5": {
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Etc/GMT-6": {
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Etc/GMT-7": {
+      "fixed": {
+        "name": "+07",
+        "offset_mins": 420
+      }
+    },
+    "Etc/GMT-8": {
+      "fixed": {
+        "name": "+08",
+        "offset_mins": 480
+      }
+    },
+    "Etc/GMT-9": {
+      "fixed": {
+        "name": "+09",
+        "offset_mins": 540
+      }
+    },
+    "Etc/GMT0": {
+      "alias_for": "Etc/GMT"
+    },
+    "Etc/Greenwich": {
+      "alias_for": "Etc/GMT"
+    },
+    "Etc/UCT": {
+      "alias_for": "Etc/UTC"
+    },
+    "Etc/UTC": {
+      "fixed": {
+        "name": "UTC",
+        "offset_mins": 0
+      }
+    },
+    "Etc/Universal": {
+      "alias_for": "Etc/UTC"
+    },
+    "Etc/Zulu": {
+      "alias_for": "Etc/UTC"
+    },
+    "Europe/Amsterdam": {
+      "alias_for": "Europe/Brussels",
+      "coords": {
+        "lat_decimal": 52.36667,
+        "long_decimal": 4.9
+      },
+      "country_code": "NL"
+    },
+    "Europe/Andorra": {
+      "coords": {
+        "lat_decimal": 42.5,
+        "long_decimal": 1.51667
+      },
+      "country_code": "AD",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Astrakhan": {
+      "comments": {
+        "en": "MSK+01 - Astrakhan"
+      },
+      "coords": {
+        "lat_decimal": 46.35,
+        "long_decimal": 48.05
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Europe/Athens": {
+      "coords": {
+        "lat_decimal": 37.96667,
+        "long_decimal": 23.71667
+      },
+      "country_code": "GR",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Belfast": {
+      "alias_for": "Europe/London"
+    },
+    "Europe/Belgrade": {
+      "coords": {
+        "lat_decimal": 44.83333,
+        "long_decimal": 20.5
+      },
+      "country_code": "RS",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Berlin": {
+      "comments": {
+        "en": "most of Germany"
+      },
+      "coords": {
+        "lat_decimal": 52.5,
+        "long_decimal": 13.36667
+      },
+      "country_code": "DE",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Bratislava": {
+      "alias_for": "Europe/Prague",
+      "coords": {
+        "lat_decimal": 48.15,
+        "long_decimal": 17.11667
+      },
+      "country_code": "SK"
+    },
+    "Europe/Brussels": {
+      "coords": {
+        "lat_decimal": 50.83333,
+        "long_decimal": 4.33333
+      },
+      "country_code": "BE",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Bucharest": {
+      "coords": {
+        "lat_decimal": 44.43333,
+        "long_decimal": 26.1
+      },
+      "country_code": "RO",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Budapest": {
+      "coords": {
+        "lat_decimal": 47.5,
+        "long_decimal": 19.08333
+      },
+      "country_code": "HU",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Busingen": {
+      "alias_for": "Europe/Zurich",
+      "comments": {
+        "en": "Busingen"
+      },
+      "coords": {
+        "lat_decimal": 47.7,
+        "long_decimal": 8.68333
+      },
+      "country_code": "DE"
+    },
+    "Europe/Chisinau": {
+      "coords": {
+        "lat_decimal": 47.0,
+        "long_decimal": 28.83333
+      },
+      "country_code": "MD",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Copenhagen": {
+      "alias_for": "Europe/Berlin",
+      "coords": {
+        "lat_decimal": 55.66667,
+        "long_decimal": 12.58333
+      },
+      "country_code": "DK"
+    },
+    "Europe/Dublin": {
+      "coords": {
+        "lat_decimal": 53.33333,
+        "long_decimal": -6.25
+      },
+      "country_code": "IE",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": true,
+          "name": "GMT",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": false,
+          "name": "IST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": true,
+          "name": "GMT",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": false,
+          "name": "IST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": true,
+          "name": "GMT",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Europe/Gibraltar": {
+      "coords": {
+        "lat_decimal": 36.13333,
+        "long_decimal": -5.35
+      },
+      "country_code": "GI",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Guernsey": {
+      "alias_for": "Europe/London",
+      "coords": {
+        "lat_decimal": 49.45472,
+        "long_decimal": -2.53611
+      },
+      "country_code": "GG"
+    },
+    "Europe/Helsinki": {
+      "coords": {
+        "lat_decimal": 60.16667,
+        "long_decimal": 24.96667
+      },
+      "country_code": "FI",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Isle_of_Man": {
+      "alias_for": "Europe/London",
+      "coords": {
+        "lat_decimal": 54.15,
+        "long_decimal": -4.46667
+      },
+      "country_code": "IM"
+    },
+    "Europe/Istanbul": {
+      "coords": {
+        "lat_decimal": 41.01667,
+        "long_decimal": 28.96667
+      },
+      "country_code": "TR",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Europe/Jersey": {
+      "alias_for": "Europe/London",
+      "coords": {
+        "lat_decimal": 49.18361,
+        "long_decimal": -2.10667
+      },
+      "country_code": "JE"
+    },
+    "Europe/Kaliningrad": {
+      "comments": {
+        "en": "MSK-01 - Kaliningrad"
+      },
+      "coords": {
+        "lat_decimal": 54.71667,
+        "long_decimal": 20.5
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "EET",
+        "offset_mins": 120
+      }
+    },
+    "Europe/Kiev": {
+      "alias_for": "Europe/Kyiv"
+    },
+    "Europe/Kirov": {
+      "comments": {
+        "en": "MSK+00 - Kirov"
+      },
+      "coords": {
+        "lat_decimal": 58.6,
+        "long_decimal": 49.65
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "MSK",
+        "offset_mins": 180
+      }
+    },
+    "Europe/Kyiv": {
+      "comments": {
+        "en": "most of Ukraine"
+      },
+      "coords": {
+        "lat_decimal": 50.43333,
+        "long_decimal": 30.51667
+      },
+      "country_code": "UA",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Lisbon": {
+      "comments": {
+        "en": "Portugal (mainland)"
+      },
+      "coords": {
+        "lat_decimal": 38.71667,
+        "long_decimal": -9.13333
+      },
+      "country_code": "PT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "WEST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "WET",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Europe/Ljubljana": {
+      "alias_for": "Europe/Belgrade",
+      "coords": {
+        "lat_decimal": 46.05,
+        "long_decimal": 14.51667
+      },
+      "country_code": "SI"
+    },
+    "Europe/London": {
+      "coords": {
+        "lat_decimal": 51.50833,
+        "long_decimal": -0.12528
+      },
+      "country_code": "GB",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "GMT",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "BST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "GMT",
+          "offset_mins": 0
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "BST",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "GMT",
+          "offset_mins": 0
+        }
+      ]
+    },
+    "Europe/Luxembourg": {
+      "alias_for": "Europe/Brussels",
+      "coords": {
+        "lat_decimal": 49.6,
+        "long_decimal": 6.15
+      },
+      "country_code": "LU"
+    },
+    "Europe/Madrid": {
+      "comments": {
+        "en": "Spain (mainland)"
+      },
+      "coords": {
+        "lat_decimal": 40.4,
+        "long_decimal": -3.68333
+      },
+      "country_code": "ES",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Malta": {
+      "coords": {
+        "lat_decimal": 35.9,
+        "long_decimal": 14.51667
+      },
+      "country_code": "MT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Mariehamn": {
+      "alias_for": "Europe/Helsinki",
+      "coords": {
+        "lat_decimal": 60.1,
+        "long_decimal": 19.95
+      },
+      "country_code": "AX"
+    },
+    "Europe/Minsk": {
+      "coords": {
+        "lat_decimal": 53.9,
+        "long_decimal": 27.56667
+      },
+      "country_code": "BY",
+      "fixed": {
+        "name": "+03",
+        "offset_mins": 180
+      }
+    },
+    "Europe/Monaco": {
+      "alias_for": "Europe/Paris",
+      "coords": {
+        "lat_decimal": 43.7,
+        "long_decimal": 7.38333
+      },
+      "country_code": "MC"
+    },
+    "Europe/Moscow": {
+      "comments": {
+        "en": "MSK+00 - Moscow area"
+      },
+      "coords": {
+        "lat_decimal": 55.75583,
+        "long_decimal": 37.61778
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "MSK",
+        "offset_mins": 180
+      }
+    },
+    "Europe/Nicosia": {
+      "alias_for": "Asia/Nicosia"
+    },
+    "Europe/Oslo": {
+      "alias_for": "Europe/Berlin",
+      "coords": {
+        "lat_decimal": 59.91667,
+        "long_decimal": 10.75
+      },
+      "country_code": "NO"
+    },
+    "Europe/Paris": {
+      "coords": {
+        "lat_decimal": 48.86667,
+        "long_decimal": 2.33333
+      },
+      "country_code": "FR",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Podgorica": {
+      "alias_for": "Europe/Belgrade",
+      "coords": {
+        "lat_decimal": 42.43333,
+        "long_decimal": 19.26667
+      },
+      "country_code": "ME"
+    },
+    "Europe/Prague": {
+      "coords": {
+        "lat_decimal": 50.08333,
+        "long_decimal": 14.43333
+      },
+      "country_code": "CZ",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Riga": {
+      "coords": {
+        "lat_decimal": 56.95,
+        "long_decimal": 24.1
+      },
+      "country_code": "LV",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Rome": {
+      "coords": {
+        "lat_decimal": 41.9,
+        "long_decimal": 12.48333
+      },
+      "country_code": "IT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Samara": {
+      "comments": {
+        "en": "MSK+01 - Samara, Udmurtia"
+      },
+      "coords": {
+        "lat_decimal": 53.2,
+        "long_decimal": 50.15
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Europe/San_Marino": {
+      "alias_for": "Europe/Rome",
+      "coords": {
+        "lat_decimal": 43.91667,
+        "long_decimal": 12.46667
+      },
+      "country_code": "SM"
+    },
+    "Europe/Sarajevo": {
+      "alias_for": "Europe/Belgrade",
+      "coords": {
+        "lat_decimal": 43.86667,
+        "long_decimal": 18.41667
+      },
+      "country_code": "BA"
+    },
+    "Europe/Saratov": {
+      "comments": {
+        "en": "MSK+01 - Saratov"
+      },
+      "coords": {
+        "lat_decimal": 51.56667,
+        "long_decimal": 46.03333
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Europe/Simferopol": {
+      "comments": {
+        "en": "Crimea"
+      },
+      "coords": {
+        "lat_decimal": 44.95,
+        "long_decimal": 34.1
+      },
+      "country_code": "UA",
+      "fixed": {
+        "name": "MSK",
+        "offset_mins": 180
+      }
+    },
+    "Europe/Skopje": {
+      "alias_for": "Europe/Belgrade",
+      "coords": {
+        "lat_decimal": 41.98333,
+        "long_decimal": 21.43333
+      },
+      "country_code": "MK"
+    },
+    "Europe/Sofia": {
+      "coords": {
+        "lat_decimal": 42.68333,
+        "long_decimal": 23.31667
+      },
+      "country_code": "BG",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Stockholm": {
+      "alias_for": "Europe/Berlin",
+      "coords": {
+        "lat_decimal": 59.33333,
+        "long_decimal": 18.05
+      },
+      "country_code": "SE"
+    },
+    "Europe/Tallinn": {
+      "coords": {
+        "lat_decimal": 59.41667,
+        "long_decimal": 24.75
+      },
+      "country_code": "EE",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Tirane": {
+      "coords": {
+        "lat_decimal": 41.33333,
+        "long_decimal": 19.83333
+      },
+      "country_code": "AL",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Tiraspol": {
+      "alias_for": "Europe/Chisinau"
+    },
+    "Europe/Ulyanovsk": {
+      "comments": {
+        "en": "MSK+01 - Ulyanovsk"
+      },
+      "coords": {
+        "lat_decimal": 54.33333,
+        "long_decimal": 48.4
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Europe/Uzhgorod": {
+      "alias_for": "Europe/Kyiv"
+    },
+    "Europe/Vaduz": {
+      "alias_for": "Europe/Zurich",
+      "coords": {
+        "lat_decimal": 47.15,
+        "long_decimal": 9.51667
+      },
+      "country_code": "LI"
+    },
+    "Europe/Vatican": {
+      "alias_for": "Europe/Rome",
+      "coords": {
+        "lat_decimal": 41.90222,
+        "long_decimal": 12.45306
+      },
+      "country_code": "VA"
+    },
+    "Europe/Vienna": {
+      "coords": {
+        "lat_decimal": 48.21667,
+        "long_decimal": 16.33333
+      },
+      "country_code": "AT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Vilnius": {
+      "coords": {
+        "lat_decimal": 54.68333,
+        "long_decimal": 25.31667
+      },
+      "country_code": "LT",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "EEST",
+          "offset_mins": 180
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "EET",
+          "offset_mins": 120
+        }
+      ]
+    },
+    "Europe/Volgograd": {
+      "comments": {
+        "en": "MSK+00 - Volgograd"
+      },
+      "coords": {
+        "lat_decimal": 48.73333,
+        "long_decimal": 44.41667
+      },
+      "country_code": "RU",
+      "fixed": {
+        "name": "MSK",
+        "offset_mins": 180
+      }
+    },
+    "Europe/Warsaw": {
+      "coords": {
+        "lat_decimal": 52.25,
+        "long_decimal": 21.0
+      },
+      "country_code": "PL",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "Europe/Zagreb": {
+      "alias_for": "Europe/Belgrade",
+      "coords": {
+        "lat_decimal": 45.8,
+        "long_decimal": 15.96667
+      },
+      "country_code": "HR"
+    },
+    "Europe/Zaporozhye": {
+      "alias_for": "Europe/Kyiv"
+    },
+    "Europe/Zurich": {
+      "coords": {
+        "lat_decimal": 47.38333,
+        "long_decimal": 8.53333
+      },
+      "country_code": "CH",
+      "transitions": [
+        {
+          "epoch": 1761440400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1774746000000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1792890000000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        },
+        {
+          "epoch": 1806195600000,
+          "is_dst": true,
+          "name": "CEST",
+          "offset_mins": 120
+        },
+        {
+          "epoch": 1824944400000,
+          "is_dst": false,
+          "name": "CET",
+          "offset_mins": 60
+        }
+      ]
+    },
+    "GB": {
+      "alias_for": "Europe/London"
+    },
+    "GB-Eire": {
+      "alias_for": "Europe/London"
+    },
+    "GMT": {
+      "alias_for": "Etc/GMT"
+    },
+    "GMT+0": {
+      "alias_for": "Etc/GMT"
+    },
+    "GMT-0": {
+      "alias_for": "Etc/GMT"
+    },
+    "GMT0": {
+      "alias_for": "Etc/GMT"
+    },
+    "Greenwich": {
+      "alias_for": "Etc/GMT"
+    },
+    "HST": {
+      "alias_for": "Pacific/Honolulu"
+    },
+    "Hongkong": {
+      "alias_for": "Asia/Hong_Kong"
+    },
+    "Iceland": {
+      "alias_for": "Africa/Abidjan"
+    },
+    "Indian/Antananarivo": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": -18.91667,
+        "long_decimal": 47.51667
+      },
+      "country_code": "MG"
+    },
+    "Indian/Chagos": {
+      "coords": {
+        "lat_decimal": -7.33333,
+        "long_decimal": 72.41667
+      },
+      "country_code": "IO",
+      "fixed": {
+        "name": "+06",
+        "offset_mins": 360
+      }
+    },
+    "Indian/Christmas": {
+      "alias_for": "Asia/Bangkok",
+      "coords": {
+        "lat_decimal": -10.41667,
+        "long_decimal": 105.71667
+      },
+      "country_code": "CX"
+    },
+    "Indian/Cocos": {
+      "alias_for": "Asia/Yangon",
+      "coords": {
+        "lat_decimal": -12.16667,
+        "long_decimal": 96.91667
+      },
+      "country_code": "CC"
+    },
+    "Indian/Comoro": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": -11.68333,
+        "long_decimal": 43.26667
+      },
+      "country_code": "KM"
+    },
+    "Indian/Kerguelen": {
+      "alias_for": "Indian/Maldives",
+      "coords": {
+        "lat_decimal": -49.35278,
+        "long_decimal": 70.2175
+      },
+      "country_code": "TF"
+    },
+    "Indian/Mahe": {
+      "alias_for": "Asia/Dubai",
+      "coords": {
+        "lat_decimal": -4.66667,
+        "long_decimal": 55.46667
+      },
+      "country_code": "SC"
+    },
+    "Indian/Maldives": {
+      "coords": {
+        "lat_decimal": 4.16667,
+        "long_decimal": 73.5
+      },
+      "country_code": "MV",
+      "fixed": {
+        "name": "+05",
+        "offset_mins": 300
+      }
+    },
+    "Indian/Mauritius": {
+      "coords": {
+        "lat_decimal": -20.16667,
+        "long_decimal": 57.5
+      },
+      "country_code": "MU",
+      "fixed": {
+        "name": "+04",
+        "offset_mins": 240
+      }
+    },
+    "Indian/Mayotte": {
+      "alias_for": "Africa/Nairobi",
+      "coords": {
+        "lat_decimal": -12.78333,
+        "long_decimal": 45.23333
+      },
+      "country_code": "YT"
+    },
+    "Indian/Reunion": {
+      "alias_for": "Asia/Dubai",
+      "coords": {
+        "lat_decimal": -20.86667,
+        "long_decimal": 55.46667
+      },
+      "country_code": "RE"
+    },
+    "Iran": {
+      "alias_for": "Asia/Tehran"
+    },
+    "Israel": {
+      "alias_for": "Asia/Jerusalem"
+    },
+    "Jamaica": {
+      "alias_for": "America/Jamaica"
+    },
+    "Japan": {
+      "alias_for": "Asia/Tokyo"
+    },
+    "Kwajalein": {
+      "alias_for": "Pacific/Kwajalein"
+    },
+    "Libya": {
+      "alias_for": "Africa/Tripoli"
+    },
+    "MET": {
+      "alias_for": "Europe/Brussels"
+    },
+    "MST": {
+      "alias_for": "America/Phoenix"
+    },
+    "MST7MDT": {
+      "alias_for": "America/Denver"
+    },
+    "Mexico/BajaNorte": {
+      "alias_for": "America/Tijuana"
+    },
+    "Mexico/BajaSur": {
+      "alias_for": "America/Mazatlan"
+    },
+    "Mexico/General": {
+      "alias_for": "America/Mexico_City"
+    },
+    "NZ": {
+      "alias_for": "Pacific/Auckland"
+    },
+    "NZ-CHAT": {
+      "alias_for": "Pacific/Chatham"
+    },
+    "Navajo": {
+      "alias_for": "America/Denver"
+    },
+    "PRC": {
+      "alias_for": "Asia/Shanghai"
+    },
+    "PST8PDT": {
+      "alias_for": "America/Los_Angeles"
+    },
+    "Pacific/Apia": {
+      "coords": {
+        "lat_decimal": -13.83333,
+        "long_decimal": -171.73333
+      },
+      "country_code": "WS",
+      "fixed": {
+        "name": "+13",
+        "offset_mins": 780
+      }
+    },
+    "Pacific/Auckland": {
+      "comments": {
+        "en": "most of New Zealand"
+      },
+      "coords": {
+        "lat_decimal": -36.86667,
+        "long_decimal": 174.76667
+      },
+      "country_code": "NZ",
+      "transitions": [
+        {
+          "epoch": 1758981600000,
+          "is_dst": true,
+          "name": "NZDT",
+          "offset_mins": 780
+        },
+        {
+          "epoch": 1775311200000,
+          "is_dst": false,
+          "name": "NZST",
+          "offset_mins": 720
+        },
+        {
+          "epoch": 1790431200000,
+          "is_dst": true,
+          "name": "NZDT",
+          "offset_mins": 780
+        },
+        {
+          "epoch": 1806760800000,
+          "is_dst": false,
+          "name": "NZST",
+          "offset_mins": 720
+        },
+        {
+          "epoch": 1821880800000,
+          "is_dst": true,
+          "name": "NZDT",
+          "offset_mins": 780
+        }
+      ]
+    },
+    "Pacific/Bougainville": {
+      "comments": {
+        "en": "Bougainville"
+      },
+      "coords": {
+        "lat_decimal": -6.21667,
+        "long_decimal": 155.56667
+      },
+      "country_code": "PG",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Pacific/Chatham": {
+      "comments": {
+        "en": "Chatham Islands"
+      },
+      "coords": {
+        "lat_decimal": -43.95,
+        "long_decimal": -176.55
+      },
+      "country_code": "NZ",
+      "transitions": [
+        {
+          "epoch": 1758981600000,
+          "is_dst": true,
+          "name": "+1345",
+          "offset_mins": 825
+        },
+        {
+          "epoch": 1775311200000,
+          "is_dst": false,
+          "name": "+1245",
+          "offset_mins": 765
+        },
+        {
+          "epoch": 1790431200000,
+          "is_dst": true,
+          "name": "+1345",
+          "offset_mins": 825
+        },
+        {
+          "epoch": 1806760800000,
+          "is_dst": false,
+          "name": "+1245",
+          "offset_mins": 765
+        },
+        {
+          "epoch": 1821880800000,
+          "is_dst": true,
+          "name": "+1345",
+          "offset_mins": 825
+        }
+      ]
+    },
+    "Pacific/Chuuk": {
+      "alias_for": "Pacific/Port_Moresby",
+      "comments": {
+        "en": "Chuuk/Truk, Yap"
+      },
+      "coords": {
+        "lat_decimal": 7.41667,
+        "long_decimal": 151.78333
+      },
+      "country_code": "FM"
+    },
+    "Pacific/Easter": {
+      "comments": {
+        "en": "Easter Island"
+      },
+      "coords": {
+        "lat_decimal": -27.15,
+        "long_decimal": -109.43333
+      },
+      "country_code": "CL",
+      "transitions": [
+        {
+          "epoch": 1757217600000,
+          "is_dst": true,
+          "name": "-05",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1775358000000,
+          "is_dst": false,
+          "name": "-06",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1788667200000,
+          "is_dst": true,
+          "name": "-05",
+          "offset_mins": -300
+        },
+        {
+          "epoch": 1806807600000,
+          "is_dst": false,
+          "name": "-06",
+          "offset_mins": -360
+        },
+        {
+          "epoch": 1820116800000,
+          "is_dst": true,
+          "name": "-05",
+          "offset_mins": -300
+        }
+      ]
+    },
+    "Pacific/Efate": {
+      "coords": {
+        "lat_decimal": -17.66667,
+        "long_decimal": 168.41667
+      },
+      "country_code": "VU",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Pacific/Enderbury": {
+      "alias_for": "Pacific/Kanton"
+    },
+    "Pacific/Fakaofo": {
+      "coords": {
+        "lat_decimal": -9.36667,
+        "long_decimal": -171.23333
+      },
+      "country_code": "TK",
+      "fixed": {
+        "name": "+13",
+        "offset_mins": 780
+      }
+    },
+    "Pacific/Fiji": {
+      "coords": {
+        "lat_decimal": -18.13333,
+        "long_decimal": 178.41667
+      },
+      "country_code": "FJ",
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Pacific/Funafuti": {
+      "alias_for": "Pacific/Tarawa",
+      "coords": {
+        "lat_decimal": -8.51667,
+        "long_decimal": 179.21667
+      },
+      "country_code": "TV"
+    },
+    "Pacific/Galapagos": {
+      "comments": {
+        "en": "Galapagos Islands"
+      },
+      "coords": {
+        "lat_decimal": -0.9,
+        "long_decimal": -89.6
+      },
+      "country_code": "EC",
+      "fixed": {
+        "name": "-06",
+        "offset_mins": -360
+      }
+    },
+    "Pacific/Gambier": {
+      "comments": {
+        "en": "Gambier Islands"
+      },
+      "coords": {
+        "lat_decimal": -23.13333,
+        "long_decimal": -134.95
+      },
+      "country_code": "PF",
+      "fixed": {
+        "name": "-09",
+        "offset_mins": -540
+      }
+    },
+    "Pacific/Guadalcanal": {
+      "coords": {
+        "lat_decimal": -9.53333,
+        "long_decimal": 160.2
+      },
+      "country_code": "SB",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Pacific/Guam": {
+      "coords": {
+        "lat_decimal": 13.46667,
+        "long_decimal": 144.75
+      },
+      "country_code": "GU",
+      "fixed": {
+        "name": "ChST",
+        "offset_mins": 600
+      }
+    },
+    "Pacific/Honolulu": {
+      "comments": {
+        "en": "Hawaii"
+      },
+      "coords": {
+        "lat_decimal": 21.30694,
+        "long_decimal": -157.85833
+      },
+      "country_code": "US",
+      "fixed": {
+        "name": "HST",
+        "offset_mins": -600
+      }
+    },
+    "Pacific/Johnston": {
+      "alias_for": "Pacific/Honolulu"
+    },
+    "Pacific/Kanton": {
+      "comments": {
+        "en": "Phoenix Islands"
+      },
+      "coords": {
+        "lat_decimal": -2.78333,
+        "long_decimal": -171.71667
+      },
+      "country_code": "KI",
+      "fixed": {
+        "name": "+13",
+        "offset_mins": 780
+      }
+    },
+    "Pacific/Kiritimati": {
+      "comments": {
+        "en": "Line Islands"
+      },
+      "coords": {
+        "lat_decimal": 1.86667,
+        "long_decimal": -157.33333
+      },
+      "country_code": "KI",
+      "fixed": {
+        "name": "+14",
+        "offset_mins": 840
+      }
+    },
+    "Pacific/Kosrae": {
+      "comments": {
+        "en": "Kosrae"
+      },
+      "coords": {
+        "lat_decimal": 5.31667,
+        "long_decimal": 162.98333
+      },
+      "country_code": "FM",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Pacific/Kwajalein": {
+      "comments": {
+        "en": "Kwajalein"
+      },
+      "coords": {
+        "lat_decimal": 9.08333,
+        "long_decimal": 167.33333
+      },
+      "country_code": "MH",
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Pacific/Majuro": {
+      "alias_for": "Pacific/Tarawa",
+      "comments": {
+        "en": "most of Marshall Islands"
+      },
+      "coords": {
+        "lat_decimal": 7.15,
+        "long_decimal": 171.2
+      },
+      "country_code": "MH"
+    },
+    "Pacific/Marquesas": {
+      "comments": {
+        "en": "Marquesas Islands"
+      },
+      "coords": {
+        "lat_decimal": -9.0,
+        "long_decimal": -139.5
+      },
+      "country_code": "PF",
+      "fixed": {
+        "name": "-0930",
+        "offset_mins": -570
+      }
+    },
+    "Pacific/Midway": {
+      "alias_for": "Pacific/Pago_Pago",
+      "comments": {
+        "en": "Midway Islands"
+      },
+      "coords": {
+        "lat_decimal": 28.21667,
+        "long_decimal": -177.36667
+      },
+      "country_code": "UM"
+    },
+    "Pacific/Nauru": {
+      "coords": {
+        "lat_decimal": -0.51667,
+        "long_decimal": 166.91667
+      },
+      "country_code": "NR",
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Pacific/Niue": {
+      "coords": {
+        "lat_decimal": -19.01667,
+        "long_decimal": -169.91667
+      },
+      "country_code": "NU",
+      "fixed": {
+        "name": "-11",
+        "offset_mins": -660
+      }
+    },
+    "Pacific/Norfolk": {
+      "coords": {
+        "lat_decimal": -29.05,
+        "long_decimal": 167.96667
+      },
+      "country_code": "NF",
+      "transitions": [
+        {
+          "epoch": 1759590000000,
+          "is_dst": true,
+          "name": "+12",
+          "offset_mins": 720
+        },
+        {
+          "epoch": 1775314800000,
+          "is_dst": false,
+          "name": "+11",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1791039600000,
+          "is_dst": true,
+          "name": "+12",
+          "offset_mins": 720
+        },
+        {
+          "epoch": 1806764400000,
+          "is_dst": false,
+          "name": "+11",
+          "offset_mins": 660
+        },
+        {
+          "epoch": 1822489200000,
+          "is_dst": true,
+          "name": "+12",
+          "offset_mins": 720
+        }
+      ]
+    },
+    "Pacific/Noumea": {
+      "coords": {
+        "lat_decimal": -22.26667,
+        "long_decimal": 166.45
+      },
+      "country_code": "NC",
+      "fixed": {
+        "name": "+11",
+        "offset_mins": 660
+      }
+    },
+    "Pacific/Pago_Pago": {
+      "coords": {
+        "lat_decimal": -14.26667,
+        "long_decimal": -170.7
+      },
+      "country_code": "AS",
+      "fixed": {
+        "name": "SST",
+        "offset_mins": -660
+      }
+    },
+    "Pacific/Palau": {
+      "coords": {
+        "lat_decimal": 7.33333,
+        "long_decimal": 134.48333
+      },
+      "country_code": "PW",
+      "fixed": {
+        "name": "+09",
+        "offset_mins": 540
+      }
+    },
+    "Pacific/Pitcairn": {
+      "coords": {
+        "lat_decimal": -25.06667,
+        "long_decimal": -130.08333
+      },
+      "country_code": "PN",
+      "fixed": {
+        "name": "-08",
+        "offset_mins": -480
+      }
+    },
+    "Pacific/Pohnpei": {
+      "alias_for": "Pacific/Guadalcanal",
+      "comments": {
+        "en": "Pohnpei/Ponape"
+      },
+      "coords": {
+        "lat_decimal": 6.96667,
+        "long_decimal": 158.21667
+      },
+      "country_code": "FM"
+    },
+    "Pacific/Ponape": {
+      "alias_for": "Pacific/Guadalcanal"
+    },
+    "Pacific/Port_Moresby": {
+      "comments": {
+        "en": "most of Papua New Guinea"
+      },
+      "coords": {
+        "lat_decimal": -9.5,
+        "long_decimal": 147.16667
+      },
+      "country_code": "PG",
+      "fixed": {
+        "name": "+10",
+        "offset_mins": 600
+      }
+    },
+    "Pacific/Rarotonga": {
+      "coords": {
+        "lat_decimal": -21.23333,
+        "long_decimal": -159.76667
+      },
+      "country_code": "CK",
+      "fixed": {
+        "name": "-10",
+        "offset_mins": -600
+      }
+    },
+    "Pacific/Saipan": {
+      "alias_for": "Pacific/Guam",
+      "coords": {
+        "lat_decimal": 15.2,
+        "long_decimal": 145.75
+      },
+      "country_code": "MP"
+    },
+    "Pacific/Samoa": {
+      "alias_for": "Pacific/Pago_Pago"
+    },
+    "Pacific/Tahiti": {
+      "comments": {
+        "en": "Society Islands"
+      },
+      "coords": {
+        "lat_decimal": -17.53333,
+        "long_decimal": -149.56667
+      },
+      "country_code": "PF",
+      "fixed": {
+        "name": "-10",
+        "offset_mins": -600
+      }
+    },
+    "Pacific/Tarawa": {
+      "comments": {
+        "en": "Gilbert Islands"
+      },
+      "coords": {
+        "lat_decimal": 1.41667,
+        "long_decimal": 173.0
+      },
+      "country_code": "KI",
+      "fixed": {
+        "name": "+12",
+        "offset_mins": 720
+      }
+    },
+    "Pacific/Tongatapu": {
+      "coords": {
+        "lat_decimal": -21.13333,
+        "long_decimal": -175.2
+      },
+      "country_code": "TO",
+      "fixed": {
+        "name": "+13",
+        "offset_mins": 780
+      }
+    },
+    "Pacific/Truk": {
+      "alias_for": "Pacific/Port_Moresby"
+    },
+    "Pacific/Wake": {
+      "alias_for": "Pacific/Tarawa",
+      "comments": {
+        "en": "Wake Island"
+      },
+      "coords": {
+        "lat_decimal": 19.28333,
+        "long_decimal": 166.61667
+      },
+      "country_code": "UM"
+    },
+    "Pacific/Wallis": {
+      "alias_for": "Pacific/Tarawa",
+      "coords": {
+        "lat_decimal": -13.3,
+        "long_decimal": -176.16667
+      },
+      "country_code": "WF"
+    },
+    "Pacific/Yap": {
+      "alias_for": "Pacific/Port_Moresby"
+    },
+    "Poland": {
+      "alias_for": "Europe/Warsaw"
+    },
+    "Portugal": {
+      "alias_for": "Europe/Lisbon"
+    },
+    "ROC": {
+      "alias_for": "Asia/Taipei"
+    },
+    "ROK": {
+      "alias_for": "Asia/Seoul"
+    },
+    "Singapore": {
+      "alias_for": "Asia/Singapore"
+    },
+    "Turkey": {
+      "alias_for": "Europe/Istanbul"
+    },
+    "UCT": {
+      "alias_for": "Etc/UTC"
+    },
+    "US/Alaska": {
+      "alias_for": "America/Anchorage"
+    },
+    "US/Aleutian": {
+      "alias_for": "America/Adak"
+    },
+    "US/Arizona": {
+      "alias_for": "America/Phoenix"
+    },
+    "US/Central": {
+      "alias_for": "America/Chicago"
+    },
+    "US/East-Indiana": {
+      "alias_for": "America/Indiana/Indianapolis"
+    },
+    "US/Eastern": {
+      "alias_for": "America/New_York"
+    },
+    "US/Hawaii": {
+      "alias_for": "Pacific/Honolulu"
+    },
+    "US/Indiana-Starke": {
+      "alias_for": "America/Indiana/Knox"
+    },
+    "US/Michigan": {
+      "alias_for": "America/Detroit"
+    },
+    "US/Mountain": {
+      "alias_for": "America/Denver"
+    },
+    "US/Pacific": {
+      "alias_for": "America/Los_Angeles"
+    },
+    "US/Samoa": {
+      "alias_for": "Pacific/Pago_Pago"
+    },
+    "UTC": {
+      "alias_for": "Etc/UTC"
+    },
+    "Universal": {
+      "alias_for": "Etc/UTC"
+    },
+    "W-SU": {
+      "alias_for": "Europe/Moscow"
+    },
+    "WET": {
+      "alias_for": "Europe/Lisbon"
+    },
+    "Zulu": {
+      "alias_for": "Etc/UTC"
+    }
+  }
+}

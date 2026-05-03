@@ -1,26 +1,24 @@
 # MoonClocks timezone database update channel
 
-This directory is reserved for the future MoonClocks timezone database update channel.
-
-The update channel is intended to publish a small JSON manifest and pre-generated `zones.json` files through GitHub Pages.
+This directory publishes the MoonClocks timezone database update channel through GitHub Pages.
 
 This channel is only for timezone database updates. It is not an XPI/add-on update mechanism and does not use `em:updateURL` in `install.rdf`.
 
-## Planned files
+## Files
 
 - `latest.json` - manifest describing the latest available MoonClocks timezone database
 - `zones-YYYYx.json` - generated timezone database in the legacy FoxClocks schema 1.2 format
 - `zones-YYYYx.sha256` - SHA-256 checksum for the generated database file
 
-## Data source
+## Current database
 
-MoonClocks timezone database files are generated from the public IANA Time Zone Database.
+`zones-2026b.json` was generated from the public IANA Time Zone Database 2026b using `tools/generate-zones-json.py`.
 
-No source files from the FoxClocks WebExtension version are used.
+No source files from the FoxClocks WebExtension version were used.
 
-## Planned update flow
+## Update flow
 
-A future MoonClocks build may:
+MoonClocks may:
 
 1. download `latest.json`
 2. verify the manifest schema

@@ -1,6 +1,6 @@
 {
   "schema": "moonclocks-tzdb-update-1",
-  "enabled": false,
+  "enabled": true,
   "version": "2026b",
   "released": "2026-04-22",
   "source": {
@@ -10,9 +10,9 @@
   },
   "zones": {
     "schema_version": 1.2,
-    "url": "",
-    "sha256": "",
-    "size": 0
+    "url": "https://halvar666.github.io/moonclocks/tzdb/zones-2026b.json",
+    "sha256": "3d9fcbd6217823e1de31bb8781947aa8773fc2c6ac6f42fbf980bffcf7c99577",
+    "size": 184795
   },
-  "notes": "Placeholder manifest for the future MoonClocks timezone database update channel. This manifest is intentionally disabled until a generated zones file and checksum are published."
+  "notes": "Generated from the public IANA Time Zone Database for MoonClocks. No source files from the FoxClocks WebExtension version were used."
 }
