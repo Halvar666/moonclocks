@@ -1,0 +1,18 @@
+{
+  "schema": "moonclocks-tzdb-update-1",
+  "enabled": false,
+  "version": "2026b",
+  "released": "2026-04-22",
+  "source": {
+    "name": "IANA Time Zone Database",
+    "version": "2026b",
+    "url": "https://data.iana.org/time-zones/tzdb-2026b/"
+  },
+  "zones": {
+    "schema_version": 1.2,
+    "url": "",
+    "sha256": "",
+    "size": 0
+  },
+  "notes": "Placeholder manifest for the future MoonClocks timezone database update channel. This manifest is intentionally disabled until a generated zones file and checksum are published."
+}
