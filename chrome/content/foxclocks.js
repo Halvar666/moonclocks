@@ -36,7 +36,7 @@
 			this.searchBox.setAttribute("class", "fc-zonepicker-searchbox-inactive");
 			this.setTimeFormat();
 
-			foxclocks.utils.getFoxClocksVersion(function(foxClocksVersion) {
+			foxclocks.utils.getMoonClocksVersion(function(foxClocksVersion) {
 				document.getElementById("fc-foxclocks-version-label").setAttribute("value",
 						"MoonClocks " + foxClocksVersion + " (" + foxclocks.zoneManager.dataSource.version + ")");
 			});
@@ -150,7 +150,7 @@
 		onImportCmd : function()
 		{
 			var dialogTitle = document.getElementById("fc-dialog-import-title").getAttribute("label");
-			var foxClocksFilter = "*." + foxclocks.utils.FC_FOXCLOCKS_SETTINGS_EXTENSION;
+			var foxClocksFilter = "*." + foxclocks.utils.MC_SETTINGS_EXTENSION;
 			var filterText = document.getElementById("fc-dialog-importexport-filter-label").getAttribute("label") +
 				" (" + foxClocksFilter + ")";
 
@@ -233,15 +233,15 @@
 		onExportCmd : function()
 		{
 			var dialogTitle = document.getElementById("fc-dialog-export-title").getAttribute("label");
-			var foxClocksFilter = "*." + foxclocks.utils.FC_FOXCLOCKS_SETTINGS_EXTENSION;
+			var foxClocksFilter = "*." + foxclocks.utils.MC_SETTINGS_EXTENSION;
 			var filterText = document.getElementById("fc-dialog-importexport-filter-label").getAttribute("label") +
 				" (" + foxClocksFilter + ")";
 
 			var nsIFilePicker = Components.interfaces.nsIFilePicker;
 			var fp = Components.classes["@mozilla.org/filepicker;1"].createInstance(nsIFilePicker);
 			fp.init(window, dialogTitle, nsIFilePicker.modeSave);
-			fp.defaultExtension = foxclocks.utils.FC_FOXCLOCKS_SETTINGS_EXTENSION;
-			fp.defaultString = 'moonclocks.' + foxclocks.utils.FC_FOXCLOCKS_SETTINGS_EXTENSION;
+			fp.defaultExtension = foxclocks.utils.MC_SETTINGS_EXTENSION;
+			fp.defaultString = 'moonclocks.' + foxclocks.utils.MC_SETTINGS_EXTENSION;
 			fp.appendFilter(filterText, foxClocksFilter);
 			fp.appendFilters(nsIFilePicker.filterAll);
 
@@ -250,7 +250,7 @@
 			if (res != nsIFilePicker.returnOK && res != nsIFilePicker.returnReplace)
 				return;
 
-			foxclocks.utils.getFoxClocksVersion(function(foxClocksVersion) {
+			foxclocks.utils.getMoonClocksVersion(function(foxClocksVersion) {
 
 				var promptService = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
 
@@ -640,7 +640,7 @@
 				{
 					if (foxclocks.updateManager.getLastUpdateResult().result == "OK_NEW")
 					{
-						foxclocks.utils.getFoxClocksVersion(function(foxClocksVersion) {
+						foxclocks.utils.getMoonClocksVersion(function(foxClocksVersion) {
 							document.getElementById("fc-foxclocks-version-label").setAttribute("value",
 									"MoonClocks " + foxClocksVersion + " (" + foxclocks.zoneManager.dataSource.version + ")");
 						});

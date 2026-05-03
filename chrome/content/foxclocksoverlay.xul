@@ -18,9 +18,9 @@ Please refer to licence.txt for licensing terms.
 	</stringbundleset>
 	
 	<commandset class="overlay-unloadable">
-		<command id="cmd_fcov_openfc" oncommand="foxclocks.utils.openChromeFoxClocks()"/>
+		<command id="cmd_fcov_openfc" oncommand="foxclocks.utils.openChromeMoonClocks()"/>
 		<command id="cmd_fcov_openopt" oncommand="foxclocks.utils.openChromeOptions()"/>
-		<command id="cmd_fcov_openhelp" oncommand="foxclocks.utils.openFoxClocksHelp()"/>
+		<command id="cmd_fcov_openhelp" oncommand="foxclocks.utils.openMoonClocksHelp()"/>
 		<command id="cmd_fcov_openabout" oncommand="foxclocks.utils.openChromeAbout()"/>
 	</commandset>
 	

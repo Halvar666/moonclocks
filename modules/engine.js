@@ -211,22 +211,22 @@ function(Components, console, utils, updateManager, prefManager, watchlistManage
 			else if (aTopic === "alertclickcallback")
 			{
 				if (aData === "engine-internal:moonclocks-zone-data-update-complete:new")
-					utils.openFoxClocksDbUpdate();
+					utils.openMoonClocksDbUpdate();
 			}
 		},
 
 		// ====================================================================================
 		_checkVersion : function()
 		{
-			utils.getFoxClocksVersion(function(foxClocksVersion) {
+			utils.getMoonClocksVersion(function(foxClocksVersion) {
 
-				var prevRunVersion = prefManager.getPref("extensions." + utils.FC_GUID_FOXCLOCKS + ".prevrun.version");
-				prefManager.setPref("extensions." + utils.FC_GUID_FOXCLOCKS + ".prevrun.version", foxClocksVersion);
+				var prevRunVersion = prefManager.getPref("extensions." + utils.MC_GUID_MOONCLOCKS + ".prevrun.version");
+				prefManager.setPref("extensions." + utils.MC_GUID_MOONCLOCKS + ".prevrun.version", foxClocksVersion);
 
 				if (prevRunVersion === "")
 				{
 					console.log("foxclocks.Engine::_checkVersion(): install - version", foxClocksVersion);
-					utils.openFoxClocksInstall(foxClocksVersion);
+					utils.openMoonClocksInstall(foxClocksVersion);
 				}
 				else
 				{
@@ -236,7 +236,7 @@ function(Components, console, utils, updateManager, prefManager, watchlistManage
 					if (comparison < 0)
 					{
 						console.log("foxclocks.Engine::_checkVersion(): update - versions", prevRunVersion, foxClocksVersion);
-						utils.openFoxClocksUpdate(foxClocksVersion, prevRunVersion);
+						utils.openMoonClocksUpdate(foxClocksVersion, prevRunVersion);
 					}
 				}
 			});

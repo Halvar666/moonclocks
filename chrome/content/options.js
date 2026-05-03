@@ -140,7 +140,7 @@
 			this.statusbarSpecPosnTextbox = document.getElementById("fc-clock-position-statusbar-specific-textbox");
 
 			if (foxclocks.prefManager.getPref("extensions.moonclocks.clock.containertype") === 'fc-clock-containertype-toolbar')
-				foxclocks.prefManager.setPref("extensions." + foxclocks.utils.FC_GUID_FOXCLOCKS + ".toolbar.firsttime", false);
+				foxclocks.prefManager.setPref("extensions." + foxclocks.utils.MC_GUID_MOONCLOCKS + ".toolbar.firsttime", false);
 
 			foxclocks.prefManager.addPrefObserver("extensions.moonclocks.", this);
 
@@ -356,9 +356,9 @@
 			var clockStyle = styleGroup.selectedIndex === 1 ? "fc-clock-style-icon" : "fc-clock-style-clocks";
 
 			if (clockContainerType === 'fc-clock-containertype-toolbar' &&
-					foxclocks.prefManager.getPref("extensions." + foxclocks.utils.FC_GUID_FOXCLOCKS + ".toolbar.firsttime") === true)
+					foxclocks.prefManager.getPref("extensions." + foxclocks.utils.MC_GUID_MOONCLOCKS + ".toolbar.firsttime") === true)
 			{
-				foxclocks.prefManager.setPref("extensions." + foxclocks.utils.FC_GUID_FOXCLOCKS + ".toolbar.firsttime", false);
+				foxclocks.prefManager.setPref("extensions." + foxclocks.utils.MC_GUID_MOONCLOCKS + ".toolbar.firsttime", false);
 
 				if (clockStyle !== "fc-clock-style-icon")
 				{

@@ -333,7 +333,7 @@ function(Components, console, utils, prefManager, zoneManager) {
 		_setUpdateDates: function(enabled)
 		{
 			enabled = (typeof(enabled) === 'boolean' ? enabled : this._nextUpdateDate !== null);
-			var prevUpdatePref = "extensions." + utils.FC_GUID_FOXCLOCKS + ".data.update.prevupdate";
+			var prevUpdatePref = "extensions." + utils.MC_GUID_MOONCLOCKS + ".data.update.prevupdate";
 			var now = new Date();
 			var millisToNextUpdate = null;
 

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>MoonClocks 1.0.0</title>
+  <title>MoonClocks 1.0.2</title>
   <style type="text/css"><![CDATA[
     body { font: menu; margin: 2.2em; max-width: 52em; line-height: 1.45; }
     h1 { margin-top: 0; }
@@ -11,30 +11,36 @@
   ]]></style>
 </head>
 <body>
-  <h1>MoonClocks 1.0.0</h1>
+  <h1>MoonClocks 1.0.2</h1>
   <p class="note">MoonClocks is a Pale Moon and Epyrus XUL fork based on the GPL-licensed FoxClocks 4.2.3 codebase.</p>
 
-  <h2>Changes in this build</h2>
+  <h2>Changes in this release</h2>
   <ul>
-    <li>Stabilized menubar hover styling in the standalone MoonClocks window on Pale Moon/GTK.</li>
-    <li>Top-level menu labels now keep the same metrics before and during hover, avoiding the visible text jitter seen in Pale Moon.</li>
-    <li>No changes to the timezone database, Zone Picker data, OpenStreetMap integration, or application targets.</li>
+    <li>Fixed the bundled update/release information panel so it shows the current MoonClocks release version.</li>
+    <li>Renamed the main internal install/update/help/release-note helper functions from <code>openFoxClocks*</code> to <code>openMoonClocks*</code>.</li>
+    <li>Renamed the internal version helper from <code>getFoxClocksVersion()</code> to <code>getMoonClocksVersion()</code>.</li>
+    <li>Added MoonClocks-named constants for the extension ID, local release-note URLs and settings extension.</li>
+    <li>Kept the old <code>openFoxClocks*</code>, <code>getFoxClocksVersion()</code> and related constants as temporary compatibility aliases.</li>
+    <li>No changes to the bundled timezone database; it remains IANA tzdb 2026b.</li>
+    <li>The manifest-based timezone database update channel from MoonClocks 1.0.1 remains unchanged.</li>
   </ul>
 
-  <h2>Current MoonClocks changes</h2>
+  <h2>Main MoonClocks changes compared with FoxClocks 4.2.3</h2>
   <ul>
-    <li>Internal chrome URLs now use the <code>chrome://moonclocks/</code> namespace.</li>
-    <li>Runtime preferences now use the <code>extensions.moonclocks.*</code> branch.</li>
-    <li>Bundled timezone database regenerated from IANA tzdb 2026b into the legacy FoxClocks schema 1.2 format.</li>
+    <li>Renamed fork with a new extension ID: <code>moonclocks@halvar666</code>.</li>
+    <li>Internal chrome URLs use the <code>chrome://moonclocks/</code> namespace.</li>
+    <li>Runtime preferences use the <code>extensions.moonclocks.*</code> branch.</li>
+    <li>Pale Moon compatibility was updated for current versions.</li>
+    <li>Epyrus support was added.</li>
+    <li>Bundled timezone database was regenerated from IANA tzdb 2026b into the legacy FoxClocks schema 1.2 format.</li>
     <li>OpenStreetMap is used for location links instead of the old Google Earth integration.</li>
-    <li>Local release notes are used instead of upstream FoxClocks install/update web pages.</li>
-    <li>Zone Picker cleanup for Kyiv, Ukraine, Crimea, Simferopol, Famagusta, and selected tzdb additions.</li>
-    <li>Pale Moon and Epyrus target applications are supported.</li>
-    <li>Linux/GTK menubar hover styling adjusted in the standalone MoonClocks window.</li>
+    <li>Local release notes are used instead of old upstream FoxClocks install/update web pages.</li>
+    <li>MoonClocks 1.0.1 added a manifest-based timezone database update channel.</li>
   </ul>
 
-  <h2>Upgrade note</h2>
-  <p>Before moving from the original FoxClocks extension or earlier FoxClocks Legacy test builds to MoonClocks, back up your profile and clock settings, uninstall the older extension, restart the application, and then install MoonClocks.</p>
+  <h2>Important upgrade note</h2>
+  <p>MoonClocks is a separate fork and uses a different extension ID than the original FoxClocks.</p>
+  <p>Before installing MoonClocks, back up your profile and clock settings. Then uninstall the original FoxClocks extension, or any earlier FoxClocks Legacy / MoonClocks test build, restart the application, and install MoonClocks.</p>
 
   <h2>License note</h2>
   <p>MoonClocks is based on FoxClocks 4.2.3, licensed under GPL-2.0-or-later. The timezone database file was regenerated from the public IANA Time Zone Database. No source files from the WebExtension version of FoxClocks were used.</p>

@@ -112,3 +112,12 @@ MoonClocks 1.0.0 timezone note:
 The bundled timezone database is updated to IANA tzdb 2026b and includes
 the British Columbia / America/Vancouver permanent UTC-07 change described
 by IANA tzdb 2026b.
+
+MoonClocks 1.0.2 notes:
+- Third public MoonClocks release.
+- Fixes the bundled update/release information panel so it shows the current release version.
+- Renames the main internal install/update/help/release-note helper functions from openFoxClocks* to openMoonClocks*.
+- Renames getFoxClocksVersion() to getMoonClocksVersion().
+- Keeps the old openFoxClocks* helpers and related constants as temporary compatibility aliases.
+- Leaves deep legacy XUL file names, CSS IDs, DTD entity names and exported module symbols unchanged for safety.
+- No timezone database change; bundled database remains IANA tzdb 2026b.

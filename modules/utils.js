@@ -55,7 +55,9 @@ function(Components, console, NetUtil, AddonManager) {
 		this.FC_GUID_EPYRUS = "{29877c1d-27df-4421-9a79-382c31470151}";
 		this.FC_GUID_SEAMONKEY = "{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}";
 		this.FC_GUID_PALE_MOON = "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}";
-		this.FC_GUID_FOXCLOCKS = "moonclocks@halvar666";
+		this.MC_GUID_MOONCLOCKS = "moonclocks@halvar666";
+		// Legacy alias kept temporarily for older internal call sites and imported profiles.
+		this.FC_GUID_FOXCLOCKS = this.MC_GUID_MOONCLOCKS;
 		this.FC_GUID_STATUSBAR_EXTENSIONS = ["status4evar@caligonstudios.com", "the-addon-bar@GeekInTraining-GiT"];
 
 		this.FC_XML_DEC = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -63,17 +65,27 @@ function(Components, console, NetUtil, AddonManager) {
 		this.FC_MINUS_SYMBOL = "\u2212"; // AFM - prefer to hyphen-minus
 
 		// MoonClocks: show bundled local notes instead of old upstream install/help pages.
-		this.FC_URL_FOXCLOCKS_RELEASE_NOTES = 'chrome://moonclocks/content/release-notes.xhtml';
-		this.FC_URL_FOXCLOCKS_HOME = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
-		this.FC_URL_FOXCLOCKS_INSTALL = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
-		this.FC_URL_FOXCLOCKS_UPDATE = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
-		this.FC_URL_FOXCLOCKS_HELP = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
-		this.FC_URL_FOXCLOCKS_DATABASE_UPDATE = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
+		this.MC_URL_RELEASE_NOTES = 'chrome://moonclocks/content/release-notes.xhtml';
+		this.MC_URL_HOME = this.MC_URL_RELEASE_NOTES;
+		this.MC_URL_INSTALL = this.MC_URL_RELEASE_NOTES;
+		this.MC_URL_UPDATE = this.MC_URL_RELEASE_NOTES;
+		this.MC_URL_HELP = this.MC_URL_RELEASE_NOTES;
+		this.MC_URL_DATABASE_UPDATE = this.MC_URL_RELEASE_NOTES;
 		this.FC_URL_ICONS8_MOONCLOCKS_ICON = 'https://icons8.com/icon/APGJ1BQp3nID/europe';
+
+		// Legacy FoxClocks URL aliases kept temporarily for older internal call sites.
+		this.FC_URL_FOXCLOCKS_RELEASE_NOTES = this.MC_URL_RELEASE_NOTES;
+		this.FC_URL_FOXCLOCKS_HOME = this.MC_URL_HOME;
+		this.FC_URL_FOXCLOCKS_INSTALL = this.MC_URL_INSTALL;
+		this.FC_URL_FOXCLOCKS_UPDATE = this.MC_URL_UPDATE;
+		this.FC_URL_FOXCLOCKS_HELP = this.MC_URL_HELP;
+		this.FC_URL_FOXCLOCKS_DATABASE_UPDATE = this.MC_URL_DATABASE_UPDATE;
+
 		// MoonClocks uses its own manifest-based timezone database channel.
 		// The manifest URL lives in extensions.moonclocks.data.update.manifesturl.
 		// This constant is kept empty so the old FoxClocks server updater is never used.
-		this.FC_URL_DATABASE_UPDATE_CHECK = '';
+		this.MC_URL_DATABASE_UPDATE_CHECK = '';
+		this.FC_URL_DATABASE_UPDATE_CHECK = this.MC_URL_DATABASE_UPDATE_CHECK;
 
 		this.FC_URL_CHROME_ZONEPICKER_BUILTIN = "chrome://moonclocks/locale/zonepicker.xml";
 		this.FC_URL_CHROME_FLAG_IMAGES_DIR = "chrome://moonclocks/skin/flags/";
@@ -85,7 +97,8 @@ function(Components, console, NetUtil, AddonManager) {
 		this.FC_REGEXP_VALID_STATBARPOSN_INDEX = /^\d{1,}$/;
 		this.FC_REGEXP_OPTIONSFORMATSTANDARD = /^options\.format\.standard\.(\d{1,})$/;
 
-		this.FC_FOXCLOCKS_SETTINGS_EXTENSION = "mcl";
+		this.MC_SETTINGS_EXTENSION = "mcl";
+		this.FC_FOXCLOCKS_SETTINGS_EXTENSION = this.MC_SETTINGS_EXTENSION; // Legacy alias.
 		this.FC_FOXCLOCKS_SEARCH_MAX_OPEN_NODES = 8; // AFM - heuristic. Not worth a param
 
 		this.console = console;
@@ -109,11 +122,17 @@ function(Components, console, NetUtil, AddonManager) {
 		},
 
 		// ====================================================================================
-		getFoxClocksVersion: function(callback)
+		getMoonClocksVersion: function(callback)
 		{
-			AddonManager.getAddonByID(this.FC_GUID_FOXCLOCKS, function(addon) {
+			AddonManager.getAddonByID(this.MC_GUID_MOONCLOCKS, function(addon) {
 				callback(addon.version);
 			});
+		},
+
+		// Legacy alias kept temporarily for code that still calls the old helper name.
+		getFoxClocksVersion: function(callback)
+		{
+			return this.getMoonClocksVersion(callback);
 		},
 
 		// ====================================================================================
@@ -522,16 +541,25 @@ function(Components, console, NetUtil, AddonManager) {
 
 		// ====================================================================================
 		openChromeSimpleInfo: function(owningWindow, title, message) { owningWindow.openDialog("chrome://moonclocks/content/simpleinfo.xul", "", "chrome,modal,centerscreen,resizable=no", title, message); },
-		openChromeFoxClocks: function() { this.openChromeWindow("chrome://moonclocks/content/foxclocks.xul", "", "chrome,centerscreen,resizable=yes"); },
+		openChromeMoonClocks: function() { this.openChromeWindow("chrome://moonclocks/content/foxclocks.xul", "", "chrome,centerscreen,resizable=yes"); },
 		openChromeOptions: function() { this.openChromeWindow("chrome://moonclocks/content/options.xul", "", "chrome,centerscreen,resizable=yes"); },
 		openChromeAbout: function() { this.openChromeWindow("chrome://moonclocks/content/about.xul", "", "chrome,modal,centerscreen,resizable=no"); },
-		openFoxClocksHome: function() { this._openURL(this.FC_URL_FOXCLOCKS_HOME); },
-		openFoxClocksReleaseNotes: function() { this._openBrowserTab(this.FC_URL_FOXCLOCKS_RELEASE_NOTES, true); },
-		openFoxClocksHelp: function() { this.openFoxClocksReleaseNotes(); },
+		openMoonClocksHome: function() { this._openURL(this.MC_URL_HOME); },
+		openMoonClocksReleaseNotes: function() { this._openBrowserTab(this.MC_URL_RELEASE_NOTES, true); },
+		openMoonClocksHelp: function() { this.openMoonClocksReleaseNotes(); },
 		// MoonClocks: replace old upstream install/update web pages with bundled local release notes.
-		openFoxClocksInstall: function(version) { this.openFoxClocksReleaseNotes(); },
-		openFoxClocksUpdate: function(version, prevRunVersion) { this.openFoxClocksReleaseNotes(); },
-		openFoxClocksDbUpdate: function(){ this._openURL(this.FC_URL_FOXCLOCKS_DATABASE_UPDATE); },
+		openMoonClocksInstall: function(version) { this.openMoonClocksReleaseNotes(); },
+		openMoonClocksUpdate: function(version, prevRunVersion) { this.openMoonClocksReleaseNotes(); },
+		openMoonClocksDbUpdate: function(){ this._openURL(this.MC_URL_DATABASE_UPDATE); },
+
+		// Legacy aliases kept temporarily while the deep XUL file/ID cleanup remains out of scope.
+		openChromeFoxClocks: function() { return this.openChromeMoonClocks(); },
+		openFoxClocksHome: function() { return this.openMoonClocksHome(); },
+		openFoxClocksReleaseNotes: function() { return this.openMoonClocksReleaseNotes(); },
+		openFoxClocksHelp: function() { return this.openMoonClocksHelp(); },
+		openFoxClocksInstall: function(version) { return this.openMoonClocksInstall(version); },
+		openFoxClocksUpdate: function(version, prevRunVersion) { return this.openMoonClocksUpdate(version, prevRunVersion); },
+		openFoxClocksDbUpdate: function(){ return this.openMoonClocksDbUpdate(); },
 		openIcons8MoonClocksIcon: function(){ this._openURL(this.FC_URL_ICONS8_MOONCLOCKS_ICON, true); },
 		as12hr: function(i) { return (i === 0 || i === 12) ? "12" : i % 12; },
 		asTwoDigit: function(i) { return (i > 9) ? i : "0" + i; },

@@ -23,7 +23,7 @@ Please refer to licence.txt for licensing terms.
 	</keyset>
 	
 	<commandset>
-		<command id="cmd_fcabout_foxclockshome" oncommand="foxclocks.utils.openFoxClocksHome()"/>
+		<command id="cmd_fcabout_foxclockshome" oncommand="foxclocks.utils.openMoonClocksHome()"/>
 		<command id="cmd_fcabout_icons8_icon" oncommand="foxclocks.utils.openIcons8MoonClocksIcon()"/>
 	</commandset>
 	
@@ -60,7 +60,7 @@ Please refer to licence.txt for licensing terms.
 		// ====================================================================================
 		onAboutLoad : function()
 		{
-			foxclocks.utils.getFoxClocksVersion(function(foxClocksVersion) {
+			foxclocks.utils.getMoonClocksVersion(function(foxClocksVersion) {
 
 				var headerText = "MoonClocks " + foxClocksVersion + " (" +
 					foxclocks.zoneManager.dataSource.name + " " + foxclocks.zoneManager.dataSource.version + ")";
@@ -82,8 +82,8 @@ Please refer to licence.txt for licensing terms.
 			}
 			
 			var urlLabel = document.getElementById("fc-about-url-label");
-			urlLabel.setAttribute("value", foxclocks.utils.FC_URL_FOXCLOCKS_HOME);
-			urlLabel.setAttribute("href", foxclocks.utils.FC_URL_FOXCLOCKS_HOME);
+			urlLabel.setAttribute("value", foxclocks.utils.MC_URL_HOME);
+			urlLabel.setAttribute("href", foxclocks.utils.MC_URL_HOME);
 				
 			document.documentElement.getButton("accept").focus();
 		},

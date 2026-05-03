@@ -56,6 +56,22 @@ Changes in MoonClocks 1.0.0
 - Added a new MoonClocks icon based on the Europe icon by Icons8.
 - Added icon attribution to the About window and documentation.
 
+
+Changes in MoonClocks 1.0.1
+-----------------------------
+
+- Added the first public manifest-based timezone database updater.
+- Added the default manifest URL:
+  https://halvar666.github.io/moonclocks/tzdb/latest.json
+- Added manifest schema validation for moonclocks-tzdb-update-1.
+- Added SHA-256 and file-size verification before installing a downloaded
+  timezone database.
+- Added validation of legacy FoxClocks timezone database schema 1.2.
+- Added the hidden tester override preference:
+  extensions.moonclocks.data.update.rawurl
+- Automatic timezone database updates remain disabled by default.
+- The bundled IANA tzdb 2026b database remains the fallback.
+
 Icon attribution
 ----------------
 
@@ -70,3 +86,8 @@ The update includes the 2026b future timestamp change for British Columbia /
 America/Vancouver, modelled from the 2026-11-01 transition point described
 by IANA tzdb 2026b.
 
+MoonClocks 1.0.2:
+- Branding cleanup of main internal install/update/help helper names.
+- openFoxClocks* helper names are temporarily kept as aliases to the new openMoonClocks* helpers.
+- getFoxClocksVersion() is temporarily kept as an alias to getMoonClocksVersion().
+- Deep XUL file names, CSS IDs, DTD entity names and exported module symbols remain unchanged in this release.

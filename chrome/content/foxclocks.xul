@@ -57,7 +57,7 @@ Please refer to licence.txt for licensing terms.
 		<command id="cmd_fc_locdetails" oncommand="foxclocks.mainManager.onOpenLocDetailsCmd()"/>
 		<command id="cmd_fc_zonedetails" oncommand="foxclocks.mainManager.onOpenZoneDetailsCmd()"/>
 		<command id="cmd_fc_options" oncommand="foxclocks.mainManager.onOpenOptionsCmd()"/>
-		<command id="cmd_fc_help" oncommand="foxclocks.utils.openFoxClocksHelp()"/>
+		<command id="cmd_fc_help" oncommand="foxclocks.utils.openMoonClocksHelp()"/>
 		<command id="cmd_fc_about" oncommand="foxclocks.mainManager.onOpenAboutCmd()"/>
 		<command id="cmd_fc_locgoogleearth" oncommand="foxclocks.mainManager.onOpenLocGoogleEarthCmd()"/>
 		<command id="cmd_fc_zonegoogleearth" oncommand="foxclocks.mainManager.onOpenZoneGoogleEarthCmd()"/>

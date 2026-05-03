@@ -11,17 +11,26 @@ It is based on the GPL-licensed FoxClocks 4.2.3 XUL codebase.
 - IANA timezone database 2026b
 - MoonClocks timezone database update channel
 - OpenStreetMap links for locations
-- Pale Moon and Epyrus support
+- Updated Pale Moon compatibility for current versions
+- Added Epyrus support
 
 ## Upgrade note
 
-Before installing MoonClocks, uninstall the original FoxClocks or earlier FoxClocks Legacy test builds, restart the application, and then install MoonClocks.
+MoonClocks is a separate fork and uses a different extension ID than the original FoxClocks.
+
+Before installing MoonClocks, back up your profile and clock settings. Then uninstall the original FoxClocks extension, or any earlier FoxClocks Legacy / MoonClocks test build, restart the application, and install MoonClocks.
 
 ## Timezone database updates
 
-MoonClocks 1.0.1 adds the first public manifest-based update channel for timezone database files only. This is not an XPI/add-on update mechanism.
+MoonClocks includes a manifest-based update channel for timezone database files only. This is not an XPI/add-on update mechanism.
 
 The bundled timezone database remains the fallback.
+
+## MoonClocks 1.0.2
+
+MoonClocks 1.0.2 fixes the bundled update/release information panel and performs a safe branding cleanup of the main internal install/update/help helper functions.
+
+The old `openFoxClocks*`, `getFoxClocksVersion()` and related constants are kept as temporary compatibility aliases. Deep legacy XUL file names, CSS IDs, DTD entity names and exported module symbols are intentionally left unchanged for now.
 
 ## License
 

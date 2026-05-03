@@ -739,7 +739,7 @@ function(Components, console, AddonManager, utils, updateManager, prefManager, w
 			var previousClock = null;
 			var clockId = 0;
 
-			var clickHandler = function(event) { if (event.button == 0) utils.openChromeFoxClocks(); };
+			var clickHandler = function(event) { if (event.button == 0) utils.openChromeMoonClocks(); };
 
 			var startIndex = this.clockContainerType == "fc-clock-containertype-statusbar" ? -1 : 0;
 			for (var i = startIndex; i < watchlistManager.getWatchlist().length; i++)
@@ -918,7 +918,7 @@ function(Components, console, AddonManager, utils, updateManager, prefManager, w
 		// ====================================================================================
 		// AFM - legacy code to support CuteMenus: http://www.extensionsmirror.nl/index.php?showtopic=4360
 		//
-		onMenuItemCmd : function(event) { utils.openChromeFoxClocks(); }
+		onMenuItemCmd : function(event) { utils.openChromeMoonClocks(); }
 	};
 
 	// ====================================================================================
