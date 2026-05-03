@@ -5,7 +5,7 @@
 		<em:type>2</em:type>
 		<em:bootstrap>true</em:bootstrap>
 		<em:unpack>false</em:unpack>
-		<em:version>1.0.0</em:version>
+		<em:version>1.0.1a1</em:version>
 		<em:name>MoonClocks</em:name>
 		<em:description>World clocks for Pale Moon and Epyrus. Based on the GPL-licensed FoxClocks 4.2.3 XUL codebase, with IANA tzdb 2026b and OpenStreetMap links.</em:description>
 		<em:creator>Andy McDonald (original FoxClocks author); MoonClocks fork by Halvar666</em:creator>

@@ -31,7 +31,8 @@ pref("extensions.moonclocks.clock.tooltip.clock.new.showflag", true); // AFM - n
 
 pref("extensions.moonclocks.data.update.auto.enabled", false);
 pref("extensions.moonclocks.data.update.auto.alert.enabled", true);
-pref("extensions.moonclocks.data.update.rawurl", ""); // AFM - no UI
+pref("extensions.moonclocks.data.update.manifesturl", "https://halvar666.github.io/moonclocks/tzdb/latest.json"); // MoonClocks tzdb update channel
+pref("extensions.moonclocks.data.update.rawurl", ""); // AFM - hidden tester override
 
 pref("extensions.moonclocks.zonepicker.dataurl", "fc-zonepicker-dataurl-builtin"); // AFM - no UI
 pref("extensions.moonclocks.watchlist.remove.confirm.enabled", true);
@@ -69,6 +70,7 @@ pref("services.sync.prefs.sync.extensions.moonclocks.clock.tooltip.clock.new.vis
 pref("services.sync.prefs.sync.extensions.moonclocks.clock.tooltip.clock.new.showflag", true);
 pref("services.sync.prefs.sync.extensions.moonclocks.data.update.auto.enabled", true);
 pref("services.sync.prefs.sync.extensions.moonclocks.data.update.auto.alert.enabled", true);
+pref("services.sync.prefs.sync.extensions.moonclocks.data.update.manifesturl", true);
 pref("services.sync.prefs.sync.extensions.moonclocks.data.update.rawurl", true);
 pref("services.sync.prefs.sync.extensions.moonclocks.zonepicker.dataurl", true);
 pref("services.sync.prefs.sync.extensions.moonclocks.watchlist.remove.confirm.enabled", true);

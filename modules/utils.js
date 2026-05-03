@@ -70,8 +70,9 @@ function(Components, console, NetUtil, AddonManager) {
 		this.FC_URL_FOXCLOCKS_HELP = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
 		this.FC_URL_FOXCLOCKS_DATABASE_UPDATE = this.FC_URL_FOXCLOCKS_RELEASE_NOTES;
 		this.FC_URL_ICONS8_MOONCLOCKS_ICON = 'https://icons8.com/icon/APGJ1BQp3nID/europe';
-		// Legacy fork: do not use the closed WebExtension updater or the old FoxClocks update endpoint by default.
-		// Set extensions.moonclocks.data.update.rawurl to a raw GPL-compatible zones.json URL to enable updates.
+		// MoonClocks uses its own manifest-based timezone database channel.
+		// The manifest URL lives in extensions.moonclocks.data.update.manifesturl.
+		// This constant is kept empty so the old FoxClocks server updater is never used.
 		this.FC_URL_DATABASE_UPDATE_CHECK = '';
 
 		this.FC_URL_CHROME_ZONEPICKER_BUILTIN = "chrome://moonclocks/locale/zonepicker.xml";
@@ -235,6 +236,73 @@ function(Components, console, NetUtil, AddonManager) {
 				outStream.close();
 				callback(result, Components.isSuccessCode(result));
 			});
+		},
+
+		// ====================================================================================
+		isHttpsUrl: function(url)
+		{
+			return typeof(url) === 'string' && /^https:\/\//i.test(url);
+		},
+
+		// ====================================================================================
+		sha256String: function(data)
+		{
+			var unicodeConverter = CC["@mozilla.org/intl/scriptableunicodeconverter"].createInstance(CI.nsIScriptableUnicodeConverter);
+			unicodeConverter.charset = 'UTF-8';
+
+			var result = {};
+			var bytes = unicodeConverter.convertToByteArray(data, result);
+
+			var hash = CC["@mozilla.org/security/hash;1"].createInstance(CI.nsICryptoHash);
+			hash.init(hash.SHA256);
+			hash.update(bytes, bytes.length);
+
+			var binaryHash = hash.finish(false);
+			var hex = "";
+			for (var i=0; i < binaryHash.length; i++)
+			{
+				var charHex = binaryHash.charCodeAt(i).toString(16);
+				if (charHex.length < 2)
+					charHex = "0" + charHex;
+				hex += charHex;
+			}
+
+			return hex;
+		},
+
+		// ====================================================================================
+		compareTzdbVersions: function(a, b)
+		{
+			if (a === b)
+				return 0;
+
+			var parse = function(v)
+			{
+				if (typeof(v) !== 'string')
+					v = String(v);
+
+				var match = v.match(/^(\d{4})([a-z]+)$/);
+				if (match === null)
+					return null;
+
+				return { year: parseInt(match[1], 10), suffix: match[2] };
+			};
+
+			var parsedA = parse(a);
+			var parsedB = parse(b);
+
+			if (parsedA !== null && parsedB !== null)
+			{
+				if (parsedA.year !== parsedB.year)
+					return parsedA.year > parsedB.year ? 1 : -1;
+
+				if (parsedA.suffix !== parsedB.suffix)
+					return parsedA.suffix > parsedB.suffix ? 1 : -1;
+
+				return 0;
+			}
+
+			return String(a) > String(b) ? 1 : -1;
 		},
 
 		// ====================================================================================

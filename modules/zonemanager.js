@@ -517,7 +517,7 @@ function(Components, console, utils, prefManager) {
 				var builtinData = resultsArray[0];
 				var dataFileData = (resultsArray.length >= 2) ? resultsArray[1] : null;
 
-				if (dataFileData === null || builtinData.source.version > dataFileData.source.version)
+				if (dataFileData === null || utils.compareTzdbVersions(builtinData.source.version, dataFileData.source.version) > 0)
 				{
 					utils.writeToFile(JSON.stringify(builtinData), self.dataFile, function(result, success) {
 

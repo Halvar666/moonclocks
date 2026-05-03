@@ -25,6 +25,7 @@ function(Components, console, utils, prefManager, zoneManager) {
 	// ====================================================================================
 	let CI = Components.interfaces, CC = Components.classes;
 	var UPDATE_INTERVAL_SECS = 604800; // week
+	var MANIFEST_SCHEMA = "moonclocks-tzdb-update-1";
 
 	// ====================================================================================
 	function UpdateManager()
@@ -35,17 +36,26 @@ function(Components, console, utils, prefManager, zoneManager) {
 
 		this._timer = CC["@mozilla.org/timer;1"].createInstance(CI.nsITimer);
 		this._remoteUrl = null;
-		this._remoteUrlIsRawData = false;
+		this._remoteUrlMode = null; // "manifest", "raw", or legacy FoxClocks-style response
 	}
 
 	// ====================================================================================
 	UpdateManager.prototype =
 	{
 		// ====================================================================================
-		init: function(enabled, remoteUrl, remoteUrlIsRawData)
+		init: function(enabled, remoteUrl, remoteUrlMode)
 		{
 			this._remoteUrl = remoteUrl;
-			this._remoteUrlIsRawData = remoteUrlIsRawData;
+
+			// Backwards compatibility with the old boolean argument:
+			// true = raw zones.json, false = legacy server response.
+			if (remoteUrlMode === true)
+				this._remoteUrlMode = "raw";
+			else if (remoteUrlMode === false)
+				this._remoteUrlMode = "legacy";
+			else
+				this._remoteUrlMode = remoteUrlMode;
+
 			this._setUpdateDates(enabled);
 		},
 
@@ -54,40 +64,27 @@ function(Components, console, utils, prefManager, zoneManager) {
 		{
 			var url = this._remoteUrl;
 
-			var _addQueryParam = function(url, name, value)
-			{
-				return url + (url.indexOf('?') === -1 ? '?' : '&') + name + '=' + encodeURIComponent(value);
-			};
-
 			if (url === null || url === "")
 			{
 				console.log("foxclocks.UpdateManager::updateNow(): no update URL configured");
-				this._onResponse({ source: zoneManager.dataSource, zones: {} });
+				this._onResponseProcessed("OK_NO", null);
 				return;
 			}
 
-			if (false)
-				url = _addQueryParam(url, 'test', 'true');
-
 			if (type === 'manual')
-				url = _addQueryParam(url, 'time', new Date().getTime());
+				url = this._addQueryParam(url, 'time', new Date().getTime());
 
-			try
+			if (this._remoteUrlMode === "manifest")
 			{
-				var self = this;
-				var req = CC["@mozilla.org/xmlextras/xmlhttprequest;1"].createInstance(CI.nsIXMLHttpRequest);
-				req.open('GET', url, true);
-				req.responseType = 'json';
-				req.addEventListener('loadend', function(e) { self._onResponse(req.response); } );
-				req.send(null);
+				this._requestJson(url, function(manifestText, manifest, error) {
+					this._onManifestResponse(manifestText, manifest, error, type);
+				}.bind(this));
+				return;
+			}
 
-				console.log("foxclocks.UpdateManager::updateNow(): " + type + " request sent to url " + url);
-			}
-			catch (ex)
-			{
-				console.error("foxclocks.UpdateManager::updateNow(): failed", ex);
-				this._onResponse(null);
-			}
+			this._requestJson(url, function(responseText, response, error) {
+				this._onResponse(response, error);
+			}.bind(this));
 		},
 
 		// ====================================================================================
@@ -96,28 +93,183 @@ function(Components, console, utils, prefManager, zoneManager) {
 		getLastUpdateDate: function() { return this._lastUpdateDate; },
 
 		// ====================================================================================
-		_onResponse: function(response)
+		_addQueryParam: function(url, name, value)
+		{
+			return url + (url.indexOf('?') === -1 ? '?' : '&') + name + '=' + encodeURIComponent(value);
+		},
+
+		// ====================================================================================
+		_requestJson: function(url, callback)
+		{
+			try
+			{
+				var req = CC["@mozilla.org/xmlextras/xmlhttprequest;1"].createInstance(CI.nsIXMLHttpRequest);
+				req.open('GET', url, true);
+				req.responseType = 'text';
+				try { req.overrideMimeType('application/json'); } catch (ex) {}
+
+				req.addEventListener('loadend', function(e) {
+					try
+					{
+						// status 0 is acceptable for local file URLs in test profiles.
+						if (req.status !== 0 && (req.status < 200 || req.status >= 300))
+							throw "HTTP status " + req.status;
+
+						var responseText = req.responseText;
+						var response = JSON.parse(responseText);
+						callback(responseText, response, null);
+					}
+					catch (ex)
+					{
+						callback(null, null, ex);
+					}
+				}, false);
+
+				req.send(null);
+				console.log("foxclocks.UpdateManager::_requestJson(): request sent to url " + url);
+			}
+			catch (ex)
+			{
+				console.error("foxclocks.UpdateManager::_requestJson(): failed", ex);
+				callback(null, null, ex);
+			}
+		},
+
+		// ====================================================================================
+		_onManifestResponse: function(manifestText, manifest, error, type)
+		{
+			try
+			{
+				if (error !== null)
+					throw error;
+
+				this._validateManifest(manifest);
+
+				if (manifest.enabled !== true)
+				{
+					console.log("foxclocks.UpdateManager::_onManifestResponse(): update channel disabled");
+					this._onResponseProcessed("OK_NO", null);
+					return;
+				}
+
+				var manifestVersion = manifest.version;
+				if (typeof(manifestVersion) !== 'string' && manifest.source && typeof(manifest.source.version) === 'string')
+					manifestVersion = manifest.source.version;
+
+				if (utils.compareTzdbVersions(manifestVersion, zoneManager.dataSource.version) <= 0)
+				{
+					console.log("foxclocks.UpdateManager::_onManifestResponse(): no newer database", manifestVersion, zoneManager.dataSource.version);
+					this._onResponseProcessed("OK_NO", null);
+					return;
+				}
+
+				var zonesUrl = manifest.zones.url;
+				var requestUrl = (type === 'manual') ? this._addQueryParam(zonesUrl, 'time', new Date().getTime()) : zonesUrl;
+
+				this._requestJson(requestUrl, function(zonesText, zonesJson, zonesError) {
+					this._onManifestZonesResponse(manifest, zonesText, zonesJson, zonesError);
+				}.bind(this));
+			}
+			catch (ex)
+			{
+				console.error("foxclocks.UpdateManager::_onManifestResponse()", ex);
+				this._onResponseProcessed("ERROR", null);
+			}
+		},
+
+		// ====================================================================================
+		_onManifestZonesResponse: function(manifest, zonesText, tz_db, error)
+		{
+			try
+			{
+				if (error !== null)
+					throw error;
+
+				this._validateZoneData(tz_db);
+
+				if (zonesText.length !== manifest.zones.size)
+					throw "Downloaded zones.json size mismatch";
+
+				var actualSha256 = utils.sha256String(zonesText);
+				if (actualSha256.toLowerCase() !== manifest.zones.sha256.toLowerCase())
+					throw "Downloaded zones.json SHA-256 mismatch";
+
+				if (utils.compareTzdbVersions(tz_db.source.version, zoneManager.dataSource.version) <= 0)
+				{
+					console.log("foxclocks.UpdateManager::_onManifestZonesResponse(): downloaded database is not newer", tz_db.source.version, zoneManager.dataSource.version);
+					this._onResponseProcessed("OK_NO", null);
+					return;
+				}
+
+				this._writeZoneData(tz_db);
+			}
+			catch (ex)
+			{
+				console.error("foxclocks.UpdateManager::_onManifestZonesResponse()", ex);
+				this._onResponseProcessed("ERROR", null);
+			}
+		},
+
+		// ====================================================================================
+		_validateManifest: function(manifest)
+		{
+			if (manifest === null || typeof(manifest) !== 'object')
+				throw "Bad manifest";
+
+			if (manifest.schema !== MANIFEST_SCHEMA)
+				throw "Unsupported manifest schema";
+
+			if (typeof(manifest.version) !== 'string')
+				throw "Manifest version missing";
+
+			if (typeof(manifest.zones) !== 'object' || manifest.zones === null)
+				throw "Manifest zones block missing";
+
+			if (manifest.zones.schema_version !== 1.2)
+				throw "Unsupported zones schema version";
+
+			if (!utils.isHttpsUrl(manifest.zones.url))
+				throw "Manifest zones URL must be HTTPS";
+
+			if (typeof(manifest.zones.sha256) !== 'string' || !/^[0-9a-f]{64}$/i.test(manifest.zones.sha256))
+				throw "Manifest zones SHA-256 missing or invalid";
+
+			if (typeof(manifest.zones.size) !== 'number' || manifest.zones.size <= 0 || manifest.zones.size > 10 * 1024 * 1024)
+				throw "Manifest zones size missing or invalid";
+		},
+
+		// ====================================================================================
+		_validateZoneData: function(tz_db)
+		{
+			if (tz_db === null || typeof(tz_db) !== 'object')
+				throw "Bad timezone database";
+
+			if (tz_db.schema_version !== 1.2)
+				throw "Unsupported timezone database schema";
+
+			if (typeof(tz_db.source) !== 'object' || tz_db.source === null || typeof(tz_db.source.version) !== 'string')
+				throw "Timezone database source metadata missing";
+
+			if (typeof(tz_db.zones) !== 'object' || tz_db.zones === null)
+				throw "Timezone database zones block missing";
+		},
+
+		// ====================================================================================
+		_onResponse: function(response, error)
 		{
 			var serverTime = null;
-			var self = this;
-
-			var _onResponseProcessed = function(result)
-			{
-				self._lastUpdateResult = { result: result, server_time: serverTime };
-				self._setUpdateDates();
-
-				CC["@mozilla.org/observer-service;1"].getService(CI.nsIObserverService)
-					.notifyObservers(self, "moonclocks", "updatemanager:update-complete");
-			};
 
 			try
 			{
+				if (error !== null)
+					throw error;
+
 				if (response === null)
 					throw 'Bad response';
 
 				var tz_db = null;
 
-				if (this._remoteUrlIsRawData === false)
+				if (this._remoteUrlMode !== "raw")
 				{
 					console.log("foxclocks.UpdateManager::_onResponse(): status: " + JSON.stringify(response.response_status));
 
@@ -135,31 +287,46 @@ function(Components, console, utils, prefManager, zoneManager) {
 					tz_db = response;
 				}
 
-				if (tz_db !== null && tz_db.source.version > zoneManager.dataSource.version)
-				{
-					utils.writeToFile(JSON.stringify(tz_db), zoneManager.dataFile, function(result, success) {
+				this._validateZoneData(tz_db);
 
-						if (success)
-						{
-							_onResponseProcessed("OK_NEW");
-						}
-						else
-						{
-							console.error("foxclocks.UpdateManager::_onResponse()", result);
-							_onResponseProcessed("ERROR");
-						}
-					});
-				}
+				if (utils.compareTzdbVersions(tz_db.source.version, zoneManager.dataSource.version) > 0)
+					this._writeZoneData(tz_db, serverTime);
 				else
-				{
-					_onResponseProcessed("OK_NO");
-				}
+					this._onResponseProcessed("OK_NO", serverTime);
 			}
 			catch (ex)
 			{
 				console.error("foxclocks.UpdateManager::_onResponse()", ex);
-				_onResponseProcessed("ERROR");
+				this._onResponseProcessed("ERROR", serverTime);
 			}
+		},
+
+		// ====================================================================================
+		_writeZoneData: function(tz_db, serverTime)
+		{
+			var self = this;
+			utils.writeToFile(JSON.stringify(tz_db), zoneManager.dataFile, function(result, success) {
+
+				if (success)
+				{
+					self._onResponseProcessed("OK_NEW", serverTime || null);
+				}
+				else
+				{
+					console.error("foxclocks.UpdateManager::_writeZoneData()", result);
+					self._onResponseProcessed("ERROR", serverTime || null);
+				}
+			});
+		},
+
+		// ====================================================================================
+		_onResponseProcessed: function(result, serverTime)
+		{
+			this._lastUpdateResult = { result: result, server_time: serverTime };
+			this._setUpdateDates();
+
+			CC["@mozilla.org/observer-service;1"].getService(CI.nsIObserverService)
+				.notifyObservers(this, "moonclocks", "updatemanager:update-complete");
 		},
 
 		// ====================================================================================

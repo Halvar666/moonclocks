@@ -189,6 +189,7 @@ function(Components, console, utils, updateManager, prefManager, watchlistManage
 				{
 					case "extensions.moonclocks.data.update.auto.enabled": this._initUpdateManager(); break;
 					case "extensions.moonclocks.data.update.rawurl": this._initUpdateManager(); break;
+					case "extensions.moonclocks.data.update.manifesturl": this._initUpdateManager(); break;
 
 					case "extensions.moonclocks.watchlist":
 
@@ -247,28 +248,27 @@ function(Components, console, utils, updateManager, prefManager, watchlistManage
 			console.log("+foxclocks.Engine::_initUpdateManager()");
 
 			var autoUpenabled = prefManager.getPref("extensions.moonclocks.data.update.auto.enabled");
-			var noServerUrl = prefManager.getPref("extensions.moonclocks.data.update.rawurl");
+			var rawUrl = prefManager.getPref("extensions.moonclocks.data.update.rawurl");
+			var manifestUrl = prefManager.getPref("extensions.moonclocks.data.update.manifesturl");
 
 			var remoteUrl = null;
-			var remoteUrlIsRawData = null;
+			var remoteUrlMode = null;
 
-			if (noServerUrl !== null && noServerUrl !== "")
+			// Hidden tester override: a direct GPL-compatible zones.json URL.
+			if (rawUrl !== null && rawUrl !== "")
 			{
-				remoteUrl = noServerUrl;
-				remoteUrlIsRawData = true;
+				remoteUrl = rawUrl;
+				remoteUrlMode = "raw";
 			}
-			else if (utils.FC_URL_DATABASE_UPDATE_CHECK !== null && utils.FC_URL_DATABASE_UPDATE_CHECK !== "")
+			else if (manifestUrl !== null && manifestUrl !== "")
 			{
-				remoteUrl = encodeURI(utils.FC_URL_DATABASE_UPDATE_CHECK +
-					"?client=" + utils.getAppInfo().appName +
-					"&data_source_version=" + zoneManager.dataSource.version);
-
-				remoteUrlIsRawData = false;
+				remoteUrl = manifestUrl;
+				remoteUrlMode = "manifest";
 			}
 
-			// In this legacy GPL fork there is no bundled server-side updater endpoint.
-			// Automatic updates are enabled only when a raw zones.json URL is configured.
-			updateManager.init(autoUpenabled && remoteUrl !== null && remoteUrl !== "", remoteUrl, remoteUrlIsRawData);
+			// MoonClocks updates only its timezone database here.
+			// This is not an XPI/add-on update mechanism.
+			updateManager.init(autoUpenabled && remoteUrl !== null && remoteUrl !== "", remoteUrl, remoteUrlMode);
 
 			// AFM - the way the GUI is notified of these changes is poor; if the devel param is modified,
 			// eg, the GUI doesn't update (because it's not watching the extensions.{ branch
