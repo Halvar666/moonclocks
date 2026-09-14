@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>MoonClocks 1.0.2</title>
+  <title>MoonClocks 1.0.3</title>
   <style type="text/css"><![CDATA[
     body { font: menu; margin: 2.2em; max-width: 52em; line-height: 1.45; }
     h1 { margin-top: 0; }
@@ -11,18 +11,14 @@
   ]]></style>
 </head>
 <body>
-  <h1>MoonClocks 1.0.2</h1>
+  <h1>MoonClocks 1.0.3</h1>
   <p class="note">MoonClocks is a Pale Moon and Epyrus XUL fork based on the GPL-licensed FoxClocks 4.2.3 codebase.</p>
 
   <h2>Changes in this release</h2>
   <ul>
-    <li>Fixed the bundled update/release information panel so it shows the current MoonClocks release version.</li>
-    <li>Renamed the main internal install/update/help/release-note helper functions from <code>openFoxClocks*</code> to <code>openMoonClocks*</code>.</li>
-    <li>Renamed the internal version helper from <code>getFoxClocksVersion()</code> to <code>getMoonClocksVersion()</code>.</li>
-    <li>Added MoonClocks-named constants for the extension ID, local release-note URLs and settings extension.</li>
-    <li>Kept the old <code>openFoxClocks*</code>, <code>getFoxClocksVersion()</code> and related constants as temporary compatibility aliases.</li>
-    <li>No changes to the bundled timezone database; it remains IANA tzdb 2026b.</li>
-    <li>The manifest-based timezone database update channel from MoonClocks 1.0.1 remains unchanged.</li>
+    <li>Updated Pale Moon compatibility from <code>34.*</code> to <code>35.*</code> for the Pale Moon 35.0.0 milestone.</li>
+    <li>No runtime, visual, or timezone database changes.</li>
+    <li>The bundled timezone database remains IANA tzdb 2026b.</li>
   </ul>
 
   <h2>Main MoonClocks changes compared with FoxClocks 4.2.3</h2>

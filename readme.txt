@@ -121,3 +121,9 @@ MoonClocks 1.0.2 notes:
 - Keeps the old openFoxClocks* helpers and related constants as temporary compatibility aliases.
 - Leaves deep legacy XUL file names, CSS IDs, DTD entity names and exported module symbols unchanged for safety.
 - No timezone database change; bundled database remains IANA tzdb 2026b.
+
+
+MoonClocks 1.0.3 notes:
+- Compatibility update for Pale Moon 35.0.0 milestone.
+- Pale Moon maximum version updated from 34.* to 35.*.
+- No runtime or timezone database changes.

@@ -91,3 +91,7 @@ MoonClocks 1.0.2:
 - openFoxClocks* helper names are temporarily kept as aliases to the new openMoonClocks* helpers.
 - getFoxClocksVersion() is temporarily kept as an alias to getMoonClocksVersion().
 - Deep XUL file names, CSS IDs, DTD entity names and exported module symbols remain unchanged in this release.
+
+MoonClocks 1.0.3
+----------------
+Compatibility update for Pale Moon 35.0.0. No runtime or tzdb changes.
